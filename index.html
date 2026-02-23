@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Vocabulary In Use - Mục Lục</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+
+        .card-hover {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease forwards;
+            opacity: 0;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(16px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .search-highlight {
+            background-color: #fef08a;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 via-white to-indigo-50 min-h-screen">
+
+    <!-- Hero Header -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg">
+        <div class="max-w-4xl mx-auto px-6 py-10 text-center">
+            <div class="text-5xl mb-4">📚</div>
+            <h1 class="text-3xl md:text-4xl font-bold mb-2 tracking-tight">English Vocabulary In Use</h1>
+            <p class="text-blue-200 text-base md:text-lg">Luyện tập từ vựng tiếng Anh theo từng chủ đề</p>
+
+            <!-- Search box -->
+            <div class="mt-6 max-w-md mx-auto relative">
+                <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
+                    </svg>
+                </span>
+                <input
+                    id="searchInput"
+                    type="text"
+                    placeholder="Tìm kiếm unit..."
+                    class="w-full pl-11 pr-4 py-3 rounded-xl text-gray-800 bg-white shadow-md focus:outline-none focus:ring-2 focus:ring-blue-300 text-sm"
+                />
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 py-10">
+
+        <!-- Stats bar -->
+        <div class="flex items-center justify-between mb-6">
+            <p class="text-gray-500 text-sm" id="countLabel"></p>
+            <span class="text-xs text-gray-400 bg-white border border-gray-200 rounded-full px-3 py-1 shadow-sm">
+                English Vocabulary In Use
+            </span>
+        </div>
+
+        <!-- Unit Grid -->
+        <div id="unitGrid" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3"></div>
+
+        <!-- Empty state -->
+        <div id="emptyState" class="hidden text-center py-20 text-gray-400">
+            <div class="text-5xl mb-4">🔍</div>
+            <p class="text-lg font-medium">Không tìm thấy unit nào</p>
+            <p class="text-sm mt-1">Thử tìm với từ khóa khác</p>
+        </div>
+    </main>
+
+    <footer class="text-center text-xs text-gray-400 pb-8">
+        © 2026 English Vocabulary In Use &mdash; Luyện tập từ vựng tiếng Anh
+    </footer>
+
+    <script>
+        const units = [
+            {
+                number: 1,
+                title: "The Family",
+                titleVi: "Gia đình",
+                topic: "People",
+                url: "english_vocabulary_in_use/unit_001_vocabulary_exercise.html",
+                color: "from-blue-500 to-blue-400",
+                icon: "👨‍👩‍👧‍👦"
+            },
+            {
+                number: 2,
+                title: "Birth, Marriage and Death",
+                titleVi: "Sinh, Hôn nhân và Cái chết",
+                topic: "People",
+                url: "english_vocabulary_in_use/unit_002_vocabulary_exercise.html",
+                color: "from-pink-500 to-rose-400",
+                icon: "💒"
+            },
+            {
+                number: 3,
+                title: "Parts of the Body",
+                titleVi: "Các bộ phận cơ thể",
+                topic: "Body",
+                url: "english_vocabulary_in_use/unit_003_vocabulary_exercise.html",
+                color: "from-emerald-500 to-teal-400",
+                icon: "🫀"
+            },
+            {
+                number: 4,
+                title: "Clothes",
+                titleVi: "Quần áo",
+                topic: "Lifestyle",
+                url: "english_vocabulary_in_use/unit_004_vocabulary_exercise.html",
+                color: "from-violet-500 to-purple-400",
+                icon: "👗"
+            },
+            {
+                number: 5,
+                title: "Describing People",
+                titleVi: "Mô tả con người",
+                topic: "People",
+                url: "english_vocabulary_in_use/unit_005_vocabulary_exercise.html",
+                color: "from-amber-500 to-orange-400",
+                icon: "🧑"
+            },
+        ];
+
+        const grid = document.getElementById('unitGrid');
+        const emptyState = document.getElementById('emptyState');
+        const searchInput = document.getElementById('searchInput');
+        const countLabel = document.getElementById('countLabel');
+
+        function renderUnits(list) {
+            grid.innerHTML = '';
+            countLabel.textContent = `Hiển thị ${list.length} / ${units.length} unit`;
+
+            if (list.length === 0) {
+                emptyState.classList.remove('hidden');
+                return;
+            }
+            emptyState.classList.add('hidden');
+
+            list.forEach((unit, idx) => {
+                const card = document.createElement('a');
+                card.href = unit.url;
+                card.className = `card-hover fade-in block bg-white rounded-2xl shadow-md overflow-hidden cursor-pointer group`;
+                card.style.animationDelay = `${idx * 60}ms`;
+                card.setAttribute('aria-label', `Unit ${unit.number}: ${unit.title}`);
+
+                card.innerHTML = `
+                    <div class="bg-gradient-to-br ${unit.color} p-5 flex items-center justify-between">
+                        <div>
+                            <span class="text-white text-xs font-semibold uppercase tracking-widest opacity-80">Unit ${unit.number}</span>
+                            <div class="text-3xl mt-1">${unit.icon}</div>
+                        </div>
+                        <span class="bg-white bg-opacity-20 text-white text-xs font-medium px-2 py-1 rounded-full">${unit.topic}</span>
+                    </div>
+                    <div class="p-5">
+                        <h2 class="text-gray-800 font-bold text-base leading-snug group-hover:text-blue-600 transition-colors">${unit.title}</h2>
+                        <p class="text-gray-400 text-sm mt-1">${unit.titleVi}</p>
+                        <div class="mt-4 flex items-center text-blue-500 text-xs font-semibold">
+                            Bắt đầu luyện tập
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            </svg>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterUnits(query) {
+            const q = query.toLowerCase().trim();
+            if (!q) return units;
+            return units.filter(u =>
+                u.title.toLowerCase().includes(q) ||
+                u.titleVi.toLowerCase().includes(q) ||
+                u.topic.toLowerCase().includes(q) ||
+                String(u.number).includes(q)
+            );
+        }
+
+        searchInput.addEventListener('input', () => {
+            renderUnits(filterUnits(searchInput.value));
+        });
+
+        // Initial render
+        renderUnits(units);
+    </script>
+</body>
+</html>
