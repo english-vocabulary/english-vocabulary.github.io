@@ -1,0 +1,566 @@
+{
+    "unit": 9,
+    "title": "Conversations 2: Useful words and expressions",
+    "vocabulary": [
+        {
+            "word": "actually",
+            "ipa": "/ˈæktʃuəli/",
+            "partOfSpeech": "trạng từ",
+            "partOfSpeechEn": "adverb",
+            "meaning": "thực ra, thực sự",
+            "explanationVi": "dùng để nhấn mạnh sự thật của một tình huống",
+            "explanationEn": "in reality",
+            "example": "People say bad things about her, but she's actually very nice.",
+            "exampleMeaning": "Mọi người nói những điều tồi tệ về cô ấy, nhưng thực ra cô ấy rất tốt bụng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=actually"
+        },
+        {
+            "word": "really",
+            "ipa": "/ˈriːəli/",
+            "partOfSpeech": "trạng từ",
+            "partOfSpeechEn": "adverb",
+            "meaning": "rất, thực sự",
+            "explanationVi": "vô cùng, cực kỳ (nhấn mạnh)",
+            "explanationEn": "very",
+            "example": "The book is really good.",
+            "exampleMeaning": "Cuốn sách thực sự rất hay.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=really"
+        },
+        {
+            "word": "else",
+            "ipa": "/els/",
+            "partOfSpeech": "trạng từ",
+            "partOfSpeechEn": "adverb",
+            "meaning": "nữa, khác",
+            "explanationVi": "thêm vào hoặc khác",
+            "explanationEn": "in addition or different",
+            "example": "Do you want to buy anything else? Or go somewhere else?",
+            "exampleMeaning": "Bạn có muốn mua thứ gì khác nữa không? Hay đi đâu khác?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=else"
+        },
+        {
+            "word": "around",
+            "ipa": "/əˈraʊnd/",
+            "partOfSpeech": "trạng từ",
+            "partOfSpeechEn": "adverb",
+            "meaning": "khoảng",
+            "explanationVi": "xấp xỉ, không chính xác hoàn toàn",
+            "explanationEn": "about or approximately",
+            "example": "I'll meet you at around 6 o'clock.",
+            "exampleMeaning": "Tôi sẽ gặp bạn vào khoảng 6 giờ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=around"
+        },
+        {
+            "word": "anyway",
+            "ipa": "/ˈeniweɪ/",
+            "partOfSpeech": "trạng từ",
+            "partOfSpeechEn": "adverb",
+            "meaning": "dù sao đi nữa, dù sao thì",
+            "explanationVi": "dùng để đưa ra lý do cho việc gì đó, hoặc để quay lại chủ đề trước đó",
+            "explanationEn": "to give a reason for doing something / to return to an earlier subject",
+            "example": "I'll drive you home. I'm going that way anyway. / Anyway, as I said, I woke up very late today.",
+            "exampleMeaning": "Tôi sẽ lái xe đưa bạn về nhà. Dù sao thì tôi cũng đi đường đó. / Dù sao thì, như tôi đã nói, hôm nay tôi thức dậy rất muộn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=anyway"
+        },
+        {
+            "word": "why don't we",
+            "ipa": "/waɪ dəʊnt wiː/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "tại sao chúng ta không",
+            "explanationVi": "dùng để đưa ra lời đề nghị",
+            "explanationEn": "used to make a suggestion",
+            "example": "Why don't we go to the cinema this evening?",
+            "exampleMeaning": "Tại sao tối nay chúng ta không đi xem phim nhỉ?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=why+don%27t+we"
+        },
+        {
+            "word": "let's go",
+            "ipa": "/lets ɡəʊ/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "chúng ta hãy đi",
+            "explanationVi": "dùng để rủ rê, đề nghị cùng đi đâu đó",
+            "explanationEn": "used to make a suggestion",
+            "example": "Let's go and see a film and then have a meal.",
+            "exampleMeaning": "Chúng ta hãy đi xem một bộ phim và sau đó đi ăn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=let%27s+go"
+        },
+        {
+            "word": "I don't mind",
+            "ipa": "/aɪ dəʊnt maɪnd/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "tôi không bận tâm",
+            "explanationVi": "thế nào cũng được, không quan trọng với tôi",
+            "explanationEn": "It's all the same to me",
+            "example": "Which film do you want to see? - I don't mind.",
+            "exampleMeaning": "Bạn muốn xem phim nào? - Tôi không bận tâm (phim nào cũng được).",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=I+don%27t+mind"
+        },
+        {
+            "word": "it's up to you",
+            "ipa": "/ɪts ʌp tə juː/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "tùy bạn",
+            "explanationVi": "bạn có quyền quyết định",
+            "explanationEn": "You can decide",
+            "example": "It's up to you.",
+            "exampleMeaning": "Tùy bạn quyết định.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=it%27s+up+to+you"
+        },
+        {
+            "word": "how about",
+            "ipa": "/haʊ əˈbaʊt/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "còn... thì sao",
+            "explanationVi": "dùng để đưa ra lời đề nghị",
+            "explanationEn": "used to make a suggestion",
+            "example": "How about the new Angelina Jolie film?",
+            "exampleMeaning": "Thế còn phim mới của Angelina Jolie thì sao?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=how+about"
+        },
+        {
+            "word": "oh dear",
+            "ipa": "/əʊ dɪə/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "ôi trời, ôi chao",
+            "explanationVi": "dùng khi bạn ngạc nhiên hoặc thất vọng",
+            "explanationEn": "used when you are surprised or disappointed",
+            "example": "Oh dear! Was your boss angry?",
+            "exampleMeaning": "Ôi trời! Sếp của bạn có tức giận không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=oh+dear"
+        },
+        {
+            "word": "it doesn't matter",
+            "ipa": "/ɪt ˈdʌznt ˈmætə/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "không sao đâu",
+            "explanationVi": "điều đó không quan trọng",
+            "explanationEn": "it's not important",
+            "example": "Oh, it doesn't matter. I don't need it.",
+            "exampleMeaning": "Ồ, không sao đâu. Tôi không cần nó.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=it+doesn%27t+matter"
+        },
+        {
+            "word": "what a pity",
+            "ipa": "/wɒt ə ˈpɪti/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "thật đáng tiếc",
+            "explanationVi": "dùng khi bạn thất vọng",
+            "explanationEn": "used when you are disappointed",
+            "example": "I'm sorry, but I can't come to your party. - What a pity!",
+            "exampleMeaning": "Tôi xin lỗi, nhưng tôi không thể đến dự tiệc của bạn. - Thật đáng tiếc!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=what+a+pity"
+        },
+        {
+            "word": "well done",
+            "ipa": "/wel dʌn/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "làm tốt lắm",
+            "explanationVi": "dùng để khen ngợi ai đó làm tốt",
+            "explanationEn": "used to praise someone",
+            "example": "I passed my exam. - Well done!",
+            "exampleMeaning": "Tôi đã đậu kỳ thi. - Làm tốt lắm!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=well+done"
+        },
+        {
+            "word": "hurry up",
+            "ipa": "/ˈhʌri ʌp/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "phrasal verb",
+            "meaning": "nhanh lên",
+            "explanationVi": "yêu cầu ai đó làm nhanh lên",
+            "explanationEn": "be quick",
+            "example": "Hurry up! The taxi's here.",
+            "exampleMeaning": "Nhanh lên! Taxi đến rồi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hurry+up"
+        },
+        {
+            "word": "look out",
+            "ipa": "/lʊk aʊt/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "phrasal verb",
+            "meaning": "cẩn thận",
+            "explanationVi": "dùng để cảnh báo nguy hiểm",
+            "explanationEn": "used to warn someone of danger",
+            "example": "Look out! There's a car coming.",
+            "exampleMeaning": "Cẩn thận! Có xe đang tiến tới.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=look+out"
+        },
+        {
+            "word": "be careful",
+            "ipa": "/bi ˈkeəfl/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "cẩn thận",
+            "explanationVi": "dùng để nhắc nhở chú ý an toàn",
+            "explanationEn": "used to warn someone of danger",
+            "example": "Be careful! There's a car coming.",
+            "exampleMeaning": "Cẩn thận! Có xe đang tiến tới.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=be+careful"
+        },
+        {
+            "word": "absolutely",
+            "ipa": "/ˌæbsəˈluːtli/",
+            "partOfSpeech": "trạng từ",
+            "partOfSpeechEn": "adverb",
+            "meaning": "hoàn toàn đồng ý, chắc chắn rồi",
+            "explanationVi": "dùng khi bạn đồng ý một cách mạnh mẽ",
+            "explanationEn": "used when you agree strongly",
+            "example": "We need to buy Marta's birthday present. - Absolutely!",
+            "exampleMeaning": "Chúng ta cần mua quà sinh nhật cho Marta. - Chắc chắn rồi!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=absolutely"
+        },
+        {
+            "word": "I agree",
+            "ipa": "/aɪ əˈɡriː/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "tôi đồng ý",
+            "explanationVi": "thể hiện sự đồng tình với ý kiến của ai đó",
+            "explanationEn": "used to express agreement",
+            "example": "I agree. Let's go shopping this afternoon.",
+            "exampleMeaning": "Tôi đồng ý. Chiều nay chúng ta hãy đi mua sắm.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=I+agree"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "The movie was boring. Let's go somewhere ________.",
+            "options": [
+                "well",
+                "actually",
+                "else",
+                "around"
+            ],
+            "answer": "else"
+        },
+        {
+            "id": 2,
+            "question": "Have you had enough to eat? Would you like anything ________?",
+            "options": [
+                "really",
+                "else",
+                "up to you",
+                "pity"
+            ],
+            "answer": "else"
+        },
+        {
+            "id": 3,
+            "question": "Let's go to the Italian restaurant. I'm going that way ________.",
+            "options": [
+                "around",
+                "actually",
+                "agree",
+                "anyway"
+            ],
+            "answer": "anyway"
+        },
+        {
+            "id": 4,
+            "question": "Do you want to eat pizza or burger? - I ________. Both are good.",
+            "options": [
+                "don't mind",
+                "it doesn't matter",
+                "am agree",
+                "let's"
+            ],
+            "answer": "don't mind"
+        },
+        {
+            "id": 5,
+            "question": "________ don't we invite him to the party?",
+            "options": [
+                "How",
+                "What",
+                "Why",
+                "Let's"
+            ],
+            "answer": "Why"
+        },
+        {
+            "id": 6,
+            "question": "_______ about going to the beach this weekend?",
+            "options": [
+                "How",
+                "Let's",
+                "Why",
+                "Actually"
+            ],
+            "answer": "How"
+        },
+        {
+            "id": 7,
+            "question": "Oh, _______! I dropped my phone.",
+            "options": [
+                "dear",
+                "well done",
+                "agree",
+                "matter"
+            ],
+            "answer": "dear"
+        },
+        {
+            "id": 8,
+            "question": "I failed the exam. - What a _______!",
+            "options": [
+                "else",
+                "pity",
+                "dear",
+                "round"
+            ],
+            "answer": "pity"
+        },
+        {
+            "id": 9,
+            "question": "I won the first prize in the competition! - ________!",
+            "options": [
+                "Oh dear",
+                "Absolutely",
+                "Well done",
+                "Hurry up"
+            ],
+            "answer": "Well done"
+        },
+        {
+            "id": 10,
+            "question": "________! There is a car coming fast.",
+            "options": [
+                "Oh dear",
+                "What a pity",
+                "Hurry up",
+                "Look out"
+            ],
+            "answer": "Look out"
+        },
+        {
+            "id": 11,
+            "question": "Which color do you prefer, red or blue? - ________. You can choose.",
+            "options": [
+                "It doesn't matter",
+                "What a pity",
+                "It's up to you",
+                "Absolutely"
+            ],
+            "answer": "It's up to you"
+        },
+        {
+            "id": 12,
+            "question": "I broke your favorite cup. I'm so sorry! - Oh, it ________. I have another one.",
+            "options": [
+                "doesn't mind",
+                "doesn't matter",
+                "isn't care",
+                "isn't matter"
+            ],
+            "answer": "doesn't matter"
+        },
+        {
+            "id": 13,
+            "question": "He seems angry, but he is ________ a nice person.",
+            "options": [
+                "really",
+                "else",
+                "actually",
+                "around"
+            ],
+            "answer": "actually"
+        },
+        {
+            "id": 14,
+            "question": "This cake is ________ delicious! Emphasize strongly.",
+            "options": [
+                "around",
+                "really",
+                "anyway",
+                "absolutely"
+            ],
+            "answer": "really"
+        },
+        {
+            "id": 15,
+            "question": "________! The train is leaving in two minutes.",
+            "options": [
+                "Look out",
+                "Oh dear",
+                "Hurry up",
+                "Well done"
+            ],
+            "answer": "Hurry up"
+        },
+        {
+            "id": 16,
+            "question": "\"I think we should take a taxi.\" - \"________! It's raining.\"",
+            "options": [
+                "Absolutely",
+                "How about",
+                "I decide",
+                "Anyway"
+            ],
+            "answer": "Absolutely"
+        },
+        {
+            "id": 17,
+            "question": "They will arrive at ________ 7 PM.",
+            "options": [
+                "actually",
+                "really",
+                "roughly",
+                "around"
+            ],
+            "answer": "around"
+        },
+        {
+            "id": 18,
+            "question": "I am very tired and ________ it’s too late to go out.",
+            "options": [
+                "anyway",
+                "actually",
+                "else",
+                "carefully"
+            ],
+            "answer": "anyway"
+        },
+        {
+            "id": 19,
+            "question": "We can walk there, or ________ we taking the bus?",
+            "options": [
+                "why don't",
+                "what about",
+                "let's",
+                "how"
+            ],
+            "answer": "what about"
+        },
+        {
+            "id": 20,
+            "question": "I ________ with you that this plan is too risky.",
+            "options": [
+                "am agree",
+                "agreeing",
+                "absolutely",
+                "agree"
+            ],
+            "answer": "agree"
+        },
+        {
+            "id": 21,
+            "question": "________ go shopping! I need some new clothes.",
+            "options": [
+                "Let's",
+                "Why don't you",
+                "What about",
+                "How about"
+            ],
+            "answer": "Let's"
+        },
+        {
+            "id": 22,
+            "question": "________! The floor is wet and slippery.",
+            "options": [
+                "Be careful",
+                "Hurry up",
+                "Well done",
+                "What a pity"
+            ],
+            "answer": "Be careful"
+        },
+        {
+            "id": 23,
+            "question": "I don't have time to go, and ________, I've seen that film already.",
+            "options": [
+                "actually",
+                "really",
+                "well",
+                "anyway"
+            ],
+            "answer": "anyway"
+        },
+        {
+            "id": 24,
+            "question": "A: \"Do you want coffee or tea?\" B: \"________.\"",
+            "options": [
+                "It's up to you",
+                "I'm disagree",
+                "I don't matter",
+                "I am agree"
+            ],
+            "answer": "It's up to you"
+        },
+        {
+            "id": 25,
+            "question": "\"Sorry I'm late!\" - \"________, the meeting hasn't started yet.\"",
+            "options": [
+                "What a pity",
+                "It doesn't matter",
+                "Hurry up",
+                "Oh dear"
+            ],
+            "answer": "It doesn't matter"
+        },
+        {
+            "id": 26,
+            "question": "\"I can't believe we missed the concert.\" - \"Yes, ________.\"",
+            "options": [
+                "what a pity",
+                "look out",
+                "it's up to you",
+                "I don't mind"
+            ],
+            "answer": "what a pity"
+        },
+        {
+            "id": 27,
+            "question": "________ don't we order some pizza for dinner?",
+            "options": [
+                "Why",
+                "What",
+                "How",
+                "Let"
+            ],
+            "answer": "Why"
+        },
+        {
+            "id": 28,
+            "question": "She looks shy, but she's ________ very confident.",
+            "options": [
+                "anyway",
+                "else",
+                "really",
+                "actually"
+            ],
+            "answer": "actually"
+        },
+        {
+            "id": 29,
+            "question": "I haven't seen you for ________ two years.",
+            "options": [
+                "anyway",
+                "actually",
+                "around",
+                "else"
+            ],
+            "answer": "around"
+        },
+        {
+            "id": 30,
+            "question": "Let's buy him a book. - ________! That's a great idea.",
+            "options": [
+                "Actually",
+                "Absolutely",
+                "Anyway",
+                "I don't mind"
+            ],
+            "answer": "Absolutely"
+        }
+    ]
+}

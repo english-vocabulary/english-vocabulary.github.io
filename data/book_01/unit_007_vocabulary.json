@@ -1,0 +1,554 @@
+{
+    "unit": 7,
+    "title": "Feelings",
+    "vocabulary": [
+        {
+            "word": "love",
+            "ipa": "/lʌv/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "yêu, rất thích",
+            "explanationVi": "Dành tình cảm yêu thương đặc biệt hoặc rất thích một điều gì đó.",
+            "explanationEn": "To have a strong feeling of affection for someone or something.",
+            "example": "I love my family.",
+            "exampleMeaning": "Tôi yêu gia đình của tôi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=love"
+        },
+        {
+            "word": "like",
+            "ipa": "/laɪk/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "thích",
+            "explanationVi": "Cảm thấy vui vẻ, hài lòng về ai đó hoặc cái gì.",
+            "explanationEn": "To find somebody/something pleasant, attractive or of a good standard.",
+            "example": "I like my job.",
+            "exampleMeaning": "Tôi thích công việc của tôi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=like"
+        },
+        {
+            "word": "hate",
+            "ipa": "/heɪt/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "ghét",
+            "explanationVi": "Dành cảm giác không thích rất mạnh mẽ cho ai hoặc cái gì.",
+            "explanationEn": "To strongly dislike somebody/something.",
+            "example": "I hate spiders.",
+            "exampleMeaning": "Tôi ghét nhện.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hate"
+        },
+        {
+            "word": "happy",
+            "ipa": "/ˈhæpi/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "hạnh phúc, vui vẻ",
+            "explanationVi": "Cảm giác vui sướng, hài lòng.",
+            "explanationEn": "Feeling or showing pleasure or contentment.",
+            "example": "I am very happy for you.",
+            "exampleMeaning": "Tôi rất mừng cho bạn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=happy"
+        },
+        {
+            "word": "sad",
+            "ipa": "/sæd/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "buồn bã",
+            "explanationVi": "Cảm giác không vui, đau buồn.",
+            "explanationEn": "Feeling or showing sorrow; unhappy.",
+            "example": "He felt sad after watching the movie.",
+            "exampleMeaning": "Anh ấy cảm thấy buồn sau khi xem bộ phim.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=sad"
+        },
+        {
+            "word": "angry",
+            "ipa": "/ˈæŋɡri/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "tức giận",
+            "explanationVi": "Có cảm giác bực tức, muốn hét lên hoặc đánh ai đó.",
+            "explanationEn": "Having strong feelings about something that you dislike very much.",
+            "example": "She was angry with him.",
+            "exampleMeaning": "Cô ấy đã tức giận với anh ấy.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=angry"
+        },
+        {
+            "word": "upset",
+            "ipa": "/ʌpˈset/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "buồn bực, lo lắng",
+            "explanationVi": "Cảm giác buồn bã, lo lắng hoặc tức giận vì một điều gì đó.",
+            "explanationEn": "Unhappy, disappointed, or worried.",
+            "example": "He is upset about his exam results.",
+            "exampleMeaning": "Anh ấy buồn bực về kết quả bài thi của mình.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=upset"
+        },
+        {
+            "word": "cold",
+            "ipa": "/kəʊld/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "lạnh",
+            "explanationVi": "Cảm giác nhiệt độ thấp, cơ thể lạnh.",
+            "explanationEn": "Having a lower than usual temperature; feeling a lack of warmth.",
+            "example": "It is very cold today.",
+            "exampleMeaning": "Hôm nay trời rất lạnh.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=cold"
+        },
+        {
+            "word": "hot",
+            "ipa": "/hɒt/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "nóng",
+            "explanationVi": "Cảm giác nhiệt độ cao, nóng bức.",
+            "explanationEn": "Having a high temperature.",
+            "example": "I feel hot in this sweater.",
+            "exampleMeaning": "Tôi cảm thấy nóng trong chiếc áo len này.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hot"
+        },
+        {
+            "word": "thirsty",
+            "ipa": "/ˈθɜːsti/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "khát nước",
+            "explanationVi": "Cảm giác cần uống nước.",
+            "explanationEn": "Feeling a need or desire to drink.",
+            "example": "Can I have some water? I'm thirsty.",
+            "exampleMeaning": "Cho tôi xin chút nước được không? Tôi đang khát.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=thirsty"
+        },
+        {
+            "word": "hungry",
+            "ipa": "/ˈhʌŋɡri/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "đói bụng",
+            "explanationVi": "Cảm giác muốn ăn.",
+            "explanationEn": "Feeling or showing the need for food.",
+            "example": "I'm hungry. Let's eat something.",
+            "exampleMeaning": "Tôi đói rồi. Hãy ăn gì đó thôi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hungry"
+        },
+        {
+            "word": "well",
+            "ipa": "/wel/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "khỏe mạnh",
+            "explanationVi": "Tình trạng sức khỏe tốt.",
+            "explanationEn": "In good health; free or recovered from illness.",
+            "example": "He is very well, thanks.",
+            "exampleMeaning": "Anh ấy rất khỏe, cảm ơn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=well"
+        },
+        {
+            "word": "ill",
+            "ipa": "/ɪl/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "ốm, bệnh",
+            "explanationVi": "Tình trạng sức khỏe không tốt.",
+            "explanationEn": "Not in full health; sick.",
+            "example": "She was ill yesterday.",
+            "exampleMeaning": "Cô ấy bị ốm ngày hôm qua.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=ill"
+        },
+        {
+            "word": "tired",
+            "ipa": "/ˈtaɪəd/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "mệt mỏi",
+            "explanationVi": "Cảm giác không còn sức lực, cần nghỉ ngơi.",
+            "explanationEn": "In need of sleep or rest; weary.",
+            "example": "I feel a bit tired this morning.",
+            "exampleMeaning": "Sáng nay tôi cảm thấy hơi mệt.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=tired"
+        },
+        {
+            "word": "surprised",
+            "ipa": "/səˈpraɪzd/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "ngạc nhiên",
+            "explanationVi": "Cảm thấy bất ngờ vì điều gì đó xảy ra mà không được báo trước.",
+            "explanationEn": "Feeling or showing surprise because something has happened that you did not expect.",
+            "example": "I was surprised to see her.",
+            "exampleMeaning": "Tôi đã ngạc nhiên khi gặp cô ấy.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=surprised"
+        },
+        {
+            "word": "prefer",
+            "ipa": "/prɪˈfɜːr/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "thích hơn",
+            "explanationVi": "Thích một điều này hơn điều khác.",
+            "explanationEn": "To like one thing or person better than another.",
+            "example": "I prefer coffee to tea.",
+            "exampleMeaning": "Tôi thích cà phê hơn trà.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=prefer"
+        },
+        {
+            "word": "hope",
+            "ipa": "/həʊp/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "hy vọng",
+            "explanationVi": "Mong muốn một điều gì đó xảy ra và nghĩ rằng nó có thể xảy ra.",
+            "explanationEn": "To want something to happen and think that it is possible.",
+            "example": "I hope to do well in my exam.",
+            "exampleMeaning": "Tôi hy vọng làm bài thi tốt.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hope"
+        },
+        {
+            "word": "want",
+            "ipa": "/wɒnt/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "muốn",
+            "explanationVi": "Có mong muốn, ao ước về một điều gì đó.",
+            "explanationEn": "To have a desire or a wish for something.",
+            "example": "I want to buy a new car.",
+            "exampleMeaning": "Tôi muốn mua chiếc xe hơi mới.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=want"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "I ___ my family very much.",
+            "options": [
+                "hate",
+                "love",
+                "don't like",
+                "am angry"
+            ],
+            "answer": "love"
+        },
+        {
+            "id": 2,
+            "question": "My brother really ___ watching cowboy films.",
+            "options": [
+                "like",
+                "likes",
+                "to like",
+                "liking"
+            ],
+            "answer": "likes"
+        },
+        {
+            "id": 3,
+            "question": "She is very ___ because she heard some good news.",
+            "options": [
+                "sad",
+                "angry",
+                "happy",
+                "hungry"
+            ],
+            "answer": "happy"
+        },
+        {
+            "id": 4,
+            "question": "I didn't sleep well last night, so I feel a bit ___ today.",
+            "options": [
+                "well",
+                "hot",
+                "tired",
+                "surprised"
+            ],
+            "answer": "tired"
+        },
+        {
+            "id": 5,
+            "question": "It's very hot outside. I am really ___. I need some water.",
+            "options": [
+                "thirsty",
+                "cold",
+                "full",
+                "sad"
+            ],
+            "answer": "thirsty"
+        },
+        {
+            "id": 6,
+            "question": "I ___ coffee to tea.",
+            "options": [
+                "prefer",
+                "want",
+                "hope",
+                "like"
+            ],
+            "answer": "prefer"
+        },
+        {
+            "id": 7,
+            "question": "I don't want anything to eat. I am not ___.",
+            "options": [
+                "thirsty",
+                "hungry",
+                "well",
+                "ill"
+            ],
+            "answer": "hungry"
+        },
+        {
+            "id": 8,
+            "question": "The movie was very scary. I ___ horror films!",
+            "options": [
+                "love",
+                "like",
+                "hate",
+                "want"
+            ],
+            "answer": "hate"
+        },
+        {
+            "id": 9,
+            "question": "He is feeling ___. He needs to see a doctor.",
+            "options": [
+                "ill",
+                "well",
+                "happy",
+                "surprised"
+            ],
+            "answer": "ill"
+        },
+        {
+            "id": 10,
+            "question": "Please close the window. I am very ___.",
+            "options": [
+                "hot",
+                "thirsty",
+                "hungry",
+                "cold"
+            ],
+            "answer": "cold"
+        },
+        {
+            "id": 11,
+            "question": "She was ___ when she saw a spider in her room.",
+            "options": [
+                "happy",
+                "glad",
+                "surprised",
+                "well"
+            ],
+            "answer": "surprised"
+        },
+        {
+            "id": 12,
+            "question": "I ___ you do well in your exams next week.",
+            "options": [
+                "prefer",
+                "hope",
+                "hate",
+                "well"
+            ],
+            "answer": "hope"
+        },
+        {
+            "id": 13,
+            "question": "The teacher ___ us to learn these new words.",
+            "options": [
+                "hopes",
+                "wants",
+                "prefers",
+                "likes"
+            ],
+            "answer": "wants"
+        },
+        {
+            "id": 14,
+            "question": "Are you feeling ___ today? - Yes, much better, thanks.",
+            "options": [
+                "ill",
+                "well",
+                "sad",
+                "upset"
+            ],
+            "answer": "well"
+        },
+        {
+            "id": 15,
+            "question": "I was really ___ about my bad test results.",
+            "options": [
+                "upset",
+                "happy",
+                "well",
+                "prefer"
+            ],
+            "answer": "upset"
+        },
+        {
+            "id": 16,
+            "question": "Do you want to go out? - No, I ___ to stay at home tonight.",
+            "options": [
+                "hope",
+                "prefer",
+                "am",
+                "go"
+            ],
+            "answer": "prefer"
+        },
+        {
+            "id": 17,
+            "question": "I am very happy ___ my sister's good news.",
+            "options": [
+                "about",
+                "for",
+                "of",
+                "to"
+            ],
+            "answer": "about"
+        },
+        {
+            "id": 18,
+            "question": "You did very well! I'm really happy ___ you.",
+            "options": [
+                "for",
+                "to",
+                "about",
+                "with"
+            ],
+            "answer": "for"
+        },
+        {
+            "id": 19,
+            "question": "They are very ___ because someone stole their bikes.",
+            "options": [
+                "angry",
+                "happy",
+                "well",
+                "cold"
+            ],
+            "answer": "angry"
+        },
+        {
+            "id": 20,
+            "question": "How about your grandmother? - She's ___ tired today.",
+            "options": [
+                "a lot",
+                "bit",
+                "a little",
+                "much"
+            ],
+            "answer": "a little"
+        },
+        {
+            "id": 21,
+            "question": "My mother ___ me to clean my room.",
+            "options": [
+                "wants",
+                "hopes",
+                "prefers",
+                "hates"
+            ],
+            "answer": "wants"
+        },
+        {
+            "id": 22,
+            "question": "Do you like playing basketball? - Yes, I ___ like it.",
+            "options": [
+                "very",
+                "a lot",
+                "really",
+                "much"
+            ],
+            "answer": "really"
+        },
+        {
+            "id": 23,
+            "question": "I ___ my parents to be healthy and happy.",
+            "options": [
+                "hope",
+                "want",
+                "prefer",
+                "hate"
+            ],
+            "answer": "want"
+        },
+        {
+            "id": 24,
+            "question": "She doesn't like jazz music ___.",
+            "options": [
+                "a lot",
+                "very much",
+                "really",
+                "quite"
+            ],
+            "answer": "very much"
+        },
+        {
+            "id": 25,
+            "question": "I ___ that it will not rain tomorrow.",
+            "options": [
+                "want",
+                "prefer",
+                "hope",
+                "am"
+            ],
+            "answer": "hope"
+        },
+        {
+            "id": 26,
+            "question": "I feel perfectly ___ today. Let's go for a walk!",
+            "options": [
+                "ill",
+                "well",
+                "upset",
+                "thirsty"
+            ],
+            "answer": "well"
+        },
+        {
+            "id": 27,
+            "question": "If you are ___, take off your coat.",
+            "options": [
+                "hot",
+                "cold",
+                "thirsty",
+                "tired"
+            ],
+            "answer": "hot"
+        },
+        {
+            "id": 28,
+            "question": "The baby is crying. She might be ___.",
+            "options": [
+                "happy",
+                "hungry",
+                "surprised",
+                "well"
+            ],
+            "answer": "hungry"
+        },
+        {
+            "id": 29,
+            "question": "Everyone was ___ by the magician's tricks.",
+            "options": [
+                "sad",
+                "surprised",
+                "well",
+                "angry"
+            ],
+            "answer": "surprised"
+        },
+        {
+            "id": 30,
+            "question": "I ___ to buy a new computer because my old one is broken.",
+            "options": [
+                "hate",
+                "prefer",
+                "want",
+                "hope"
+            ],
+            "answer": "want"
+        }
+    ]
+}

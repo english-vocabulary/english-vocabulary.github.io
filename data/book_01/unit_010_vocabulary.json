@@ -1,0 +1,782 @@
+{
+    "unit": 10,
+    "title": "Food and drink",
+    "vocabulary": [
+        {
+            "word": "bread",
+            "ipa": "/bred/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bánh mì",
+            "explanationVi": "Một loại thức ăn được làm từ bột mì, nước, và men, được nướng chín.",
+            "explanationEn": "A food made from flour, water, and usually yeast, mixed together and baked.",
+            "example": "Would you like some bread?",
+            "exampleMeaning": "Bạn có muốn một chút bánh mì không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bread"
+        },
+        {
+            "word": "rice",
+            "ipa": "/raɪs/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "gạo, cơm",
+            "explanationVi": "Hạt nhỏ màu trắng hoặc nâu từ một loại cây trồng chủ yếu ở châu Á, dùng làm thức ăn.",
+            "explanationEn": "The small seeds of a particular type of grass, used for food.",
+            "example": "I love sushi because I love rice.",
+            "exampleMeaning": "Tôi thích sushi vì tôi thích cơm.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=rice"
+        },
+        {
+            "word": "pasta",
+            "ipa": "/ˈpæs.tə/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "mì ống",
+            "explanationVi": "Thức ăn làm từ bột mì, trứng và nước, được tạo thành nhiều hình dạng khác nhau và nấu chín.",
+            "explanationEn": "A food made from flour, water, and sometimes egg, that is cooked and usually served with a sauce. It is made in various shapes.",
+            "example": "Pasta is good for you, but don't eat too much!",
+            "exampleMeaning": "Mì ống tốt cho bạn, nhưng đừng ăn quá nhiều!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pasta"
+        },
+        {
+            "word": "salt",
+            "ipa": "/sɒlt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "muối",
+            "explanationVi": "Chất màu trắng lấy từ biển hoặc mỏ, dùng để tạo vị mặn cho thức ăn.",
+            "explanationEn": "A common white substance found in sea water and in the ground, used especially to add flavour to food or to preserve it.",
+            "example": "I always put salt on my chips.",
+            "exampleMeaning": "Tôi luôn cho muối vào khoai tây chiên của mình.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=salt"
+        },
+        {
+            "word": "pepper",
+            "ipa": "/ˈpep.ər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "hạt tiêu",
+            "explanationVi": "Bột màu đen hoặc trắng làm từ một loại quả, được sấy khô để làm gia vị.",
+            "explanationEn": "A grey or white powder produced by crushing dry peppercorns, used to give a spicy, hot taste to food.",
+            "example": "I don't put pepper on my chips.",
+            "exampleMeaning": "Tôi không cho hạt tiêu vào khoai tây chiên của mình.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pepper"
+        },
+        {
+            "word": "meat",
+            "ipa": "/miːt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thịt",
+            "explanationVi": "Phần thịt của động vật dùng làm thức ăn.",
+            "explanationEn": "The flesh of an animal when it is used for food.",
+            "example": "My sister never eats meat.",
+            "exampleMeaning": "Chị gái tôi không bao giờ ăn thịt.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=meat"
+        },
+        {
+            "word": "fish",
+            "ipa": "/fɪʃ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cá, thịt cá",
+            "explanationVi": "Động vật sống dưới nước hoặc thịt của chúng dùng làm thức ăn.",
+            "explanationEn": "An animal that lives in water, is covered with scales, and breathes by taking water in through its mouth, or the flesh of these animals eaten as food.",
+            "example": "My sister never eats fish.",
+            "exampleMeaning": "Chị gái tôi không bao giờ ăn cá.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fish"
+        },
+        {
+            "word": "vegetarian",
+            "ipa": "/ˌvedʒ.ɪˈteə.ri.ən/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "người ăn chay",
+            "explanationVi": "Người không ăn thịt hoặc cá.",
+            "explanationEn": "A person who does not eat meat or fish.",
+            "example": "She is a vegetarian.",
+            "exampleMeaning": "Cô ấy là một người ăn chay.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=vegetarian"
+        },
+        {
+            "word": "sugar",
+            "ipa": "/ˈʃʊɡ.ər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đường",
+            "explanationVi": "Chất ngọt lấy từ cây mía hoặc củ cải đường.",
+            "explanationEn": "A sweet substance especially from the plants sugar cane and sugar beet, used to make food and drinks sweet.",
+            "example": "Do you take sugar in tea or coffee?",
+            "exampleMeaning": "Bạn có cho đường vào trà hay cà phê không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=sugar"
+        },
+        {
+            "word": "tea",
+            "ipa": "/tiː/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "trà",
+            "explanationVi": "Thức uống làm từ lá của một loại cây được phơi khô.",
+            "explanationEn": "(a drink made by pouring boiling water onto) the dried leaves of a plant that grows in India, China, etc.",
+            "example": "Do you take sugar in tea?",
+            "exampleMeaning": "Bạn có cho đường vào trà không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=tea"
+        },
+        {
+            "word": "coffee",
+            "ipa": "/ˈkɒf.i/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cà phê",
+            "explanationVi": "Thức uống màu đen, vị đắng, được làm từ hạt rang chín.",
+            "explanationEn": "A dark brown powder made from roasted and ground coffee beans, or the hot drink made from this powder.",
+            "example": "Do you take sugar in coffee?",
+            "exampleMeaning": "Bạn có cho đường vào cà phê không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=coffee"
+        },
+        {
+            "word": "hamburger",
+            "ipa": "/ˈhæmˌbɜː.ɡər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bánh hamburger",
+            "explanationVi": "Một miếng thịt bò xay chiên đặt giữa hai miếng bánh mì mỏng.",
+            "explanationEn": "A round, flat piece of minced beef, fried and usually eaten between two halves of a bread roll.",
+            "example": "I eat hamburgers when I don't have much time.",
+            "exampleMeaning": "Tôi ăn hamburger khi tôi không có nhiều thời gian.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hamburger"
+        },
+        {
+            "word": "hot dog",
+            "ipa": "/ˈhɒt ˌdɒɡ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bánh mì kẹp xúc xích",
+            "explanationVi": "Xúc xích nóng được phục vụ trong một chiếc bánh mì cuộn.",
+            "explanationEn": "A cooked sausage eaten in a long soft piece of bread.",
+            "example": "I eat hot dogs when I don't have much time.",
+            "exampleMeaning": "Tôi ăn bánh mì kẹp xúc xích khi tôi không có nhiều thời gian.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hot+dog"
+        },
+        {
+            "word": "pizza",
+            "ipa": "/ˈpiːt.sə/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bánh pizza",
+            "explanationVi": "Một loại bánh tẩm pho mát và phết các loại sốt cà chua, thịt.",
+            "explanationEn": "A large circle of flat bread baked with cheese, tomatoes, and sometimes meat and vegetables spread on top.",
+            "example": "I eat pizzas when I don't have much time.",
+            "exampleMeaning": "Tôi ăn pizza khi tôi không có nhiều thời gian.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pizza"
+        },
+        {
+            "word": "fish and chips",
+            "ipa": "/ˌfɪʃ ən ˈtʃɪps/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "món cá và khoai tây chiên",
+            "explanationVi": "Một món cá chiên ăn chung với khoai tây chiên phổ biến ở Anh.",
+            "explanationEn": "Fish covered in batter and fried, eaten with chips.",
+            "example": "Fish and chips is popular in Britain.",
+            "exampleMeaning": "Món cá và khoai tây chiên rất phổ biến ở Anh.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fish+and+chips"
+        },
+        {
+            "word": "vegetable",
+            "ipa": "/ˈvedʒ.tə.bəl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "rau củ",
+            "explanationVi": "Một loại thực vật được làm thức ăn hàng ngày.",
+            "explanationEn": "A plant, root, seed, or pod that is used as food, especially in dishes that are not sweet.",
+            "example": "Vegetables are good for you.",
+            "exampleMeaning": "Rau củ rất tốt cho bạn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=vegetable"
+        },
+        {
+            "word": "fruit",
+            "ipa": "/fruːt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "trái cây",
+            "explanationVi": "Chất ngọt tự nhiên mọc ở trên nhiều loài cây khác nhau.",
+            "explanationEn": "The soft part containing seeds that is produced by a plant. Many types of fruit are sweet and can be eaten.",
+            "example": "Fruit is also good for you.",
+            "exampleMeaning": "Trái cây cũng rất tốt cho bạn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fruit"
+        },
+        {
+            "word": "carrot",
+            "ipa": "/ˈkær.ət/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "củ cà rốt",
+            "explanationVi": "Một loại củ có rễ mọc dưới đất, dài, có màu vỏ cam tươi.",
+            "explanationEn": "A long pointed orange root eaten as a vegetable.",
+            "example": "Carrots are healthy vegetables.",
+            "exampleMeaning": "Cà rốt là những loại rau củ tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=carrot"
+        },
+        {
+            "word": "bean",
+            "ipa": "/biːn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "hạt đậu",
+            "explanationVi": "Các loại hạt thu được từ một số giống thực vật thân leo.",
+            "explanationEn": "A seed, or the pod containing seeds, of various climbing plants, eaten as a vegetable.",
+            "example": "Beans are healthy vegetables.",
+            "exampleMeaning": "Các loại hạt đậu là những loại rau củ tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bean"
+        },
+        {
+            "word": "potato",
+            "ipa": "/pəˈteɪ.təʊ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "củ khoai tây",
+            "explanationVi": "Một loại rau củ trồng ở dưới đất, khi nấu chín thì mềm xốp xốp.",
+            "explanationEn": "A round vegetable that grows underground and has white flesh with light brown, red, or pink skin.",
+            "example": "Potatoes are healthy vegetables.",
+            "exampleMeaning": "Khoai tây là những loại rau củ tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=potato"
+        },
+        {
+            "word": "tomato",
+            "ipa": "/təˈmɑː.təʊ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quả cà chua",
+            "explanationVi": "Một loại trái cây màu đỏ, mọng nước, thường dùng để trang trí đĩa Salad.",
+            "explanationEn": "A round, red fruit with a lot of seeds, eaten cooked or uncooked as a vegetable.",
+            "example": "Tomatoes are healthy vegetables.",
+            "exampleMeaning": "Cà chua là những loại rau củ tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=tomato"
+        },
+        {
+            "word": "pea",
+            "ipa": "/piː/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "hạt đậu Hà Lan",
+            "explanationVi": "Những loại hạt nhỏ màu xanh xếp ngay ngắn dọc thân.",
+            "explanationEn": "A round, green seed, several of which grow in a pod, eaten as a vegetable.",
+            "example": "Peas are healthy vegetables.",
+            "exampleMeaning": "Đậu Hà Lan là những loại rau củ tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pea"
+        },
+        {
+            "word": "onion",
+            "ipa": "/ˈʌn.jən/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "củ hành tây",
+            "explanationVi": "Một loại thảo mộc ăn dặm mọc phần củ nằm gọn trong một cấu trúc phình chằng chịt các phiến lá.",
+            "explanationEn": "A vegetable with a strong smell and flavour, made up of several layers surrounding each other.",
+            "example": "Onions are healthy vegetables.",
+            "exampleMeaning": "Hành tây là những loại rau củ tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=onion"
+        },
+        {
+            "word": "garlic",
+            "ipa": "/ˈɡɑː.lɪk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "củ tỏi",
+            "explanationVi": "Nguyên liệu chính cho các bài mẹo chữa rắn cắn, bỏng nặng.",
+            "explanationEn": "A plant of the onion family that has a strong taste and smell and is used in cooking to add flavour.",
+            "example": "Garlic is a healthy vegetable.",
+            "exampleMeaning": "Tỏi là một loại rau củ tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=garlic"
+        },
+        {
+            "word": "mushroom",
+            "ipa": "/ˈmʌʃ.ruːm/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cây nấm",
+            "explanationVi": "Vật sinh trưởng có phần thân ngắn và mũ phía trên lớn, ăn được.",
+            "explanationEn": "A fungus with a round top and short stem. Many types of mushroom can be eaten.",
+            "example": "Mushrooms are healthy vegetables.",
+            "exampleMeaning": "Nấm là những loại rau tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=mushroom"
+        },
+        {
+            "word": "orange",
+            "ipa": "/ˈɒr.ɪndʒ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quả cam",
+            "explanationVi": "Một loại trái ngọt, tròn có lớp vỏ cứng màu cam bên ngoài.",
+            "explanationEn": "A round sweet fruit that has a thick orange skin and an orange centre divided into many parts.",
+            "example": "Oranges are healthy fruits.",
+            "exampleMeaning": "Cam là những loại trái cây tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=orange"
+        },
+        {
+            "word": "apple",
+            "ipa": "/ˈæp.əl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quả táo",
+            "explanationVi": "Trái cây cứng, giòn có dạng tròn, vỏ và ruột màu xanh, đỏ, vàng.",
+            "explanationEn": "A round fruit with firm, white flesh and a green, red, or yellow skin.",
+            "example": "Apples are healthy fruits.",
+            "exampleMeaning": "Táo là những loại trái cây tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=apple"
+        },
+        {
+            "word": "banana",
+            "ipa": "/bəˈnɑː.nə/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quả chuối",
+            "explanationVi": "Trái cây dài mọc theo chùm có lớp vỏ màu vàng và phần thịt bên trong mềm.",
+            "explanationEn": "A long, curved fruit with a yellow skin and soft, sweet, white flesh inside.",
+            "example": "Bananas are healthy fruits.",
+            "exampleMeaning": "Chuối là những loại trái cây cực kỳ tốt.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=banana"
+        },
+        {
+            "word": "pear",
+            "ipa": "/peər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quả lê",
+            "explanationVi": "Trái cây vị ngọt, thường có vỏ xanh mịn, phần trên hẹp và phần dưới rộn.",
+            "explanationEn": "A sweet fruit, usually with a green skin and a lot of juice, that has a round base and is slightly pointed towards the stem.",
+            "example": "Pears are healthy fruits.",
+            "exampleMeaning": "Lê là những loại trái cây tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pear"
+        },
+        {
+            "word": "grape",
+            "ipa": "/ɡreɪp/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quả nho",
+            "explanationVi": "Một loại quả nhỏ, tròn thường có màu xanh nhạt hoặc tím ăn được.",
+            "explanationEn": "A small, round, purple or pale green fruit that you can eat or make into wine.",
+            "example": "Grapes are healthy fruits.",
+            "exampleMeaning": "Nho là những loại trái cây cực hay cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=grape"
+        },
+        {
+            "word": "strawberry",
+            "ipa": "/ˈstrɔː.bər.i/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quả dâu tây",
+            "explanationVi": "Quả mọng nước, có hình trái tim hoặc tròn với vỏ đỏ dính những hạt nhỏ.",
+            "explanationEn": "A small juicy red fruit that has small brown seeds on its surface, or the plant with white flowers on which this fruit grows.",
+            "example": "Strawberries are healthy fruits.",
+            "exampleMeaning": "Dâu tây là những loại trái cây tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=strawberry"
+        },
+        {
+            "word": "pineapple",
+            "ipa": "/ˈpaɪnˌæp.əl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quả dứa/khóm",
+            "explanationVi": "Quả hình trụ, vỏ cứng và sần sùi có gai, phần ruột mềm, màu vàng, ngọt, mọng nước.",
+            "explanationEn": "A (the yellow flesh and juice of) a large tropical fruit with a rough orange or brown skin and pointed leaves on top.",
+            "example": "Pineapples are healthy fruits.",
+            "exampleMeaning": "Dứa là những loại trái cây tốt cho sức khỏe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pineapple"
+        },
+        {
+            "word": "milk",
+            "ipa": "/mɪlk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "sữa",
+            "explanationVi": "Một dòng chất lỏng màu trắng tiết ra bởi giống cái từ ngực hoặc vú.",
+            "explanationEn": "The white liquid produced by cows, goats, and sheep and used by humans as a drink or for making butter, cheese, etc.",
+            "example": "I drink milk in the morning.",
+            "exampleMeaning": "Tôi uống sữa vào buổi sáng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=milk"
+        },
+        {
+            "word": "fruit juice",
+            "ipa": "/ˈfruːt ˌdʒuːs/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nước ép trái cây",
+            "explanationVi": "Nước ép từ trái cây, đóng thành các chai, hộp nhựa.",
+            "explanationEn": "Liquid that is taken from fruit and acts as a beverage.",
+            "example": "I drink fruit juice in the morning.",
+            "exampleMeaning": "Tôi uống nước ép trái cây vào buổi sáng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fruit+juice"
+        },
+        {
+            "word": "beer",
+            "ipa": "/bɪər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bia",
+            "explanationVi": "Một loại đồ uống có cồn làm từ đại mạch lên men.",
+            "explanationEn": "An alcoholic drink made from grain and hops.",
+            "example": "I drink beer at parties.",
+            "exampleMeaning": "Tôi uống bia ở các bữa tiệc.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=beer"
+        },
+        {
+            "word": "wine",
+            "ipa": "/waɪn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "rượu vang",
+            "explanationVi": "Dung dịch đồ uống có cồn thường được làm và ủ từ nho.",
+            "explanationEn": "An alcoholic drink that is usually made from grapes.",
+            "example": "I drink wine at parties.",
+            "exampleMeaning": "Tôi uống rượu vang ở các bữa tiệc.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=wine"
+        },
+        {
+            "word": "mineral water",
+            "ipa": "/ˈmɪn.ər.əl ˌwɔː.tər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nước khoáng",
+            "explanationVi": "Nước đóng chai bắt nguồn từ các mạch nước ở dưới sâu.",
+            "explanationEn": "Water that is taken from the ground and contains chemicals that are good for your health.",
+            "example": "I drink mineral water.",
+            "exampleMeaning": "Tôi uống nước khoáng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=mineral+water"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "Would you like some _____?",
+            "options": [
+                "breads",
+                "bread",
+                "a bread",
+                "the breads"
+            ],
+            "answer": "bread"
+        },
+        {
+            "id": 2,
+            "question": "I love sushi because I love _____.",
+            "options": [
+                "rices",
+                "a rice",
+                "rice",
+                "the rices"
+            ],
+            "answer": "rice"
+        },
+        {
+            "id": 3,
+            "question": "_____ is good for you, but don't eat too much!",
+            "options": [
+                "Pasta",
+                "Pastas",
+                "A pasta",
+                "An pasta"
+            ],
+            "answer": "Pasta"
+        },
+        {
+            "id": 4,
+            "question": "I always put _____ on my chips.",
+            "options": [
+                "salts",
+                "salt",
+                "a salt",
+                "the salt"
+            ],
+            "answer": "salt"
+        },
+        {
+            "id": 5,
+            "question": "I never put _____ on my chips, only salt.",
+            "options": [
+                "pepper",
+                "peppers",
+                "a pepper",
+                "an pepper"
+            ],
+            "answer": "pepper"
+        },
+        {
+            "id": 6,
+            "question": "My sister never eats meat. She's _____.",
+            "options": [
+                "vegeterian",
+                "vegetarian",
+                "vegetables",
+                "vegetable"
+            ],
+            "answer": "vegetarian"
+        },
+        {
+            "id": 7,
+            "question": "Do you take _____ in tea?",
+            "options": [
+                "a sugar",
+                "sugars",
+                "sugar",
+                "sweet"
+            ],
+            "answer": "sugar"
+        },
+        {
+            "id": 8,
+            "question": "I eat _____ when I don't have much time.",
+            "options": [
+                "hamburgers",
+                "hamburger",
+                "a hamburgers",
+                "much hamburgers"
+            ],
+            "answer": "hamburgers"
+        },
+        {
+            "id": 9,
+            "question": "_____ and chips is popular in Britain.",
+            "options": [
+                "Fishes",
+                "Meat",
+                "Fish",
+                "A fish"
+            ],
+            "answer": "Fish"
+        },
+        {
+            "id": 10,
+            "question": "Vegetables are good for you. Fruit _____ also good for you.",
+            "options": [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            "answer": "is"
+        },
+        {
+            "id": 11,
+            "question": "Carrots, beans, and potatoes are _____.",
+            "options": [
+                "fruits",
+                "vegetables",
+                "meats",
+                "drinks"
+            ],
+            "answer": "vegetables"
+        },
+        {
+            "id": 12,
+            "question": "Apples, bananas, and grapes are _____.",
+            "options": [
+                "fruit",
+                "fruits",
+                "vegetables",
+                "drinks"
+            ],
+            "answer": "fruit"
+        },
+        {
+            "id": 13,
+            "question": "I don't eat meat or _____.",
+            "options": [
+                "fishes",
+                "fish",
+                "fishing",
+                "a fish"
+            ],
+            "answer": "fish"
+        },
+        {
+            "id": 14,
+            "question": "A _____ is a sausage inside a piece of bread.",
+            "options": [
+                "hamburger",
+                "pizza",
+                "hot dog",
+                "pasta"
+            ],
+            "answer": "hot dog"
+        },
+        {
+            "id": 15,
+            "question": "_____ are made from potatoes.",
+            "options": [
+                "Pizzas",
+                "Chips",
+                "Hamburgers",
+                "Breads"
+            ],
+            "answer": "Chips"
+        },
+        {
+            "id": 16,
+            "question": "I like tomato _____.",
+            "options": [
+                "salads",
+                "salad",
+                "a salad",
+                "the salads"
+            ],
+            "answer": "salad"
+        },
+        {
+            "id": 17,
+            "question": "He bought a _____ at the stadium.",
+            "options": [
+                "hot dogs",
+                "hot dog",
+                "hot dogging",
+                "dog hot"
+            ],
+            "answer": "hot dog"
+        },
+        {
+            "id": 18,
+            "question": "We ordered a _____ for dinner.",
+            "options": [
+                "pizzas",
+                "pizza",
+                "a pizzas",
+                "some pizza"
+            ],
+            "answer": "pizza"
+        },
+        {
+            "id": 19,
+            "question": "She added some _____ to the sauce to make it taste stronger.",
+            "options": [
+                "apple",
+                "banana",
+                "garlic",
+                "strawberry"
+            ],
+            "answer": "garlic"
+        },
+        {
+            "id": 20,
+            "question": "I love _____ soup. It has a round top and short stem.",
+            "options": [
+                "mushroom",
+                "pear",
+                "apple",
+                "meat"
+            ],
+            "answer": "mushroom"
+        },
+        {
+            "id": 21,
+            "question": "I drink a glass of hot _____ before bed.",
+            "options": [
+                "milks",
+                "milk",
+                "wine",
+                "beer"
+            ],
+            "answer": "milk"
+        },
+        {
+            "id": 22,
+            "question": "Would you like some fruit _____?",
+            "options": [
+                "juice",
+                "water",
+                "juices",
+                "milk"
+            ],
+            "answer": "juice"
+        },
+        {
+            "id": 23,
+            "question": "He ordered a pint of _____.",
+            "options": [
+                "wine",
+                "milk",
+                "beer",
+                "tea"
+            ],
+            "answer": "beer"
+        },
+        {
+            "id": 24,
+            "question": "We had a bottle of red _____ with dinner.",
+            "options": [
+                "wine",
+                "water",
+                "milk",
+                "tea"
+            ],
+            "answer": "wine"
+        },
+        {
+            "id": 25,
+            "question": "I prefer sparkling mineral _____.",
+            "options": [
+                "water",
+                "juice",
+                "tea",
+                "coffee"
+            ],
+            "answer": "water"
+        },
+        {
+            "id": 26,
+            "question": "An _____ a day keeps the doctor away.",
+            "options": [
+                "apple",
+                "orange",
+                "banana",
+                "strawberry"
+            ],
+            "answer": "apple"
+        },
+        {
+            "id": 27,
+            "question": "Monkeys love to eat _____.",
+            "options": [
+                "coffee",
+                "wine",
+                "bananas",
+                "pasta"
+            ],
+            "answer": "bananas"
+        },
+        {
+            "id": 28,
+            "question": "The recipe calls for one chopped _____. It makes me cry.",
+            "options": [
+                "carrot",
+                "potato",
+                "onion",
+                "pea"
+            ],
+            "answer": "onion"
+        },
+        {
+            "id": 29,
+            "question": "We bought a bunch of _____.",
+            "options": [
+                "grapes",
+                "grape",
+                "a grape",
+                "apple"
+            ],
+            "answer": "grapes"
+        },
+        {
+            "id": 30,
+            "question": "Do you prefer rice or _____?",
+            "options": [
+                "potato",
+                "potatoes",
+                "a potato",
+                "the potato"
+            ],
+            "answer": "potatoes"
+        }
+    ]
+}

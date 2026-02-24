@@ -1,0 +1,624 @@
+{
+    "unit": 8,
+    "title": "Conversations 1: Greetings and wishes",
+    "vocabulary": [
+        {
+            "word": "good morning",
+            "ipa": "/ɡʊd ˈmɔːnɪŋ/",
+            "partOfSpeech": "lời chào",
+            "partOfSpeechEn": "greeting",
+            "meaning": "chào buổi sáng",
+            "explanationVi": "Dùng để chào hỏi vào buổi sáng (thường trước 12h trưa).",
+            "explanationEn": "Used to say hello when you see somebody in the morning.",
+            "example": "Good morning, teachers!",
+            "exampleMeaning": "Chào buổi sáng, các thầy cô!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=good+morning"
+        },
+        {
+            "word": "good afternoon",
+            "ipa": "/ɡʊd ˌɑːftəˈnuːn/",
+            "partOfSpeech": "lời chào",
+            "partOfSpeechEn": "greeting",
+            "meaning": "chào buổi chiều",
+            "explanationVi": "Dùng để chào hỏi vào buổi chiều.",
+            "explanationEn": "Used to say hello when you see somebody in the afternoon.",
+            "example": "Good afternoon, everyone!",
+            "exampleMeaning": "Chào buổi chiều, mọi người!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=good+afternoon"
+        },
+        {
+            "word": "good evening",
+            "ipa": "/ɡʊd ˈiːvnɪŋ/",
+            "partOfSpeech": "lời chào",
+            "partOfSpeechEn": "greeting",
+            "meaning": "chào buổi tối",
+            "explanationVi": "Dùng để chào hỏi vào buổi tối (thường sau 6h tối).",
+            "explanationEn": "Used to say hello when you see somebody in the evening.",
+            "example": "Good evening, Mr. John.",
+            "exampleMeaning": "Chào buổi tối, ngài John.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=good+evening"
+        },
+        {
+            "word": "hello",
+            "ipa": "/həˈləʊ/",
+            "partOfSpeech": "thán từ",
+            "partOfSpeechEn": "interjection",
+            "meaning": "xin chào",
+            "explanationVi": "Lời chào hỏi phổ biến dùng trong hầu hết mọi tình huống.",
+            "explanationEn": "Used as a greeting when you meet somebody or answer the telephone.",
+            "example": "Hello! How are you?",
+            "exampleMeaning": "Xin chào! Bạn khỏe không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hello"
+        },
+        {
+            "word": "hi",
+            "ipa": "/haɪ/",
+            "partOfSpeech": "thán từ",
+            "partOfSpeechEn": "interjection",
+            "meaning": "chào",
+            "explanationVi": "Lời chào hỏi thân mật, thường dùng với bạn bè.",
+            "explanationEn": "Used as an informal greeting, usually to people who you know.",
+            "example": "Hi! Nice to meet you.",
+            "exampleMeaning": "Chào! Rất vui được gặp bạn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hi"
+        },
+        {
+            "word": "how are you?",
+            "ipa": "/haʊ ɑː ju/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "bạn khỏe không?",
+            "explanationVi": "Câu hỏi thăm tình trạng sức khỏe, cuộc sống của ai đó khi gặp mặt.",
+            "explanationEn": "A polite question about somebody's health or life, asked when you meet them.",
+            "example": "Hello. How are you?",
+            "exampleMeaning": "Xin chào. Bạn có khỏe không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=how+are+you"
+        },
+        {
+            "word": "fine, thanks",
+            "ipa": "/faɪn θæŋks/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "tôi khỏe, cảm ơn",
+            "explanationVi": "Câu trả lời lịch sự phổ biến cho câu hỏi thăm sức khỏe.",
+            "explanationEn": "A common polite reply to 'How are you?'.",
+            "example": "I'm fine, thanks. And you?",
+            "exampleMeaning": "Tôi khỏe, cảm ơn. Còn bạn thì sao?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fine+thanks"
+        },
+        {
+            "word": "not too bad",
+            "ipa": "/nɒt tuː bæd/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "không quá tệ, tàm tạm",
+            "explanationVi": "Câu trả lời rằng mọi việc bình thường, không quá tốt nhưng cũng không tệ.",
+            "explanationEn": "A reply to 'How are you?' meaning everything is alright.",
+            "example": "I'm not too bad, thanks.",
+            "exampleMeaning": "Tôi không quá tệ, cảm ơn nhé.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=not+too+bad"
+        },
+        {
+            "word": "goodbye",
+            "ipa": "/ˌɡʊdˈbaɪ/",
+            "partOfSpeech": "thán từ",
+            "partOfSpeechEn": "interjection",
+            "meaning": "tạm biệt",
+            "explanationVi": "Dùng khi chia tay ai đó.",
+            "explanationEn": "Used when you are leaving somebody or when somebody else is leaving.",
+            "example": "Goodbye. I have to go now.",
+            "exampleMeaning": "Tạm biệt. Tôi phải đi bây giờ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=goodbye"
+        },
+        {
+            "word": "see you soon",
+            "ipa": "/siː ju suːn/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "hẹn sớm gặp lại",
+            "explanationVi": "Dùng khi tạm biệt, hy vọng sẽ sớm gặp lại trong thời gian ngắn (khá thân mật).",
+            "explanationEn": "Used to say goodbye to somebody when you expect to see them again in a short time.",
+            "example": "Goodbye! See you soon.",
+            "exampleMeaning": "Tạm biệt! Hẹn sớm gặp lại.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=see+you+soon"
+        },
+        {
+            "word": "goodnight",
+            "ipa": "/ˌɡʊdˈnaɪt/",
+            "partOfSpeech": "thán từ",
+            "partOfSpeechEn": "interjection",
+            "meaning": "chúc ngủ ngon",
+            "explanationVi": "Lời chúc khi muốn nói lời tạm biệt trước khi đi ngủ, hoặc khi rời đi buổi tối muộn.",
+            "explanationEn": "Used when you leave somebody late in the evening or when you or somebody else goes to bed.",
+            "example": "Goodnight! See you tomorrow.",
+            "exampleMeaning": "Chúc ngủ ngon! Gặp lại bạn vào ngày mai.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=goodnight"
+        },
+        {
+            "word": "sleep well",
+            "ipa": "/sliːp wel/",
+            "partOfSpeech": "cụm câu",
+            "partOfSpeechEn": "phrase",
+            "meaning": "ngủ ngon nhé",
+            "explanationVi": "Lời chúc có được một giấc ngủ ngon, thường đi kèm với Goodnight.",
+            "explanationEn": "Used to wish somebody a good night's sleep.",
+            "example": "Goodnight. Sleep well.",
+            "exampleMeaning": "Chúc ngủ ngon nhé.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=sleep+well"
+        },
+        {
+            "word": "please",
+            "ipa": "/pliːz/",
+            "partOfSpeech": "thán từ",
+            "partOfSpeechEn": "interjection",
+            "meaning": "làm ơn / vui lòng",
+            "explanationVi": "Thêm vào câu yêu cầu để biểu thị sự lịch sự.",
+            "explanationEn": "An expression used to make a request polite.",
+            "example": "Can you help me, please?",
+            "exampleMeaning": "Bạn có thể giúp tôi một chút được không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=please"
+        },
+        {
+            "word": "thank you",
+            "ipa": "/ˈθæŋk ju/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "cảm ơn bạn",
+            "explanationVi": "Dùng để thể hiện lòng biết ơn khi ai đó giúp đỡ hoặc làm điều gì tốt cho mình.",
+            "explanationEn": "Used to show that you are grateful to somebody for something they have done.",
+            "example": "Thank you very much for your help.",
+            "exampleMeaning": "Cảm ơn bạn rất nhiều vì sự giúp đỡ của bạn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=thank+you"
+        },
+        {
+            "word": "cheers",
+            "ipa": "/tʃɪəz/",
+            "partOfSpeech": "thán từ",
+            "partOfSpeechEn": "interjection",
+            "meaning": "dzo (cạn ly) / cảm ơn (thân mật)",
+            "explanationVi": "Dùng để cụng ly khi uống rượu bia, hoặc dùng thân mật thay cho lời cảm ơn/tạm biệt ở Anh.",
+            "explanationEn": "Used to express good wishes before drinking, or informally to say 'thank you' or 'goodbye'.",
+            "example": "Cheers! Happy new year!",
+            "exampleMeaning": "Cạn ly nào! Chúc mừng năm mới!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=cheers"
+        },
+        {
+            "word": "excuse me",
+            "ipa": "/ɪkˈskjuːz/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "xin lỗi (làm phiền) / xin nhường đường",
+            "explanationVi": "Dùng khi muốn gây sự chú ý một cách lịch sự, nhường đường, hoặc xin lỗi ngắt lời ai đó.",
+            "explanationEn": "Used to politely ask somebody to move, or to get somebody's attention.",
+            "example": "Excuse me! Can you show me the way?",
+            "exampleMeaning": "Xin lỗi! Bạn có thể chỉ đường cho tôi được không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=excuse+me"
+        },
+        {
+            "word": "sorry",
+            "ipa": "/ˈsɒri/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "xin lỗi",
+            "explanationVi": "Dùng để xin lỗi khi làm sai, làm tổn thương ai hoặc cảm thấy tiếc vì điều gì.",
+            "explanationEn": "Feeling sad and sympathetic; apologizing for something.",
+            "example": "I'm sorry I'm late.",
+            "exampleMeaning": "Mình xin lỗi mình đến muộn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=sorry"
+        },
+        {
+            "word": "bless you",
+            "ipa": "/bles ju/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "chúc may mắn / chúc sức khỏe",
+            "explanationVi": "Thường nói với một người vừa hắt xì hơi.",
+            "explanationEn": "Said to somebody who has just sneezed.",
+            "example": "Atishoo! - Bless you!",
+            "exampleMeaning": "Há-chì! - Chúc sức khỏe nhé!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bless+you"
+        },
+        {
+            "word": "happy birthday",
+            "ipa": "/ˈhæpi ˈbɜːθdeɪ/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "chúc mừng sinh nhật",
+            "explanationVi": "Lời chúc nhân dịp sinh nhật kỷ niệm tuổi mới.",
+            "explanationEn": "Used to wish somebody a happy birthday.",
+            "example": "Happy birthday to you!",
+            "exampleMeaning": "Chúc mừng sinh nhật bạn!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=happy+birthday"
+        },
+        {
+            "word": "merry christmas",
+            "ipa": "/ˈmeri ˈkrɪsməs/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "chúc mừng Giáng sinh",
+            "explanationVi": "Lời chúc vui vẻ, bình an trong dịp lễ Giáng sinh (hoặc Happy Christmas).",
+            "explanationEn": "Used to wish somebody a happy Christmas.",
+            "example": "Merry Christmas everyone!",
+            "exampleMeaning": "Chúc mừng giáng sinh mọi người!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=merry+christmas"
+        },
+        {
+            "word": "happy new year",
+            "ipa": "/ˈhæpi njuː jɪər/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "chúc mừng năm mới",
+            "explanationVi": "Lời chúc nhân dịp đầu năm mới đến.",
+            "explanationEn": "Used to wish somebody a happy new year.",
+            "example": "Happy new year!",
+            "exampleMeaning": "Chúc mừng năm mới!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=happy+new+year"
+        },
+        {
+            "word": "good luck",
+            "ipa": "/ɡʊd lʌk/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "chúc may mắn",
+            "explanationVi": "Lời chúc ai đó thành công trước khi họ làm một việc quan trọng hay khó khăn (đi thi, phỏng vấn).",
+            "explanationEn": "Used to wish somebody success with something difficult such as an exam.",
+            "example": "Good luck with your exam!",
+            "exampleMeaning": "Chúc bạn thi tốt nhé!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=good+luck"
+        },
+        {
+            "word": "congratulations",
+            "ipa": "/kənˌɡrætʃuˈleɪʃnz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "xin chúc mừng",
+            "explanationVi": "Dùng để khen ngợi/chúc mừng khi ai đó đạt được thành tựu đặc biệt (thi đỗ, kết hôn, có con).",
+            "explanationEn": "Used to tell somebody that you are happy about their success or good luck.",
+            "example": "Congratulations on passing your test!",
+            "exampleMeaning": "Xin chúc mừng bạn đã đỗ kì thi!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=congratulations"
+        },
+        {
+            "word": "well done",
+            "ipa": "/wel dʌn/",
+            "partOfSpeech": "thán từ",
+            "partOfSpeechEn": "interjection",
+            "meaning": "làm tốt lắm / giỏi lắm",
+            "explanationVi": "Lời khen ngợi khi ai đó vừa làm việc gì thành công, xuất sắc.",
+            "explanationEn": "Used to praise somebody for doing something well.",
+            "example": "You passed the exam. Well done!",
+            "exampleMeaning": "Bạn qua kì thi rồi. Làm tốt lắm!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=well+done"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "It is 9:00 in the morning. What do you say to your teacher?",
+            "options": [
+                "Good afternoon",
+                "Good morning",
+                "Good evening",
+                "Good night"
+            ],
+            "answer": "Good morning"
+        },
+        {
+            "id": 2,
+            "question": "\"Hello, how are you?\" - \"___\"",
+            "options": [
+                "Fine, thanks.",
+                "Excuse me.",
+                "Cheers.",
+                "Bless you."
+            ],
+            "answer": "Fine, thanks."
+        },
+        {
+            "id": 3,
+            "question": "Complete the dialogue.\nA: Here is your book.\nB: ___",
+            "options": [
+                "Excuse me.",
+                "Hello.",
+                "Thank you.",
+                "Good luck."
+            ],
+            "answer": "Thank you."
+        },
+        {
+            "id": 4,
+            "question": "You step on someone's foot by accident. What do you say?",
+            "options": [
+                "Sorry!",
+                "Excuse me!",
+                "Cheers!",
+                "Please!"
+            ],
+            "answer": "Sorry!"
+        },
+        {
+            "id": 5,
+            "question": "You want to ask a stranger for directions on the street. What do you say first?",
+            "options": [
+                "Wait!",
+                "Sorry!",
+                "Excuse me!",
+                "Bless you!"
+            ],
+            "answer": "Excuse me!"
+        },
+        {
+            "id": 6,
+            "question": "It is 14:30 (2:30 PM). What is the appropriate greeting?",
+            "options": [
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Good night"
+            ],
+            "answer": "Good afternoon"
+        },
+        {
+            "id": 7,
+            "question": "A friend is taking a very difficult exam today. What do you say to them?",
+            "options": [
+                "Congratulations!",
+                "Well done!",
+                "Happy Birthday!",
+                "Good luck!"
+            ],
+            "answer": "Good luck!"
+        },
+        {
+            "id": 8,
+            "question": "It's December 25th. What do you say to your family and friends?",
+            "options": [
+                "Happy New Year!",
+                "Merry Christmas!",
+                "Happy Birthday!",
+                "Good luck!"
+            ],
+            "answer": "Merry Christmas!"
+        },
+        {
+            "id": 9,
+            "question": "Your friend just told you that they passed their driving test!",
+            "options": [
+                "Good luck!",
+                "Excuse me.",
+                "Congratulations!",
+                "Happy Birthday!"
+            ],
+            "answer": "Congratulations!"
+        },
+        {
+            "id": 10,
+            "question": "Someone sneezes loudly next to you. \"Atishoo!\" What do you say?",
+            "options": [
+                "Very good!",
+                "Bless you!",
+                "Cheers!",
+                "Thank you!"
+            ],
+            "answer": "Bless you!"
+        },
+        {
+            "id": 11,
+            "question": "You are leaving a party late at night to go home to sleep. What do you say to the host?",
+            "options": [
+                "Good evening!",
+                "Goodnight!",
+                "Hello!",
+                "Excuse me!"
+            ],
+            "answer": "Goodnight!"
+        },
+        {
+            "id": 12,
+            "question": "You are asking the waiter for a glass of water. \"Can I have some water, ___?\"",
+            "options": [
+                "sorry",
+                "please",
+                "cheers",
+                "thanks"
+            ],
+            "answer": "please"
+        },
+        {
+            "id": 13,
+            "question": "\"___\" is an informal way to say \"Thank you\" or used when drinking with friends.",
+            "options": [
+                "Please",
+                "Bless you",
+                "Cheers",
+                "Excuse me"
+            ],
+            "answer": "Cheers"
+        },
+        {
+            "id": 14,
+            "question": "Someone is standing in front of a door you need to walk through. What do you say?",
+            "options": [
+                "Excuse me!",
+                "Sorry!",
+                "Thank you!",
+                "Bless you!"
+            ],
+            "answer": "Excuse me!"
+        },
+        {
+            "id": 15,
+            "question": "It is someone's birthday. What is the correct thing to say?",
+            "options": [
+                "Congratulations!",
+                "Good luck!",
+                "Happy Birthday!",
+                "Well done!"
+            ],
+            "answer": "Happy Birthday!"
+        },
+        {
+            "id": 16,
+            "question": "It is 20:00 (8:00 PM) and you arrive at a restaurant to meet a friend. What do you say?",
+            "options": [
+                "Goodnight!",
+                "Good afternoon!",
+                "Good evening!",
+                "Sleep well!"
+            ],
+            "answer": "Good evening!"
+        },
+        {
+            "id": 17,
+            "question": "Your friend just had a new baby!",
+            "options": [
+                "Bless you!",
+                "Good luck!",
+                "Happy Birthday!",
+                "Congratulations!"
+            ],
+            "answer": "Congratulations!"
+        },
+        {
+            "id": 18,
+            "question": "You are going to bed. What do you say to your family?",
+            "options": [
+                "Good evening.",
+                "Sleep well.",
+                "See you soon.",
+                "Excuse me."
+            ],
+            "answer": "Sleep well."
+        },
+        {
+            "id": 19,
+            "question": "Which phrase means \"everything is alright, not perfectly fine but okay\" in response to \"How are you?\"?",
+            "options": [
+                "Not too bad.",
+                "Fine, thanks.",
+                "Sleep well.",
+                "Good luck."
+            ],
+            "answer": "Not too bad."
+        },
+        {
+            "id": 20,
+            "question": "A friend gets an A+ on their final paper. What do you say?",
+            "options": [
+                "Good luck!",
+                "Happy Birthday!",
+                "Well done!",
+                "Merry Christmas!"
+            ],
+            "answer": "Well done!"
+        },
+        {
+            "id": 21,
+            "question": "You and your friends have drinks in your hands to celebrate. What do you say before drinking?",
+            "options": [
+                "Cheers!",
+                "Please!",
+                "Bless you!",
+                "Sorry!"
+            ],
+            "answer": "Cheers!"
+        },
+        {
+            "id": 22,
+            "question": "It is January 1st. What do you say?",
+            "options": [
+                "Happy Birthday!",
+                "Happy New Year!",
+                "Merry Christmas!",
+                "Congratulations!"
+            ],
+            "answer": "Happy New Year!"
+        },
+        {
+            "id": 23,
+            "question": "Which one is an informal way to say goodbye, meaning you hope to see them again shortly?",
+            "options": [
+                "See you soon.",
+                "Good luck.",
+                "Sleep well.",
+                "Bless you."
+            ],
+            "answer": "See you soon."
+        },
+        {
+            "id": 24,
+            "question": "True or False: You should say \"Goodnight\" when you arrive at a party at 10 PM.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False"
+        },
+        {
+            "id": 25,
+            "question": "You are late for work. What do you say to your boss?",
+            "options": [
+                "Excuse me I am late.",
+                "Sorry I am late.",
+                "Bless you I am late.",
+                "Cheers I am late."
+            ],
+            "answer": "Sorry I am late."
+        },
+        {
+            "id": 26,
+            "question": "Which phrase is generally considered more informal?",
+            "options": [
+                "Hello",
+                "Hi",
+                "Good morning",
+                "Good evening"
+            ],
+            "answer": "Hi"
+        },
+        {
+            "id": 27,
+            "question": "You have a job interview in an hour. Your friend says to you: \"___\"",
+            "options": [
+                "Congratulations!",
+                "Well done!",
+                "Good luck!",
+                "Excuse me!"
+            ],
+            "answer": "Good luck!"
+        },
+        {
+            "id": 28,
+            "question": "\"How are you?\" - \"I'm fine, thanks. ___\"",
+            "options": [
+                "And you?",
+                "Bless you.",
+                "Please.",
+                "Good luck."
+            ],
+            "answer": "And you?"
+        },
+        {
+            "id": 29,
+            "question": "You want to pass a person in a narrow supermarket aisle. You say \"___\" so they move a bit.",
+            "options": [
+                "Excuse me",
+                "Sorry",
+                "Bless you",
+                "Thanks"
+            ],
+            "answer": "Excuse me"
+        },
+        {
+            "id": 30,
+            "question": "Your brother successfully finished a difficult puzzle.",
+            "options": [
+                "Happy Birthday!",
+                "Well done!",
+                "Good luck!",
+                "Excuse me!"
+            ],
+            "answer": "Well done!"
+        }
+    ]
+}

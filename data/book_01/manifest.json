@@ -43,5 +43,50 @@
         "topic": "People",
         "icon": "🧑",
         "color": "from-amber-500 to-orange-400"
+    },
+    {
+        "file": "unit_006_vocabulary.json",
+        "unit": 6,
+        "title": "Health and Illness",
+        "titleVi": "Sức khỏe và bệnh tật",
+        "topic": "Health",
+        "icon": "🏥",
+        "color": "from-red-500 to-rose-400"
+    },
+    {
+        "file": "unit_007_vocabulary.json",
+        "unit": 7,
+        "title": "Feelings",
+        "titleVi": "Cảm xúc",
+        "topic": "People",
+        "icon": "😊",
+        "color": "from-yellow-500 to-amber-400"
+    },
+    {
+        "file": "unit_008_vocabulary.json",
+        "unit": 8,
+        "title": "Conversations 1: Greetings and Wishes",
+        "titleVi": "Hội thoại 1: Lời chào và lời chúc",
+        "topic": "Communication",
+        "icon": "👋",
+        "color": "from-sky-500 to-cyan-400"
+    },
+    {
+        "file": "unit_009_vocabulary.json",
+        "unit": 9,
+        "title": "Conversations 2: Useful Words and Expressions",
+        "titleVi": "Hội thoại 2: Từ và cụm từ hữu ích",
+        "topic": "Communication",
+        "icon": "💬",
+        "color": "from-indigo-500 to-blue-400"
+    },
+    {
+        "file": "unit_010_vocabulary.json",
+        "unit": 10,
+        "title": "Food and Drink",
+        "titleVi": "Thức ăn và đồ uống",
+        "topic": "Lifestyle",
+        "icon": "🍽️",
+        "color": "from-lime-500 to-green-400"
     }
 ]

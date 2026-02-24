@@ -1,0 +1,614 @@
+{
+    "unit": 6,
+    "title": "Health and illness",
+    "vocabulary": [
+        {
+            "word": "very well",
+            "ipa": "/ˌveri ˈwel/",
+            "partOfSpeech": "cụm trạng từ",
+            "partOfSpeechEn": "adverb phrase",
+            "meaning": "rất khỏe",
+            "explanationVi": "Ở trong tình trạng sức khỏe rất tốt.",
+            "explanationEn": "In very good health.",
+            "example": "I'm very well, thanks.",
+            "exampleMeaning": "Tôi rất khỏe, cảm ơn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=very+well"
+        },
+        {
+            "word": "fine",
+            "ipa": "/faɪn/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "khỏe, ổn",
+            "explanationVi": "Ở trong trạng thái sức khỏe tốt hoặc chấp nhận được.",
+            "explanationEn": "In good health or an acceptable condition.",
+            "example": "I'm fine, thanks.",
+            "exampleMeaning": "Tôi khỏe, cảm ơn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fine"
+        },
+        {
+            "word": "feel ill",
+            "ipa": "/fiːl ɪl/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "cảm thấy ốm",
+            "explanationVi": "Cảm giác không khỏe trong người, bị bệnh.",
+            "explanationEn": "Feeling sick or not in good health.",
+            "example": "I feel ill. Can you get a doctor, please?",
+            "exampleMeaning": "Tôi cảm thấy ốm. Bạn có thể gọi bác sĩ giúp được không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=feel+ill"
+        },
+        {
+            "word": "doctor",
+            "ipa": "/ˈdɒktər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bác sĩ",
+            "explanationVi": "Người được đào tạo chuyên môn để điều trị cho người bệnh.",
+            "explanationEn": "A person who has been trained in medical science, whose job is to treat people who are ill or injured.",
+            "example": "Can you get a doctor, please?",
+            "exampleMeaning": "Bạn có thể gọi bác sĩ được không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=doctor"
+        },
+        {
+            "word": "sick",
+            "ipa": "/sɪk/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "ốm, buồn nôn",
+            "explanationVi": "Có vấn đề về sức khỏe hoặc cảm giác muốn nôn mửa.",
+            "explanationEn": "Physically or mentally ill; wanting to vomit.",
+            "example": "I think I'm going to be sick!",
+            "exampleMeaning": "Tôi nghĩ tôi sắp nôn rồi!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=sick"
+        },
+        {
+            "word": "aspirin",
+            "ipa": "/ˈæsprɪn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thuốc giảm đau (aspirin)",
+            "explanationVi": "Một loại thuốc dùng để giảm đau và hạ sốt.",
+            "explanationEn": "A medicine that reduces pain and fever.",
+            "example": "Have you got an aspirin?",
+            "exampleMeaning": "Bạn có viên aspirin nào không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=aspirin"
+        },
+        {
+            "word": "headache",
+            "ipa": "/ˈhedeɪk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đau đầu",
+            "explanationVi": "Cảm giác đau nhức ở vùng đầu.",
+            "explanationEn": "A continuous pain in the head.",
+            "example": "I've got a headache.",
+            "exampleMeaning": "Tôi bị đau đầu.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=headache"
+        },
+        {
+            "word": "toothache",
+            "ipa": "/ˈtuːθeɪk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đau răng",
+            "explanationVi": "Cảm giác đau nhức ở răng hoặc xung quanh răng.",
+            "explanationEn": "A pain in one of your teeth.",
+            "example": "I've got toothache.",
+            "exampleMeaning": "Tôi bị đau răng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=toothache"
+        },
+        {
+            "word": "dentist",
+            "ipa": "/ˈdentɪst/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nha sĩ",
+            "explanationVi": "Người chuyên điều trị các bệnh về răng miệng.",
+            "explanationEn": "A person whose job is to take care of people's teeth.",
+            "example": "I need to go to the dentist.",
+            "exampleMeaning": "Tôi cần đến nha sĩ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=dentist"
+        },
+        {
+            "word": "cold",
+            "ipa": "/kəʊld/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cảm lạnh",
+            "explanationVi": "Một căn bệnh thông thường gây sổ mũi, ho và viêm họng.",
+            "explanationEn": "A common illness that affects the nose, throat, and eyes and that often causes coughing, sneezing, etc.",
+            "example": "I've got a cold.",
+            "exampleMeaning": "Tôi bị cảm lạnh.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=cold"
+        },
+        {
+            "word": "hay fever",
+            "ipa": "/ˈheɪˌfiːvər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "sốt mùa hè (dị ứng phấn hoa)",
+            "explanationVi": "Tình trạng dị ứng với phấn hoa gây hắt hơi và cay mắt.",
+            "explanationEn": "An illness like a cold, caused by pollen.",
+            "example": "I get hay fever every summer.",
+            "exampleMeaning": "Tôi bị dị ứng phấn hoa vào mỗi mùa hè.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hay+fever"
+        },
+        {
+            "word": "sneeze",
+            "ipa": "/sniːz/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "hắt hơi",
+            "explanationVi": "Đẩy không khí ra khỏi mũi và miệng một cách đột ngột.",
+            "explanationEn": "To make a sudden involuntary expulsion of air from the nose and mouth due to irritation of one's nostrils.",
+            "example": "I sneeze all day.",
+            "exampleMeaning": "Tôi hắt hơi cả ngày.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=sneeze"
+        },
+        {
+            "word": "asthma",
+            "ipa": "/ˈæsmə/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "hen suyễn",
+            "explanationVi": "Bệnh về đường hô hấp gây khó thở.",
+            "explanationEn": "A physical condition that makes it difficult for someone to breathe.",
+            "example": "My little brother has asthma.",
+            "exampleMeaning": "Em trai tôi bị hen suyễn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=asthma"
+        },
+        {
+            "word": "mosquito",
+            "ipa": "/məˈskiːtəʊ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "con muỗi",
+            "explanationVi": "Loại côn trùng nhỏ hút máu người và động vật.",
+            "explanationEn": "A small flying insect that bites people and animals, and sucks their blood.",
+            "example": "Mosquitoes can give people malaria.",
+            "exampleMeaning": "Muỗi có thể lây bệnh sốt rét cho người.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=mosquito"
+        },
+        {
+            "word": "malaria",
+            "ipa": "/məˈleəriə/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bệnh sốt rét",
+            "explanationVi": "Một bệnh lây nhiễm truyền do muỗi đốt gây sốt cao.",
+            "explanationEn": "A disease that causes fever and shivering, caused by the bite of some types of mosquito.",
+            "example": "In some countries, mosquitoes can give people malaria.",
+            "exampleMeaning": "Ở một số quốc gia, muỗi có thể lây bệnh sốt rét cho con người.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=malaria"
+        },
+        {
+            "word": "cholera",
+            "ipa": "/ˈkɒlərə/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bệnh tả",
+            "explanationVi": "Bệnh đường ruột lây qua thức ăn hoặc nước bẩn.",
+            "explanationEn": "An infectious spread mostly by contaminated water.",
+            "example": "Many children had cholera.",
+            "exampleMeaning": "Rất nhiều trẻ em đã mắc bệnh tả.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=cholera"
+        },
+        {
+            "word": "cancer",
+            "ipa": "/ˈkænsər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bệnh ung thư",
+            "explanationVi": "Một bệnh nghiêm trọng do sự phân chia tế bào bất thường.",
+            "explanationEn": "A serious disease that is caused when cells in the body grow in a way that is uncontrolled.",
+            "example": "Every year cancer kills many people.",
+            "exampleMeaning": "Hàng năm bệnh ung thư cướp đi sinh mạng của rất nhiều người.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=cancer"
+        },
+        {
+            "word": "hospital",
+            "ipa": "/ˈhɒspɪtl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bệnh viện",
+            "explanationVi": "Nơi khám và điều trị bệnh nhân.",
+            "explanationEn": "A place where people who are ill or injured are treated and taken care of by doctors and nurses.",
+            "example": "My father went to hospital.",
+            "exampleMeaning": "Bố tôi đã phải vào bệnh viện.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hospital"
+        },
+        {
+            "word": "heart attack",
+            "ipa": "/ˈhɑːt əˌtæk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cơn đau tim",
+            "explanationVi": "Tình trạng máu ngừng chảy đến tim đột ngột gây đau đớn dữ dội.",
+            "explanationEn": "A serious medical condition in which the heart does not get enough blood.",
+            "example": "He had a heart attack.",
+            "exampleMeaning": "Ông ấy bị một cơn đau tim.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=heart+attack"
+        },
+        {
+            "word": "healthy diet",
+            "ipa": "/ˌhelθi ˈdaɪət/",
+            "partOfSpeech": "cụm danh từ",
+            "partOfSpeechEn": "noun phrase",
+            "meaning": "chế độ ăn uống lành mạnh",
+            "explanationVi": "Thói quen ăn các thực phẩm tốt cho sức khỏe.",
+            "explanationEn": "The habit of eating food that is good for you.",
+            "example": "Do you have a healthy diet?",
+            "exampleMeaning": "Bạn có chế độ ăn uống lành mạnh không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=healthy+diet"
+        },
+        {
+            "word": "exercise",
+            "ipa": "/ˈeksəsaɪz/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "tập thể dục",
+            "explanationVi": "Hoạt động thể chất để giữ cho cơ thể khỏe mạnh.",
+            "explanationEn": "To do physical activities to make your body strong and healthy.",
+            "example": "Do you exercise?",
+            "exampleMeaning": "Bạn có tập thể dục không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=exercise"
+        },
+        {
+            "word": "feel stressed",
+            "ipa": "/fiːl strest/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "cảm thấy căng thẳng",
+            "explanationVi": "Trạng thái lo lắng và mệt mỏi về tinh thần.",
+            "explanationEn": "Feeling worried and nervous.",
+            "example": "I feel stressed!",
+            "exampleMeaning": "Tôi cảm thấy căng thẳng!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=feel+stressed"
+        },
+        {
+            "word": "relax",
+            "ipa": "/rɪˈlæks/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "thư giãn",
+            "explanationVi": "Nghỉ ngơi và làm cho tâm trí thoải mái.",
+            "explanationEn": "To rest and become calm and comfortable.",
+            "example": "You need to relax more.",
+            "exampleMeaning": "Bạn cần phải thư giãn nhiều hơn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=relax"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "I don't feel very _____. I think I need to rest.",
+            "options": [
+                "well",
+                "good",
+                "fine",
+                "healthy"
+            ],
+            "answer": "well"
+        },
+        {
+            "id": 2,
+            "question": "The fish wasn't fresh, and now I feel _____. I want to vomit.",
+            "options": [
+                "hurt",
+                "sick",
+                "pale",
+                "tired"
+            ],
+            "answer": "sick"
+        },
+        {
+            "id": 3,
+            "question": "I have a terrible _____. Do you have an aspirin?",
+            "options": [
+                "toothache",
+                "fever",
+                "headache",
+                "cough"
+            ],
+            "answer": "headache"
+        },
+        {
+            "id": 4,
+            "question": "She needs to go to the _____ because her teeth hurt.",
+            "options": [
+                "doctor",
+                "hospital",
+                "dentist",
+                "nurse"
+            ],
+            "answer": "dentist"
+        },
+        {
+            "id": 5,
+            "question": "You should go to bed with a hot drink when you have a _____.",
+            "options": [
+                "cold",
+                "asthma",
+                "cancer",
+                "heart attack"
+            ],
+            "answer": "cold"
+        },
+        {
+            "id": 6,
+            "question": "Spring is lovely, but I get _____ and sneeze all day.",
+            "options": [
+                "malaria",
+                "hay fever",
+                "cholera",
+                "asthma"
+            ],
+            "answer": "hay fever"
+        },
+        {
+            "id": 7,
+            "question": "He always carries his inhaler because he has _____.",
+            "options": [
+                "cancer",
+                "a headache",
+                "asthma",
+                "a cold"
+            ],
+            "answer": "asthma"
+        },
+        {
+            "id": 8,
+            "question": "In some tropical areas, mosquitoes can transmit _____.",
+            "options": [
+                "toothache",
+                "cholera",
+                "malaria",
+                "asthma"
+            ],
+            "answer": "malaria"
+        },
+        {
+            "id": 9,
+            "question": "Drinking contaminated water can give people _____.",
+            "options": [
+                "malaria",
+                "cancer",
+                "cholera",
+                "a cold"
+            ],
+            "answer": "cholera"
+        },
+        {
+            "id": 10,
+            "question": "Smoking is one of the main causes of lung _____.",
+            "options": [
+                "fever",
+                "cancer",
+                "headache",
+                "hay fever"
+            ],
+            "answer": "cancer"
+        },
+        {
+            "id": 11,
+            "question": "He was rushed to the _____ when he fell down.",
+            "options": [
+                "hospital",
+                "dentist",
+                "office",
+                "hotel"
+            ],
+            "answer": "hospital"
+        },
+        {
+            "id": 12,
+            "question": "It's incorrect to say 'he got a heart attack'. Instead, you should say 'he _____ a heart attack'.",
+            "options": [
+                "made",
+                "caught",
+                "took",
+                "had"
+            ],
+            "answer": "had"
+        },
+        {
+            "id": 13,
+            "question": "Eating plenty of fruits and vegetables is part of a healthy _____.",
+            "options": [
+                "meal",
+                "diet",
+                "food",
+                "menu"
+            ],
+            "answer": "diet"
+        },
+        {
+            "id": 14,
+            "question": "To stay fit, you should _____ regularly, like jogging or swimming.",
+            "options": [
+                "exercise",
+                "sleep",
+                "stress",
+                "relax"
+            ],
+            "answer": "exercise"
+        },
+        {
+            "id": 15,
+            "question": "I feel so _____ about the upcoming exams. I can't sleep.",
+            "options": [
+                "relaxed",
+                "stressed",
+                "well",
+                "fine"
+            ],
+            "answer": "stressed"
+        },
+        {
+            "id": 16,
+            "question": "Try to _____ more by listening to soothing music.",
+            "options": [
+                "stress",
+                "exercise",
+                "relax",
+                "sneeze"
+            ],
+            "answer": "relax"
+        },
+        {
+            "id": 17,
+            "question": "Can you get a _____, please? My father is having chest pains.",
+            "options": [
+                "dentist",
+                "teacher",
+                "mosquito",
+                "doctor"
+            ],
+            "answer": "doctor"
+        },
+        {
+            "id": 18,
+            "question": "He took an _____ to relieve his headache.",
+            "options": [
+                "aspirin",
+                "exercise",
+                "asthma",
+                "injection"
+            ],
+            "answer": "aspirin"
+        },
+        {
+            "id": 19,
+            "question": "When the _____ bit me, it left an itchy red spot.",
+            "options": [
+                "doctor",
+                "dentist",
+                "mosquito",
+                "animal"
+            ],
+            "answer": "mosquito"
+        },
+        {
+            "id": 20,
+            "question": "Jogging and cycling are really good _____ you.",
+            "options": [
+                "to",
+                "for",
+                "with",
+                "at"
+            ],
+            "answer": "for"
+        },
+        {
+            "id": 21,
+            "question": "My mother _____ ill since yesterday. ",
+            "options": [
+                "feel",
+                "feels",
+                "has felt",
+                "felt"
+            ],
+            "answer": "has felt"
+        },
+        {
+            "id": 22,
+            "question": "A: 'Are you OK?' - B: 'No, I've got a _____.'",
+            "options": [
+                "fine",
+                "headache",
+                "healthy",
+                "well"
+            ],
+            "answer": "headache"
+        },
+        {
+            "id": 23,
+            "question": "Which word means 'a person whose job is to take care of people's teeth'?",
+            "options": [
+                "Doctor",
+                "Dentist",
+                "Patient",
+                "Nurse"
+            ],
+            "answer": "Dentist"
+        },
+        {
+            "id": 24,
+            "question": "A: 'How are you today?' - B: '_____, thanks.'",
+            "options": [
+                "I am sick",
+                "Very well",
+                "I go to hospital",
+                "I have a cold"
+            ],
+            "answer": "Very well"
+        },
+        {
+            "id": 25,
+            "question": "I couldn't stop _____ because of the dust in the room.",
+            "options": [
+                "relaxing",
+                "exercising",
+                "sneezing",
+                "having"
+            ],
+            "answer": "sneezing"
+        },
+        {
+            "id": 26,
+            "question": "They are trying to find a cure for _____, which kills millions yearly.",
+            "options": [
+                "cold",
+                "cancer",
+                "headache",
+                "toothache"
+            ],
+            "answer": "cancer"
+        },
+        {
+            "id": 27,
+            "question": "After eating that weird seafood, I thought I was going to be _____.",
+            "options": [
+                "sick",
+                "fine",
+                "well",
+                "relax"
+            ],
+            "answer": "sick"
+        },
+        {
+            "id": 28,
+            "question": "People with _____ often find it difficult to breathe.",
+            "options": [
+                "asthma",
+                "malaria",
+                "cholera",
+                "a headache"
+            ],
+            "answer": "asthma"
+        },
+        {
+            "id": 29,
+            "question": "Remember that you should not panic _____ your work.",
+            "options": [
+                "with",
+                "over",
+                "about",
+                "on"
+            ],
+            "answer": "about"
+        },
+        {
+            "id": 30,
+            "question": "A healthy diet and regular exercise are important for your _____.",
+            "options": [
+                "sick",
+                "illness",
+                "stress",
+                "health"
+            ],
+            "answer": "health"
+        }
+    ]
+}
