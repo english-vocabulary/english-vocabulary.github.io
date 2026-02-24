@@ -1,0 +1,602 @@
+{
+    "unit": 1,
+    "title": "Family and relationships",
+    "vocabulary": [
+        {
+            "word": "relative",
+            "ipa": "/ˈrelətɪv/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "họ hàng",
+            "explanationVi": "Người có cùng huyết thống hoặc quan hệ hôn nhân.",
+            "explanationEn": "A member of your family.",
+            "example": "He is a relative of mine.",
+            "exampleMeaning": "Anh ấy là một người họ hàng của tôi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=relative"
+        },
+        {
+            "word": "relation",
+            "ipa": "/rɪˈleɪʃn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "người bà con",
+            "explanationVi": "Người có quan hệ gia đình.",
+            "explanationEn": "A member of your family.",
+            "example": "She is a close relation.",
+            "exampleMeaning": "Cô ấy là một người bà con gần.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=relation"
+        },
+        {
+            "word": "husband",
+            "ipa": "/ˈhʌzbənd/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "chồng",
+            "explanationVi": "Người đàn ông mà một người phụ nữ đã kết hôn.",
+            "explanationEn": "The man that someone is married to.",
+            "example": "Her husband is a doctor.",
+            "exampleMeaning": "Chồng cô ấy là một bác sĩ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=husband"
+        },
+        {
+            "word": "wife",
+            "ipa": "/waɪf/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "vợ",
+            "explanationVi": "Người phụ nữ mà một người đàn ông đã kết hôn.",
+            "explanationEn": "The woman that someone is married to.",
+            "example": "His wife is a teacher.",
+            "exampleMeaning": "Vợ anh ấy là một giáo viên.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=wife"
+        },
+        {
+            "word": "father",
+            "ipa": "/ˈfɑːðə(r)/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bố, cha",
+            "explanationVi": "Người cha trong gia đình.",
+            "explanationEn": "A male parent.",
+            "example": "My father works hard.",
+            "exampleMeaning": "Bố tôi làm việc chăm chỉ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=father"
+        },
+        {
+            "word": "mother",
+            "ipa": "/ˈmʌðə(r)/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "mẹ",
+            "explanationVi": "Người mẹ trong gia đình.",
+            "explanationEn": "A female parent.",
+            "example": "My mother is very kind.",
+            "exampleMeaning": "Mẹ tôi rất tốt bụng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=mother"
+        },
+        {
+            "word": "parent",
+            "ipa": "/ˈpeərənt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cha, mẹ",
+            "explanationVi": "Cha hoặc mẹ của một người.",
+            "explanationEn": "A person's father or mother.",
+            "example": "They are good parents.",
+            "exampleMeaning": "Họ là những cha mẹ tốt.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=parent"
+        },
+        {
+            "word": "son",
+            "ipa": "/sʌn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "con trai",
+            "explanationVi": "Người con giới tính nam.",
+            "explanationEn": "A person's male child.",
+            "example": "Their son is five years old.",
+            "exampleMeaning": "Con trai họ năm tuổi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=son"
+        },
+        {
+            "word": "daughter",
+            "ipa": "/ˈdɔːtə(r)/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "con gái",
+            "explanationVi": "Người con giới tính nữ.",
+            "explanationEn": "A person's female child.",
+            "example": "They have one daughter.",
+            "exampleMeaning": "Họ có một người con gái.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=daughter"
+        },
+        {
+            "word": "brother",
+            "ipa": "/ˈbrʌðə(r)/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "anh, em trai",
+            "explanationVi": "Người anh hoặc em trai.",
+            "explanationEn": "A boy or man who has the same parents as another person.",
+            "example": "I have a brother.",
+            "exampleMeaning": "Tôi có một người anh/em trai.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=brother"
+        },
+        {
+            "word": "sister",
+            "ipa": "/ˈsɪstə(r)/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "chị, em gái",
+            "explanationVi": "Người chị hoặc em gái.",
+            "explanationEn": "A girl or woman who has the same parents as another person.",
+            "example": "She is my younger sister.",
+            "exampleMeaning": "Cô ấy là em gái tôi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=sister"
+        },
+        {
+            "word": "grandfather",
+            "ipa": "/ˈɡrænfɑːðə(r)/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ông",
+            "explanationVi": "Cha của cha hoặc mẹ.",
+            "explanationEn": "The father of someone's father or mother.",
+            "example": "My grandfather is 80 years old.",
+            "exampleMeaning": "Ông tôi 80 tuổi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=grandfather"
+        },
+        {
+            "word": "grandmother",
+            "ipa": "/ˈɡrænmʌðə(r)/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bà",
+            "explanationVi": "Mẹ của cha hoặc mẹ.",
+            "explanationEn": "The mother of someone's father or mother.",
+            "example": "My grandmother tells great stories.",
+            "exampleMeaning": "Bà tôi kể những câu chuyện rất hay.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=grandmother"
+        },
+        {
+            "word": "grandparent",
+            "ipa": "/ˈɡrænpeərənt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ông, bà",
+            "explanationVi": "Ông hoặc bà của một người.",
+            "explanationEn": "The father or mother of a person's father or mother.",
+            "example": "We visit our grandparents on weekends.",
+            "exampleMeaning": "Chúng tôi thăm ông bà vào cuối tuần.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=grandparent"
+        },
+        {
+            "word": "grandson",
+            "ipa": "/ˈɡrænsʌn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cháu trai (của ông bà)",
+            "explanationVi": "Con trai của con trai hoặc con gái.",
+            "explanationEn": "The son of someone's son or daughter.",
+            "example": "They gave their grandson a toy.",
+            "exampleMeaning": "Họ tặng cho cháu trai một món đồ chơi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=grandson"
+        },
+        {
+            "word": "granddaughter",
+            "ipa": "/ˈɡrændɔːtə(r)/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cháu gái (của ông bà)",
+            "explanationVi": "Con gái của con trai hoặc con gái.",
+            "explanationEn": "The daughter of someone's son or daughter.",
+            "example": "She is their only granddaughter.",
+            "exampleMeaning": "Cô ấy là đứa cháu gái duy nhất của họ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=granddaughter"
+        },
+        {
+            "word": "uncle",
+            "ipa": "/ˈʌŋkl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "chú, bác, cậu, dượng",
+            "explanationVi": "Anh hoặc em trai của cha/mẹ, hoặc chồng của cô, dì.",
+            "explanationEn": "The brother of someone's mother or father, or the husband of someone's aunt or uncle.",
+            "example": "My uncle lives in Sydney.",
+            "exampleMeaning": "Chú tôi sống ở Sydney.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=uncle"
+        },
+        {
+            "word": "aunt",
+            "ipa": "/ɑːnt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cô, dì, bác gái, thím, mợ",
+            "explanationVi": "Chị hoặc em gái của cha/mẹ, hoặc vợ của chú, bác.",
+            "explanationEn": "The sister of someone's father or mother, or the wife of someone's uncle or aunt.",
+            "example": "My aunt bought me a gift.",
+            "exampleMeaning": "Dì tôi đã mua cho tôi một món quà.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=aunt"
+        },
+        {
+            "word": "nephew",
+            "ipa": "/ˈnefjuː/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cháu trai (của cô/chú/bác)",
+            "explanationVi": "Con trai của anh, chị hoặc em.",
+            "explanationEn": "The son of a person's brother or sister.",
+            "example": "His nephew is playing football.",
+            "exampleMeaning": "Cháu trai anh ấy đang chơi bóng đá.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=nephew"
+        },
+        {
+            "word": "niece",
+            "ipa": "/niːs/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cháu gái (của cô/chú/bác)",
+            "explanationVi": "Con gái của anh, chị hoặc em.",
+            "explanationEn": "The daughter of a person's brother or sister.",
+            "example": "My niece is very cute.",
+            "exampleMeaning": "Cháu gái tôi rất dễ thương.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=niece"
+        },
+        {
+            "word": "cousin",
+            "ipa": "/ˈkʌzn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "anh chị em họ",
+            "explanationVi": "Con của cô, dì, chú, bác.",
+            "explanationEn": "A child of a person's aunt or uncle.",
+            "example": "We are cousins.",
+            "exampleMeaning": "Chúng tôi là anh em họ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=cousin"
+        },
+        {
+            "word": "child",
+            "ipa": "/tʃaɪld/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đứa trẻ, đứa con",
+            "explanationVi": "Một câu bé hoặc cô bé.",
+            "explanationEn": "A young human being.",
+            "example": "They have one child.",
+            "exampleMeaning": "Họ có một đứa con.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=child"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "_____ are four people in my family.",
+            "options": [
+                "They",
+                "There",
+                "Their",
+                "Those"
+            ],
+            "answer": "There"
+        },
+        {
+            "id": 2,
+            "question": "My _____ is a doctor and he works in a large hospital.",
+            "options": [
+                "mothers",
+                "a father",
+                "the father",
+                "father"
+            ],
+            "answer": "father"
+        },
+        {
+            "id": 3,
+            "question": "I have one _____ and two sisters.",
+            "options": [
+                "brother",
+                "brothers",
+                "a brother",
+                "the brothers"
+            ],
+            "answer": "brother"
+        },
+        {
+            "id": 4,
+            "question": "My father and mother are my _____.",
+            "options": [
+                "relatives",
+                "parents",
+                "grandparents",
+                "cousins"
+            ],
+            "answer": "parents"
+        },
+        {
+            "id": 5,
+            "question": "My mother's sister is my _____.",
+            "options": [
+                "uncle",
+                "niece",
+                "aunt",
+                "cousin"
+            ],
+            "answer": "aunt"
+        },
+        {
+            "id": 6,
+            "question": "My father's brother is my _____.",
+            "options": [
+                "uncle",
+                "aunt",
+                "nephew",
+                "cousin"
+            ],
+            "answer": "uncle"
+        },
+        {
+            "id": 7,
+            "question": "The son of my brother is my _____.",
+            "options": [
+                "niece",
+                "nephew",
+                "cousin",
+                "uncle"
+            ],
+            "answer": "nephew"
+        },
+        {
+            "id": 8,
+            "question": "The daughter of my sister is my _____.",
+            "options": [
+                "nephew",
+                "cousin",
+                "aunt",
+                "niece"
+            ],
+            "answer": "niece"
+        },
+        {
+            "id": 9,
+            "question": "My uncle's children are my _____.",
+            "options": [
+                "nephews",
+                "nieces",
+                "cousins",
+                "relatives"
+            ],
+            "answer": "cousins"
+        },
+        {
+            "id": 10,
+            "question": "My father's father is my _____.",
+            "options": [
+                "grandmother",
+                "grandfather",
+                "grandparent",
+                "uncle"
+            ],
+            "answer": "grandfather"
+        },
+        {
+            "id": 11,
+            "question": "My mother's mother is my _____.",
+            "options": [
+                "grandfather",
+                "grandparent",
+                "aunt",
+                "grandmother"
+            ],
+            "answer": "grandmother"
+        },
+        {
+            "id": 12,
+            "question": "A person's male child is his/her _____.",
+            "options": [
+                "daughter",
+                "nephew",
+                "brother",
+                "son"
+            ],
+            "answer": "son"
+        },
+        {
+            "id": 13,
+            "question": "A person's female child is his/her _____.",
+            "options": [
+                "son",
+                "niece",
+                "sister",
+                "daughter"
+            ],
+            "answer": "daughter"
+        },
+        {
+            "id": 14,
+            "question": "My brother is my parents' _____.",
+            "options": [
+                "daughter",
+                "nephew",
+                "child",
+                "son"
+            ],
+            "answer": "son"
+        },
+        {
+            "id": 15,
+            "question": "I get _____ well with my sister. We never argue.",
+            "options": [
+                "on",
+                "along",
+                "in",
+                "up"
+            ],
+            "answer": "along"
+        },
+        {
+            "id": 16,
+            "question": "We are a _____ family. We always help and support each other.",
+            "options": [
+                "closed",
+                "near",
+                "nearby",
+                "close"
+            ],
+            "answer": "close"
+        },
+        {
+            "id": 17,
+            "question": "Every night, my grandmother tells me great _____.",
+            "options": [
+                "story",
+                "a story",
+                "the stories",
+                "stories"
+            ],
+            "answer": "stories"
+        },
+        {
+            "id": 18,
+            "question": "We often visit our grandparents _____ weekends.",
+            "options": [
+                "in",
+                "to",
+                "from",
+                "on"
+            ],
+            "answer": "on"
+        },
+        {
+            "id": 19,
+            "question": "He is not a close family member; he is just a distant _____ of mine.",
+            "options": [
+                "relative",
+                "father",
+                "family",
+                "brother"
+            ],
+            "answer": "relative"
+        },
+        {
+            "id": 20,
+            "question": "My _____ wife is a teacher at my school.",
+            "options": [
+                "brother",
+                "brothers",
+                "brothers'",
+                "brother's"
+            ],
+            "answer": "brother's"
+        },
+        {
+            "id": 21,
+            "question": "I am 20 years old, and she is 15. She is my younger _____.",
+            "options": [
+                "brother",
+                "daughter",
+                "mother",
+                "sister"
+            ],
+            "answer": "sister"
+        },
+        {
+            "id": 22,
+            "question": "They have been married for 10 years and have three _____.",
+            "options": [
+                "childs",
+                "child",
+                "a child",
+                "children"
+            ],
+            "answer": "children"
+        },
+        {
+            "id": 23,
+            "question": "Everyone says I look _____ my father.",
+            "options": [
+                "as",
+                "same",
+                "similar",
+                "like"
+            ],
+            "answer": "like"
+        },
+        {
+            "id": 24,
+            "question": "I _____ my mother's big brown eyes.",
+            "options": [
+                "has",
+                "am having",
+                "to have",
+                "have"
+            ],
+            "answer": "have"
+        },
+        {
+            "id": 25,
+            "question": "My uncle and aunt live _____ Sydney.",
+            "options": [
+                "at",
+                "on",
+                "from",
+                "in"
+            ],
+            "answer": "in"
+        },
+        {
+            "id": 26,
+            "question": "Her husband _____ an engineer.",
+            "options": [
+                "are",
+                "am",
+                "be",
+                "is"
+            ],
+            "answer": "is"
+        },
+        {
+            "id": 27,
+            "question": "They _____ a large family with five generations living together.",
+            "options": [
+                "has",
+                "are",
+                "is",
+                "have"
+            ],
+            "answer": "have"
+        },
+        {
+            "id": 28,
+            "question": "His nephew loves sports and is playing _____ right now.",
+            "options": [
+                "the football",
+                "a football",
+                "some football",
+                "football"
+            ],
+            "answer": "football"
+        },
+        {
+            "id": 29,
+            "question": "\"Is she your _____?\" - \"Yes, she is my sister.\"",
+            "options": [
+                "parent",
+                "husband",
+                "uncle",
+                "relative"
+            ],
+            "answer": "relative"
+        },
+        {
+            "id": 30,
+            "question": "Above all, I love my _____ very much.",
+            "options": [
+                "families",
+                "familiar",
+                "familiarize",
+                "family"
+            ],
+            "answer": "family"
+        }
+    ]
+}

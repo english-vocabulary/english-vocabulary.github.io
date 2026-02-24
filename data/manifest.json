@@ -1,0 +1,30 @@
+[
+    {
+        "id": "book_01",
+        "title": "English Vocabulary In Use - Elementary",
+        "titleVi": "Từ vựng tiếng Anh - Sơ cấp",
+        "icon": "📗",
+        "color": "from-blue-500 to-blue-400"
+    },
+    {
+        "id": "book_02",
+        "title": "English Vocabulary In Use - Pre-Intermediate",
+        "titleVi": "Từ vựng tiếng Anh - Tiền trung cấp",
+        "icon": "📘",
+        "color": "from-violet-500 to-purple-400"
+    },
+    {
+        "id": "book_03",
+        "title": "English Vocabulary In Use - Intermediate",
+        "titleVi": "Từ vựng tiếng Anh - Trung cấp",
+        "icon": "📙",
+        "color": "from-emerald-500 to-teal-400"
+    },
+    {
+        "id": "book_04",
+        "title": "English Vocabulary In Use - Upper-Intermediate",
+        "titleVi": "Từ vựng tiếng Anh - Trung cấp cao",
+        "icon": "📕",
+        "color": "from-amber-500 to-orange-400"
+    }
+]

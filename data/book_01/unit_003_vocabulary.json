@@ -1,0 +1,698 @@
+{
+    "unit": 3,
+    "title": "Parts of the Body",
+    "vocabulary": [
+        {
+            "word": "hair",
+            "ipa": "/hɛr/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tóc",
+            "explanationVi": "Những sợi mỏng mọc trên đầu người. Là danh từ số ít không đếm được.",
+            "explanationEn": "The mass of thin threads growing on the head. Used as an uncountable singular noun.",
+            "example": "My hair is very long – I must cut it soon.",
+            "exampleMeaning": "Tóc tôi rất dài – tôi phải cắt sớm thôi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hair"
+        },
+        {
+            "word": "eye",
+            "ipa": "/aɪ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "mắt",
+            "explanationVi": "Bộ phận trên khuôn mặt dùng để nhìn.",
+            "explanationEn": "The organ on the face used for seeing.",
+            "example": "She has beautiful blue eyes.",
+            "exampleMeaning": "Cô ấy có đôi mắt xanh đẹp.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=eye"
+        },
+        {
+            "word": "nose",
+            "ipa": "/noʊz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "mũi",
+            "explanationVi": "Bộ phận ở giữa khuôn mặt dùng để thở và ngửi mùi.",
+            "explanationEn": "The part in the middle of the face used for breathing and smelling.",
+            "example": "You smell with your nose.",
+            "exampleMeaning": "Bạn ngửi bằng mũi của mình.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=nose"
+        },
+        {
+            "word": "tooth",
+            "ipa": "/tuːθ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "răng (một cái)",
+            "explanationVi": "Một trong những cấu trúc xương cứng trong miệng dùng để nhai thức ăn.",
+            "explanationEn": "One of the hard bony structures in the mouth used for chewing food.",
+            "example": "An adult has 32 teeth.",
+            "exampleMeaning": "Người lớn có 32 răng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=tooth"
+        },
+        {
+            "word": "teeth",
+            "ipa": "/tiːθ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun (plural)",
+            "meaning": "răng (nhiều)",
+            "explanationVi": "Dạng số nhiều của \"tooth\" – tất cả các răng trong miệng.",
+            "explanationEn": "The plural form of \"tooth\" – all the teeth in the mouth.",
+            "example": "The baby has already got two teeth.",
+            "exampleMeaning": "Em bé đã có hai chiếc răng rồi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=teeth"
+        },
+        {
+            "word": "ear",
+            "ipa": "/ɪr/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tai",
+            "explanationVi": "Bộ phận hai bên đầu dùng để nghe âm thanh.",
+            "explanationEn": "The organ on the side of the head used for hearing.",
+            "example": "You hear with your ears.",
+            "exampleMeaning": "Bạn nghe bằng tai của mình.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=ear"
+        },
+        {
+            "word": "lip",
+            "ipa": "/lɪp/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "môi",
+            "explanationVi": "Một trong hai nếp thịt mềm tạo thành viền ngoài của miệng.",
+            "explanationEn": "Either of the two soft edges of the mouth.",
+            "example": "She put on red lipstick on her lips.",
+            "exampleMeaning": "Cô ấy tô son đỏ lên môi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=lip"
+        },
+        {
+            "word": "neck",
+            "ipa": "/nɛk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cổ",
+            "explanationVi": "Phần nối đầu với thân người.",
+            "explanationEn": "The part of the body connecting the head to the shoulders.",
+            "example": "She wore a scarf around her neck.",
+            "exampleMeaning": "Cô ấy quàng khăn quanh cổ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=neck"
+        },
+        {
+            "word": "mouth",
+            "ipa": "/maʊθ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "miệng",
+            "explanationVi": "Bộ phận trên khuôn mặt dùng để ăn, nói và thở.",
+            "explanationEn": "The opening in the face used for eating, speaking, and breathing.",
+            "example": "He opened his mouth to speak.",
+            "exampleMeaning": "Anh ấy mở miệng để nói.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=mouth"
+        },
+        {
+            "word": "shoulder",
+            "ipa": "/ˈʃoʊldər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "vai",
+            "explanationVi": "Phần nối cánh tay với thân người, ở hai bên cổ.",
+            "explanationEn": "The joint connecting the arm to the body on each side.",
+            "example": "She carried the bag on her shoulder.",
+            "exampleMeaning": "Cô ấy mang túi trên vai.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=shoulder"
+        },
+        {
+            "word": "nail",
+            "ipa": "/neɪl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "móng (tay/chân)",
+            "explanationVi": "Lớp chất cứng mọc ở đầu ngón tay hoặc ngón chân.",
+            "explanationEn": "The hard covering at the tip of a finger or toe.",
+            "example": "She painted her nails red.",
+            "exampleMeaning": "Cô ấy sơn móng tay màu đỏ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=nail"
+        },
+        {
+            "word": "thumb",
+            "ipa": "/θʌm/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ngón cái",
+            "explanationVi": "Ngón ngắn và to nhất của bàn tay, nằm tách biệt với bốn ngón còn lại.",
+            "explanationEn": "The short, thick finger on the side of the hand, set apart from the other four.",
+            "example": "She gave a thumbs up with her thumb.",
+            "exampleMeaning": "Cô ấy giơ ngón cái lên tán thưởng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=thumb"
+        },
+        {
+            "word": "finger",
+            "ipa": "/ˈfɪŋɡər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ngón tay",
+            "explanationVi": "Một trong bốn ngón dài của bàn tay (không tính ngón cái).",
+            "explanationEn": "One of the four long digits of the hand, not including the thumb.",
+            "example": "A hand has five fingers.",
+            "exampleMeaning": "Một bàn tay có năm ngón tay.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=finger"
+        },
+        {
+            "word": "hand",
+            "ipa": "/hænd/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bàn tay",
+            "explanationVi": "Phần cuối của cánh tay, bao gồm lòng bàn tay và các ngón tay.",
+            "explanationEn": "The end part of the arm, including the palm and fingers.",
+            "example": "She washed her hands before dinner.",
+            "exampleMeaning": "Cô ấy rửa tay trước bữa ăn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hand"
+        },
+        {
+            "word": "arm",
+            "ipa": "/ɑːrm/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cánh tay",
+            "explanationVi": "Phần chi trên của cơ thể nối từ vai đến bàn tay.",
+            "explanationEn": "The upper limb of the body, from the shoulder to the hand.",
+            "example": "He broke his arm in the accident.",
+            "exampleMeaning": "Anh ấy gãy tay trong vụ tai nạn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=arm"
+        },
+        {
+            "word": "leg",
+            "ipa": "/lɛɡ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "chân",
+            "explanationVi": "Phần chi dưới của cơ thể dùng để đứng và di chuyển.",
+            "explanationEn": "The lower limb of the body used for standing and moving.",
+            "example": "I have a pain in my leg.",
+            "exampleMeaning": "Tôi bị đau ở chân.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=leg"
+        },
+        {
+            "word": "knee",
+            "ipa": "/niː/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đầu gối",
+            "explanationVi": "Khớp nằm giữa đùi và cẳng chân.",
+            "explanationEn": "The joint in the middle of the leg between the thigh and the lower leg.",
+            "example": "The child sat on her father's knee.",
+            "exampleMeaning": "Đứa trẻ ngồi trên đầu gối của bố.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=knee"
+        },
+        {
+            "word": "foot",
+            "ipa": "/fʊt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bàn chân",
+            "explanationVi": "Phần dưới cùng của chân dùng để đứng và đi lại.",
+            "explanationEn": "The lowest part of the leg, used for standing and walking.",
+            "example": "A foot has five toes.",
+            "exampleMeaning": "Một bàn chân có năm ngón.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=foot"
+        },
+        {
+            "word": "feet",
+            "ipa": "/fiːt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun (plural)",
+            "meaning": "bàn chân (nhiều)",
+            "explanationVi": "Dạng số nhiều của \"foot\".",
+            "explanationEn": "The plural form of \"foot\".",
+            "example": "My feet are tired after walking all day.",
+            "exampleMeaning": "Chân tôi mỏi sau cả ngày đi bộ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=feet"
+        },
+        {
+            "word": "toe",
+            "ipa": "/toʊ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ngón chân",
+            "explanationVi": "Một trong năm ngón ở bàn chân.",
+            "explanationEn": "One of the five digits on the foot.",
+            "example": "She stubbed her toe on the chair.",
+            "exampleMeaning": "Cô ấy vấp ngón chân vào ghế.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=toe"
+        },
+        {
+            "word": "chest",
+            "ipa": "/tʃɛst/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ngực",
+            "explanationVi": "Phần trước của thân người, giữa cổ và bụng, chứa tim và phổi.",
+            "explanationEn": "The front part of the body between the neck and the stomach, containing the heart and lungs.",
+            "example": "He has a pain in his chest.",
+            "exampleMeaning": "Anh ấy bị đau ngực.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=chest"
+        },
+        {
+            "word": "side",
+            "ipa": "/saɪd/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "hông / sườn",
+            "explanationVi": "Phần bên của cơ thể giữa nách và hông.",
+            "explanationEn": "The part of the body between the armpit and the hip.",
+            "example": "I have a pain in my side.",
+            "exampleMeaning": "Tôi bị đau ở sườn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=side"
+        },
+        {
+            "word": "stomach",
+            "ipa": "/ˈstʌmək/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "dạ dày / bụng",
+            "explanationVi": "Cơ quan tiêu hóa bên trong cơ thể; cũng dùng để chỉ vùng bụng bên ngoài.",
+            "explanationEn": "The organ inside the body that digests food; also used to refer to the front of the belly.",
+            "example": "My stomach hurts after eating too much.",
+            "exampleMeaning": "Bụng tôi đau sau khi ăn quá nhiều.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=stomach"
+        },
+        {
+            "word": "back",
+            "ipa": "/bæk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "lưng",
+            "explanationVi": "Phần sau của thân người, từ cổ đến thắt lưng.",
+            "explanationEn": "The rear part of the body from the neck to the waist.",
+            "example": "She has a bad back from sitting all day.",
+            "exampleMeaning": "Lưng cô ấy bị đau vì ngồi cả ngày.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=back"
+        },
+        {
+            "word": "waist",
+            "ipa": "/weɪst/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "eo",
+            "explanationVi": "Phần hẹp nhất của thân người, giữa xương sườn và hông.",
+            "explanationEn": "The narrow part of the body between the ribs and hips.",
+            "example": "She tied a belt around her waist.",
+            "exampleMeaning": "Cô ấy thắt dây lưng quanh eo.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=waist"
+        },
+        {
+            "word": "hip",
+            "ipa": "/hɪp/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "hông",
+            "explanationVi": "Phần cơ thể ở hai bên, nơi đùi nối với thân người.",
+            "explanationEn": "Either side of the body below the waist where the legs join the torso.",
+            "example": "She put her hands on her hips.",
+            "exampleMeaning": "Cô ấy đặt tay lên hông.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hip"
+        },
+        {
+            "word": "skin",
+            "ipa": "/skɪn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "da",
+            "explanationVi": "Lớp bao phủ bên ngoài toàn bộ cơ thể người.",
+            "explanationEn": "The outer layer covering the entire human body.",
+            "example": "We have skin covering our bodies.",
+            "exampleMeaning": "Chúng ta có da bao phủ cơ thể.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=skin"
+        },
+        {
+            "word": "heart",
+            "ipa": "/hɑːrt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tim",
+            "explanationVi": "Cơ quan bên trong ngực bơm máu đi khắp cơ thể.",
+            "explanationEn": "The organ inside the chest that pumps blood around the body.",
+            "example": "The heart is a symbol of love.",
+            "exampleMeaning": "Trái tim là biểu tượng của tình yêu.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=heart"
+        },
+        {
+            "word": "brain",
+            "ipa": "/breɪn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "não",
+            "explanationVi": "Cơ quan bên trong hộp sọ điều khiển suy nghĩ, cảm xúc và mọi chức năng cơ thể.",
+            "explanationEn": "The organ inside the skull that controls thought, emotion, and body functions.",
+            "example": "You think with your brain.",
+            "exampleMeaning": "Bạn suy nghĩ bằng não của mình.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=brain"
+        },
+        {
+            "word": "blood",
+            "ipa": "/blʌd/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "máu",
+            "explanationVi": "Chất lỏng màu đỏ lưu thông trong cơ thể, mang oxy và chất dinh dưỡng.",
+            "explanationEn": "The red liquid that circulates in the body, carrying oxygen and nutrients.",
+            "example": "Your blood type can be A, B, AB or O.",
+            "exampleMeaning": "Nhóm máu của bạn có thể là A, B, AB hoặc O.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=blood"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "You use your _____ to hear sounds.",
+            "options": [
+                "eyes",
+                "ears",
+                "nose",
+                "lips"
+            ],
+            "answer": "ears"
+        },
+        {
+            "id": 2,
+            "question": "How many _____ does a normal adult have in their mouth?",
+            "options": [
+                "tooth",
+                "toothes",
+                "teeth",
+                "teeths"
+            ],
+            "answer": "teeth"
+        },
+        {
+            "id": 3,
+            "question": "She has long, beautiful black _____.",
+            "options": [
+                "hairs",
+                "hair",
+                "a hair",
+                "the hairs"
+            ],
+            "answer": "hair"
+        },
+        {
+            "id": 4,
+            "question": "I smell the flowers with my _____.",
+            "options": [
+                "ear",
+                "eye",
+                "head",
+                "nose"
+            ],
+            "answer": "nose"
+        },
+        {
+            "id": 5,
+            "question": "He opened his _____ to eat the apple.",
+            "options": [
+                "mouth",
+                "ear",
+                "nose",
+                "neck"
+            ],
+            "answer": "mouth"
+        },
+        {
+            "id": 6,
+            "question": "During the accident, he fell and broke his right _____.",
+            "options": [
+                "hair",
+                "arm",
+                "blood",
+                "brain"
+            ],
+            "answer": "arm"
+        },
+        {
+            "id": 7,
+            "question": "A foot has five _____.",
+            "options": [
+                "fingers",
+                "thumbs",
+                "toes",
+                "knees"
+            ],
+            "answer": "toes"
+        },
+        {
+            "id": 8,
+            "question": "A hand has four fingers and one _____.",
+            "options": [
+                "toe",
+                "ankle",
+                "nail",
+                "thumb"
+            ],
+            "answer": "thumb"
+        },
+        {
+            "id": 9,
+            "question": "She painted her finger_____ red.",
+            "options": [
+                "nails",
+                "skin",
+                "hair",
+                "blood"
+            ],
+            "answer": "nails"
+        },
+        {
+            "id": 10,
+            "question": "I have a terrible pain in my _____. It hurts when I walk.",
+            "options": [
+                "brain",
+                "hair",
+                "leg",
+                "blood"
+            ],
+            "answer": "leg"
+        },
+        {
+            "id": 11,
+            "question": "The joint in the middle of your leg is called the _____.",
+            "options": [
+                "knee",
+                "elbow",
+                "ankle",
+                "shoulder"
+            ],
+            "answer": "knee"
+        },
+        {
+            "id": 12,
+            "question": "We have skin covering our entire _____.",
+            "options": [
+                "bodies",
+                "brain",
+                "bone",
+                "blood"
+            ],
+            "answer": "bodies"
+        },
+        {
+            "id": 13,
+            "question": "The organ inside your chest that pumps blood is the _____.",
+            "options": [
+                "brain",
+                "stomach",
+                "heart",
+                "lung"
+            ],
+            "answer": "heart"
+        },
+        {
+            "id": 14,
+            "question": "You think and control your emotions with your _____.",
+            "options": [
+                "heart",
+                "brain",
+                "stomach",
+                "chest"
+            ],
+            "answer": "brain"
+        },
+        {
+            "id": 15,
+            "question": "My _____ hurts after eating too much food.",
+            "options": [
+                "brain",
+                "heart",
+                "stomach",
+                "tooth"
+            ],
+            "answer": "stomach"
+        },
+        {
+            "id": 16,
+            "question": "The narrow part of your body between your ribs and your hips is your _____.",
+            "options": [
+                "waist",
+                "neck",
+                "shoulder",
+                "foot"
+            ],
+            "answer": "waist"
+        },
+        {
+            "id": 17,
+            "question": "The plural of \"foot\" is _____.",
+            "options": [
+                "foots",
+                "feet",
+                "feets",
+                "footes"
+            ],
+            "answer": "feet"
+        },
+        {
+            "id": 18,
+            "question": "He put his hands on his _____ when he stood there.",
+            "options": [
+                "waist",
+                "hips",
+                "neck",
+                "back"
+            ],
+            "answer": "hips"
+        },
+        {
+            "id": 19,
+            "question": "She wore a warm scarf around her _____ in the winter.",
+            "options": [
+                "waist",
+                "knee",
+                "foot",
+                "neck"
+            ],
+            "answer": "neck"
+        },
+        {
+            "id": 20,
+            "question": "The red liquid that carries oxygen around our body is _____.",
+            "options": [
+                "water",
+                "blood",
+                "skin",
+                "sweat"
+            ],
+            "answer": "blood"
+        },
+        {
+            "id": 21,
+            "question": "The little child sat on her father's _____.",
+            "options": [
+                "knee",
+                "toe",
+                "thumb",
+                "tooth"
+            ],
+            "answer": "knee"
+        },
+        {
+            "id": 22,
+            "question": "She put on pink lipstick on her _____.",
+            "options": [
+                "nose",
+                "eyes",
+                "lips",
+                "ears"
+            ],
+            "answer": "lips"
+        },
+        {
+            "id": 23,
+            "question": "Before dinner, you must wash your _____.",
+            "options": [
+                "hands",
+                "hair",
+                "stomach",
+                "brain"
+            ],
+            "answer": "hands"
+        },
+        {
+            "id": 24,
+            "question": "She carried the heavy bag on her _____.",
+            "options": [
+                "nose",
+                "eye",
+                "shoulder",
+                "thumb"
+            ],
+            "answer": "shoulder"
+        },
+        {
+            "id": 25,
+            "question": "The front part of your body containing your heart and lungs is the _____.",
+            "options": [
+                "back",
+                "chest",
+                "waist",
+                "side"
+            ],
+            "answer": "chest"
+        },
+        {
+            "id": 26,
+            "question": "I have a really bad _____ after sitting in that hard chair all day.",
+            "options": [
+                "back",
+                "stomach",
+                "eye",
+                "hair"
+            ],
+            "answer": "back"
+        },
+        {
+            "id": 27,
+            "question": "The baby gave me a big smile and showed his two new _____.",
+            "options": [
+                "teeth",
+                "tooth",
+                "toe",
+                "toes"
+            ],
+            "answer": "teeth"
+        },
+        {
+            "id": 28,
+            "question": "She stubbed her _____ on the leg of the table.",
+            "options": [
+                "hair",
+                "brain",
+                "blood",
+                "toe"
+            ],
+            "answer": "toe"
+        },
+        {
+            "id": 29,
+            "question": "If you run very fast, your _____ beats faster.",
+            "options": [
+                "tooth",
+                "brain",
+                "stomach",
+                "heart"
+            ],
+            "answer": "heart"
+        },
+        {
+            "id": 30,
+            "question": "I have a pain in my _____, between my armpit and hip.",
+            "options": [
+                "side",
+                "eye",
+                "toe",
+                "hair"
+            ],
+            "answer": "side"
+        }
+    ]
+}

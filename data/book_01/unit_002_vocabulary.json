@@ -1,0 +1,638 @@
+{
+    "unit": 2,
+    "title": "Birth, Marriage and Death",
+    "vocabulary": [
+        {
+            "word": "have a baby",
+            "ipa": "/hæv ə ˈbeɪbi/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "sinh con",
+            "explanationVi": "Dùng để nói về việc một người phụ nữ sinh ra một đứa trẻ.",
+            "explanationEn": "Used to describe the act of giving birth to a child.",
+            "example": "Anna had a baby yesterday.",
+            "exampleMeaning": "Anna sinh con vào ngày hôm qua.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=have+a+baby"
+        },
+        {
+            "word": "be born",
+            "ipa": "/biː bɔːrn/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase (passive)",
+            "meaning": "được sinh ra",
+            "explanationVi": "Dùng để nói về thời điểm hoặc nơi một người xuất hiện trên thế giới.",
+            "explanationEn": "Used to describe the time or place someone came into the world.",
+            "example": "He was born at 1.15 yesterday morning.",
+            "exampleMeaning": "Anh ấy được sinh ra lúc 1 giờ 15 sáng hôm qua.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=be+born"
+        },
+        {
+            "word": "weigh",
+            "ipa": "/weɪ/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "nặng / cân nặng",
+            "explanationVi": "Chỉ sự nặng của một vật hoặc người theo đơn vị đo lường.",
+            "explanationEn": "To have a particular weight, measured in kilograms or pounds.",
+            "example": "He weighed 3 kilograms.",
+            "exampleMeaning": "Anh ấy nặng 3 kilogram.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=weigh"
+        },
+        {
+            "word": "call",
+            "ipa": "/kɔːl/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "đặt tên",
+            "explanationVi": "Cho ai đó một cái tên cụ thể.",
+            "explanationEn": "To give someone a particular name.",
+            "example": "They are going to call him John.",
+            "exampleMeaning": "Họ sẽ đặt tên anh ấy là John.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=call"
+        },
+        {
+            "word": "after",
+            "ipa": "/ˈɑːftər/",
+            "partOfSpeech": "giới từ",
+            "partOfSpeechEn": "preposition",
+            "meaning": "theo tên của",
+            "explanationVi": "Dùng để chỉ việc đặt tên theo tên của ai đó khác.",
+            "explanationEn": "Used to indicate naming someone in honour of another person.",
+            "example": "They called him John, after his grandfather.",
+            "exampleMeaning": "Họ đặt tên anh ấy là John, theo tên ông nội của anh ấy.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=after"
+        },
+        {
+            "word": "birthday",
+            "ipa": "/ˈbɜːrθdeɪ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ngày sinh nhật",
+            "explanationVi": "Ngày kỷ niệm ngày một người được sinh ra trong năm.",
+            "explanationEn": "The anniversary each year of the day someone was born.",
+            "example": "His grandfather's birthday is June 16th.",
+            "exampleMeaning": "Sinh nhật của ông nội anh ấy là ngày 16 tháng 6.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=birthday"
+        },
+        {
+            "word": "single",
+            "ipa": "/ˈsɪŋɡəl/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "độc thân",
+            "explanationVi": "Chỉ người chưa kết hôn hoặc không có người yêu.",
+            "explanationEn": "Not married or in a romantic relationship.",
+            "example": "If you do not have a partner, you are single.",
+            "exampleMeaning": "Nếu bạn không có đối tác, bạn là người độc thân.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=single"
+        },
+        {
+            "word": "married",
+            "ipa": "/ˈmærid/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "đã kết hôn",
+            "explanationVi": "Chỉ người đang có vợ hoặc chồng hợp pháp.",
+            "explanationEn": "Having a husband or wife.",
+            "example": "If you have a husband or wife, you are married.",
+            "exampleMeaning": "Nếu bạn có chồng hoặc vợ, bạn đã kết hôn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=married"
+        },
+        {
+            "word": "widowed",
+            "ipa": "/ˈwɪdoʊd/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "góa",
+            "explanationVi": "Chỉ người có vợ hoặc chồng đã mất và chưa tái hôn.",
+            "explanationEn": "Having had a husband or wife who has died.",
+            "example": "If your husband or wife dies, you are widowed.",
+            "exampleMeaning": "Nếu chồng hoặc vợ bạn mất, bạn là người góa.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=widowed"
+        },
+        {
+            "word": "separated",
+            "ipa": "/ˈsɛpəreɪtɪd/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "ly thân",
+            "explanationVi": "Chỉ người đang sống riêng với vợ/chồng nhưng chưa ly hôn.",
+            "explanationEn": "Living apart from a husband or wife but not yet legally divorced.",
+            "example": "If your marriage breaks up, you are separated.",
+            "exampleMeaning": "Nếu hôn nhân của bạn tan vỡ, bạn có thể ly thân.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=separated"
+        },
+        {
+            "word": "divorced",
+            "ipa": "/dɪˈvɔːrst/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "đã ly hôn",
+            "explanationVi": "Chỉ người hôn nhân đã kết thúc về mặt pháp lý.",
+            "explanationEn": "No longer married because the marriage has legally ended.",
+            "example": "If your marriage has legally ended, you are divorced.",
+            "exampleMeaning": "Nếu hôn nhân của bạn đã kết thúc về mặt pháp lý, bạn đã ly hôn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=divorced"
+        },
+        {
+            "word": "get married",
+            "ipa": "/ɡɛt ˈmærid/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "kết hôn",
+            "explanationVi": "Thực hiện hành động chính thức trở thành vợ chồng.",
+            "explanationEn": "To become legally joined in marriage.",
+            "example": "Harry and Sarah got married.",
+            "exampleMeaning": "Harry và Sarah đã kết hôn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=get+married"
+        },
+        {
+            "word": "honeymoon",
+            "ipa": "/ˈhʌnimuːn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tuần trăng mật",
+            "explanationVi": "Kỳ nghỉ đặc biệt mà cặp đôi mới cưới đi cùng nhau sau đám cưới.",
+            "explanationEn": "A holiday taken by a newly married couple after their wedding.",
+            "example": "They went on their honeymoon to Italy.",
+            "exampleMeaning": "Họ đi tuần trăng mật ở Ý.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=honeymoon"
+        },
+        {
+            "word": "wedding",
+            "ipa": "/ˈwɛdɪŋ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đám cưới",
+            "explanationVi": "Lễ kết hôn chính thức, thường có sự chứng kiến của gia đình và bạn bè.",
+            "explanationEn": "A formal ceremony in which two people get married.",
+            "example": "The wedding was beautiful.",
+            "exampleMeaning": "Đám cưới rất đẹp.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=wedding"
+        },
+        {
+            "word": "bride",
+            "ipa": "/braɪd/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cô dâu",
+            "explanationVi": "Người phụ nữ trong ngày cưới của mình.",
+            "explanationEn": "A woman on or just before her wedding day.",
+            "example": "The bride wore a white dress.",
+            "exampleMeaning": "Cô dâu mặc váy trắng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bride"
+        },
+        {
+            "word": "groom",
+            "ipa": "/ɡruːm/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "chú rể",
+            "explanationVi": "Người đàn ông trong ngày cưới của mình.",
+            "explanationEn": "A man on or just before his wedding day.",
+            "example": "The groom waited at the altar.",
+            "exampleMeaning": "Chú rể đứng chờ ở bàn thờ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=groom"
+        },
+        {
+            "word": "partner",
+            "ipa": "/ˈpɑːrtnər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "người yêu / bạn đời",
+            "explanationVi": "Người mà bạn đang có mối quan hệ tình cảm hoặc hôn nhân.",
+            "explanationEn": "A person you are in a romantic or marital relationship with.",
+            "example": "Do you have a partner?",
+            "exampleMeaning": "Bạn có người yêu không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=partner"
+        },
+        {
+            "word": "ill",
+            "ipa": "/ɪl/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "bệnh / ốm",
+            "explanationVi": "Không khoẻ, đang mắc bệnh hoặc cảm thấy không tốt về sức khoẻ.",
+            "explanationEn": "Not in good health; sick.",
+            "example": "Harry became ill last year.",
+            "exampleMeaning": "Harry bị ốm năm ngoái.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=ill"
+        },
+        {
+            "word": "die",
+            "ipa": "/daɪ/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "chết",
+            "explanationVi": "Ngừng sống; kết thúc cuộc sống.",
+            "explanationEn": "To stop living; to cease to exist.",
+            "example": "He died last year.",
+            "exampleMeaning": "Anh ấy mất năm ngoái.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=die"
+        },
+        {
+            "word": "die of",
+            "ipa": "/daɪ əv/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "chết vì",
+            "explanationVi": "Chỉ nguyên nhân dẫn đến cái chết của một người.",
+            "explanationEn": "To die as a result of a particular illness or cause.",
+            "example": "He died of a heart attack.",
+            "exampleMeaning": "Anh ấy mất vì cơn đau tim.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=die+of"
+        },
+        {
+            "word": "dead",
+            "ipa": "/dɛd/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "đã chết",
+            "explanationVi": "Chỉ trạng thái không còn sống nữa.",
+            "explanationEn": "No longer alive.",
+            "example": "Harry is dead.",
+            "exampleMeaning": "Harry đã mất.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=dead"
+        },
+        {
+            "word": "death",
+            "ipa": "/dɛθ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cái chết",
+            "explanationVi": "Sự kiện hoặc thời điểm một người ngừng sống.",
+            "explanationEn": "The end of life; the act or fact of dying.",
+            "example": "His death made her very sad.",
+            "exampleMeaning": "Cái chết của anh ấy khiến cô ấy rất buồn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=death"
+        },
+        {
+            "word": "heart attack",
+            "ipa": "/ˈhɑːrt əˌtæk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cơn đau tim",
+            "explanationVi": "Tình trạng tim ngừng hoạt động đột ngột, thường gây nguy hiểm đến tính mạng.",
+            "explanationEn": "A sudden serious medical condition in which the heart stops working properly.",
+            "example": "He died of a heart attack.",
+            "exampleMeaning": "Anh ấy mất vì cơn đau tim.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=heart+attack"
+        },
+        {
+            "word": "funeral",
+            "ipa": "/ˈfjuːnərəl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đám tang",
+            "explanationVi": "Lễ nghi tổ chức để tưởng nhớ và chôn cất người đã mất.",
+            "explanationEn": "A ceremony held after someone dies, usually before burial or cremation.",
+            "example": "The funeral was held on Friday.",
+            "exampleMeaning": "Đám tang được tổ chức vào thứ Sáu.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=funeral"
+        },
+        {
+            "word": "old age",
+            "ipa": "/oʊld eɪdʒ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun phrase",
+            "meaning": "tuổi già",
+            "explanationVi": "Giai đoạn cuối của cuộc đời con người, thường liên quan đến việc già yếu.",
+            "explanationEn": "The later part of a person's life when they are old.",
+            "example": "She died of old age.",
+            "exampleMeaning": "Bà ấy mất vì tuổi già.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=old+age"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "Anna _____ a baby yesterday.",
+            "options": [
+                "holds",
+                "has",
+                "had",
+                "makes"
+            ],
+            "answer": "had"
+        },
+        {
+            "id": 2,
+            "question": "The new baby _____ 3 kilograms.",
+            "options": [
+                "weighed",
+                "weigheds",
+                "weighs",
+                "was weighing"
+            ],
+            "answer": "weighed"
+        },
+        {
+            "id": 3,
+            "question": "He _____ born at 1:15 yesterday morning.",
+            "options": [
+                "is",
+                "was",
+                "were",
+                "did"
+            ],
+            "answer": "was"
+        },
+        {
+            "id": 4,
+            "question": "They are going to _____ him John, after his grandfather.",
+            "options": [
+                "name",
+                "say",
+                "speak",
+                "call"
+            ],
+            "answer": "call"
+        },
+        {
+            "id": 5,
+            "question": "Do you remember when his grandfather's _____ is?",
+            "options": [
+                "born",
+                "birthplace",
+                "birthday",
+                "age"
+            ],
+            "answer": "birthday"
+        },
+        {
+            "id": 6,
+            "question": "If you do not have a partner, you are _____.",
+            "options": [
+                "married",
+                "widowed",
+                "single",
+                "divorced"
+            ],
+            "answer": "single"
+        },
+        {
+            "id": 7,
+            "question": "If you have a husband or wife, you are _____.",
+            "options": [
+                "separate",
+                "married",
+                "single",
+                "widow"
+            ],
+            "answer": "married"
+        },
+        {
+            "id": 8,
+            "question": "Harry and Sarah _____ married last weekend.",
+            "options": [
+                "go",
+                "getting",
+                "gets",
+                "got"
+            ],
+            "answer": "got"
+        },
+        {
+            "id": 9,
+            "question": "After the wedding, they went on their _____ to Italy.",
+            "options": [
+                "honeymoon",
+                "holiday",
+                "trip",
+                "vacation"
+            ],
+            "answer": "honeymoon"
+        },
+        {
+            "id": 10,
+            "question": "The _____ wore a beautiful white dress.",
+            "options": [
+                "groom",
+                "partner",
+                "husband",
+                "bride"
+            ],
+            "answer": "bride"
+        },
+        {
+            "id": 11,
+            "question": "The _____ waited at the altar for his future wife.",
+            "options": [
+                "bride",
+                "groom",
+                "wife",
+                "single"
+            ],
+            "answer": "groom"
+        },
+        {
+            "id": 12,
+            "question": "If your marriage breaks up but you are not legally divorced yet, you are _____.",
+            "options": [
+                "divorced",
+                "separated",
+                "widowed",
+                "married"
+            ],
+            "answer": "separated"
+        },
+        {
+            "id": 13,
+            "question": "If your marriage has legally ended by a judge, you are _____.",
+            "options": [
+                "single",
+                "widow",
+                "separated",
+                "divorced"
+            ],
+            "answer": "divorced"
+        },
+        {
+            "id": 14,
+            "question": "His wife died two years ago. He is _____.",
+            "options": [
+                "widowed",
+                "dead",
+                "single",
+                "separated"
+            ],
+            "answer": "widowed"
+        },
+        {
+            "id": 15,
+            "question": "Harry became _____ last year and had to stay in the hospital.",
+            "options": [
+                "ill",
+                "death",
+                "die",
+                "dead"
+            ],
+            "answer": "ill"
+        },
+        {
+            "id": 16,
+            "question": "Sadly, the old man _____ last night.",
+            "options": [
+                "die",
+                "to die",
+                "died",
+                "dead"
+            ],
+            "answer": "died"
+        },
+        {
+            "id": 17,
+            "question": "She died _____ a heart attack.",
+            "options": [
+                "with",
+                "by",
+                "in",
+                "of"
+            ],
+            "answer": "of"
+        },
+        {
+            "id": 18,
+            "question": "He died of old _____.",
+            "options": [
+                "years",
+                "time",
+                "age",
+                "period"
+            ],
+            "answer": "age"
+        },
+        {
+            "id": 19,
+            "question": "My dog has been _____ for two days. I am so sad.",
+            "options": [
+                "to die",
+                "died",
+                "death",
+                "dead"
+            ],
+            "answer": "dead"
+        },
+        {
+            "id": 20,
+            "question": "His sudden _____ was a shock to everyone.",
+            "options": [
+                "die",
+                "to die",
+                "death",
+                "dead"
+            ],
+            "answer": "death"
+        },
+        {
+            "id": 21,
+            "question": "The _____ will be held on Friday at the local church.",
+            "options": [
+                "death",
+                "wedding",
+                "funeral",
+                "honeymoon"
+            ],
+            "answer": "funeral"
+        },
+        {
+            "id": 22,
+            "question": "A man on or just before his wedding day is called a _____.",
+            "options": [
+                "bride",
+                "husband",
+                "groom",
+                "partner"
+            ],
+            "answer": "groom"
+        },
+        {
+            "id": 23,
+            "question": "A formal ceremony in which two people get married is a _____.",
+            "options": [
+                "honeymoon",
+                "wedding",
+                "funeral",
+                "birthday"
+            ],
+            "answer": "wedding"
+        },
+        {
+            "id": 24,
+            "question": "\"Do you have a _____?\" - \"Yes, I have a girlfriend.\"",
+            "options": [
+                "husband",
+                "partner",
+                "couple",
+                "relative"
+            ],
+            "answer": "partner"
+        },
+        {
+            "id": 25,
+            "question": "They named the baby Thomas, _____ his father.",
+            "options": [
+                "before",
+                "previous",
+                "after",
+                "next to"
+            ],
+            "answer": "after"
+        },
+        {
+            "id": 26,
+            "question": "They are no longer together; they got _____ last month.",
+            "options": [
+                "divorce",
+                "divorced",
+                "separating",
+                "separate"
+            ],
+            "answer": "divorced"
+        },
+        {
+            "id": 27,
+            "question": "The baby weighed 8 pounds when she was _____.",
+            "options": [
+                "birth",
+                "born",
+                "to bear",
+                "bearing"
+            ],
+            "answer": "born"
+        },
+        {
+            "id": 28,
+            "question": "Losing a child is the most painful _____ a parent can face.",
+            "options": [
+                "dead",
+                "die",
+                "died",
+                "death"
+            ],
+            "answer": "death"
+        },
+        {
+            "id": 29,
+            "question": "She gave _____ to a healthy baby girl.",
+            "options": [
+                "birth",
+                "born",
+                "bear",
+                "bore"
+            ],
+            "answer": "birth"
+        },
+        {
+            "id": 30,
+            "question": "We are planning a big party for my mother's 60th _____.",
+            "options": [
+                "wedding",
+                "old age",
+                "funeral",
+                "birthday"
+            ],
+            "answer": "birthday"
+        }
+    ]
+}

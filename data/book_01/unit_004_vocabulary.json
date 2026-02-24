@@ -1,0 +1,734 @@
+{
+    "unit": 4,
+    "title": "Clothes",
+    "vocabulary": [
+        {
+            "word": "coat",
+            "ipa": "/kəʊt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "áo khoác",
+            "explanationVi": "Áo mặc ngoài cùng để giữ ấm, thường có tay dài.",
+            "explanationEn": "An outer piece of clothing with sleeves that is worn over other clothes, usually for warmth.",
+            "example": "She is wearing a warm coat.",
+            "exampleMeaning": "Cô ấy đang mặc một chiếc áo khoác ấm.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=coat"
+        },
+        {
+            "word": "jacket",
+            "ipa": "/ˈdʒækɪt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "áo khoác ngắn",
+            "explanationVi": "Áo khoác có tay, thường chỉ dài đến eo hoặc hông.",
+            "explanationEn": "A short coat.",
+            "example": "He bought a new leather jacket.",
+            "exampleMeaning": "Anh ấy đã mua một chiếc áo khoác da mới.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=jacket"
+        },
+        {
+            "word": "scarf",
+            "ipa": "/skɑːf/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "khăn quàng cổ",
+            "explanationVi": "Tấm vải quàng quanh cổ hoặc đầu để giữ ấm hoặc làm đẹp.",
+            "explanationEn": "A piece of cloth that you wear around your neck or head, usually to keep yourself warm.",
+            "example": "It's cold outside, wear a scarf.",
+            "exampleMeaning": "Ngoài trời lạnh, hãy quàng khăn vào.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=scarf"
+        },
+        {
+            "word": "gloves",
+            "ipa": "/ɡlʌvz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "găng tay",
+            "explanationVi": "Đồ bao bọc bàn tay, tay áo kéo dài bảo vệ hoặc ủ ấm đôi bàn tay, có phần tách riêng cho từng ngón.",
+            "explanationEn": "A piece of clothing that is worn on the hand and wrist for warmth or protection, with separate parts for each finger.",
+            "example": "My hands are cold, I need my gloves.",
+            "exampleMeaning": "Tay tôi lạnh quá, tôi cần đôi găng tay.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=gloves"
+        },
+        {
+            "word": "shoes",
+            "ipa": "/ʃuːz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đôi giày",
+            "explanationVi": "Lớp bọc bảo vệ bàn chân, được làm từ vật liệu cứng như da, đế dày.",
+            "explanationEn": "One of a pair of coverings for your feet, usually made of a strong material such as leather, with a thick leather or plastic sole.",
+            "example": "She took off her shoes before entering.",
+            "exampleMeaning": "Cô ấy tháo giày ra trước khi bước vào.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=shoes"
+        },
+        {
+            "word": "trainers",
+            "ipa": "/ˈtreɪnəz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "giày thể thao",
+            "explanationVi": "Loại giày thể thao nhẹ, thoải mái dùng tập luyện.",
+            "explanationEn": "A type of light, comfortable shoe that can be worn for playing sports.",
+            "example": "I bought a new pair of trainers for running.",
+            "exampleMeaning": "Tôi đã mua một đôi giày thể thao mới để đi chạy.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=trainers"
+        },
+        {
+            "word": "boots",
+            "ipa": "/buːts/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ủng, bốt",
+            "explanationVi": "Loại giày che kín toàn bộ bàn chân và một phần dưới cẳng chân.",
+            "explanationEn": "A type of shoe that covers the whole foot and the lower part of the leg.",
+            "example": "He wore heavy boots in the snow.",
+            "exampleMeaning": "Anh ấy mang đôi bốt nặng trong tuyết.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=boots"
+        },
+        {
+            "word": "suit",
+            "ipa": "/suːt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bộ com-lê",
+            "explanationVi": "Bộ trang phục nam nữ may cùng loại vải, phong cách sang trọng.",
+            "explanationEn": "A jacket and trousers or a jacket and skirt that are made from the same material.",
+            "example": "He is wearing a dark suit today.",
+            "exampleMeaning": "Hôm nay anh ấy mặc một bộ com-lê sẫm màu.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=suit"
+        },
+        {
+            "word": "hat",
+            "ipa": "/hæt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cái mũ",
+            "explanationVi": "Vật bao phủ đầu tách rời với quần áo.",
+            "explanationEn": "A covering for the head that is not part of a piece of clothing.",
+            "example": "She put on her hat to keep the sun out.",
+            "exampleMeaning": "Cô ấy đội mũ để che nắng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hat"
+        },
+        {
+            "word": "socks",
+            "ipa": "/sɒks/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đôi tất",
+            "explanationVi": "Quần áo bằng chất liệu mềm mịn phủ che chắn bàn chân dưới của cẳng chân.",
+            "explanationEn": "A piece of clothing made from soft material that covers your foot and the lower part of your leg.",
+            "example": "I need a clean pair of socks.",
+            "exampleMeaning": "Tôi cần một đôi tất sạch.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=socks"
+        },
+        {
+            "word": "T-shirt",
+            "ipa": "/ˈtiː ʃɜːt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "áo thun, áo phông",
+            "explanationVi": "Chiếc áo hình chữ T với ống tay ngắn không mang cổ áo.",
+            "explanationEn": "A simple piece of clothing, usually with short sleeves and no collar, that covers the top part of the body.",
+            "example": "He is casually dressed in jeans and a T-shirt.",
+            "exampleMeaning": "Anh ấy ăn mặc giản dị với quần jean và áo phông.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=T-shirt"
+        },
+        {
+            "word": "watch",
+            "ipa": "/wɒtʃ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đồng hồ đeo tay",
+            "explanationVi": "Chiếc đồng hồ siêu nhỏ mang bằng dây đeo quấn quanh cổ tay.",
+            "explanationEn": "A small clock that is worn on a strap around the wrist.",
+            "example": "My watch shows it's five o'clock.",
+            "exampleMeaning": "Đồng hồ của tôi báo 5 giờ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=watch"
+        },
+        {
+            "word": "shirt",
+            "ipa": "/ʃɜːt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "áo sơ mi",
+            "explanationVi": "Mảnh vải quần áo tay dài có nút bấm đính nhiều nơi, thường hay có phần cổ áo nhô cao lên nhẹ phía trước ngực người nam.",
+            "explanationEn": "A piece of clothing worn, especially by men, on the upper part of the body, made of light cloth like cotton and usually having a collar and buttons at the front.",
+            "example": "He wore a white shirt and a blue tie.",
+            "exampleMeaning": "Anh ấy mặc một chiếc áo sơ mi trắng và chiếc cà vạt xanh.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=shirt"
+        },
+        {
+            "word": "dress",
+            "ipa": "/dres/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "váy liền thân, đầm",
+            "explanationVi": "Trang phục may phủ nửa người phía trên cho con gái buông thõng xuống đầm.",
+            "explanationEn": "A piece of clothing for women or girls that covers the top half of the body and hangs down over the legs.",
+            "example": "She looked beautiful in her red dress.",
+            "exampleMeaning": "Cô ấy trông thật xinh đẹp trong chiếc váy đỏ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=dress"
+        },
+        {
+            "word": "ring",
+            "ipa": "/rɪŋ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "chiếc nhẫn",
+            "explanationVi": "Miếng trang sức tròn đeo trên đốt tay phụ nữ hoặc nam.",
+            "explanationEn": "A circular piece of jewellery worn especially on your finger.",
+            "example": "She wears a gold ring on her finger.",
+            "exampleMeaning": "Cô ấy đeo một chiếc nhẫn vàng trên ngón tay.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=ring"
+        },
+        {
+            "word": "skirt",
+            "ipa": "/skɜːt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "chân váy",
+            "explanationVi": "Cấu trúc váy đầm bám vào ngang mông nữ không che chân ra hai đường ống.",
+            "explanationEn": "A piece of clothing for women and girls that hangs from the waist and does not have legs.",
+            "example": "She wore a long black skirt.",
+            "exampleMeaning": "Cô ấy mặc một chiếc chân váy đen dài.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=skirt"
+        },
+        {
+            "word": "tie",
+            "ipa": "/taɪ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cà vạt",
+            "explanationVi": "Dây quấn dài đeo tại cổ áo nam giấu kín gút thắt.",
+            "explanationEn": "A long, thin piece of material that is worn under a shirt collar, especially by men, and tied in a knot at the front.",
+            "example": "He wears a tie to work every day.",
+            "exampleMeaning": "Anh ấy thắt cà vạt đi làm mỗi ngày.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=tie"
+        },
+        {
+            "word": "belt",
+            "ipa": "/belt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thắt lưng",
+            "explanationVi": "Cọng dây dài cuộn ở thắt lưng eo nâng đỡ trang phục hoặc phô trương phong cách.",
+            "explanationEn": "A strip of leather or material worn around the waist to support clothes or for decoration.",
+            "example": "Please unfasten your seat belt.",
+            "exampleMeaning": "Vui lòng tháo thắt lưng an toàn của bạn ra.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=belt"
+        },
+        {
+            "word": "sweater",
+            "ipa": "/ˈswetə(r)/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "áo len",
+            "explanationVi": "Quần áo tay dài chuyên may trên vai cơ thể, dùng vào mùa lạnh.",
+            "explanationEn": "A piece of clothing, typically with long sleeves and made from wool, that is worn on the upper part of the body.",
+            "example": "Put on a sweater before you go.",
+            "exampleMeaning": "Mặc áo len vào trước khi bạn đi nhé.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=sweater"
+        },
+        {
+            "word": "jumper",
+            "ipa": "/ˈdʒʌmpə(r)/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "áo len chui đầu",
+            "explanationVi": "Kiểu áo bằng len che ấm nửa phần thân trên (ngôn ngữ Anh-Anh).",
+            "explanationEn": "A piece of clothing with long sleeves that is usually made from wool, is worn on the upper part of the body and does not open at the front.",
+            "example": "He took off his jumper because he was hot.",
+            "exampleMeaning": "Anh ấy cởi áo len chui đầu ra vì quá nóng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=jumper"
+        },
+        {
+            "word": "trousers",
+            "ipa": "/ˈtraʊzəz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quần dài",
+            "explanationVi": "Kiểu dáng trang phục mang đậy toàn phần che từ chậu tới bàn chân dọc phía mỗi bộ chân người.",
+            "explanationEn": "A piece of clothing that covers the lower part of the body from the waist to the feet, consisting of two cylinder-shaped parts, one for each leg, that are joined at the top.",
+            "example": "These trousers are too tight on me.",
+            "exampleMeaning": "Nhưng chiếc quần dài này quá chật với tôi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=trousers"
+        },
+        {
+            "word": "jeans",
+            "ipa": "/dʒiːnz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quần bò, quần jean",
+            "explanationVi": "Trang phục bằng jean hoặc denim không theo hình thức, mặc khá thoải mái.",
+            "explanationEn": "Trousers made of denim that are worn informally.",
+            "example": "I usually wear jeans at the weekend.",
+            "exampleMeaning": "Tôi thường mặc quần jean vào cuối tuần.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=jeans"
+        },
+        {
+            "word": "shorts",
+            "ipa": "/ʃɔːts/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quần đùi, quần soóc",
+            "explanationVi": "Thiết kế may có gấu quần ngừng ở ngang nửa đầu gối hoặc dài tới đùi, thoải mái khi thời tiết oi bức.",
+            "explanationEn": "Trousers that end above the knee or reach the knee, often worn in hot weather or when playing a sport.",
+            "example": "He is wearing shorts and trainers to run.",
+            "exampleMeaning": "Anh ấy đang mặc quần soóc và mang giày thể thao để chạy.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=shorts"
+        },
+        {
+            "word": "tights",
+            "ipa": "/taɪts/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quần tất",
+            "explanationVi": "Loại vải có dệt mảnh co dãn nhẹ đắp xuyên suốt trên bắp chân dưới phụ nữ.",
+            "explanationEn": "A piece of clothing made of thin material that covers the legs and lower part of the body below the waist, worn by women and girls.",
+            "example": "She wore thick tights to keep her legs warm.",
+            "exampleMeaning": "Cô ấy mặc quần tất dày để giữ ấm đôi chân.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=tights"
+        },
+        {
+            "word": "glasses",
+            "ipa": "/ˈɡlɑːsɪz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cặp mắt kính",
+            "explanationVi": "Kính làm hỗ trợ chữa thính giác khi ngước nhìn xa với thiết kế cố định gắn khung mũi.",
+            "explanationEn": "Two small pieces of special glass or plastic in a frame resting on the nose and ears, that help you to see things better.",
+            "example": "He took off his glasses.",
+            "exampleMeaning": "Anh ấy cởi bỏ cặp mắt kính.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=glasses"
+        },
+        {
+            "word": "pyjamas",
+            "ipa": "/pəˈdʒɑːməz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bộ đồ ngủ",
+            "explanationVi": "Y phục gồm có áo sơ mi mỏng nối thân quần dài ôm lấy eo bọc giường đi nằm ngả giấc ngủ.",
+            "explanationEn": "Soft, loose clothing that is worn in bed and consists of trousers and a type of shirt.",
+            "example": "Pyjamas are loose pieces of clothing worn in bed.",
+            "exampleMeaning": "Bộ đồ ngủ là quần áo mặc rộng rãi thoải mái trên giường.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pyjamas"
+        },
+        {
+            "word": "sunglasses",
+            "ipa": "/ˈsʌnɡlɑːsɪz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "kính râm, kính mát",
+            "explanationVi": "Dụng cụ kiếng lọc ánh rực giúp bảo vệ bóng mắt ngăn bức xạ mặt trời.",
+            "explanationEn": "Dark glasses that you wear to protect your eyes from bright light from the sun.",
+            "example": "You should wear sunglasses to protect your eyes.",
+            "exampleMeaning": "Bạn nên đeo kính râm để bảo vệ đôi mắt của mình.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=sunglasses"
+        },
+        {
+            "word": "wear",
+            "ipa": "/weə(r)/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "mặc, đội, mang, đeo",
+            "explanationVi": "Xỏ trang phục giày dép bao trên thân thể của ai đó lên.",
+            "explanationEn": "To have clothing, jewellery, etc. on your body.",
+            "example": "He is wearing a red shirt.",
+            "exampleMeaning": "Anh ấy đang mặc một chiếc áo sơ mi màu đỏ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=wear"
+        },
+        {
+            "word": "carry",
+            "ipa": "/ˈkæri/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "mang, xách",
+            "explanationVi": "Ôm hoặc bắt cái gì để mang chuyển đi xa bằng sức tay hay chân.",
+            "explanationEn": "To hold something or someone with your hands, arms, or on your back and transport it, him, or her from one place to another.",
+            "example": "She is carrying a heavy bag.",
+            "exampleMeaning": "Cô ấy đang mang một cái túi nặng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=carry"
+        },
+        {
+            "word": "get dressed",
+            "ipa": "/ɡet drest/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "mặc quần áo vào",
+            "explanationVi": "Trùm những trang phụ kiện vừa người làm việc vào bữa sáng ban đầu.",
+            "explanationEn": "To put your clothes on.",
+            "example": "Can you get dressed quickly?",
+            "exampleMeaning": "Bạn có thể thay quần áo nhanh lên được không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=get%20dressed"
+        },
+        {
+            "word": "put on",
+            "ipa": "/pʊt ɒn/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "phrasal verb",
+            "meaning": "mặc vào",
+            "explanationVi": "Kéo hoặc khoác mang gì đó lên người bạn ngay lập tức.",
+            "explanationEn": "To move something you wear onto your body.",
+            "example": "Put your coat on, it's very cold.",
+            "exampleMeaning": "Mặc áo khoác vào, trời rất lạnh đấy.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=put%20on"
+        },
+        {
+            "word": "get undressed",
+            "ipa": "/ɡet ʌnˈdrest/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "cởi quần áo ra",
+            "explanationVi": "Tháo lấy xả trang phục mang mặc để thay thế khi ngủ đi.",
+            "explanationEn": "To take your clothes off.",
+            "example": "I got undressed and went to sleep.",
+            "exampleMeaning": "Tôi cởi trang phục và đi ngủ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=get%20undressed"
+        },
+        {
+            "word": "take off",
+            "ipa": "/teɪk ɒf/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "phrasal verb",
+            "meaning": "cởi ra",
+            "explanationVi": "Bỏ một trang phục trên cơ thể ra.",
+            "explanationEn": "To remove something, especially a piece of clothing from your body.",
+            "example": "He took off his coat when he came inside.",
+            "exampleMeaning": "Anh ấy đã cởi áo khoác khi bước vào bên trong.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=take%20off"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "It's raining lightly outside, so put on your _____ to stay warm and dry.",
+            "options": [
+                "shorts",
+                "coat",
+                "sunglasses",
+                "socks"
+            ],
+            "answer": "coat"
+        },
+        {
+            "id": 2,
+            "question": "He bought a new leather _____ to wear on his motorcycle.",
+            "options": [
+                "pyjamas",
+                "jacket",
+                "ring",
+                "skirt"
+            ],
+            "answer": "jacket"
+        },
+        {
+            "id": 3,
+            "question": "My neck is cold. I need to wear a _____.",
+            "options": [
+                "belt",
+                "tie",
+                "scarf",
+                "watch"
+            ],
+            "answer": "scarf"
+        },
+        {
+            "id": 4,
+            "question": "When it snows, I always wear _____ on my hands to keep them warm.",
+            "options": [
+                "gloves",
+                "shoes",
+                "socks",
+                "hats"
+            ],
+            "answer": "gloves"
+        },
+        {
+            "id": 5,
+            "question": "Please take off your _____ before walking on the clean carpet.",
+            "options": [
+                "glasses",
+                "tie",
+                "shoes",
+                "ring"
+            ],
+            "answer": "shoes"
+        },
+        {
+            "id": 6,
+            "question": "I wear comfortable _____ when I go jogging in the park.",
+            "options": [
+                "trainers",
+                "boots",
+                "suits",
+                "ties"
+            ],
+            "answer": "trainers"
+        },
+        {
+            "id": 7,
+            "question": "My feet are freezing! I need a thick pair of _____.",
+            "options": [
+                "gloves",
+                "hats",
+                "socks",
+                "belts"
+            ],
+            "answer": "socks"
+        },
+        {
+            "id": 8,
+            "question": "During the meeting, all the businessmen were wearing dark _____.",
+            "options": [
+                "shorts",
+                "suits",
+                "jumpers",
+                "pyjamas"
+            ],
+            "answer": "suits"
+        },
+        {
+            "id": 9,
+            "question": "The sun is very bright today. You should wear a _____ on your head.",
+            "options": [
+                "hat",
+                "shoe",
+                "ring",
+                "belt"
+            ],
+            "answer": "hat"
+        },
+        {
+            "id": 10,
+            "question": "In summer, men often wear a casual _____ and jeans.",
+            "options": [
+                "dress",
+                "skirt",
+                "T-shirt",
+                "tie"
+            ],
+            "answer": "T-shirt"
+        },
+        {
+            "id": 11,
+            "question": "She looked at her _____ to check the time. It was 8 PM.",
+            "options": [
+                "ring",
+                "watch",
+                "glasses",
+                "belt"
+            ],
+            "answer": "watch"
+        },
+        {
+            "id": 12,
+            "question": "He went to the wedding wearing a white _____ and a blue tie.",
+            "options": [
+                "shirt",
+                "shorts",
+                "scarf",
+                "jumper"
+            ],
+            "answer": "shirt"
+        },
+        {
+            "id": 13,
+            "question": "She wore a beautiful long red _____ to the party.",
+            "options": [
+                "trousers",
+                "dress",
+                "tie",
+                "socks"
+            ],
+            "answer": "dress"
+        },
+        {
+            "id": 14,
+            "question": "They exchanged gold _____ when they got married.",
+            "options": [
+                "rings",
+                "belts",
+                "gloves",
+                "hats"
+            ],
+            "answer": "rings"
+        },
+        {
+            "id": 15,
+            "question": "Female students usually wear a white blouse and a black _____ to school.",
+            "options": [
+                "jumper",
+                "skirt",
+                "suit",
+                "tie"
+            ],
+            "answer": "skirt"
+        },
+        {
+            "id": 16,
+            "question": "My trousers are too loose, so I need to wear a _____.",
+            "options": [
+                "watch",
+                "tie",
+                "belt",
+                "ring"
+            ],
+            "answer": "belt"
+        },
+        {
+            "id": 17,
+            "question": "It's getting cold. You should put on a wool _____ over your shirt.",
+            "options": [
+                "T-shirt",
+                "sweater",
+                "shorts",
+                "pyjamas"
+            ],
+            "answer": "sweater"
+        },
+        {
+            "id": 18,
+            "question": "He took off his _____ because the room was very warm.",
+            "options": [
+                "jumper",
+                "shoes",
+                "ring",
+                "watch"
+            ],
+            "answer": "jumper"
+        },
+        {
+            "id": 19,
+            "question": "These _____ are too tight on me. I need a bigger size for my legs.",
+            "options": [
+                "hats",
+                "T-shirts",
+                "trousers",
+                "scarves"
+            ],
+            "answer": "trousers"
+        },
+        {
+            "id": 20,
+            "question": "I usually wear blue _____ on the weekends because they are comfortable.",
+            "options": [
+                "jeans",
+                "suits",
+                "ties",
+                "skirts"
+            ],
+            "answer": "jeans"
+        },
+        {
+            "id": 21,
+            "question": "It's 35 degrees today! Everyone is wearing _____ instead of long trousers.",
+            "options": [
+                "jumpers",
+                "coats",
+                "shorts",
+                "sweaters"
+            ],
+            "answer": "shorts"
+        },
+        {
+            "id": 22,
+            "question": "In winter, women often wear _____ under their skirts to stay warm.",
+            "options": [
+                "glasses",
+                "tight",
+                "tights",
+                "shorts"
+            ],
+            "answer": "tights"
+        },
+        {
+            "id": 23,
+            "question": "I can't read this small text. I need my reading _____.",
+            "options": [
+                "watches",
+                "glasses",
+                "sunglasses",
+                "rings"
+            ],
+            "answer": "glasses"
+        },
+        {
+            "id": 24,
+            "question": "It's time for bed. Go and put on your _____.",
+            "options": [
+                "pyjamas",
+                "suits",
+                "jeans",
+                "coats"
+            ],
+            "answer": "pyjamas"
+        },
+        {
+            "id": 25,
+            "question": "We are going to the beach, don't forget your _____.",
+            "options": [
+                "boots",
+                "sunglasses",
+                "gloves",
+                "sweaters"
+            ],
+            "answer": "sunglasses"
+        },
+        {
+            "id": 26,
+            "question": "She is _____ a heavy bag of books to the library.",
+            "options": [
+                "wearing",
+                "carrying",
+                "putting",
+                "taking"
+            ],
+            "answer": "carrying"
+        },
+        {
+            "id": 27,
+            "question": "Wake up! You need to _____ dressed quickly or we will be late!",
+            "options": [
+                "get",
+                "make",
+                "do",
+                "have"
+            ],
+            "answer": "get"
+        },
+        {
+            "id": 28,
+            "question": "Please _____ on your coat; we are going outside.",
+            "options": [
+                "take",
+                "put",
+                "get",
+                "wear"
+            ],
+            "answer": "put"
+        },
+        {
+            "id": 29,
+            "question": "Before taking a shower, he got _____.",
+            "options": [
+                "dressed",
+                "undressed",
+                "under",
+                "up"
+            ],
+            "answer": "undressed"
+        },
+        {
+            "id": 30,
+            "question": "It's very hot in here. Can I _____ off my jacket?",
+            "options": [
+                "take",
+                "put",
+                "wear",
+                "get"
+            ],
+            "answer": "take"
+        }
+    ]
+}

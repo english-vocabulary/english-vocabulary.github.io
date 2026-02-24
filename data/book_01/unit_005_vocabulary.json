@@ -1,0 +1,638 @@
+{
+    "unit": 5,
+    "title": "Describing people",
+    "vocabulary": [
+        {
+            "word": "tall",
+            "ipa": "/tɔːl/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "cao",
+            "explanationVi": "(Chỉ người) có độ cao lớn hơn mức trung bình.",
+            "explanationEn": "(Of a person) higher than average.",
+            "example": "Bettina is a very tall woman.",
+            "exampleMeaning": "Bettina là một người phụ nữ rất cao.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=tall"
+        },
+        {
+            "word": "short",
+            "ipa": "/ʃɔːt/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "thấp, lùn",
+            "explanationVi": "(Chỉ người) có chiều cao thấp hơn mức trung bình.",
+            "explanationEn": "(Of a person) smaller in height than usual.",
+            "example": "Tom is quite short.",
+            "exampleMeaning": "Tom khá là thấp.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=short"
+        },
+        {
+            "word": "medium height",
+            "ipa": "/ˈmiːdiəm haɪt/",
+            "partOfSpeech": "cụm từ",
+            "partOfSpeechEn": "phrase",
+            "meaning": "chiều cao trung bình",
+            "explanationVi": "Không cao cũng không thấp.",
+            "explanationEn": "Not tall and not short.",
+            "example": "If you aren't tall or short, you are of medium height.",
+            "exampleMeaning": "Nếu bạn không cao cũng không thấp, bạn có chiều cao trung bình.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=medium%20height"
+        },
+        {
+            "word": "slim",
+            "ipa": "/slɪm/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "mảnh khảnh, thon thả",
+            "explanationVi": "Vóc dáng thon gọn một cách thanh lịch, dễ nhìn.",
+            "explanationEn": "(Especially of people) attractively thin.",
+            "example": "Agata is really slim.",
+            "exampleMeaning": "Agata thực sự rất thon thả.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=slim"
+        },
+        {
+            "word": "thin",
+            "ipa": "/θɪn/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "gầy",
+            "explanationVi": "Ít thịt hoặc mỡ trên cơ thể, đôi khi trông thiếu sức sống.",
+            "explanationEn": "(Of a person) having little flesh on the bones.",
+            "example": "I was very thin when I was in hospital.",
+            "exampleMeaning": "Tôi đã rất gầy khi tôi nằm viện.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=thin"
+        },
+        {
+            "word": "overweight",
+            "ipa": "/ˌəʊvəˈweɪt/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "quá cân, thừa cân",
+            "explanationVi": "Thân hình nặng nề, có lượng mỡ trên mức bình thường.",
+            "explanationEn": "Fat or heavier than is completely healthy.",
+            "example": "The doctor said I am overweight.",
+            "exampleMeaning": "Bác sĩ nói tôi đang bị thừa cân.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=overweight"
+        },
+        {
+            "word": "fat",
+            "ipa": "/fæt/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "béo, mập",
+            "explanationVi": "Có quá nhiều thịt hoặc mỡ trên cơ thể (thường mang hơi hướng tiêu cực).",
+            "explanationEn": "Having too much flesh on the body.",
+            "example": "Their cat is very fat.",
+            "exampleMeaning": "Con mèo của họ rất béo.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fat"
+        },
+        {
+            "word": "skin",
+            "ipa": "/skɪn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "làn da",
+            "explanationVi": "Lớp bao phủ bên ngoài cơ thể con người hoặc động vật.",
+            "explanationEn": "The natural outer layer that covers a person.",
+            "example": "Suri has dark skin.",
+            "exampleMeaning": "Suri có làn da sẫm màu.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=skin"
+        },
+        {
+            "word": "hair",
+            "ipa": "/heə(r)/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "mái tóc",
+            "explanationVi": "Chất sừng mảnh như sợi chỉ mọc trên da đầu con người.",
+            "explanationEn": "The mass of thin thread-like structures on the head of a person.",
+            "example": "Polly has blonde hair.",
+            "exampleMeaning": "Polly có mái tóc vàng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hair"
+        },
+        {
+            "word": "eye",
+            "ipa": "/aɪ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đôi mắt",
+            "explanationVi": "Cơ quan thị giác của con người dùng để nhìn.",
+            "explanationEn": "One of the two organs in your face that are used for seeing.",
+            "example": "She has brown eyes.",
+            "exampleMeaning": "Cô ấy có đôi mắt màu nâu.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=eye"
+        },
+        {
+            "word": "blonde",
+            "ipa": "/blɒnd/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "(tóc) vàng hoe",
+            "explanationVi": "Dùng để chỉ mái tóc có màu vàng nhạt hoặc người có mái tóc như vậy.",
+            "explanationEn": "With pale yellow or gold hair.",
+            "example": "Polly has blonde hair.",
+            "exampleMeaning": "Polly có mái tóc vàng hoe.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=blonde"
+        },
+        {
+            "word": "fair",
+            "ipa": "/feə(r)/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "trắng sáng, nhạt màu",
+            "explanationVi": "(Tóc, da) có màu sáng nhạt, không sẫm.",
+            "explanationEn": "(Of skin or hair) pale or light in colour.",
+            "example": "Polly has fair hair and fair skin.",
+            "exampleMeaning": "Polly có mái tóc và làn da sáng màu.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fair"
+        },
+        {
+            "word": "beard",
+            "ipa": "/bɪəd/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "râu quai nón, râu mép cằm",
+            "explanationVi": "Lông mọc quanh vùng cằm và hai bên má của nam giới.",
+            "explanationEn": "The hair that some men allow to grow on the lower part of their face.",
+            "example": "Ben has a beard and long hair.",
+            "exampleMeaning": "Ben có một bộ râu quai nón và mái tóc dài.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=beard"
+        },
+        {
+            "word": "moustache",
+            "ipa": "/məˈstɑːʃ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ria mép",
+            "explanationVi": "Vệt lông mọc phía trên môi trên của nam giới.",
+            "explanationEn": "Hair that a man grows above his upper lip.",
+            "example": "Luca has a moustache.",
+            "exampleMeaning": "Luca có một bộ ria mép.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=moustache"
+        },
+        {
+            "word": "beautiful",
+            "ipa": "/ˈbjuːtɪfl/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "xinh đẹp, tuyệt đẹp",
+            "explanationVi": "Trông rất ưa nhìn, lôi cuốn (thường dùng cho phụ nữ).",
+            "explanationEn": "Very attractive.",
+            "example": "My mother is a very beautiful woman.",
+            "exampleMeaning": "Mẹ tôi là một người phụ nữ rất xinh đẹp.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=beautiful"
+        },
+        {
+            "word": "good-looking",
+            "ipa": "/ˌɡʊd ˈlʊkɪŋ/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "ưa nhìn, đẹp trai",
+            "explanationVi": "Ngoại hình thu hút, bắt mắt (hay dùng cho nam giới).",
+            "explanationEn": "Physically attractive.",
+            "example": "My dad's a very good-looking man.",
+            "exampleMeaning": "Bố tôi là một người đàn ông rất ưa nhìn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=good-looking"
+        },
+        {
+            "word": "pretty",
+            "ipa": "/ˈprɪti/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "xinh xắn",
+            "explanationVi": "Gương mặt dễ nhìn, lôi cuốn theo cách thanh thoát (thường cho nữ hoặc trẻ em).",
+            "explanationEn": "Quite attractive (usually used of a woman or girl).",
+            "example": "My sister is pretty.",
+            "exampleMeaning": "Em gái tôi rất xinh xắn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pretty"
+        },
+        {
+            "word": "average-looking",
+            "ipa": "/ˈævərɪdʒ lʊkɪŋ/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "ngoại hình bình thường",
+            "explanationVi": "Vẻ bề ngoài không quá xấu cũng không quá đẹp.",
+            "explanationEn": "Not very beautiful or ugly; ordinary.",
+            "example": "I'm just average-looking!",
+            "exampleMeaning": "Tôi chỉ có ngoại hình bình thường thôi!",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=average-looking"
+        },
+        {
+            "word": "ugly",
+            "ipa": "/ˈʌɡli/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "xấu xí",
+            "explanationVi": "Không thân thiện về mặt ngoại hình, không đẹp mắt.",
+            "explanationEn": "Unpleasant to look at; not attractive.",
+            "example": "Bob's an ugly man.",
+            "exampleMeaning": "Bob là người đàn ông xấu xí.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=ugly"
+        },
+        {
+            "word": "young",
+            "ipa": "/jʌŋ/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "trẻ tuổi",
+            "explanationVi": "Mới sống một thời gian ngắn, có sự trẻ trung.",
+            "explanationEn": "Having lived or existed for only a short time and not old.",
+            "example": "My sister is 14. She's young.",
+            "exampleMeaning": "Em gái tôi 14 tuổi. Con bé còn trẻ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=young"
+        },
+        {
+            "word": "old",
+            "ipa": "/əʊld/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "già, lớn tuổi",
+            "explanationVi": "Đã sống hoặc tồn tại được một khoảng thời gian dài.",
+            "explanationEn": "Having lived or existed for many years.",
+            "example": "My grandmother is 97. She's very old.",
+            "exampleMeaning": "Bà tôi 97 tuổi. Bà đã rất già rồi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=old"
+        },
+        {
+            "word": "middle-aged",
+            "ipa": "/ˌmɪdl ˈeɪdʒd/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "trung niên",
+            "explanationVi": "Giai đoạn sống giữa mức thanh niên và già lão (khoảng 40-60 tuổi).",
+            "explanationEn": "In the middle of your life before you are old.",
+            "example": "My father is 56. He's middle-aged.",
+            "exampleMeaning": "Bố tôi 56 tuổi. Ông ấy đang ở độ tuổi trung niên.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=middle-aged"
+        },
+        {
+            "word": "elderly",
+            "ipa": "/ˈeldəli/",
+            "partOfSpeech": "tính từ",
+            "partOfSpeechEn": "adjective",
+            "meaning": "lớn tuổi, cao siêu",
+            "explanationVi": "Quá tuổi trung niên, đã chớm già (từ lịch sự hơn \"old\").",
+            "explanationEn": "Polite word for old.",
+            "example": "This hospital is for elderly people.",
+            "exampleMeaning": "Bệnh viện này dành cho người lớn tuổi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=elderly"
+        },
+        {
+            "word": "weigh",
+            "ipa": "/weɪ/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "cân nặng",
+            "explanationVi": "Có mức cân nhất định, đánh giá khối lượng nặng nhẹ.",
+            "explanationEn": "To have a particular weight.",
+            "example": "I weigh 62 kilos.",
+            "exampleMeaning": "Tôi nặng 62 cân.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=weigh"
+        },
+        {
+            "word": "look like",
+            "ipa": "/lʊk laɪk/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "phrasal verb",
+            "meaning": "trông giống nhứ, diện mạo",
+            "explanationVi": "Hỏi xem diện mạo bề ngoài hoặc đặc điểm nổi bật trên cơ thể.",
+            "explanationEn": "To be similar in appearance to someone or something.",
+            "example": "What does Gemma look like?",
+            "exampleMeaning": "Gemma trông như thế nào?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=look%20like"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "What does your new English teacher _____ like?",
+            "options": [
+                "do",
+                "be",
+                "make",
+                "look"
+            ],
+            "answer": "look"
+        },
+        {
+            "id": 2,
+            "question": "Bettina is a basketball player. She is a very _____ woman.",
+            "options": [
+                "short",
+                "tall",
+                "ugly",
+                "young"
+            ],
+            "answer": "tall"
+        },
+        {
+            "id": 3,
+            "question": "If you aren't tall or short, you are of _____ height.",
+            "options": [
+                "medium",
+                "middle",
+                "average",
+                "slim"
+            ],
+            "answer": "medium"
+        },
+        {
+            "id": 4,
+            "question": "She eats very little, so she is very _____.",
+            "options": [
+                "overweight",
+                "fat",
+                "thin",
+                "tall"
+            ],
+            "answer": "thin"
+        },
+        {
+            "id": 5,
+            "question": "The doctor told my uncle to lose weight because he is _____.",
+            "options": [
+                "slim",
+                "thin",
+                "overweight",
+                "young"
+            ],
+            "answer": "overweight"
+        },
+        {
+            "id": 6,
+            "question": "Which word means \"attractively thin\"?",
+            "options": [
+                "fat",
+                "overweight",
+                "short",
+                "slim"
+            ],
+            "answer": "slim"
+        },
+        {
+            "id": 7,
+            "question": "Suri comes from Africa, so she has dark _____.",
+            "options": [
+                "hair",
+                "skin",
+                "eye",
+                "beard"
+            ],
+            "answer": "skin"
+        },
+        {
+            "id": 8,
+            "question": "Polly is from Sweden. She has blue eyes and _____ hair.",
+            "options": [
+                "short",
+                "blonde",
+                "black",
+                "moustache"
+            ],
+            "answer": "blonde"
+        },
+        {
+            "id": 9,
+            "question": "A face with pale or light colour is described as having _____ skin.",
+            "options": [
+                "fair",
+                "dark",
+                "medium",
+                "slim"
+            ],
+            "answer": "fair"
+        },
+        {
+            "id": 10,
+            "question": "Hair that a man allows to grow on the lower part of his face (chin and cheeks) is a _____.",
+            "options": [
+                "moustache",
+                "hair",
+                "beard",
+                "skin"
+            ],
+            "answer": "beard"
+        },
+        {
+            "id": 11,
+            "question": "Hair that grows above a man's upper lip is a _____.",
+            "options": [
+                "moustache",
+                "beard",
+                "eye",
+                "fair"
+            ],
+            "answer": "moustache"
+        },
+        {
+            "id": 12,
+            "question": "We usually use the word _____ to describe an attractive woman.",
+            "options": [
+                "beautiful",
+                "handsome",
+                "good-looking",
+                "ugly"
+            ],
+            "answer": "beautiful"
+        },
+        {
+            "id": 13,
+            "question": "We often use the word _____ to describe an attractive man.",
+            "options": [
+                "pretty",
+                "good-looking",
+                "beautiful",
+                "short"
+            ],
+            "answer": "good-looking"
+        },
+        {
+            "id": 14,
+            "question": "The word \"_____\" is often used for young, attractive girls.",
+            "options": [
+                "pretty",
+                "tall",
+                "slim",
+                "ugly"
+            ],
+            "answer": "pretty"
+        },
+        {
+            "id": 15,
+            "question": "If a person is not very beautiful or ugly, they are _____.",
+            "options": [
+                "good-looking",
+                "average-looking",
+                "pretty",
+                "fair"
+            ],
+            "answer": "average-looking"
+        },
+        {
+            "id": 16,
+            "question": "My grandmother is ninety-eight years old. She's very _____.",
+            "options": [
+                "young",
+                "slim",
+                "old",
+                "tall"
+            ],
+            "answer": "old"
+        },
+        {
+            "id": 17,
+            "question": "A person who is between 40 and 60 years old is _____.",
+            "options": [
+                "elderly",
+                "young",
+                "middle-aged",
+                "teen"
+            ],
+            "answer": "middle-aged"
+        },
+        {
+            "id": 18,
+            "question": "A more polite word for \"old\" when describing people is \"_____\".",
+            "options": [
+                "middle-aged",
+                "young",
+                "elderly",
+                "tall"
+            ],
+            "answer": "elderly"
+        },
+        {
+            "id": 19,
+            "question": "How much do you _____? - I'm 65 kilos.",
+            "options": [
+                "weight",
+                "weigh",
+                "heavy",
+                "tall"
+            ],
+            "answer": "weigh"
+        },
+        {
+            "id": 20,
+            "question": "She has beautiful, big brown _____.",
+            "options": [
+                "skin",
+                "hair",
+                "eyes",
+                "beards"
+            ],
+            "answer": "eyes"
+        },
+        {
+            "id": 21,
+            "question": "My brother doesn't eat healthy food and doesn't do exercise. He is getting very _____.",
+            "options": [
+                "slim",
+                "fat",
+                "thin",
+                "tall"
+            ],
+            "answer": "fat"
+        },
+        {
+            "id": 22,
+            "question": "\"_____ does she look like?\" - \"She's quite tall and has long hair.\"",
+            "options": [
+                "How",
+                "What",
+                "Who",
+                "Which"
+            ],
+            "answer": "What"
+        },
+        {
+            "id": 23,
+            "question": "People think she is a model because she is tall, slim and very _____.",
+            "options": [
+                "ugly",
+                "average-looking",
+                "beautiful",
+                "middle-aged"
+            ],
+            "answer": "beautiful"
+        },
+        {
+            "id": 24,
+            "question": "He used a razor to shave his _____ because he likes a clean face.",
+            "options": [
+                "beard",
+                "hair",
+                "skin",
+                "eye"
+            ],
+            "answer": "beard"
+        },
+        {
+            "id": 25,
+            "question": "The opposite of \"tall\" is \"_____\".",
+            "options": [
+                "long",
+                "fat",
+                "thin",
+                "short"
+            ],
+            "answer": "short"
+        },
+        {
+            "id": 26,
+            "question": "The opposite of \"ugly\" is \"_____\".",
+            "options": [
+                "short",
+                "fat",
+                "beautiful",
+                "young"
+            ],
+            "answer": "beautiful"
+        },
+        {
+            "id": 27,
+            "question": "At the age of 14, my sister is still very _____.",
+            "options": [
+                "elderly",
+                "young",
+                "old",
+                "average-looking"
+            ],
+            "answer": "young"
+        },
+        {
+            "id": 28,
+            "question": "Ben is the boy with a blue shirt and _____ hair.",
+            "options": [
+                "eyes",
+                "skin",
+                "blonde",
+                "slim"
+            ],
+            "answer": "blonde"
+        },
+        {
+            "id": 29,
+            "question": "He is a famous actor, very rich and _____.",
+            "options": [
+                "good-looking",
+                "pretty",
+                "fair",
+                "short"
+            ],
+            "answer": "good-looking"
+        },
+        {
+            "id": 30,
+            "question": "In many Western countries, people with _____ skin try to sit in the sun to get darker.",
+            "options": [
+                "dark",
+                "short",
+                "fair",
+                "old"
+            ],
+            "answer": "fair"
+        }
+    ]
+}

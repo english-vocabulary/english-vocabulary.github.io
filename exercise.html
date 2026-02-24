@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập từ vựng</title>
+    <!-- Nhúng Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Loader animation */
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3b82f6;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <!-- Container chính -->
+    <div class="bg-white rounded-2xl shadow-xl w-full max-w-2xl overflow-hidden relative">
+
+        <!-- Header -->
+        <div class="bg-blue-600 p-6 text-white text-center relative">
+            <a id="backLink" href="index.html"
+               class="absolute left-4 top-1/2 -translate-y-1/2 flex items-center gap-1 text-blue-200 hover:text-white text-xs font-medium transition"
+               title="Về danh sách unit">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                </svg>
+                Mục lục
+            </a>
+            <h1 id="quiz-header-title" class="text-2xl font-bold mb-2">Bài tập</h1>
+            <p id="quiz-header-subtitle" class="text-blue-100 text-sm">Luyện tập từ vựng và cấu trúc câu</p>
+        </div>
+
+        <!-- Màn hình Loading -->
+        <div id="loading-screen" class="p-12 text-center">
+            <div class="loader mb-4"></div>
+            <p class="text-gray-500">Đang tải dữ liệu bài tập...</p>
+        </div>
+
+        <!-- Màn hình Lỗi (nếu có) -->
+        <div id="error-screen" class="hidden p-12 text-center">
+            <div class="text-red-500 mb-4">
+                <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+            </div>
+            <h2 class="text-xl font-bold text-gray-800 mb-2">Lỗi tải dữ liệu</h2>
+            <p id="error-message" class="text-gray-500 mb-6">Không thể tải dữ liệu bài tập. Vui lòng thử lại sau.</p>
+            <button onclick="location.reload()"
+                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition">Thử
+                lại</button>
+        </div>
+
+        <!-- Màn hình Quiz -->
+        <div id="quiz-screen" class="hidden p-6 md:p-8">
+            <!-- Progress Bar -->
+            <div class="flex justify-between text-sm text-gray-500 mb-2">
+                <span id="progress-text">Câu 1 / 0</span>
+                <span id="score-text">Điểm: 0</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5 mb-6">
+                <div id="progress-bar" class="bg-blue-600 h-2.5 rounded-full transition-all duration-300"
+                    style="width: 0%"></div>
+            </div>
+
+            <!-- Câu hỏi -->
+            <div class="text-center mb-8 fade-in flex flex-col items-center">
+                <!-- Icon Loa cho phần phiên âm -->
+                <button id="speak-btn"
+                    class="hidden items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 hover:scale-110 transition-transform mb-3 focus:outline-none"
+                    title="Nghe phát âm">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd"
+                            d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM14.657 2.929a1 1 0 011.414 0A9.972 9.972 0 0119 10a9.972 9.972 0 01-2.929 7.071 1 1 0 01-1.414-1.414A7.971 7.971 0 0017 10c0-2.21-.894-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 10a5.984 5.984 0 01-1.757 4.243 1 1 0 01-1.415-1.415A3.984 3.984 0 0013 10a3.983 3.983 0 00-1.172-2.828 1 1 0 010-1.415z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+
+                <div class="inline-block bg-blue-50 text-blue-800 px-4 py-1 rounded-full text-sm font-semibold mb-4 min-w-[50px] min-h-[28px] empty:hidden"
+                    id="ipa-text"></div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-2 leading-tight" id="question-word">word</h2>
+                <p id="question-desc" class="text-gray-400 text-sm italic mt-2">Nghĩa của từ là gì?</p>
+            </div>
+
+            <!-- Các lựa chọn -->
+            <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                <!-- Buttons sẽ được render bằng JS tại đây -->
+            </div>
+
+            <!-- Thông báo kết quả và nút tiếp theo -->
+            <div id="feedback-area" class="hidden text-center mt-4">
+                <div id="feedback-message-container" class="mb-4">
+                    <p id="feedback-message" class="text-lg font-bold"></p>
+                    <p id="feedback-explanation" class="text-sm text-gray-600 mt-2 hidden"></p>
+                </div>
+                <button id="next-btn"
+                    class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition transform hover:scale-105 shadow-md">
+                    Câu tiếp theo
+                </button>
+            </div>
+        </div>
+
+        <!-- Màn hình Kết quả (Ẩn mặc định) -->
+        <div id="result-screen" class="hidden p-8 text-center">
+            <div class="mb-6">
+                <div class="inline-flex items-center justify-center w-20 h-20 bg-green-100 rounded-full mb-4">
+                    <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-800">Hoàn thành!</h2>
+                <p class="text-gray-600 mt-2">Bạn đã hoàn thành bài tập.</p>
+            </div>
+
+            <div class="bg-gray-50 rounded-xl p-6 mb-8">
+                <p class="text-gray-500 text-sm uppercase tracking-wide">Điểm số của bạn</p>
+                <p class="text-5xl font-bold text-blue-600 mt-2" id="final-score">0</p>
+                <p class="text-gray-400 mt-1" id="total-questions">/ 0</p>
+            </div>
+
+            <div class="flex flex-col gap-3">
+                <button onclick="location.reload()"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition">
+                    Làm lại bài tập
+                </button>
+                <a id="backLinkResult" href="index.html"
+                    class="w-full block text-center bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-8 rounded-lg transition">
+                    Về trang mục lục
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Đọc file JSON từ tham số URL ?file=
+        function getDataFile() {
+            const params = new URLSearchParams(window.location.search);
+            const file = params.get('file');
+            if (!file) return null;
+            // Cho phép dấu / để hỗ trợ subfolder (book_01/unit_001.json)
+            // Ngăn path traversal bằng cách loại bỏ ".." và ký tự nguy hiểm
+            const safeName = file
+                .replace(/\.\./g, '')
+                .replace(/[^a-zA-Z0-9_\-\.\/]/g, '');
+            return `data/${safeName}`;
+        }
+
+        // Đọc tham số ?book= để tạo back link
+        function getBookParam() {
+            return new URLSearchParams(window.location.search).get('book');
+        }
+
+        let quizData = [];
+        let vocabDataForWrongAnswers = [];
+
+        // Trạng thái ứng dụng
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let shuffledQuestions = [];
+
+        // Các phần tử DOM
+        const loadingScreen = document.getElementById('loading-screen');
+        const errorScreen = document.getElementById('error-screen');
+        const errorMessage = document.getElementById('error-message');
+        const quizScreen = document.getElementById('quiz-screen');
+        const resultScreen = document.getElementById('result-screen');
+        const questionWordEl = document.getElementById('question-word');
+        const ipaTextEl = document.getElementById('ipa-text');
+        const speakBtn = document.getElementById('speak-btn');
+        const questionDescEl = document.getElementById('question-desc');
+        const optionsContainer = document.getElementById('options-container');
+        const feedbackArea = document.getElementById('feedback-area');
+        const feedbackMessage = document.getElementById('feedback-message');
+        const feedbackExplanation = document.getElementById('feedback-explanation');
+        const nextBtn = document.getElementById('next-btn');
+        const progressBar = document.getElementById('progress-bar');
+        const progressText = document.getElementById('progress-text');
+        const scoreText = document.getElementById('score-text');
+        const finalScoreEl = document.getElementById('final-score');
+        const totalQuestionsEl = document.getElementById('total-questions');
+
+        let currentAudio = null;
+
+        // Hàm xáo trộn mảng (Fisher-Yates)
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        // Tải dữ liệu từ một file JSON được chỉ định qua URL
+        async function loadData() {
+            const dataFile = getDataFile();
+
+            if (!dataFile) {
+                // Không có tham số file → quay về trang chủ
+                window.location.replace('index.html');
+                return;
+            }
+
+            try {
+                const response = await fetch(dataFile);
+                if (!response.ok) {
+                    throw new Error(`Không tìm thấy file: ${dataFile} (HTTP ${response.status})`);
+                }
+                const data = await response.json();
+
+                // Cập nhật tiêu đề trang
+                if (data.title) {
+                    document.querySelector('#quiz-header-title').textContent = data.title;
+                    document.title = `Bài tập – ${data.title}`;
+                }
+                if (data.unit) {
+                    document.querySelector('#quiz-header-subtitle').textContent =
+                        `Unit ${data.unit} · Luyện tập từ vựng và cấu trúc câu`;
+                }
+
+                const allVocab = (data.vocabulary || []).map(v => ({ ...v, type: 'vocab' }));
+                const allExercises = (data.exercises || []).map(e => ({ ...e, type: 'sentence' }));
+
+                if (allVocab.length === 0 && allExercises.length === 0) {
+                    throw new Error('Không có dữ liệu bài tập nào được tìm thấy.');
+                }
+
+                vocabDataForWrongAnswers = allVocab;
+                quizData = [...allVocab, ...allExercises];
+
+                initQuiz();
+
+                // Cập nhật back links dựa trên ?book=
+                const bookParam = getBookParam();
+                const backHref = bookParam
+                    ? `index.html?book=${encodeURIComponent(bookParam)}`
+                    : 'index.html';
+                document.getElementById('backLink').href = backHref;
+                document.getElementById('backLinkResult').href = backHref;
+
+                loadingScreen.classList.add('hidden');
+                quizScreen.classList.remove('hidden');
+
+            } catch (error) {
+                console.error('Lỗi khi tải dữ liệu:', error);
+                loadingScreen.classList.add('hidden');
+                errorScreen.classList.remove('hidden');
+                errorMessage.textContent = error.message;
+            }
+        }
+
+        // Khởi tạo bài quiz
+        function initQuiz() {
+            shuffledQuestions = shuffleArray([...quizData]);
+            loadQuestion();
+        }
+
+        // Hàm phát âm thanh
+        function playAudio(url) {
+            if (!url) return;
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+            }
+            currentAudio = new Audio(url);
+            currentAudio.play().catch(e => console.error("Lỗi phát âm thanh:", e));
+        }
+
+        // Tải câu hỏi
+        function loadQuestion() {
+            // Reset giao diện
+            feedbackArea.classList.add('hidden');
+            feedbackExplanation.classList.add('hidden');
+            optionsContainer.innerHTML = '';
+
+            const currentData = shuffledQuestions[currentQuestionIndex];
+
+            // Cập nhật Progress bar
+            const progress = ((currentQuestionIndex) / shuffledQuestions.length) * 100;
+            progressBar.style.width = `${progress}%`;
+            progressText.textContent = `Câu ${currentQuestionIndex + 1} / ${shuffledQuestions.length}`;
+            scoreText.textContent = `Điểm: ${score}`;
+
+            let correctAnswer;
+            let allAnswers;
+
+            // Xử lý sự kiện nút loa
+            speakBtn.onclick = null;
+
+            if (currentData.type === "vocab") {
+                questionWordEl.textContent = currentData.word;
+                ipaTextEl.textContent = currentData.ipa || '';
+                ipaTextEl.style.display = currentData.ipa ? 'inline-block' : 'none';
+                questionDescEl.textContent = "Nghĩa của từ là gì?";
+
+                // Hiển thị nút loa nếu có link âm thanh
+                if (currentData.listenUrl) {
+                    speakBtn.style.display = 'inline-flex';
+                    speakBtn.onclick = () => playAudio(currentData.listenUrl);
+                } else {
+                    speakBtn.style.display = 'none';
+                }
+
+                correctAnswer = currentData.meaning;
+
+                // Trích xuất danh sách các nghĩa sai từ kho từ vựng
+                let wrongAnswers = vocabDataForWrongAnswers
+                    .filter(item => item.meaning !== correctAnswer)
+                    .map(item => item.meaning);
+
+                wrongAnswers = shuffleArray(wrongAnswers).slice(0, 3);
+                allAnswers = shuffleArray([correctAnswer, ...wrongAnswers]);
+
+            } else {
+                questionWordEl.textContent = currentData.question;
+                ipaTextEl.style.display = 'none';
+                speakBtn.style.display = 'none';
+                questionDescEl.textContent = "Chọn đáp án đúng điền vào chỗ trống / Chọn câu đúng";
+
+                correctAnswer = currentData.answer;
+                allAnswers = shuffleArray([...currentData.options]);
+            }
+
+            // Render buttons
+            allAnswers.forEach(answer => {
+                const button = document.createElement('button');
+                button.className = "w-full bg-white border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 text-gray-700 font-semibold py-4 px-4 rounded-xl transition duration-200 text-left flex items-center group";
+                button.innerHTML = `
+                    <span class="w-8 h-8 rounded-full flex-shrink-0 bg-gray-100 text-gray-500 flex items-center justify-center mr-3 text-sm group-hover:bg-blue-200 group-hover:text-blue-700 transition">?</span>
+                    <span class="text-left">${answer}</span>
+                `;
+                button.onclick = () => checkAnswer(button, answer, correctAnswer, currentData);
+                optionsContainer.appendChild(button);
+            });
+        }
+
+        // Kiểm tra đáp án
+        function checkAnswer(selectedBtn, selectedAnswer, correctAnswer, currentData) {
+            // Vô hiệu hóa tất cả nút
+            const buttons = optionsContainer.querySelectorAll('button');
+            buttons.forEach(btn => btn.disabled = true);
+
+            const isCorrect = selectedAnswer === correctAnswer;
+
+            // Hiển thị giải thích nếu có (cho vocab)
+            if (currentData.type === "vocab" && currentData.example) {
+                feedbackExplanation.innerHTML = `<strong>Ví dụ:</strong> ${currentData.example}<br><span class="text-gray-500 italic">${currentData.exampleMeaning}</span>`;
+                feedbackExplanation.classList.remove('hidden');
+            } else {
+                feedbackExplanation.classList.add('hidden');
+            }
+
+            if (isCorrect) {
+                selectedBtn.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50');
+                selectedBtn.classList.add('bg-green-100', 'border-green-500', 'text-green-800');
+                const iconSpan = selectedBtn.querySelector('span:first-child');
+                iconSpan.textContent = '✓';
+                iconSpan.classList.remove('bg-gray-100', 'text-gray-500', 'group-hover:bg-blue-200', 'group-hover:text-blue-700');
+                iconSpan.classList.add('bg-green-500', 'text-white');
+
+                score++;
+                feedbackMessage.textContent = "Chính xác! 🎉";
+                feedbackMessage.className = "text-lg font-bold text-green-600";
+
+                // Tự động phát âm thanh nếu đoán đúng từ vựng
+                if (currentData.type === 'vocab' && currentData.listenUrl) {
+                    playAudio(currentData.listenUrl);
+                }
+            } else {
+                selectedBtn.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50');
+                selectedBtn.classList.add('bg-red-100', 'border-red-500', 'text-red-800');
+                const iconSpan = selectedBtn.querySelector('span:first-child');
+                iconSpan.textContent = '✕';
+                iconSpan.classList.remove('bg-gray-100', 'text-gray-500', 'group-hover:bg-blue-200', 'group-hover:text-blue-700');
+                iconSpan.classList.add('bg-red-500', 'text-white');
+
+                // Highlight đáp án đúng
+                buttons.forEach(btn => {
+                    const answerText = btn.querySelector('span:last-child').textContent;
+                    if (answerText === correctAnswer) {
+                        btn.classList.remove('border-gray-200');
+                        btn.classList.add('bg-green-100', 'border-green-500', 'text-green-800');
+                        const correctIconSpan = btn.querySelector('span:first-child');
+                        correctIconSpan.textContent = '✓';
+                        correctIconSpan.classList.remove('bg-gray-100', 'text-gray-500');
+                        correctIconSpan.classList.add('bg-green-500', 'text-white');
+                    }
+                });
+
+                feedbackMessage.textContent = `Sai rồi! Đáp án đúng là: ${correctAnswer}`;
+                feedbackMessage.className = "text-lg font-bold text-red-600";
+            }
+
+            scoreText.textContent = `Điểm: ${score}`;
+            feedbackArea.classList.remove('hidden');
+            feedbackArea.classList.add('fade-in');
+        }
+
+        // Chuyển câu tiếp theo
+        nextBtn.addEventListener('click', () => {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < shuffledQuestions.length) {
+                loadQuestion();
+            } else {
+                showResults();
+            }
+        });
+
+        // Hiển thị kết quả cuối cùng
+        function showResults() {
+            quizScreen.classList.add('hidden');
+            resultScreen.classList.remove('hidden');
+            resultScreen.classList.add('fade-in');
+
+            finalScoreEl.textContent = score;
+            totalQuestionsEl.textContent = `/ ${shuffledQuestions.length}`;
+        }
+
+        // Bắt đầu tải dữ liệu khi trang vừa mở
+        document.addEventListener('DOMContentLoaded', loadData);
+
+    </script>
+</body>
+
+</html>

@@ -36,10 +36,18 @@
 
     <!-- Hero Header -->
     <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg">
-        <div class="max-w-4xl mx-auto px-6 py-10 text-center">
+        <div class="max-w-4xl mx-auto px-6 py-10 text-center relative">
+            <a id="headerBackBtn" href="index.html"
+               class="hidden absolute left-0 top-0 flex items-center gap-1 text-blue-200 hover:text-white text-xs font-medium transition"
+               title="Quay lại danh sách sách">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                </svg>
+                Danh sách sách
+            </a>
             <div class="text-5xl mb-4">📚</div>
-            <h1 class="text-3xl md:text-4xl font-bold mb-2 tracking-tight">English Vocabulary In Use</h1>
-            <p class="text-blue-200 text-base md:text-lg">Luyện tập từ vựng tiếng Anh theo từng chủ đề</p>
+            <h1 id="headerTitle" class="text-3xl md:text-4xl font-bold mb-2 tracking-tight">English Vocabulary In Use</h1>
+            <p id="headerSubtitle" class="text-blue-200 text-base md:text-lg">Luyện tập từ vựng tiếng Anh theo từng chủ đề</p>
 
             <!-- Search box -->
             <div class="mt-6 max-w-md mx-auto relative">
@@ -85,62 +93,81 @@
     </footer>
 
     <script>
-        const units = [
-            {
-                number: 1,
-                title: "The Family",
-                titleVi: "Gia đình",
-                topic: "People",
-                url: "english_vocabulary_in_use/unit_001_vocabulary_exercise.html",
-                color: "from-blue-500 to-blue-400",
-                icon: "👨‍👩‍👧‍👦"
-            },
-            {
-                number: 2,
-                title: "Birth, Marriage and Death",
-                titleVi: "Sinh, Hôn nhân và Cái chết",
-                topic: "People",
-                url: "english_vocabulary_in_use/unit_002_vocabulary_exercise.html",
-                color: "from-pink-500 to-rose-400",
-                icon: "💒"
-            },
-            {
-                number: 3,
-                title: "Parts of the Body",
-                titleVi: "Các bộ phận cơ thể",
-                topic: "Body",
-                url: "english_vocabulary_in_use/unit_003_vocabulary_exercise.html",
-                color: "from-emerald-500 to-teal-400",
-                icon: "🫀"
-            },
-            {
-                number: 4,
-                title: "Clothes",
-                titleVi: "Quần áo",
-                topic: "Lifestyle",
-                url: "english_vocabulary_in_use/unit_004_vocabulary_exercise.html",
-                color: "from-violet-500 to-purple-400",
-                icon: "👗"
-            },
-            {
-                number: 5,
-                title: "Describing People",
-                titleVi: "Mô tả con người",
-                topic: "People",
-                url: "english_vocabulary_in_use/unit_005_vocabulary_exercise.html",
-                color: "from-amber-500 to-orange-400",
-                icon: "🧑"
-            },
-        ];
+        const urlParams = new URLSearchParams(location.search);
+        const bookId = urlParams.get('book'); // e.g. "book_01" or null
 
-        const grid = document.getElementById('unitGrid');
-        const emptyState = document.getElementById('emptyState');
-        const searchInput = document.getElementById('searchInput');
-        const countLabel = document.getElementById('countLabel');
+        let items = []; // books or units depending on view
 
-        function renderUnits(list) {
+        const grid          = document.getElementById('unitGrid');
+        const emptyState    = document.getElementById('emptyState');
+        const searchInput   = document.getElementById('searchInput');
+        const countLabel    = document.getElementById('countLabel');
+        const headerTitle   = document.getElementById('headerTitle');
+        const headerSubtitle = document.getElementById('headerSubtitle');
+        const headerBackBtn = document.getElementById('headerBackBtn');
+
+        // ── Book card ───────────────────────────────────────────────────────
+        function renderBookCard(book, idx) {
+            const card = document.createElement('a');
+            card.href = `index.html?book=${encodeURIComponent(book.id)}`;
+            card.className = 'card-hover fade-in block bg-white rounded-2xl shadow-md overflow-hidden cursor-pointer group';
+            card.style.animationDelay = `${idx * 60}ms`;
+            card.setAttribute('aria-label', book.title);
+            card.innerHTML = `
+                <div class="bg-gradient-to-br ${book.color} p-5 flex items-center justify-between">
+                    <div>
+                        <span class="text-white text-xs font-semibold uppercase tracking-widest opacity-80">${book.id.replace('_', ' ').toUpperCase()}</span>
+                        <div class="text-3xl mt-1">${book.icon}</div>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h2 class="text-gray-800 font-bold text-base leading-snug group-hover:text-blue-600 transition-colors">${book.title}</h2>
+                    <p class="text-gray-400 text-sm mt-1">${book.titleVi}</p>
+                    <div class="mt-4 flex items-center text-blue-500 text-xs font-semibold">
+                        Xem các unit
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </div>
+                </div>
+            `;
+            return card;
+        }
+
+        // ── Unit card ───────────────────────────────────────────────────────
+        function renderUnitCard(unit, idx) {
+            const card = document.createElement('a');
+            card.href = `exercise.html?file=${encodeURIComponent(bookId + '/' + unit.file)}&book=${encodeURIComponent(bookId)}`;
+            card.className = 'card-hover fade-in block bg-white rounded-2xl shadow-md overflow-hidden cursor-pointer group';
+            card.style.animationDelay = `${idx * 60}ms`;
+            card.setAttribute('aria-label', `Unit ${unit.unit}: ${unit.title}`);
+            card.innerHTML = `
+                <div class="bg-gradient-to-br ${unit.color} p-5 flex items-center justify-between">
+                    <div>
+                        <span class="text-white text-xs font-semibold uppercase tracking-widest opacity-80">Unit ${unit.unit}</span>
+                        <div class="text-3xl mt-1">${unit.icon}</div>
+                    </div>
+                    <span class="bg-white bg-opacity-20 text-white text-xs font-medium px-2 py-1 rounded-full">${unit.topic || ''}</span>
+                </div>
+                <div class="p-5">
+                    <h2 class="text-gray-800 font-bold text-base leading-snug group-hover:text-blue-600 transition-colors">${unit.title}</h2>
+                    <p class="text-gray-400 text-sm mt-1">${unit.titleVi || ''}</p>
+                    <div class="mt-4 flex items-center text-blue-500 text-xs font-semibold">
+                        Bắt đầu luyện tập
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </div>
+                </div>
+            `;
+            return card;
+        }
+
+        // ── Render list ─────────────────────────────────────────────────────
+        function render(list) {
             grid.innerHTML = '';
-            countLabel.textContent = `Hiển thị ${list.length} / ${units.length} unit`;
+            const label = bookId ? 'unit' : 'sách';
+            countLabel.textContent = `Hiển thị ${list.length} / ${items.length} ${label}`;
 
             if (list.length === 0) {
                 emptyState.classList.remove('hidden');
@@ -148,53 +175,79 @@
             }
             emptyState.classList.add('hidden');
 
-            list.forEach((unit, idx) => {
-                const card = document.createElement('a');
-                card.href = unit.url;
-                card.className = `card-hover fade-in block bg-white rounded-2xl shadow-md overflow-hidden cursor-pointer group`;
-                card.style.animationDelay = `${idx * 60}ms`;
-                card.setAttribute('aria-label', `Unit ${unit.number}: ${unit.title}`);
-
-                card.innerHTML = `
-                    <div class="bg-gradient-to-br ${unit.color} p-5 flex items-center justify-between">
-                        <div>
-                            <span class="text-white text-xs font-semibold uppercase tracking-widest opacity-80">Unit ${unit.number}</span>
-                            <div class="text-3xl mt-1">${unit.icon}</div>
-                        </div>
-                        <span class="bg-white bg-opacity-20 text-white text-xs font-medium px-2 py-1 rounded-full">${unit.topic}</span>
-                    </div>
-                    <div class="p-5">
-                        <h2 class="text-gray-800 font-bold text-base leading-snug group-hover:text-blue-600 transition-colors">${unit.title}</h2>
-                        <p class="text-gray-400 text-sm mt-1">${unit.titleVi}</p>
-                        <div class="mt-4 flex items-center text-blue-500 text-xs font-semibold">
-                            Bắt đầu luyện tập
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-                            </svg>
-                        </div>
-                    </div>
-                `;
+            list.forEach((item, idx) => {
+                const card = bookId ? renderUnitCard(item, idx) : renderBookCard(item, idx);
                 grid.appendChild(card);
             });
         }
 
-        function filterUnits(query) {
+        // ── Filter ──────────────────────────────────────────────────────────
+        function filter(query) {
             const q = query.toLowerCase().trim();
-            if (!q) return units;
-            return units.filter(u =>
-                u.title.toLowerCase().includes(q) ||
-                u.titleVi.toLowerCase().includes(q) ||
-                u.topic.toLowerCase().includes(q) ||
-                String(u.number).includes(q)
+            if (!q) return items;
+            if (bookId) {
+                return items.filter(u =>
+                    u.title.toLowerCase().includes(q) ||
+                    (u.titleVi || '').toLowerCase().includes(q) ||
+                    (u.topic || '').toLowerCase().includes(q) ||
+                    String(u.unit).includes(q)
+                );
+            }
+            return items.filter(b =>
+                b.title.toLowerCase().includes(q) ||
+                b.titleVi.toLowerCase().includes(q) ||
+                b.id.toLowerCase().includes(q)
             );
         }
 
-        searchInput.addEventListener('input', () => {
-            renderUnits(filterUnits(searchInput.value));
-        });
+        searchInput.addEventListener('input', () => render(filter(searchInput.value)));
 
-        // Initial render
-        renderUnits(units);
+        // ── Init ────────────────────────────────────────────────────────────
+        async function init() {
+            if (bookId) {
+                // ── Unit view ──
+                searchInput.placeholder = 'Tìm kiếm unit...';
+                headerBackBtn.classList.remove('hidden');
+
+                try {
+                    // Load the book manifest to get title for header
+                    const booksRes = await fetch('data/manifest.json');
+                    const books = booksRes.ok ? await booksRes.json() : [];
+                    const bookMeta = books.find(b => b.id === bookId);
+                    if (bookMeta) {
+                        headerTitle.textContent = bookMeta.title;
+                        headerSubtitle.textContent = bookMeta.titleVi;
+                    }
+
+                    const res = await fetch(`data/${bookId}/manifest.json`);
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    items = await res.json();
+                    render(items);
+                } catch (err) {
+                    console.error('Không thể tải danh sách unit:', err);
+                    countLabel.textContent = 'Lỗi tải danh sách unit.';
+                    emptyState.classList.remove('hidden');
+                }
+            } else {
+                // ── Book view ──
+                searchInput.placeholder = 'Tìm kiếm sách...';
+                headerSubtitle.textContent = 'Chọn sách để bắt đầu luyện tập';
+                headerBackBtn.classList.add('hidden');
+
+                try {
+                    const res = await fetch('data/manifest.json');
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    items = await res.json();
+                    render(items);
+                } catch (err) {
+                    console.error('Không thể tải manifest:', err);
+                    countLabel.textContent = 'Lỗi tải danh sách sách.';
+                    emptyState.classList.remove('hidden');
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
 </html>

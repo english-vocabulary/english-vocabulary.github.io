@@ -1,0 +1,47 @@
+[
+    {
+        "file": "unit_001_vocabulary.json",
+        "unit": 1,
+        "title": "Family and Relationships",
+        "titleVi": "Gia đình và các mối quan hệ",
+        "topic": "People",
+        "icon": "👨‍👩‍👧‍👦",
+        "color": "from-blue-500 to-blue-400"
+    },
+    {
+        "file": "unit_002_vocabulary.json",
+        "unit": 2,
+        "title": "Birth, Marriage and Death",
+        "titleVi": "Sinh, Hôn nhân và Cái chết",
+        "topic": "People",
+        "icon": "💒",
+        "color": "from-pink-500 to-rose-400"
+    },
+    {
+        "file": "unit_003_vocabulary.json",
+        "unit": 3,
+        "title": "Parts of the Body",
+        "titleVi": "Các bộ phận cơ thể",
+        "topic": "Body",
+        "icon": "🫀",
+        "color": "from-emerald-500 to-teal-400"
+    },
+    {
+        "file": "unit_004_vocabulary.json",
+        "unit": 4,
+        "title": "Clothes",
+        "titleVi": "Quần áo",
+        "topic": "Lifestyle",
+        "icon": "👗",
+        "color": "from-violet-500 to-purple-400"
+    },
+    {
+        "file": "unit_005_vocabulary.json",
+        "unit": 5,
+        "title": "Describing People",
+        "titleVi": "Mô tả con người",
+        "topic": "People",
+        "icon": "🧑",
+        "color": "from-amber-500 to-orange-400"
+    }
+]
