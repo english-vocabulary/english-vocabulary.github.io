@@ -222,9 +222,6 @@
         const finalScoreEl = document.getElementById('final-score');
         const totalQuestionsEl = document.getElementById('total-questions');
 
-        let currentAudio = null;
-
-        // Hàm xáo trộn mảng (Fisher-Yates)
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
@@ -297,15 +294,16 @@
             loadQuestion();
         }
 
-        // Hàm phát âm thanh
-        function playAudio(url) {
-            if (!url) return;
-            if (currentAudio) {
-                currentAudio.pause();
-                currentAudio.currentTime = 0;
-            }
-            currentAudio = new Audio(url);
-            currentAudio.play().catch(e => console.error("Lỗi phát âm thanh:", e));
+        // Hàm phát âm thanh bằng Web Speech API (không cần request mạng)
+        function speakText(text, rate = 0.9) {
+            if (!text || !window.speechSynthesis) return;
+            // Xóa dấu gạch chân (chỗ trống bài tập) trước khi đọc
+            const cleaned = text.replace(/_+/g, '').replace(/\s{2,}/g, ' ').trim();
+            window.speechSynthesis.cancel();
+            const utter = new SpeechSynthesisUtterance(cleaned);
+            utter.lang = 'en-US';
+            utter.rate = rate;
+            window.speechSynthesis.speak(utter);
         }
 
         // Tải câu hỏi
@@ -335,13 +333,9 @@
                 ipaTextEl.style.display = currentData.ipa ? 'inline-block' : 'none';
                 questionDescEl.textContent = "Nghĩa của từ là gì?";
 
-                // Hiển thị nút loa nếu có link âm thanh
-                if (currentData.listenUrl) {
-                    speakBtn.style.display = 'inline-flex';
-                    speakBtn.onclick = () => playAudio(currentData.listenUrl);
-                } else {
-                    speakBtn.style.display = 'none';
-                }
+                // Hiển thị nút loa cho từ vựng
+                speakBtn.style.display = 'inline-flex';
+                speakBtn.onclick = () => speakText(currentData.word);
 
                 correctAnswer = currentData.meaning;
 
@@ -356,7 +350,8 @@
             } else {
                 questionWordEl.textContent = currentData.question;
                 ipaTextEl.style.display = 'none';
-                speakBtn.style.display = 'none';
+                speakBtn.style.display = 'inline-flex';
+                speakBtn.onclick = () => speakText(currentData.question, 0.7);
                 questionDescEl.textContent = "Chọn đáp án đúng điền vào chỗ trống / Chọn câu đúng";
 
                 correctAnswer = currentData.answer;
@@ -403,11 +398,6 @@
                 score++;
                 feedbackMessage.textContent = "Chính xác! 🎉";
                 feedbackMessage.className = "text-lg font-bold text-green-600";
-
-                // Tự động phát âm thanh nếu đoán đúng từ vựng
-                if (currentData.type === 'vocab' && currentData.listenUrl) {
-                    playAudio(currentData.listenUrl);
-                }
             } else {
                 selectedBtn.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50');
                 selectedBtn.classList.add('bg-red-100', 'border-red-500', 'text-red-800');
