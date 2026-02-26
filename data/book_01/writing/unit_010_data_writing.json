@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "Food and Drink",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "In Asia, people usually eat ______ at every meal.",
+                "answer": "rice",
+                "hint": "Cơm (danh từ không đếm được)"
+            },
+            {
+                "id": 2,
+                "context": "My sister never eats meat or fish — she is a ______.",
+                "answer": "vegetarian",
+                "hint": "Người ăn chay"
+            },
+            {
+                "id": 3,
+                "context": "In Britain, ______ is very popular.",
+                "answer": "fish and chips",
+                "hint": "Món cá và khoai tây chiên (cụm cố định, dùng số ít)"
+            },
+            {
+                "id": 4,
+                "context": "Popular vegetables include carrots, beans, ______, and tomatoes.",
+                "answer": "potatoes",
+                "hint": "Khoai tây (số nhiều thêm -es)"
+            },
+            {
+                "id": 5,
+                "context": "When I want a non-alcoholic drink, I choose ______.",
+                "answer": "mineral water",
+                "hint": "Nước khoáng"
+            },
+            {
+                "id": 6,
+                "context": "When cooking, we usually add salt and ______ to food for flavour.",
+                "answer": "pepper",
+                "hint": "Hạt tiêu (danh từ không đếm được)"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "In Europe, people often eat **bread** or **pasta**.",
+                "targetWord": "pasta",
+                "options": [
+                    {
+                        "text": "Cơm",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Mì ống",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Bánh mì",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Khoai tây",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "I like eating oranges, apples, bananas, pears, **grapes**, and strawberries.",
+                "targetWord": "grapes",
+                "options": [
+                    {
+                        "text": "Dâu tây",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Dứa",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Nho",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Lê",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "We need **garlic** and onions for cooking.",
+                "targetWord": "garlic",
+                "options": [
+                    {
+                        "text": "Hành tây",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Nấm",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Tỏi",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Cà rốt",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "At parties, I drink beer or **wine**.",
+                "targetWord": "wine",
+                "options": [
+                    {
+                        "text": "Nước ép trái cây",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Sữa",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Nước khoáng",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Rượu vang",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    }
+}

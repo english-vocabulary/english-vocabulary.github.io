@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "Describing People",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "Bettina is a very tall and ______ woman, while Tom is quite short.",
+                "answer": "slim",
+                "hint": "Mảnh khảnh, thon thả (nghĩa tích cực)"
+            },
+            {
+                "id": 2,
+                "context": "The doctor said my uncle is fat and needs to lose weight. I ______ 62 kilograms.",
+                "answer": "weigh",
+                "hint": "Động từ chỉ cân nặng (không cần giới từ)"
+            },
+            {
+                "id": 3,
+                "context": "Ben has a ______ and long hair, while Luca has a moustache.",
+                "answer": "beard",
+                "hint": "Râu quai nón (vùng cằm và má)"
+            },
+            {
+                "id": 4,
+                "context": "If you are not tall or short, you are of ______.",
+                "answer": "medium height",
+                "hint": "Chiều cao trung bình"
+            },
+            {
+                "id": 5,
+                "context": "My grandmother is 97 years old; she is very old. This hospital is for ______ people.",
+                "answer": "elderly",
+                "hint": "Cách nói lịch sự hơn 'old' cho người lớn tuổi"
+            },
+            {
+                "id": 6,
+                "context": "Polly has ______ hair and fair skin.",
+                "answer": "blonde",
+                "hint": "Màu tóc vàng hoe"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "Tom is quite short and a bit **overweight**.",
+                "targetWord": "overweight",
+                "options": [
+                    {
+                        "text": "Gầy gò",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Thừa cân",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Thon thả",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cao lớn",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "My father is a very **good-looking** man.",
+                "targetWord": "good-looking",
+                "options": [
+                    {
+                        "text": "Xấu xí",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Trẻ trung",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Ưa nhìn",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Trung niên",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "My father is 56 years old; he is **middle-aged**.",
+                "targetWord": "middle-aged",
+                "options": [
+                    {
+                        "text": "Trẻ",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Già",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Trung niên",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Lớn tuổi",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "When someone asks \"What does she **look like**?\" we describe their appearance.",
+                "targetWord": "look like",
+                "options": [
+                    {
+                        "text": "Tính cách thế nào",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Thích gì",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Trông như thế nào",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Làm gì",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+}

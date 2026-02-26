@@ -1,0 +1,710 @@
+{
+    "unit": 13,
+    "title": "In the living room",
+    "vocabulary": [
+        {
+            "word": "bookshelf",
+            "ipa": "/ˈbʊkʃelf/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "kệ sách",
+            "explanationVi": "đồ nội thất dùng để đặt và trưng bày sách",
+            "explanationEn": "a piece of furniture with shelves for storing books",
+            "example": "There is a bookshelf in the living room.",
+            "exampleMeaning": "Có một kệ sách trong phòng khách.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bookshelf"
+        },
+        {
+            "word": "bookshelves",
+            "ipa": "/ˈbʊkʃelvz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "các kệ sách",
+            "explanationVi": "dạng số nhiều của bookshelf",
+            "explanationEn": "plural form of bookshelf",
+            "example": "We need more bookshelves for all these books.",
+            "exampleMeaning": "Chúng tôi cần thêm nhiều kệ sách cho tất cả số sách này.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bookshelves"
+        },
+        {
+            "word": "book",
+            "ipa": "/bʊk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "sách",
+            "explanationVi": "tập hợp các trang giấy có chữ viết hoặc in, đóng thành tập",
+            "explanationEn": "a set of printed pages fastened together for reading",
+            "example": "I read a book every night.",
+            "exampleMeaning": "Tôi đọc sách mỗi tối.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=book"
+        },
+        {
+            "word": "light",
+            "ipa": "/laɪt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đèn",
+            "explanationVi": "thiết bị phát ra ánh sáng",
+            "explanationEn": "a device that produces brightness",
+            "example": "Please turn on the light.",
+            "exampleMeaning": "Xin hãy bật đèn lên.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=light"
+        },
+        {
+            "word": "light switch",
+            "ipa": "/laɪt swɪtʃ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "công tắc đèn",
+            "explanationVi": "thiết bị dùng để bật hoặc tắt đèn",
+            "explanationEn": "a device used to turn a light on or off",
+            "example": "The light switch is on the wall.",
+            "exampleMeaning": "Công tắc đèn ở trên tường.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=light+switch"
+        },
+        {
+            "word": "TV",
+            "ipa": "/ˌtiːˈviː/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ti vi",
+            "explanationVi": "thiết bị điện tử dùng để xem các chương trình truyền hình",
+            "explanationEn": "an electronic device used for watching programmes",
+            "example": "I watch TV every evening.",
+            "exampleMeaning": "Tôi xem ti vi mỗi tối.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=TV"
+        },
+        {
+            "word": "picture",
+            "ipa": "/ˈpɪktʃər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bức tranh",
+            "explanationVi": "hình vẽ hoặc hình chụp treo trên tường",
+            "explanationEn": "a painting, drawing or photograph displayed on a wall",
+            "example": "There is a beautiful picture on the wall.",
+            "exampleMeaning": "Có một bức tranh đẹp trên tường.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=picture"
+        },
+        {
+            "word": "lamp",
+            "ipa": "/læmp/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đèn bàn",
+            "explanationVi": "thiết bị chiếu sáng nhỏ, thường đặt trên bàn hoặc trên sàn",
+            "explanationEn": "a small lighting device, usually placed on a table or floor",
+            "example": "There is a lamp next to the sofa.",
+            "exampleMeaning": "Có một cái đèn bàn cạnh ghế sofa.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=lamp"
+        },
+        {
+            "word": "hi-fi",
+            "ipa": "/ˈhaɪ faɪ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "dàn âm thanh",
+            "explanationVi": "thiết bị dùng để phát nhạc chất lượng cao",
+            "explanationEn": "equipment for playing recorded music with high quality sound",
+            "example": "I listen to music on my hi-fi.",
+            "exampleMeaning": "Tôi nghe nhạc trên dàn âm thanh.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hi-fi"
+        },
+        {
+            "word": "window",
+            "ipa": "/ˈwɪndoʊ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cửa sổ",
+            "explanationVi": "lỗ mở trên tường để cho ánh sáng và không khí vào",
+            "explanationEn": "an opening in a wall to let in light and air",
+            "example": "Please open the window.",
+            "exampleMeaning": "Xin hãy mở cửa sổ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=window"
+        },
+        {
+            "word": "curtains",
+            "ipa": "/ˈkɜːrtnz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "rèm cửa",
+            "explanationVi": "tấm vải treo trước cửa sổ để che ánh sáng",
+            "explanationEn": "pieces of fabric hung over a window to block light",
+            "example": "Can you close the curtains, please?",
+            "exampleMeaning": "Bạn có thể kéo rèm lại được không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=curtains"
+        },
+        {
+            "word": "sofa",
+            "ipa": "/ˈsoʊfə/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ghế sofa",
+            "explanationVi": "ghế dài có lưng tựa, dùng cho hai hoặc ba người ngồi",
+            "explanationEn": "a long comfortable seat with a back, for two or more people",
+            "example": "We sit on the sofa and watch TV.",
+            "exampleMeaning": "Chúng tôi ngồi trên ghế sofa và xem ti vi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=sofa"
+        },
+        {
+            "word": "table",
+            "ipa": "/ˈteɪbl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bàn",
+            "explanationVi": "đồ nội thất có mặt phẳng dùng để đặt đồ vật",
+            "explanationEn": "a piece of furniture with a flat top surface",
+            "example": "There is a vase on the table.",
+            "exampleMeaning": "Có một bình hoa trên bàn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=table"
+        },
+        {
+            "word": "chair",
+            "ipa": "/tʃer/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ghế",
+            "explanationVi": "đồ nội thất dùng để ngồi cho một người",
+            "explanationEn": "a piece of furniture for one person to sit on",
+            "example": "Please sit on the chair.",
+            "exampleMeaning": "Xin hãy ngồi lên ghế.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=chair"
+        },
+        {
+            "word": "carpet",
+            "ipa": "/ˈkɑːrpɪt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thảm trải sàn",
+            "explanationVi": "tấm vải dày trải trên sàn nhà, phủ kín sàn",
+            "explanationEn": "a thick covering for a floor, usually covering the entire floor",
+            "example": "The carpet in the living room is blue.",
+            "exampleMeaning": "Tấm thảm trải sàn trong phòng khách màu xanh.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=carpet"
+        },
+        {
+            "word": "rug",
+            "ipa": "/rʌɡ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thảm nhỏ",
+            "explanationVi": "tấm thảm nhỏ, thường đặt trên sàn nhà để trang trí",
+            "explanationEn": "a small piece of thick material placed on the floor for decoration",
+            "example": "There is a rug in front of the sofa.",
+            "exampleMeaning": "Có một tấm thảm nhỏ trước ghế sofa.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=rug"
+        },
+        {
+            "word": "socket",
+            "ipa": "/ˈsɒkɪt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ổ cắm điện",
+            "explanationVi": "thiết bị gắn trên tường để cắm phích điện",
+            "explanationEn": "a device in a wall for connecting electrical equipment",
+            "example": "I plugged the lamp into the socket.",
+            "exampleMeaning": "Tôi cắm đèn vào ổ cắm điện.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=socket"
+        },
+        {
+            "word": "remote control",
+            "ipa": "/rɪˈmoʊt kənˈtroʊl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "điều khiển từ xa",
+            "explanationVi": "thiết bị dùng để điều khiển ti vi hoặc các thiết bị khác từ xa",
+            "explanationEn": "a device used to control a TV or other equipment from a distance",
+            "example": "Pass me the remote control, please.",
+            "exampleMeaning": "Đưa cho tôi cái điều khiển từ xa.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=remote+control"
+        },
+        {
+            "word": "phone",
+            "ipa": "/foʊn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "điện thoại",
+            "explanationVi": "thiết bị dùng để gọi và nghe cuộc gọi",
+            "explanationEn": "a device used for making and receiving calls",
+            "example": "The phone is ringing.",
+            "exampleMeaning": "Điện thoại đang đổ chuông.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=phone"
+        },
+        {
+            "word": "coffee table",
+            "ipa": "/ˈkɒfi ˈteɪbl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bàn trà",
+            "explanationVi": "bàn nhỏ thấp, thường đặt trước ghế sofa",
+            "explanationEn": "a small low table, usually placed in front of a sofa",
+            "example": "Put your cup on the coffee table.",
+            "exampleMeaning": "Đặt cốc của bạn lên bàn trà.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=coffee+table"
+        },
+        {
+            "word": "armchair",
+            "ipa": "/ˈɑːrmtʃer/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ghế bành",
+            "explanationVi": "ghế có tay vịn ở hai bên, dùng cho một người ngồi",
+            "explanationEn": "a comfortable chair with sides that support your arms",
+            "example": "He is relaxing in the armchair.",
+            "exampleMeaning": "Anh ấy đang thư giãn trên ghế bành.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=armchair"
+        },
+        {
+            "word": "watch",
+            "ipa": "/wɒtʃ/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "xem",
+            "explanationVi": "nhìn vào cái gì đó một cách chú ý",
+            "explanationEn": "to look at something carefully for a period of time",
+            "example": "I watch television every evening.",
+            "exampleMeaning": "Tôi xem ti vi mỗi tối.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=watch"
+        },
+        {
+            "word": "listen to",
+            "ipa": "/ˈlɪsn tuː/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "nghe",
+            "explanationVi": "chú ý lắng nghe âm thanh",
+            "explanationEn": "to pay attention to sounds",
+            "example": "I listen to the radio in the morning.",
+            "exampleMeaning": "Tôi nghe đài vào buổi sáng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=listen+to"
+        },
+        {
+            "word": "read",
+            "ipa": "/riːd/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "đọc",
+            "explanationVi": "nhìn và hiểu nội dung chữ viết",
+            "explanationEn": "to look at and understand written words",
+            "example": "Sometimes I read a book before bed.",
+            "exampleMeaning": "Đôi khi tôi đọc sách trước khi đi ngủ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=read"
+        },
+        {
+            "word": "relax",
+            "ipa": "/rɪˈlæks/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "thư giãn",
+            "explanationVi": "nghỉ ngơi và không làm gì",
+            "explanationEn": "to rest and do nothing",
+            "example": "Sometimes I just relax at home.",
+            "exampleMeaning": "Đôi khi tôi chỉ thư giãn ở nhà.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=relax"
+        },
+        {
+            "word": "close the curtains",
+            "ipa": "/kloʊz ðə ˈkɜːrtnz/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "kéo rèm lại",
+            "explanationVi": "kéo rèm cửa để che cửa sổ",
+            "explanationEn": "to pull the curtains across a window to cover it",
+            "example": "It's getting dark. Can you close the curtains?",
+            "exampleMeaning": "Trời đang tối. Bạn kéo rèm lại được không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=close+the+curtains"
+        },
+        {
+            "word": "switch on",
+            "ipa": "/swɪtʃ ɒn/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "bật",
+            "explanationVi": "bật thiết bị điện bằng công tắc",
+            "explanationEn": "to turn on an electrical device using a switch",
+            "example": "I'll switch the light on.",
+            "exampleMeaning": "Tôi sẽ bật đèn lên.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=switch+on"
+        },
+        {
+            "word": "turn off",
+            "ipa": "/tɜːrn ɒf/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "tắt",
+            "explanationVi": "ngừng hoạt động của thiết bị",
+            "explanationEn": "to stop the operation of a device",
+            "example": "Can you turn the radio off?",
+            "exampleMeaning": "Bạn tắt đài được không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=turn+off"
+        },
+        {
+            "word": "turn on",
+            "ipa": "/tɜːrn ɒn/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "bật",
+            "explanationVi": "làm cho thiết bị hoạt động",
+            "explanationEn": "to make a device start working",
+            "example": "I want to turn on the TV.",
+            "exampleMeaning": "Tôi muốn bật ti vi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=turn+on"
+        },
+        {
+            "word": "furniture",
+            "ipa": "/ˈfɜːrnɪtʃər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đồ nội thất",
+            "explanationVi": "các đồ vật lớn trong nhà như bàn, ghế, tủ",
+            "explanationEn": "large movable items in a house such as tables, chairs, and cupboards",
+            "example": "The furniture in my room is white.",
+            "exampleMeaning": "Đồ nội thất trong phòng tôi màu trắng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=furniture"
+        },
+        {
+            "word": "programme",
+            "ipa": "/ˈproʊɡræm/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "chương trình",
+            "explanationVi": "nội dung phát sóng trên ti vi hoặc đài",
+            "explanationEn": "a show on television or radio",
+            "example": "There's a good programme on TV tonight.",
+            "exampleMeaning": "Tối nay có một chương trình hay trên ti vi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=programme"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "There is a _______ on the wall where I can hang pictures.",
+            "options": [
+                "carpet",
+                "sofa",
+                "picture",
+                "rug"
+            ],
+            "answer": "picture"
+        },
+        {
+            "id": 2,
+            "question": "I sit on the _______ to watch TV in the evening.",
+            "options": [
+                "bookshelf",
+                "coffee table",
+                "sofa",
+                "carpet"
+            ],
+            "answer": "sofa"
+        },
+        {
+            "id": 3,
+            "question": "Can you pass me the _______? I want to change the channel.",
+            "options": [
+                "phone",
+                "lamp",
+                "light switch",
+                "remote control"
+            ],
+            "answer": "remote control"
+        },
+        {
+            "id": 4,
+            "question": "I _______ television every evening after dinner.",
+            "options": [
+                "listen",
+                "watch",
+                "read",
+                "hear"
+            ],
+            "answer": "watch"
+        },
+        {
+            "id": 5,
+            "question": "Sometimes I _______ the radio while cooking.",
+            "options": [
+                "watch",
+                "see",
+                "listen to",
+                "look at"
+            ],
+            "answer": "listen to"
+        },
+        {
+            "id": 6,
+            "question": "There is a _______ in front of the sofa where I put my cup.",
+            "options": [
+                "bookshelf",
+                "armchair",
+                "coffee table",
+                "window"
+            ],
+            "answer": "coffee table"
+        },
+        {
+            "id": 7,
+            "question": "It's getting dark. Can you _______ the curtains?",
+            "options": [
+                "switch",
+                "open",
+                "turn",
+                "close"
+            ],
+            "answer": "close"
+        },
+        {
+            "id": 8,
+            "question": "I'll _______ the light on because it's dark.",
+            "options": [
+                "close",
+                "switch",
+                "pass",
+                "open"
+            ],
+            "answer": "switch"
+        },
+        {
+            "id": 9,
+            "question": "The _______ in my room is white.",
+            "options": [
+                "curtains",
+                "furniture",
+                "books",
+                "windows"
+            ],
+            "answer": "furniture"
+        },
+        {
+            "id": 10,
+            "question": "I like to sit in the _______ and read a book.",
+            "options": [
+                "coffee table",
+                "bookshelf",
+                "armchair",
+                "rug"
+            ],
+            "answer": "armchair"
+        },
+        {
+            "id": 11,
+            "question": "There _______ (be) a big TV in our living room.",
+            "options": [
+                "is",
+                "are",
+                "am",
+                "be"
+            ],
+            "answer": "is"
+        },
+        {
+            "id": 12,
+            "question": "I always _______ (watch) the news at 7 PM.",
+            "options": [
+                "watch",
+                "watches",
+                "watching",
+                "watched"
+            ],
+            "answer": "watch"
+        },
+        {
+            "id": 13,
+            "question": "She _______ (listen) to music on the hi-fi.",
+            "options": [
+                "listen",
+                "listens",
+                "listening",
+                "listened"
+            ],
+            "answer": "listens"
+        },
+        {
+            "id": 14,
+            "question": "There _______ (be) two bookshelves on the wall.",
+            "options": [
+                "is",
+                "are",
+                "am",
+                "be"
+            ],
+            "answer": "are"
+        },
+        {
+            "id": 15,
+            "question": "He _______ (read) a book every night.",
+            "options": [
+                "read",
+                "reads",
+                "reading",
+                "readed"
+            ],
+            "answer": "reads"
+        },
+        {
+            "id": 16,
+            "question": "Can you _______ (turn) off the radio, please?",
+            "options": [
+                "turn",
+                "turns",
+                "turning",
+                "turned"
+            ],
+            "answer": "turn"
+        },
+        {
+            "id": 17,
+            "question": "The children _______ (sit) on the carpet.",
+            "options": [
+                "sit",
+                "sits",
+                "sitting",
+                "sat"
+            ],
+            "answer": "sit"
+        },
+        {
+            "id": 18,
+            "question": "We _______ (not have) curtains in the kitchen.",
+            "options": [
+                "don't have",
+                "doesn't have",
+                "haven't",
+                "hasn't"
+            ],
+            "answer": "don't have"
+        },
+        {
+            "id": 19,
+            "question": "_______ you _______ (watch) TV every evening?",
+            "options": [
+                "Do...watch",
+                "Does...watches",
+                "Are...watching",
+                "Did...watch"
+            ],
+            "answer": "Do...watch"
+        },
+        {
+            "id": 20,
+            "question": "My father _______ (relax) in the armchair after work.",
+            "options": [
+                "relax",
+                "relaxes",
+                "relaxing",
+                "relaxed"
+            ],
+            "answer": "relaxes"
+        },
+        {
+            "id": 21,
+            "question": "I turn on the TV. (dùng 'switch on') → I _______ _______ the TV.",
+            "options": [
+                "switch on",
+                "turn off",
+                "close up",
+                "listen to"
+            ],
+            "answer": "switch on"
+        },
+        {
+            "id": 22,
+            "question": "The TV is on. I don't want to watch it. → Please _______ _______ the TV.",
+            "options": [
+                "turn off",
+                "switch on",
+                "turn on",
+                "close up"
+            ],
+            "answer": "turn off"
+        },
+        {
+            "id": 23,
+            "question": "I want to hear music. → I want to _______ _______ music.",
+            "options": [
+                "watch at",
+                "look at",
+                "listen to",
+                "hear to"
+            ],
+            "answer": "listen to"
+        },
+        {
+            "id": 24,
+            "question": "I rest and do nothing at home. → I _______ at home.",
+            "options": [
+                "relax",
+                "watch",
+                "read",
+                "listen"
+            ],
+            "answer": "relax"
+        },
+        {
+            "id": 25,
+            "question": "I pull the curtains across the window. → I _______ the curtains.",
+            "options": [
+                "open",
+                "close",
+                "switch",
+                "turn"
+            ],
+            "answer": "close"
+        },
+        {
+            "id": 26,
+            "question": "Which item is used to change channels on the TV?",
+            "options": [
+                "light switch",
+                "phone",
+                "remote control",
+                "socket"
+            ],
+            "answer": "remote control"
+        },
+        {
+            "id": 27,
+            "question": "What is the difference between a carpet and a rug?",
+            "options": [
+                "A carpet is small, a rug is big",
+                "A carpet covers the whole floor, a rug is smaller",
+                "They are the same thing",
+                "A rug is for the bathroom only"
+            ],
+            "answer": "A carpet covers the whole floor, a rug is smaller"
+        },
+        {
+            "id": 28,
+            "question": "Which sentence is correct?",
+            "options": [
+                "The furniture in my room are white.",
+                "The furniture in my room is white.",
+                "The furnitures in my room is white.",
+                "The furnitures in my room are white."
+            ],
+            "answer": "The furniture in my room is white."
+        },
+        {
+            "id": 29,
+            "question": "Which verb goes with 'the radio'?",
+            "options": [
+                "watch",
+                "see",
+                "listen to",
+                "look at"
+            ],
+            "answer": "listen to"
+        },
+        {
+            "id": 30,
+            "question": "Where do you put books in the living room?",
+            "options": [
+                "on the coffee table",
+                "on the bookshelf",
+                "on the armchair",
+                "on the rug"
+            ],
+            "answer": "on the bookshelf"
+        }
+    ]
+}

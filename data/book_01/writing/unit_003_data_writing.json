@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "Parts of the Body",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "The ______ is the organ that pumps blood around the body.",
+                "answer": "heart",
+                "hint": "Cơ quan bơm máu đi khắp cơ thể"
+            },
+            {
+                "id": 2,
+                "context": "A normal adult has 32 ______.",
+                "answer": "teeth",
+                "hint": "Răng (số nhiều bất quy tắc của tooth)"
+            },
+            {
+                "id": 3,
+                "context": "A hand has five fingers, including one ______ and four other fingers.",
+                "answer": "thumb",
+                "hint": "Ngón cái"
+            },
+            {
+                "id": 4,
+                "context": "He broke his ______ in an accident and felt a pain in his chest.",
+                "answer": "arm",
+                "hint": "Cánh tay"
+            },
+            {
+                "id": 5,
+                "context": "A foot has five ______.",
+                "answer": "toes",
+                "hint": "Ngón chân (số nhiều)"
+            },
+            {
+                "id": 6,
+                "context": "______ grows on the head and is an uncountable noun in English.",
+                "answer": "Hair",
+                "hint": "Tóc (danh từ không đếm được)"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "We see with our **eyes**, hear with our **ears**, smell with our **nose**.",
+                "targetWord": "nose",
+                "options": [
+                    {
+                        "text": "Miệng",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Tai",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Mũi",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Mắt",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "She carried a heavy bag on her **shoulder** and wore a scarf around her neck.",
+                "targetWord": "shoulder",
+                "options": [
+                    {
+                        "text": "Vai",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Cổ",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Lưng",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Eo",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "My **legs** are tired after walking all day, especially my **knees** and feet.",
+                "targetWord": "knees",
+                "options": [
+                    {
+                        "text": "Bàn chân",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Hông",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Đầu gối",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Ngón chân",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "**Skin** covers and protects the entire body.",
+                "targetWord": "skin",
+                "options": [
+                    {
+                        "text": "Xương",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Da",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Máu",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cơ",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "Conversations 2: Useful Expressions",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "\"______ go and see a film and then have a meal.\"",
+                "answer": "Let's",
+                "hint": "Cụm từ rủ ai đó cùng làm gì (Let us)"
+            },
+            {
+                "id": 2,
+                "context": "\"______ the new Angelina Jolie film?\"",
+                "answer": "How about",
+                "hint": "Cụm hỏi gợi ý (Còn... thì sao?)"
+            },
+            {
+                "id": 3,
+                "context": "People say bad things about her, but she's ______ very nice.",
+                "answer": "actually",
+                "hint": "Thực ra (dùng khi nói ngược lại điều người ta tưởng)"
+            },
+            {
+                "id": 4,
+                "context": "Do you want to buy anything ______? Or go somewhere ______?",
+                "answer": "else",
+                "hint": "Khác/Nữa (luôn đi sau từ bất định)"
+            },
+            {
+                "id": 5,
+                "context": "\"______! The taxi's here.\" We need to leave now.",
+                "answer": "Hurry up",
+                "hint": "Nhanh lên (cụm mệnh lệnh)"
+            },
+            {
+                "id": 6,
+                "context": "\"I'm sorry, but I can't come to your party.\" — \"______!\"",
+                "answer": "What a pity",
+                "hint": "Thật đáng tiếc"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "When someone asks your opinion about two choices, you can say \"**I don't mind**\".",
+                "targetWord": "I don't mind",
+                "options": [
+                    {
+                        "text": "Tôi không quan tâm",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Tôi không bận tâm (thế nào cũng được)",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Tôi không đồng ý",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Tôi không biết",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "\"**It's up to you** to decide.\"",
+                "targetWord": "It's up to you",
+                "options": [
+                    {
+                        "text": "Tùy bạn",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Tôi đồng ý",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Chắc chắn rồi",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Không sao đâu",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "\"**Be careful**! There's a car coming.\"",
+                "targetWord": "Be careful",
+                "options": [
+                    {
+                        "text": "Nhanh lên",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cẩn thận",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Xin lỗi",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Làm tốt lắm",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "The book is **really** good.",
+                "targetWord": "really",
+                "options": [
+                    {
+                        "text": "Thực ra",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Thực sự (rất)",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Khoảng",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Dù sao thì",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+}

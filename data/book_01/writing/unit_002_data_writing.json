@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "Birth, Marriage and Death",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "Last year, my older sister ______. The baby weighed 3.2 kilograms.",
+                "answer": "had a baby",
+                "hint": "Cụm từ chỉ việc sinh con"
+            },
+            {
+                "id": 2,
+                "context": "The baby ______ 3.2 kilograms and was born at 6 a.m.",
+                "answer": "weighed",
+                "hint": "Động từ chỉ cân nặng (quá khứ)"
+            },
+            {
+                "id": 3,
+                "context": "A few months before that, my cousin ______ to his girlfriend.",
+                "answer": "got married",
+                "hint": "Cụm từ chỉ việc kết hôn (quá khứ)"
+            },
+            {
+                "id": 4,
+                "context": "After the wedding, they went on their ______ to Da Lat.",
+                "answer": "honeymoon",
+                "hint": "Tuần trăng mật"
+            },
+            {
+                "id": 5,
+                "context": "He died in December — he ______ a heart attack.",
+                "answer": "died of",
+                "hint": "Chết vì (nguyên nhân bệnh)"
+            },
+            {
+                "id": 6,
+                "context": "The ______ was held on Friday. The whole family was very sad.",
+                "answer": "funeral",
+                "hint": "Đám tang"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "The **bride** wore a gorgeous white dress.",
+                "targetWord": "bride",
+                "options": [
+                    {
+                        "text": "Chú rể",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cô dâu",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Phù dâu",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Khách mời",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "Before meeting his **partner**, he had been single for many years.",
+                "targetWord": "partner",
+                "options": [
+                    {
+                        "text": "Bạn bè",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Đồng nghiệp",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bạn đời",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Người thân",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "Some of my friends have been **separated** or divorced for various reasons.",
+                "targetWord": "separated",
+                "options": [
+                    {
+                        "text": "Kết hôn",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Ly thân",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Góa",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Độc thân",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "His **death** made the whole family very sad.",
+                "targetWord": "death",
+                "options": [
+                    {
+                        "text": "Cái chết (danh từ)",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Chết (động từ)",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Đã chết (tính từ)",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Đám tang",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+}

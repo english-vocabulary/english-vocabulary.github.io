@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "Health and Illness",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "Sometimes you get a ______ and need to take an aspirin.",
+                "answer": "headache",
+                "hint": "Đau đầu (danh từ ghép)"
+            },
+            {
+                "id": 2,
+                "context": "When you have a cold, you ______ all day and need to see a doctor.",
+                "answer": "sneeze",
+                "hint": "Hắt hơi (động từ)"
+            },
+            {
+                "id": 3,
+                "context": "In some countries, ______ can give people malaria.",
+                "answer": "mosquitoes",
+                "hint": "Loài côn trùng hút máu (số nhiều)"
+            },
+            {
+                "id": 4,
+                "context": "My father went to hospital because he had a ______.",
+                "answer": "heart attack",
+                "hint": "Cơn đau tim"
+            },
+            {
+                "id": 5,
+                "context": "To stay healthy, we need to have a ______ and exercise regularly.",
+                "answer": "healthy diet",
+                "hint": "Chế độ ăn uống lành mạnh"
+            },
+            {
+                "id": 6,
+                "context": "If you have a toothache, you should go to the ______.",
+                "answer": "dentist",
+                "hint": "Bác sĩ chuyên về răng miệng"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "Every summer, I get **hay fever**, so I have to take medicine.",
+                "targetWord": "hay fever",
+                "options": [
+                    {
+                        "text": "Cảm lạnh",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Dị ứng phấn hoa",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Hen suyễn",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Sốt rét",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "My little brother has **asthma**, so he often has difficulty breathing.",
+                "targetWord": "asthma",
+                "options": [
+                    {
+                        "text": "Dị ứng",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Đau đầu",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Hen suyễn",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Cảm lạnh",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "Many children had **cholera** from drinking dirty water.",
+                "targetWord": "cholera",
+                "options": [
+                    {
+                        "text": "Bệnh tả",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Bệnh sốt rét",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bệnh ung thư",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bệnh cảm cúm",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "If you **feel stressed**, you need to relax and rest more.",
+                "targetWord": "feel stressed",
+                "options": [
+                    {
+                        "text": "Cảm thấy vui",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cảm thấy mệt",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cảm thấy căng thẳng",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Cảm thấy đói",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+}

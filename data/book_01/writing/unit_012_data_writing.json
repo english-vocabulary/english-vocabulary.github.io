@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "In the Bedroom and Bathroom",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "Emma ______ at 11 o'clock. She goes upstairs to her bedroom.",
+                "answer": "goes to bed",
+                "hint": "Đi ngủ (cụm cố định, không dùng mạo từ 'the')"
+            },
+            {
+                "id": 2,
+                "context": "She has a bedside lamp on her bedside table and an ______ to wake her up every morning.",
+                "answer": "alarm clock",
+                "hint": "Đồng hồ báo thức"
+            },
+            {
+                "id": 3,
+                "context": "All her shirts are in the ______.",
+                "answer": "wardrobe",
+                "hint": "Tủ quần áo (có cửa, để treo đồ)"
+            },
+            {
+                "id": 4,
+                "context": "She turns off the light before sleeping and ______ after reading for a bit.",
+                "answer": "falls asleep",
+                "hint": "Thiếp đi (fall - fell - fallen)"
+            },
+            {
+                "id": 5,
+                "context": "Then she cleans her teeth with a ______ and toothpaste.",
+                "answer": "toothbrush",
+                "hint": "Bàn chải đánh răng"
+            },
+            {
+                "id": 6,
+                "context": "I use ______ to wash my hair and shower gel instead of soap.",
+                "answer": "shampoo",
+                "hint": "Dầu gội đầu"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "A large **chest of drawers** stores clothes.",
+                "targetWord": "chest of drawers",
+                "options": [
+                    {
+                        "text": "Tủ quần áo",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Tủ ngăn kéo",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Kệ sách",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bàn trang điểm",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "In the morning, she **wakes up** when her alarm clock rings.",
+                "targetWord": "wakes up",
+                "options": [
+                    {
+                        "text": "Đi ngủ",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Thức dậy",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Đứng dậy",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Thiếp đi",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "I wash my face in the **basin**.",
+                "targetWord": "basin",
+                "options": [
+                    {
+                        "text": "Bồn rửa (nhà bếp)",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bồn tắm",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bồn rửa (phòng tắm)",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Nhà vệ sinh",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "He uses a **razor** to shave.",
+                "targetWord": "razor",
+                "options": [
+                    {
+                        "text": "Bàn chải tóc",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Lược",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Kéo",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Dao cạo",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    }
+}

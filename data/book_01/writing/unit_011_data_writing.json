@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "In the Kitchen",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "I'll put this milk in the ______.",
+                "answer": "fridge",
+                "hint": "Tủ lạnh (giữ lạnh trên 0°C)"
+            },
+            {
+                "id": 2,
+                "context": "Heat the soup in the ______ for three minutes.",
+                "answer": "microwave",
+                "hint": "Lò vi sóng"
+            },
+            {
+                "id": 3,
+                "context": "Put the dirty plates in the ______ and turn on the tap to get water.",
+                "answer": "sink",
+                "hint": "Bồn rửa"
+            },
+            {
+                "id": 4,
+                "context": "She ate her dinner with a knife and ______.",
+                "answer": "fork",
+                "hint": "Nĩa (dụng cụ ăn)"
+            },
+            {
+                "id": 5,
+                "context": "Do you know how to use ______?",
+                "answer": "chopsticks",
+                "hint": "Đũa (luôn ở dạng số nhiều)"
+            },
+            {
+                "id": 6,
+                "context": "You use ______ to wash the dishes, then a tea towel to dry them.",
+                "answer": "washing-up liquid",
+                "hint": "Nước rửa bát"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "We don't have any meat in the **freezer**.",
+                "targetWord": "freezer",
+                "options": [
+                    {
+                        "text": "Tủ lạnh",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Tủ đông",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Tủ bếp",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Lò vi sóng",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "There's a **saucepan** on the cooker.",
+                "targetWord": "saucepan",
+                "options": [
+                    {
+                        "text": "Chảo rán",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Nồi",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Ấm trà",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bát",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "We need a **cup** for tea, a **mug** for milk, a **glass** for water.",
+                "targetWord": "mug",
+                "options": [
+                    {
+                        "text": "Tách nhỏ (đồ uống nóng)",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cốc lớn có quai (đồ uống nóng)",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Ly thủy tinh (đồ uống lạnh)",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bát",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "Wipe the table with a damp **cloth**.",
+                "targetWord": "cloth",
+                "options": [
+                    {
+                        "text": "Quần áo",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Khăn lau bát",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Giẻ lau",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Giấy nhà bếp",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,721 @@
+{
+    "unit": 15,
+    "title": "At school and university",
+    "vocabulary": [
+        {
+            "word": "English",
+            "ipa": "/ˈɪŋɡlɪʃ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tiếng Anh (môn học)",
+            "explanationVi": "Môn học về ngôn ngữ và văn học tiếng Anh",
+            "explanationEn": "A school subject focused on language and literature",
+            "verbForms": "",
+            "example": "English is my favourite subject.",
+            "exampleMeaning": "Tiếng Anh là môn học yêu thích của tôi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=English"
+        },
+        {
+            "word": "maths",
+            "ipa": "/mæθs/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "toán học",
+            "explanationVi": "Môn học về số, phép tính và logic toán học",
+            "explanationEn": "A school subject dealing with numbers, calculations and logical thinking",
+            "verbForms": "",
+            "example": "She is very good at maths.",
+            "exampleMeaning": "Cô ấy rất giỏi toán.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=maths"
+        },
+        {
+            "word": "art",
+            "ipa": "/ɑːrt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "mỹ thuật",
+            "explanationVi": "Môn học về hội họa, vẽ và sáng tác nghệ thuật",
+            "explanationEn": "A school subject involving painting, drawing and creative work",
+            "verbForms": "",
+            "example": "We paint pictures in art class.",
+            "exampleMeaning": "Chúng tôi vẽ tranh trong giờ mỹ thuật.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=art"
+        },
+        {
+            "word": "history",
+            "ipa": "/ˈhɪstəri/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "lịch sử",
+            "explanationVi": "Môn học về các sự kiện xảy ra trong quá khứ",
+            "explanationEn": "A school subject about past events and how they shaped the world",
+            "verbForms": "",
+            "example": "We studied the First World War in history.",
+            "exampleMeaning": "Chúng tôi học về Chiến tranh Thế giới thứ nhất trong môn lịch sử.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=history"
+        },
+        {
+            "word": "geography",
+            "ipa": "/dʒiˈɒɡrəfi/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "địa lý",
+            "explanationVi": "Môn học nghiên cứu về Trái Đất, các quốc gia, khí hậu và con người",
+            "explanationEn": "A school subject studying the Earth, countries, climate and people",
+            "verbForms": "",
+            "example": "We learned about the countries of the world in geography.",
+            "exampleMeaning": "Chúng tôi học về các quốc gia trên thế giới trong môn địa lý.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=geography"
+        },
+        {
+            "word": "biology",
+            "ipa": "/baɪˈɒlədʒi/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "sinh học",
+            "explanationVi": "Môn học về các sinh vật sống, động vật và thực vật",
+            "explanationEn": "A school subject about living organisms, animals and plants",
+            "verbForms": "",
+            "example": "In biology, we study animals and plants.",
+            "exampleMeaning": "Trong môn sinh học, chúng tôi học về động vật và thực vật.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=biology"
+        },
+        {
+            "word": "ICT",
+            "ipa": "/ˌaɪ siː ˈtiː/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "công nghệ thông tin",
+            "explanationVi": "Môn học về máy tính, internet và công nghệ thông tin và truyền thông",
+            "explanationEn": "A school subject about computers, the internet and information communication technology",
+            "verbForms": "",
+            "example": "We use computers in ICT class.",
+            "exampleMeaning": "Chúng tôi sử dụng máy tính trong giờ học ICT.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=ICT"
+        },
+        {
+            "word": "PE",
+            "ipa": "/ˌpiː ˈiː/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "giáo dục thể chất",
+            "explanationVi": "Môn học về thể thao, vận động và rèn luyện sức khỏe thể chất",
+            "explanationEn": "A school subject about sports, physical activity and fitness",
+            "verbForms": "",
+            "example": "We play football in PE.",
+            "exampleMeaning": "Chúng tôi chơi bóng đá trong giờ thể dục.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=physical+education"
+        },
+        {
+            "word": "chemistry",
+            "ipa": "/ˈkemɪstri/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "hóa học",
+            "explanationVi": "Môn học về các chất, nguyên tố và phản ứng hóa học",
+            "explanationEn": "A school subject about substances, elements and chemical reactions",
+            "verbForms": "",
+            "example": "Water is H₂O – we learned that in chemistry.",
+            "exampleMeaning": "Nước là H₂O – chúng tôi học điều đó trong môn hóa học.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=chemistry"
+        },
+        {
+            "word": "modern languages",
+            "ipa": "/ˈmɒdərn ˈlæŋɡwɪdʒɪz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ngoại ngữ hiện đại",
+            "explanationVi": "Môn học về các ngôn ngữ nước ngoài như tiếng Pháp, Tây Ban Nha, Đức",
+            "explanationEn": "A school subject studying foreign languages such as French, Spanish and German",
+            "verbForms": "",
+            "example": "She studies French and German in modern languages.",
+            "exampleMeaning": "Cô ấy học tiếng Pháp và tiếng Đức trong môn ngoại ngữ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=modern+languages"
+        },
+        {
+            "word": "physics",
+            "ipa": "/ˈfɪzɪks/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "vật lý",
+            "explanationVi": "Môn học về năng lượng, lực, chuyển động và vật chất",
+            "explanationEn": "A school subject about energy, forces, motion and matter",
+            "verbForms": "",
+            "example": "We use the formula E=mc² in physics.",
+            "exampleMeaning": "Chúng tôi sử dụng công thức E=mc² trong môn vật lý.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=physics"
+        },
+        {
+            "word": "music",
+            "ipa": "/ˈmjuːzɪk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "âm nhạc",
+            "explanationVi": "Môn học về âm thanh, nhạc cụ và sáng tác âm nhạc",
+            "explanationEn": "A school subject about sound, instruments and musical composition",
+            "verbForms": "",
+            "example": "She plays the piano in music class.",
+            "exampleMeaning": "Cô ấy chơi piano trong giờ âm nhạc.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=music"
+        },
+        {
+            "word": "board",
+            "ipa": "/bɔːrd/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bảng (viết)",
+            "explanationVi": "Bề mặt phẳng trong lớp học để giáo viên viết thông tin",
+            "explanationEn": "A flat surface in a classroom for the teacher to write information",
+            "verbForms": "",
+            "example": "The teacher writes on the board.",
+            "exampleMeaning": "Giáo viên viết lên bảng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=board"
+        },
+        {
+            "word": "noticeboard",
+            "ipa": "/ˈnoʊtɪsbɔːrd/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bảng thông báo",
+            "explanationVi": "Bảng để đăng các thông báo hoặc thông tin quan trọng",
+            "explanationEn": "A board for displaying notices and important information",
+            "verbForms": "",
+            "example": "Exam dates are on the noticeboard.",
+            "exampleMeaning": "Ngày thi được đăng trên bảng thông báo.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=noticeboard"
+        },
+        {
+            "word": "piece of paper",
+            "ipa": "/piːs əv ˈpeɪpər/",
+            "partOfSpeech": "cụm danh từ",
+            "partOfSpeechEn": "noun phrase",
+            "meaning": "tờ giấy",
+            "explanationVi": "Một tờ giấy đơn lẻ dùng để viết",
+            "explanationEn": "A single sheet of paper used for writing",
+            "verbForms": "",
+            "example": "Write the answer on a piece of paper.",
+            "exampleMeaning": "Viết câu trả lời vào một tờ giấy.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=piece+of+paper"
+        },
+        {
+            "word": "pencil",
+            "ipa": "/ˈpensəl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bút chì",
+            "explanationVi": "Dụng cụ viết bằng than chì, có thể tẩy xóa",
+            "explanationEn": "A writing tool made of graphite that can be erased",
+            "verbForms": "",
+            "example": "She draws with a pencil.",
+            "exampleMeaning": "Cô ấy vẽ bằng bút chì.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pencil"
+        },
+        {
+            "word": "notebook",
+            "ipa": "/ˈnoʊtbʊk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "vở ghi chép",
+            "explanationVi": "Quyển vở để ghi chép bài học và ghi lại thông tin",
+            "explanationEn": "A book with empty pages used for writing notes",
+            "verbForms": "",
+            "example": "I write new words in my notebook.",
+            "exampleMeaning": "Tôi ghi lại những từ mới vào vở của mình.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=notebook"
+        },
+        {
+            "word": "rubber",
+            "ipa": "/ˈrʌbər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cục tẩy",
+            "explanationVi": "Dụng cụ nhỏ dùng để tẩy chữ viết bằng bút chì",
+            "explanationEn": "A small object used to remove pencil marks from paper",
+            "verbForms": "",
+            "example": "Can I borrow your rubber?",
+            "exampleMeaning": "Tôi có thể mượn tẩy của bạn không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=rubber+eraser"
+        },
+        {
+            "word": "drawing pin",
+            "ipa": "/ˈdrɔːɪŋ pɪn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đinh ghim",
+            "explanationVi": "Đinh nhỏ có đầu phẳng dùng để ghim giấy hoặc tài liệu lên bảng",
+            "explanationEn": "A short pin with a flat head used to attach paper to a board",
+            "verbForms": "",
+            "example": "She used a drawing pin to put the poster on the board.",
+            "exampleMeaning": "Cô ấy dùng đinh ghim để gắn tờ áp phích lên bảng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=drawing+pin"
+        },
+        {
+            "word": "OHP",
+            "ipa": "/ˌoʊ eɪtʃ ˈpiː/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "máy chiếu hình",
+            "explanationVi": "Thiết bị chiếu hình ảnh hoặc văn bản lên màn hình để cả lớp nhìn thấy",
+            "explanationEn": "A device that projects images or text onto a screen for the whole class to see",
+            "verbForms": "",
+            "example": "The teacher used an OHP to show the diagram.",
+            "exampleMeaning": "Giáo viên dùng máy chiếu để trình chiếu sơ đồ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=overhead+projector"
+        },
+        {
+            "word": "pen",
+            "ipa": "/pen/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bút mực",
+            "explanationVi": "Dụng cụ viết sử dụng mực, không thể tẩy xóa",
+            "explanationEn": "A writing tool that uses ink and cannot be erased",
+            "verbForms": "",
+            "example": "He signs his name with a pen.",
+            "exampleMeaning": "Anh ấy ký tên bằng bút mực.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pen"
+        },
+        {
+            "word": "textbook",
+            "ipa": "/ˈtekstbʊk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "sách giáo khoa",
+            "explanationVi": "Sách chuyên dụng được dùng để học trong lớp hoặc ở nhà",
+            "explanationEn": "A book used for studying a particular subject in class or at home",
+            "verbForms": "",
+            "example": "Open your textbook to page 15.",
+            "exampleMeaning": "Mở sách giáo khoa đến trang 15.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=textbook"
+        },
+        {
+            "word": "pencil sharpener",
+            "ipa": "/ˈpensəl ˈʃɑːrpənər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "máy gọt bút chì",
+            "explanationVi": "Dụng cụ dùng để gọt nhọn đầu bút chì",
+            "explanationEn": "A device used to sharpen the point of a pencil",
+            "verbForms": "",
+            "example": "My pencil is blunt – I need a pencil sharpener.",
+            "exampleMeaning": "Bút chì của tôi bị cùn – tôi cần máy gọt.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pencil+sharpener"
+        },
+        {
+            "word": "board rubber",
+            "ipa": "/bɔːrd ˈrʌbər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "khăn/cục lau bảng",
+            "explanationVi": "Dụng cụ dùng để xóa chữ hoặc hình vẽ trên bảng đen",
+            "explanationEn": "A tool used to erase marks from a blackboard",
+            "verbForms": "",
+            "example": "The teacher picked up the board rubber to clean the board.",
+            "exampleMeaning": "Giáo viên cầm cục lau bảng để lau bảng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=board+rubber"
+        },
+        {
+            "word": "board pen",
+            "ipa": "/bɔːrd pen/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bút viết bảng",
+            "explanationVi": "Bút chuyên dụng dùng để viết lên bảng trắng",
+            "explanationEn": "A special pen used for writing on whiteboards",
+            "verbForms": "",
+            "example": "He used a blue board pen to write the title.",
+            "exampleMeaning": "Anh ấy dùng bút viết bảng màu xanh để viết tiêu đề.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=board+pen"
+        },
+        {
+            "word": "desk",
+            "ipa": "/desk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bàn học",
+            "explanationVi": "Bàn được sử dụng trong lớp học hoặc văn phòng để học hoặc làm việc",
+            "explanationEn": "A table used in a classroom or office for studying or working",
+            "verbForms": "",
+            "example": "Each student has their own desk.",
+            "exampleMeaning": "Mỗi học sinh có bàn học riêng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=desk"
+        },
+        {
+            "word": "whiteboard",
+            "ipa": "/ˈwaɪtbɔːrd/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bảng trắng",
+            "explanationVi": "Bảng có bề mặt trắng nhẵn để viết bằng bút chuyên dụng",
+            "explanationEn": "A smooth white board surface for writing with special markers",
+            "verbForms": "",
+            "example": "The teacher writes on the whiteboard with a board pen.",
+            "exampleMeaning": "Giáo viên viết lên bảng trắng bằng bút bảng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=whiteboard"
+        },
+        {
+            "word": "computer",
+            "ipa": "/kəmˈpjuːtər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "máy tính",
+            "explanationVi": "Thiết bị điện tử dùng để xử lý thông tin, lướt web và học tập",
+            "explanationEn": "An electronic device used to process information, browse the internet and study",
+            "verbForms": "",
+            "example": "We use computers in ICT class.",
+            "exampleMeaning": "Chúng tôi dùng máy tính trong giờ học ICT.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=computer"
+        },
+        {
+            "word": "DVD player",
+            "ipa": "/ˌdiː viː ˈdiː ˈpleɪər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đầu phát DVD",
+            "explanationVi": "Thiết bị dùng để phát đĩa DVD, thường dùng trong lớp học để chiếu phim",
+            "explanationEn": "A device used to play DVD discs, often used in class to show videos",
+            "verbForms": "",
+            "example": "The teacher used the DVD player to show a documentary.",
+            "exampleMeaning": "Giáo viên dùng đầu DVD để chiếu phim tài liệu.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=DVD+player"
+        },
+        {
+            "word": "ruler",
+            "ipa": "/ˈruːlər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thước kẻ",
+            "explanationVi": "Dụng cụ đo lường bằng phẳng dùng để vẽ đường thẳng hoặc đo chiều dài",
+            "explanationEn": "A flat measuring tool used for drawing straight lines or measuring length",
+            "verbForms": "",
+            "example": "Draw a straight line with a ruler.",
+            "exampleMeaning": "Vẽ một đường thẳng bằng thước kẻ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=ruler"
+        },
+        {
+            "word": "teach",
+            "ipa": "/tiːtʃ/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "dạy",
+            "explanationVi": "Truyền đạt kiến thức hoặc kỹ năng cho người khác",
+            "explanationEn": "To give knowledge or instruction to others",
+            "verbForms": "teach - taught - taught",
+            "example": "A maths teacher teaches maths.",
+            "exampleMeaning": "Một giáo viên toán dạy toán.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=teach"
+        },
+        {
+            "word": "study",
+            "ipa": "/ˈstʌdi/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "học, nghiên cứu",
+            "explanationVi": "Dành thời gian để học hoặc tìm hiểu sâu về một chủ đề",
+            "explanationEn": "To spend time learning or examining a subject in detail",
+            "verbForms": "study - studied - studied",
+            "example": "Her students study maths.",
+            "exampleMeaning": "Học sinh của cô ấy học toán.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=study"
+        },
+        {
+            "word": "go to school",
+            "ipa": "/ɡoʊ tə skuːl/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "đi học (tiểu học/trung học)",
+            "explanationVi": "Đến trường để tham gia các buổi học chính thức",
+            "explanationEn": "To attend a school for education",
+            "verbForms": "",
+            "example": "Children go to school every day.",
+            "exampleMeaning": "Trẻ em đi học mỗi ngày.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=go+to+school"
+        },
+        {
+            "word": "go to university",
+            "ipa": "/ɡoʊ tə ˌjuːnɪˈvɜːrsɪti/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "học đại học",
+            "explanationVi": "Học tập tại một trường đại học để lấy bằng",
+            "explanationEn": "To attend a university for higher education and a degree",
+            "verbForms": "",
+            "example": "She wants to go to university next year.",
+            "exampleMeaning": "Cô ấy muốn học đại học vào năm sau.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=go+to+university"
+        },
+        {
+            "word": "learn",
+            "ipa": "/lɜːrn/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "học, tiếp thu",
+            "explanationVi": "Tiếp thu kiến thức hoặc kỹ năng mới thông qua học tập hay kinh nghiệm",
+            "explanationEn": "To gain knowledge or a skill through study or experience",
+            "verbForms": "learn - learned/learnt - learned/learnt",
+            "example": "At school, children learn to read and write.",
+            "exampleMeaning": "Ở trường, trẻ em học đọc và viết.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=learn"
+        },
+        {
+            "word": "do a course",
+            "ipa": "/duː ə kɔːrs/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "tham gia khóa học",
+            "explanationVi": "Tham gia vào một chương trình học có cấu trúc",
+            "explanationEn": "To participate in an organized program of study",
+            "verbForms": "",
+            "example": "You can do an English course at many schools.",
+            "exampleMeaning": "Bạn có thể tham gia khóa học tiếng Anh ở nhiều trường.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=do+a+course"
+        },
+        {
+            "word": "take an exam",
+            "ipa": "/teɪk ən ɪɡˈzæm/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "thi, dự thi",
+            "explanationVi": "Tham dự một kỳ kiểm tra hoặc thi cử",
+            "explanationEn": "To sit and complete an examination",
+            "verbForms": "",
+            "example": "Students take exams at the end of the course.",
+            "exampleMeaning": "Học sinh dự thi vào cuối khóa học.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=take+an+exam"
+        },
+        {
+            "word": "pass an exam",
+            "ipa": "/pæs ən ɪɡˈzæm/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "đậu kỳ thi",
+            "explanationVi": "Đạt điểm đủ để vượt qua kỳ thi thành công",
+            "explanationEn": "To achieve a high enough score to succeed in an examination",
+            "verbForms": "",
+            "example": "She studied hard and passed all her exams.",
+            "exampleMeaning": "Cô ấy học chăm chỉ và đậu tất cả các kỳ thi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pass+an+exam"
+        },
+        {
+            "word": "fail an exam",
+            "ipa": "/feɪl ən ɪɡˈzæm/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "trượt kỳ thi",
+            "explanationVi": "Không đạt điểm đủ để vượt qua kỳ thi",
+            "explanationEn": "To not achieve a high enough score to succeed in an examination",
+            "verbForms": "",
+            "example": "He didn't prepare well and failed the exam.",
+            "exampleMeaning": "Anh ấy không chuẩn bị tốt và đã trượt kỳ thi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fail+an+exam"
+        },
+        {
+            "word": "get a degree",
+            "ipa": "/ɡet ə dɪˈɡriː/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "nhận bằng đại học",
+            "explanationVi": "Hoàn thành chương trình học đại học và nhận bằng tốt nghiệp chính thức",
+            "explanationEn": "To successfully complete a university program and receive an official qualification",
+            "verbForms": "",
+            "example": "If you pass your final exams, you get a degree.",
+            "exampleMeaning": "Nếu bạn đậu kỳ thi cuối khóa, bạn sẽ nhận bằng đại học.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=get+a+degree"
+        },
+        {
+            "word": "do homework",
+            "ipa": "/duː ˈhoʊmwɜːrk/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "làm bài tập về nhà",
+            "explanationVi": "Hoàn thành các bài tập mà giáo viên giao để làm ở nhà",
+            "explanationEn": "To complete the assignments given by a teacher to be done outside school",
+            "verbForms": "",
+            "example": "After school, students do homework.",
+            "exampleMeaning": "Sau giờ học, học sinh làm bài tập về nhà.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=do+homework"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "A maths teacher _____ maths.",
+            "options": ["studies", "teaches", "learns", "does"],
+            "answer": "teaches"
+        },
+        {
+            "id": 2,
+            "question": "Her students _____ maths.",
+            "options": ["teach", "pass", "study", "fail"],
+            "answer": "study"
+        },
+        {
+            "id": 3,
+            "question": "Children _____ to school every day.",
+            "options": ["study", "go", "take", "pass"],
+            "answer": "go"
+        },
+        {
+            "id": 4,
+            "question": "She wants to _____ to university next year.",
+            "options": ["go", "take", "study", "do"],
+            "answer": "go"
+        },
+        {
+            "id": 5,
+            "question": "At the end of the course, you _____ an exam.",
+            "options": ["pass", "make", "take", "get"],
+            "answer": "take"
+        },
+        {
+            "id": 6,
+            "question": "She studied very hard, so she _____ all her exams.",
+            "options": ["failed", "studied", "passed", "took"],
+            "answer": "passed"
+        },
+        {
+            "id": 7,
+            "question": "He didn't prepare well and _____ his exam.",
+            "options": ["passed", "failed", "studied", "got"],
+            "answer": "failed"
+        },
+        {
+            "id": 8,
+            "question": "If you pass your final exams at university, you _____ a degree.",
+            "options": ["do", "make", "take", "get"],
+            "answer": "get"
+        },
+        {
+            "id": 9,
+            "question": "After school, students _____ homework.",
+            "options": ["make", "do", "study", "take"],
+            "answer": "do"
+        },
+        {
+            "id": 10,
+            "question": "We use a _____ to draw straight lines.",
+            "options": ["rubber", "pencil sharpener", "ruler", "drawing pin"],
+            "answer": "ruler"
+        },
+        {
+            "id": 11,
+            "question": "You use a _____ to erase pencil marks.",
+            "options": ["pen", "ruler", "rubber", "board pen"],
+            "answer": "rubber"
+        },
+        {
+            "id": 12,
+            "question": "The teacher writes on the _____ with a board pen.",
+            "options": ["noticeboard", "whiteboard", "desk", "notebook"],
+            "answer": "whiteboard"
+        },
+        {
+            "id": 13,
+            "question": "I write new vocabulary words in my _____.",
+            "options": ["textbook", "ruler", "notebook", "rubber"],
+            "answer": "notebook"
+        },
+        {
+            "id": 14,
+            "question": "We study animals and plants in _____.",
+            "options": ["chemistry", "physics", "history", "biology"],
+            "answer": "biology"
+        },
+        {
+            "id": 15,
+            "question": "We study numbers and calculations in _____.",
+            "options": ["art", "music", "maths", "geography"],
+            "answer": "maths"
+        },
+        {
+            "id": 16,
+            "question": "We study the countries of the world in _____.",
+            "options": ["geography", "history", "biology", "chemistry"],
+            "answer": "geography"
+        },
+        {
+            "id": 17,
+            "question": "We study past events like wars in _____.",
+            "options": ["music", "history", "physics", "ICT"],
+            "answer": "history"
+        },
+        {
+            "id": 18,
+            "question": "We study computers and technology in _____.",
+            "options": ["PE", "art", "music", "ICT"],
+            "answer": "ICT"
+        },
+        {
+            "id": 19,
+            "question": "We do sports and exercise in _____.",
+            "options": ["physics", "PE", "chemistry", "maths"],
+            "answer": "PE"
+        },
+        {
+            "id": 20,
+            "question": "We study substances and chemical reactions in _____.",
+            "options": ["music", "biology", "chemistry", "art"],
+            "answer": "chemistry"
+        },
+        {
+            "id": 21,
+            "question": "Exam dates and school news are posted on the _____.",
+            "options": ["whiteboard", "noticeboard", "board pen", "desk"],
+            "answer": "noticeboard"
+        },
+        {
+            "id": 22,
+            "question": "Each student sits at a _____ in the classroom.",
+            "options": ["noticeboard", "whiteboard", "desk", "ruler"],
+            "answer": "desk"
+        },
+        {
+            "id": 23,
+            "question": "Open your _____ to page 20 and read the text.",
+            "options": ["notebook", "textbook", "rubber", "pencil"],
+            "answer": "textbook"
+        },
+        {
+            "id": 24,
+            "question": "My pencil is blunt. I need a _____.",
+            "options": ["ruler", "rubber", "pencil sharpener", "drawing pin"],
+            "answer": "pencil sharpener"
+        },
+        {
+            "id": 25,
+            "question": "She used a _____ to fix the notice to the board.",
+            "options": ["rubber", "drawing pin", "ruler", "pen"],
+            "answer": "drawing pin"
+        },
+        {
+            "id": 26,
+            "question": "At school, children _____ to read and write.",
+            "options": ["teach", "study", "learn", "pass"],
+            "answer": "learn"
+        },
+        {
+            "id": 27,
+            "question": "She is doing an English _____ at the language school.",
+            "options": ["exam", "degree", "course", "homework"],
+            "answer": "course"
+        },
+        {
+            "id": 28,
+            "question": "He studied all night so he could _____ his physics exam.",
+            "options": ["fail", "pass", "take", "do"],
+            "answer": "pass"
+        },
+        {
+            "id": 29,
+            "question": "After four years at university, she finally _____ a degree.",
+            "options": ["made", "did", "got", "passed"],
+            "answer": "got"
+        },
+        {
+            "id": 30,
+            "question": "She teaches French. She is a _____ languages teacher.",
+            "options": ["modern", "ancient", "science", "natural"],
+            "answer": "modern"
+        }
+    ]
+}

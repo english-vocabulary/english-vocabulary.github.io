@@ -1,0 +1,734 @@
+{
+    "unit": 12,
+    "title": "In the bedroom and bathroom",
+    "vocabulary": [
+        {
+            "word": "bed",
+            "ipa": "/bed/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "giường",
+            "explanationVi": "đồ nội thất dùng để ngủ",
+            "explanationEn": "furniture used for sleeping",
+            "example": "I go to bed at 11 o'clock.",
+            "exampleMeaning": "Tôi lên giường lúc 11 giờ tối.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bed"
+        },
+        {
+            "word": "bedside lamp",
+            "ipa": "/ˈbedsaɪd læmp/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đèn đầu giường",
+            "explanationVi": "loại đèn được đặt bên cạnh giường ngủ",
+            "explanationEn": "lamp placed beside a bed for lighting",
+            "example": "There is a bedside lamp on my table.",
+            "exampleMeaning": "Có một chiếc đèn đầu giường trên bàn của tôi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bedside+lamp"
+        },
+        {
+            "word": "alarm clock",
+            "ipa": "/əˈlɑːrm klɒk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đồng hồ báo thức",
+            "explanationVi": "thiết bị cho biết thời gian và báo thức vào lúc nhất định",
+            "explanationEn": "device that tells time and makes a sound at a set time",
+            "example": "My alarm clock rings at 7 AM.",
+            "exampleMeaning": "Đồng hồ báo thức của tôi kêu lúc 7 giờ sáng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=alarm+clock"
+        },
+        {
+            "word": "pyjamas",
+            "ipa": "/pəˈdʒɑːməz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "quần áo ngủ",
+            "explanationVi": "quần áo mặc khi ngủ",
+            "explanationEn": "clothes worn while sleeping",
+            "example": "I wear pyjamas to bed.",
+            "exampleMeaning": "Tôi mặc quần áo ngủ khi đi ngủ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=pyjamas"
+        },
+        {
+            "word": "dressing table",
+            "ipa": "/ˈdresɪŋ teɪbl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bàn trang điểm",
+            "explanationVi": "bàn dùng để trang điểm và đặt các vật dụng cá nhân",
+            "explanationEn": "table used for applying makeup and storing personal items",
+            "example": "My mother has a big dressing table.",
+            "exampleMeaning": "Mẹ tôi có một cái bàn trang điểm lớn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=dressing+table"
+        },
+        {
+            "word": "chest of drawers",
+            "ipa": "/tʃest əv ˈdrɔːrz/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tủ ngăn kéo",
+            "explanationVi": "tủ có nhiều ngăn kéo để đựng quần áo và vật dụng",
+            "explanationEn": "cabinet with multiple drawers for storing clothes and items",
+            "example": "My clothes are in the chest of drawers.",
+            "exampleMeaning": "Quần áo của tôi ở trong tủ ngăn kéo.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=chest+of+drawers"
+        },
+        {
+            "word": "mirror",
+            "ipa": "/ˈmɪrər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "gương",
+            "explanationVi": "bề mặt phản chiếu hình ảnh",
+            "explanationEn": "surface that reflects an image",
+            "example": "I look in the mirror every morning.",
+            "exampleMeaning": "Tôi nhìn vào gương mỗi buổi sáng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=mirror"
+        },
+        {
+            "word": "wardrobe",
+            "ipa": "/ˈwɔːrdroʊb/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tủ quần áo",
+            "explanationVi": "tủ để treo và bảo quản quần áo",
+            "explanationEn": "closet used to hang and store clothes",
+            "example": "All my shirts are in the wardrobe.",
+            "exampleMeaning": "Tất cả áo sơ mi của tôi đều ở trong tủ quần áo.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=wardrobe"
+        },
+        {
+            "word": "bedside table",
+            "ipa": "/ˈbedsaɪd ˈteɪbl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bàn đầu giường",
+            "explanationVi": "bàn nhỏ đặt bên cạnh giường ngủ",
+            "explanationEn": "small table placed beside a bed",
+            "example": "I keep my book on the bedside table.",
+            "exampleMeaning": "Tôi để sách trên bàn đầu giường.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bedside+table"
+        },
+        {
+            "word": "comb",
+            "ipa": "/koʊm/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "lược chải tóc",
+            "explanationVi": "dụng cụ dùng để chải tóc",
+            "explanationEn": "tool used for styling and detangling hair",
+            "example": "I use a comb to style my hair.",
+            "exampleMeaning": "Tôi dùng lược để chải tóc.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=comb"
+        },
+        {
+            "word": "hairbrush",
+            "ipa": "/ˈherbrʌʃ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bàn chải tóc",
+            "explanationVi": "dụng cụ để chải tóc",
+            "explanationEn": "brush used for styling and detangling hair",
+            "example": "I brush my hair with a hairbrush.",
+            "exampleMeaning": "Tôi chải tóc bằng bàn chải tóc.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hairbrush"
+        },
+        {
+            "word": "soap",
+            "ipa": "/soʊp/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "xà phòng",
+            "explanationVi": "chất được sử dụng để rửa sạch",
+            "explanationEn": "substance used for washing and cleaning",
+            "example": "I wash my hands with soap.",
+            "exampleMeaning": "Tôi rửa tay bằng xà phòng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=soap"
+        },
+        {
+            "word": "toothpaste",
+            "ipa": "/ˈtuːθpeɪst/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "kem đánh răng",
+            "explanationVi": "chất dạng kem dùng để chải răng",
+            "explanationEn": "paste used with a toothbrush to clean teeth",
+            "example": "I squeeze toothpaste on my toothbrush.",
+            "exampleMeaning": "Tôi bóp kem đánh răng lên bàn chải.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=toothpaste"
+        },
+        {
+            "word": "toothbrush",
+            "ipa": "/ˈtuːθbrʌʃ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bàn chải đánh răng",
+            "explanationVi": "dụng cụ để chải răng",
+            "explanationEn": "brush used to clean teeth",
+            "example": "I brush my teeth with a toothbrush.",
+            "exampleMeaning": "Tôi chải răng bằng bàn chải đánh răng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=toothbrush"
+        },
+        {
+            "word": "shelf",
+            "ipa": "/ʃelf/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "kệ",
+            "explanationVi": "bề mặt phẳng dùng để đặt đồ vật",
+            "explanationEn": "flat surface used for storing objects",
+            "example": "Books are on the shelf.",
+            "exampleMeaning": "Sách ở trên kệ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=shelf"
+        },
+        {
+            "word": "basin",
+            "ipa": "/ˈbeɪsən/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bồn rửa",
+            "explanationVi": "thiết bị dùng để rửa tay, rửa mặt",
+            "explanationEn": "fixture used for washing hands or face",
+            "example": "I wash my face in the basin.",
+            "exampleMeaning": "Tôi rửa mặt vào bồn.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=basin"
+        },
+        {
+            "word": "shower",
+            "ipa": "/ˈʃaʊər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "vòi sen",
+            "explanationVi": "thiết bị dùng để tắm",
+            "explanationEn": "device used for taking a bath with water sprayed over the body",
+            "example": "I take a shower every morning.",
+            "exampleMeaning": "Tôi tắm vòi sen mỗi buổi sáng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=shower"
+        },
+        {
+            "word": "shampoo",
+            "ipa": "/ʃæmˈpuː/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "dầu gội đầu",
+            "explanationVi": "chất dùng để gội đầu",
+            "explanationEn": "liquid used to wash hair",
+            "example": "I use shampoo to wash my hair.",
+            "exampleMeaning": "Tôi dùng dầu gội để gội đầu.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=shampoo"
+        },
+        {
+            "word": "shower gel",
+            "ipa": "/ˈʃaʊər dʒel/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "sữa tắm",
+            "explanationVi": "chất dạng gel dùng để tắm",
+            "explanationEn": "gel-like liquid used for bathing",
+            "example": "I use shower gel instead of soap.",
+            "exampleMeaning": "Tôi dùng sữa tắm thay vì xà phòng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=shower+gel"
+        },
+        {
+            "word": "razor",
+            "ipa": "/ˈreɪzər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "dao cạo râu",
+            "explanationVi": "dụng cụ dùng để cạo râu hoặc lông",
+            "explanationEn": "tool used for removing facial hair or body hair",
+            "example": "He uses a razor to shave.",
+            "exampleMeaning": "Anh ấy dùng dao cạo để cạo râu.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=razor"
+        },
+        {
+            "word": "toilet",
+            "ipa": "/ˈtɔɪlət/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nhà vệ sinh",
+            "explanationVi": "thiết bị dùng để đi vệ sinh",
+            "explanationEn": "fixture used for urination and defecation",
+            "example": "The toilet is in the bathroom.",
+            "exampleMeaning": "Nhà vệ sinh ở trong phòng tắm.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=toilet"
+        },
+        {
+            "word": "towel",
+            "ipa": "/ˈtaʊəl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "khăn lau",
+            "explanationVi": "vải dùng để lau khô cơ thể hoặc tay",
+            "explanationEn": "fabric used for drying the body or hands",
+            "example": "I dry myself with a towel after shower.",
+            "exampleMeaning": "Tôi lau khô người bằng khăn sau khi tắm.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=towel"
+        },
+        {
+            "word": "go to bed",
+            "ipa": "/ɡoʊ tu bed/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "đi ngủ",
+            "explanationVi": "hành động đến giường để ngủ",
+            "explanationEn": "action of going to the bed to sleep",
+            "example": "Emma goes to bed at 11 o'clock.",
+            "exampleMeaning": "Emma đi ngủ lúc 11 giờ tối.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=go+to+bed"
+        },
+        {
+            "word": "go upstairs",
+            "ipa": "/ɡoʊ ʌpˈsteərz/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "đi lên tầng trên",
+            "explanationVi": "di chuyển từ tầng dưới lên tầng trên của tòa nhà",
+            "explanationEn": "move from a lower floor to an upper floor of a building",
+            "example": "She goes upstairs to her bedroom.",
+            "exampleMeaning": "Cô ấy đi lên phòng ngủ của mình.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=go+upstairs"
+        },
+        {
+            "word": "get undressed",
+            "ipa": "/ɡet ʌnˈdrest/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "cởi quần áo",
+            "explanationVi": "tháo bỏ quần áo",
+            "explanationEn": "remove clothing",
+            "example": "She gets undressed before getting into bed.",
+            "exampleMeaning": "Cô ấy cởi quần áo trước khi lên giường.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=get+undressed"
+        },
+        {
+            "word": "turn off",
+            "ipa": "/tɜrn ɔf/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "tắt",
+            "explanationVi": "ngừng hoạt động của thiết bị",
+            "explanationEn": "stop the operation of a device",
+            "example": "She turns off the light before sleeping.",
+            "exampleMeaning": "Cô ấy tắt đèn trước khi ngủ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=turn+off"
+        },
+        {
+            "word": "fall asleep",
+            "ipa": "/fɔl əˈsliːp/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "thiếp đi",
+            "explanationVi": "chuyển từ trạng thái thức sang ngủ",
+            "explanationEn": "transition from awake to sleep state",
+            "example": "She falls asleep after reading for a bit.",
+            "exampleMeaning": "Cô ấy thiếp đi sau khi đọc một chút.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fall+asleep"
+        },
+        {
+            "word": "wake up",
+            "ipa": "/weɪk ʌp/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "thức dậy",
+            "explanationVi": "chuyển từ trạng thái ngủ sang thức",
+            "explanationEn": "transition from sleep to awake state",
+            "example": "She wakes up when her alarm clock rings.",
+            "exampleMeaning": "Cô ấy thức dậy khi đồng hồ báo thức reo.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=wake+up"
+        },
+        {
+            "word": "get up",
+            "ipa": "/ɡet ʌp/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "đứng dậy",
+            "explanationVi": "rời khỏi giường",
+            "explanationEn": "leave the bed",
+            "example": "She gets up after waking up.",
+            "exampleMeaning": "Cô ấy đứng dậy sau khi thức dậy.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=get+up"
+        },
+        {
+            "word": "have a shower",
+            "ipa": "/hæv ə ˈʃaʊər/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "tắm vòi sen",
+            "explanationVi": "tắm bằng cách để nước chảy qua người",
+            "explanationEn": "bathe by standing under a stream of water",
+            "example": "She has a shower in the morning.",
+            "exampleMeaning": "Cô ấy tắm vòi sen vào buổi sáng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=have+a+shower"
+        },
+        {
+            "word": "clean teeth",
+            "ipa": "/klin tiθ/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "đánh răng",
+            "explanationVi": "làm sạch răng bằng kem và bàn chải",
+            "explanationEn": "clean teeth using toothpaste and toothbrush",
+            "example": "She cleans her teeth in the morning.",
+            "exampleMeaning": "Cô ấy đánh răng vào buổi sáng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=clean+teeth"
+        },
+        {
+            "word": "get dressed",
+            "ipa": "/ɡet drest/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "mặc quần áo",
+            "explanationVi": "mặc đồ vào người",
+            "explanationEn": "put on clothes",
+            "example": "She gets dressed after showering.",
+            "exampleMeaning": "Cô ấy mặc quần áo sau khi tắm.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=get+dressed"
+        },
+        {
+            "word": "go downstairs",
+            "ipa": "/ɡoʊ ˈdaʊnsteərz/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "verb phrase",
+            "meaning": "đi xuống tầng dưới",
+            "explanationVi": "di chuyển từ tầng trên xuống tầng dưới của tòa nhà",
+            "explanationEn": "move from an upper floor to a lower floor of a building",
+            "example": "She goes downstairs to the kitchen for breakfast.",
+            "exampleMeaning": "Cô ấy đi xuống tầng dưới vào bếp ăn sáng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=go+downstairs"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "There is a _______ in my bedroom where I sleep.",
+            "options": [
+                "shower",
+                "bed",
+                "basin",
+                "wardrobe"
+            ],
+            "answer": "bed"
+        },
+        {
+            "id": 2,
+            "question": "I use _______ to wash my hair.",
+            "options": [
+                "toothpaste",
+                "soap",
+                "shampoo",
+                "towel"
+            ],
+            "answer": "shampoo"
+        },
+        {
+            "id": 3,
+            "question": "Before I go to work, I _______ my teeth.",
+            "options": [
+                "clean",
+                "wash",
+                "brush",
+                "both a and c are correct"
+            ],
+            "answer": "both a and c are correct"
+        },
+        {
+            "id": 4,
+            "question": "There is a _______ in the bathroom where I wash my hands.",
+            "options": [
+                "wardrobe",
+                "chest of drawers",
+                "basin",
+                "mirror"
+            ],
+            "answer": "basin"
+        },
+        {
+            "id": 5,
+            "question": "When I enter my bedroom, I _______ my clothes.",
+            "options": [
+                "get dressed",
+                "get undressed",
+                "go upstairs",
+                "turn off"
+            ],
+            "answer": "get undressed"
+        },
+        {
+            "id": 6,
+            "question": "I _______ at 7 AM every day.",
+            "options": [
+                "fall asleep",
+                "go to bed",
+                "wake up",
+                "get undressed"
+            ],
+            "answer": "wake up"
+        },
+        {
+            "id": 7,
+            "question": "There are many clothes in my _______.",
+            "options": [
+                "dressing table",
+                "wardrobe",
+                "bedside table",
+                "chest of drawers"
+            ],
+            "answer": "wardrobe"
+        },
+        {
+            "id": 8,
+            "question": "I keep my books and alarm clock on my _______.",
+            "options": [
+                "bedside table",
+                "wardrobe",
+                "mirror",
+                "comb"
+            ],
+            "answer": "bedside table"
+        },
+        {
+            "id": 9,
+            "question": "After I _______ I feel refreshed.",
+            "options": [
+                "have a shower",
+                "go downstairs",
+                "get up",
+                "turn off"
+            ],
+            "answer": "have a shower"
+        },
+        {
+            "id": 10,
+            "question": "I _______ before I sleep.",
+            "options": [
+                "turn off the light",
+                "turn off the bed",
+                "turn off the mirror",
+                "turn off the wardrobe"
+            ],
+            "answer": "turn off the light"
+        },
+        {
+            "id": 11,
+            "question": "There _______ (be) a mirror in the bathroom.",
+            "options": [
+                "is",
+                "are",
+                "am",
+                "be"
+            ],
+            "answer": "is"
+        },
+        {
+            "id": 12,
+            "question": "Emma _______ (go) to bed at 11 o'clock.",
+            "options": [
+                "go",
+                "goes",
+                "going",
+                "gone"
+            ],
+            "answer": "goes"
+        },
+        {
+            "id": 13,
+            "question": "I _______ (not have) a chest of drawers in my room.",
+            "options": [
+                "don't have",
+                "doesn't have",
+                "haven't",
+                "hasn't"
+            ],
+            "answer": "don't have"
+        },
+        {
+            "id": 14,
+            "question": "Every morning, I _______ (take) a shower.",
+            "options": [
+                "takes",
+                "taking",
+                "take",
+                "took"
+            ],
+            "answer": "take"
+        },
+        {
+            "id": 15,
+            "question": "She _______ (get) dressed after having a shower.",
+            "options": [
+                "get",
+                "gets",
+                "getting",
+                "got"
+            ],
+            "answer": "gets"
+        },
+        {
+            "id": 16,
+            "question": "There _______ (be) two beds in the room.",
+            "options": [
+                "is",
+                "are",
+                "am",
+                "be"
+            ],
+            "answer": "are"
+        },
+        {
+            "id": 17,
+            "question": "He _______ (wake up) when his alarm clock rings.",
+            "options": [
+                "wake up",
+                "wakes up",
+                "waking up",
+                "woke up"
+            ],
+            "answer": "wakes up"
+        },
+        {
+            "id": 18,
+            "question": "We _______ (go) upstairs to our bedrooms.",
+            "options": [
+                "go",
+                "goes",
+                "going",
+                "went"
+            ],
+            "answer": "go"
+        },
+        {
+            "id": 19,
+            "question": "My mother _______ (use) the dressing table every morning.",
+            "options": [
+                "use",
+                "uses",
+                "using",
+                "used"
+            ],
+            "answer": "uses"
+        },
+        {
+            "id": 20,
+            "question": "_______ you _______ (go) to bed early?",
+            "options": [
+                "Do...go",
+                "Does...goes",
+                "Are...going",
+                "Did...go"
+            ],
+            "answer": "Do...go"
+        },
+        {
+            "id": 21,
+            "question": "I go to sleep at 11 PM. → I _______ _______ _______ at 11 PM.",
+            "options": [
+                "go to bed",
+                "get up",
+                "wake up",
+                "fall asleep"
+            ],
+            "answer": "go to bed"
+        },
+        {
+            "id": 22,
+            "question": "The alarm clock makes me awake. → The alarm clock _______ me _______.",
+            "options": [
+                "wakes...up",
+                "gets...up",
+                "turns...on",
+                "falls...asleep"
+            ],
+            "answer": "wakes...up"
+        },
+        {
+            "id": 23,
+            "question": "I take off my clothes before sleeping. → I _______ _______ before sleeping.",
+            "options": [
+                "get dressed",
+                "go to bed",
+                "get undressed",
+                "go upstairs"
+            ],
+            "answer": "get undressed"
+        },
+        {
+            "id": 24,
+            "question": "There is a place where I wash my hands. → There is a _______ in the bathroom.",
+            "options": [
+                "toilet",
+                "wardrobe",
+                "basin",
+                "mirror"
+            ],
+            "answer": "basin"
+        },
+        {
+            "id": 25,
+            "question": "I put on my clothes in the morning. → I _______ _______ in the morning.",
+            "options": [
+                "get up",
+                "get dressed",
+                "go to bed",
+                "get undressed"
+            ],
+            "answer": "get dressed"
+        },
+        {
+            "id": 26,
+            "question": "What do you use to clean your teeth?",
+            "options": [
+                "soap and shampoo",
+                "toothbrush and toothpaste",
+                "towel and soap",
+                "razor and comb"
+            ],
+            "answer": "toothbrush and toothpaste"
+        },
+        {
+            "id": 27,
+            "question": "Where do you keep your clothes?",
+            "options": [
+                "chest of drawers and wardrobe",
+                "bedside table and mirror",
+                "basin and shower",
+                "comb and hairbrush"
+            ],
+            "answer": "chest of drawers and wardrobe"
+        },
+        {
+            "id": 28,
+            "question": "Which of these is NOT typically found in a bathroom?",
+            "options": [
+                "toilet",
+                "towel",
+                "wardrobe",
+                "soap"
+            ],
+            "answer": "wardrobe"
+        },
+        {
+            "id": 29,
+            "question": "What do you do before going to bed?",
+            "options": [
+                "turn off the light",
+                "go upstairs",
+                "read for a bit",
+                "all of the above"
+            ],
+            "answer": "all of the above"
+        },
+        {
+            "id": 30,
+            "question": "Which phrase means \"to stand up from bed\"?",
+            "options": [
+                "go to bed",
+                "get up",
+                "wake up",
+                "fall asleep"
+            ],
+            "answer": "get up"
+        }
+    ]
+}

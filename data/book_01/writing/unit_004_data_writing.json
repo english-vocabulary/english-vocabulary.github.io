@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "Clothes",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "At work, men usually wear a dark ______ with a white shirt and a blue tie.",
+                "answer": "suit",
+                "hint": "Bộ com-lê"
+            },
+            {
+                "id": 2,
+                "context": "When it is cold, we ______ a thick coat and wrap a scarf around our neck.",
+                "answer": "put on",
+                "hint": "Hành động mặc vào (không phải trạng thái đang mặc)"
+            },
+            {
+                "id": 3,
+                "context": "I usually wear jeans and a T-shirt with ______.",
+                "answer": "trainers",
+                "hint": "Giày thể thao"
+            },
+            {
+                "id": 4,
+                "context": "Every evening before going to bed, I ______, change into my pyjamas, and go to sleep.",
+                "answer": "get undressed",
+                "hint": "Cởi quần áo (cụm cố định)"
+            },
+            {
+                "id": 5,
+                "context": "When he came inside, he ______ his jacket.",
+                "answer": "took off",
+                "hint": "Cởi ra (đối lập với put on)"
+            },
+            {
+                "id": 6,
+                "context": "Women often wear ______ under their skirts to stay warm.",
+                "answer": "tights",
+                "hint": "Quần tất (luôn ở dạng số nhiều)"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "We should wear **sunglasses** to protect our eyes.",
+                "targetWord": "sunglasses",
+                "options": [
+                    {
+                        "text": "Kính cận",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Kính râm",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Kính lão",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Mũ",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "She is **carrying** a heavy bag on her shoulder.",
+                "targetWord": "carrying",
+                "options": [
+                    {
+                        "text": "Đang mặc",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Đang mang/xách",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Đang đeo",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Đang cởi",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "Every morning, I **get dressed** quickly and put on a clean pair of socks.",
+                "targetWord": "get dressed",
+                "options": [
+                    {
+                        "text": "Cởi quần áo",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Giặt quần áo",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Mặc quần áo",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Mua quần áo",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "We fasten a **belt** around our waist to keep our trousers from falling down.",
+                "targetWord": "belt",
+                "options": [
+                    {
+                        "text": "Khăn quàng cổ",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cà vạt",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Thắt lưng",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Dây giày",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "Jobs",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "A doctor works in a ______ to treat people.",
+                "answer": "hospital",
+                "hint": "Bệnh viện"
+            },
+            {
+                "id": 2,
+                "context": "The ______ fixed my car yesterday.",
+                "answer": "mechanic",
+                "hint": "Thợ cơ khí, thợ sửa xe"
+            },
+            {
+                "id": 3,
+                "context": "She works ______ a nurse in a local hospital.",
+                "answer": "as",
+                "hint": "Giới từ dùng với 'work' khi nói về nghề (work as a + nghề)"
+            },
+            {
+                "id": 4,
+                "context": "The ______ helped me find the right size at the shop.",
+                "answer": "shop assistant",
+                "hint": "Nhân viên bán hàng (Anh-Anh)"
+            },
+            {
+                "id": 5,
+                "context": "My dad works in a ______ which makes car parts.",
+                "answer": "factory",
+                "hint": "Nhà máy (nơi sản xuất hàng loạt)"
+            },
+            {
+                "id": 6,
+                "context": "The ______ told me to return the book at the end of the month.",
+                "answer": "librarian",
+                "hint": "Thủ thư (người làm việc ở thư viện)"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "A **police officer** told me the way to the station.",
+                "targetWord": "police officer",
+                "options": [
+                    {
+                        "text": "Nhân viên kiểm soát giao thông",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cảnh sát",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Thủ thư",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Nhân viên ngân hàng",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "The **traffic warden** is checking all the parked cars.",
+                "targetWord": "traffic warden",
+                "options": [
+                    {
+                        "text": "Cảnh sát",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Tài xế taxi",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Nhân viên kiểm soát giao thông",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Kỹ sư",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "I want to work as a **hairdresser** in a beauty salon.",
+                "targetWord": "hairdresser",
+                "options": [
+                    {
+                        "text": "Thư ký",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Y tá",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Thợ làm tóc",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Nhân viên bán hàng",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "The **bank clerk** changed some money for me.",
+                "targetWord": "bank clerk",
+                "options": [
+                    {
+                        "text": "Thủ thư",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Thư ký",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bồi bàn",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Nhân viên ngân hàng",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    }
+}

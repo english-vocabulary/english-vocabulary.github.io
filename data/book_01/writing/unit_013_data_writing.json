@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "In the Living Room",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "The living room usually has many necessary pieces of ______.",
+                "answer": "furniture",
+                "hint": "Đồ nội thất (danh từ KHÔNG đếm được)"
+            },
+            {
+                "id": 2,
+                "context": "Pass me the ______ so I can switch on the TV.",
+                "answer": "remote control",
+                "hint": "Điều khiển từ xa"
+            },
+            {
+                "id": 3,
+                "context": "I listen to music on my ______ in the morning.",
+                "answer": "hi-fi",
+                "hint": "Dàn âm thanh chất lượng cao"
+            },
+            {
+                "id": 4,
+                "context": "It's getting dark. Can you ______?",
+                "answer": "close the curtains",
+                "hint": "Kéo rèm lại (cụm cố định)"
+            },
+            {
+                "id": 5,
+                "context": "The ______ in the living room is blue. It covers the whole floor.",
+                "answer": "carpet",
+                "hint": "Thảm trải sàn (phủ kín toàn bộ sàn)"
+            },
+            {
+                "id": 6,
+                "context": "I plugged the lamp into the ______.",
+                "answer": "socket",
+                "hint": "Ổ cắm điện (Anh-Anh)"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "He is **relaxing** in the **armchair**.",
+                "targetWord": "armchair",
+                "options": [
+                    {
+                        "text": "Ghế sofa",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Ghế bành (1 người, có tay vịn)",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Ghế thường",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bàn trà",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "There's a good **programme** on TV tonight.",
+                "targetWord": "programme",
+                "options": [
+                    {
+                        "text": "Điều khiển từ xa",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Chương trình",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Công tắc đèn",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Kệ sách",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "We need more **bookshelves** for all these books.",
+                "targetWord": "bookshelves",
+                "options": [
+                    {
+                        "text": "Kệ sách (số ít)",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Các kệ sách (số nhiều bất quy tắc)",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Tủ quần áo",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Tủ bếp",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "There is a **rug** in front of the sofa.",
+                "targetWord": "rug",
+                "options": [
+                    {
+                        "text": "Thảm trải sàn (phủ kín sàn)",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Rèm cửa",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Thảm nhỏ (phủ một phần sàn)",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Đèn bàn",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,722 @@
+{
+    "unit": 11,
+    "title": "In the kitchen",
+    "vocabulary": [
+        {
+            "word": "fridge",
+            "ipa": "/frɪdʒ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tủ lạnh",
+            "explanationVi": "Thiết bị lớn, làm lạnh bằng điện để giữ thức ăn và đồ uống tươi mát.",
+            "explanationEn": "A large piece of electrical equipment in which food and drinks are kept cool.",
+            "example": "I'll put this milk in the fridge.",
+            "exampleMeaning": "Tôi sẽ cất sữa vào tủ lạnh.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fridge"
+        },
+        {
+            "word": "freezer",
+            "ipa": "/ˈfriː.zər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tủ đông",
+            "explanationVi": "Thiết bị dùng để bảo quản thực phẩm ở nhiệt độ dưới mức đóng băng.",
+            "explanationEn": "A device used to keep food frozen.",
+            "example": "We don't have any meat in the freezer.",
+            "exampleMeaning": "Chúng tôi không có chút thịt nào trong tủ đông.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=freezer"
+        },
+        {
+            "word": "bin",
+            "ipa": "/bɪn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thùng rác",
+            "explanationVi": "Thùng dùng để chứa rác rưởi.",
+            "explanationEn": "A container for waste.",
+            "example": "Throw that apple core in the bin.",
+            "exampleMeaning": "Hãy ném cái lõi táo đó vào thùng rác.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bin"
+        },
+        {
+            "word": "washing machine",
+            "ipa": "/ˈwɒʃ.ɪŋ məˌʃiːn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "máy giặt",
+            "explanationVi": "Máy chạy bằng điện dùng để giặt quần áo.",
+            "explanationEn": "A machine that washes clothes.",
+            "example": "Can you put the clothes in the washing machine?",
+            "exampleMeaning": "Bạn có thể bỏ quần áo vào máy giặt không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=washing+machine"
+        },
+        {
+            "word": "sink",
+            "ipa": "/sɪŋk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bồn rửa",
+            "explanationVi": "Bồn gắn liền với tường và có vòi nước để rửa tay, bát đĩa.",
+            "explanationEn": "A bowl attached to the wall, having a pipe and water faucets, used for washing hands and dishes.",
+            "example": "Put the dirty plates in the sink.",
+            "exampleMeaning": "Hãy đặt những cái đĩa bẩn vào bồn rửa.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=sink"
+        },
+        {
+            "word": "tap",
+            "ipa": "/tæp/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "vòi nước",
+            "explanationVi": "Thiết bị kiểm soát dòng chảy của chất lỏng hoặc khí.",
+            "explanationEn": "A device that controls the flow of liquid or gas.",
+            "example": "I turn on the tap to get water.",
+            "exampleMeaning": "Tôi mở vòi nước để lấy nước.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=tap"
+        },
+        {
+            "word": "microwave",
+            "ipa": "/ˈmaɪ.krə.weɪv/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "lò vi sóng",
+            "explanationVi": "Lò nướng dùng bức xạ điện từ để làm nóng thức ăn nhanh chóng.",
+            "explanationEn": "An oven that uses electromagnetic waves to cook or heat food very quickly.",
+            "example": "Heat the soup in the microwave for three minutes.",
+            "exampleMeaning": "Hãy hâm nóng canh trong lò vi sóng khoảng ba phút.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=microwave"
+        },
+        {
+            "word": "cupboard",
+            "ipa": "/ˈkʌb.əd/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tủ bếp (có kệ)",
+            "explanationVi": "Đồ nội thất có cửa và kệ để đựng đồ vật, dụng cụ.",
+            "explanationEn": "A piece of furniture or a small part of a room with a door or doors and shelves, used for storing things.",
+            "example": "The cups are in the cupboard.",
+            "exampleMeaning": "Những cái tách ở trong tủ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=cupboard"
+        },
+        {
+            "word": "cooker",
+            "ipa": "/ˈkʊk.ər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bếp lò",
+            "explanationVi": "Một thiết bị lớn chạy bằng điện mặt gas dùng để nấu thức ăn.",
+            "explanationEn": "A large piece of equipment for cooking food on or in.",
+            "example": "There's a saucepan on the cooker.",
+            "exampleMeaning": "Có một cái nồi đang ở trên bếp.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=cooker"
+        },
+        {
+            "word": "shelf",
+            "ipa": "/ʃelf/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cái kệ, cái giá",
+            "explanationVi": "Một miếng ván dài, phẳng cố định trên tường hoặc nằm trong tủ để đựng đồ vật.",
+            "explanationEn": "A long, flat board fixed horizontally, usually against a wall or inside a cupboard, on which objects are stored.",
+            "example": "Put the books on the top shelf.",
+            "exampleMeaning": "Hãy đặt những cuốn sách lên kệ trên cùng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=shelf"
+        },
+        {
+            "word": "worktop",
+            "ipa": "/ˈwɜːk.tɒp/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "mặt bàn bếp",
+            "explanationVi": "Mặt phẳng trong bếp chuyên dùng để sơ chế thức ăn.",
+            "explanationEn": "A flat surface in a kitchen, especially on top of a base unit, on which food can be prepared.",
+            "example": "Please put them on the worktop.",
+            "exampleMeaning": "Hãy đặt chúng lên mặt bàn bếp.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=worktop"
+        },
+        {
+            "word": "dishwasher",
+            "ipa": "/ˈdɪʃˌwɒʃ.ər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "máy rửa bát đĩa",
+            "explanationVi": "Máy dùng để rửa chén đĩa.",
+            "explanationEn": "A machine that washes dirty plates, cups, forks, etc.",
+            "example": "We load the dishwasher after dinner.",
+            "exampleMeaning": "Chúng tôi xếp bát đĩa vào máy sau bữa tối.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=dishwasher"
+        },
+        {
+            "word": "washing-up liquid",
+            "ipa": "/ˌwɒʃ.ɪŋˈʌp ˌlɪk.wɪd/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nước rửa bát",
+            "explanationVi": "Một loại xà phòng lỏng dùng để rửa bát đĩa.",
+            "explanationEn": "A thick liquid soap used to wash plates, knives, and forks.",
+            "example": "You use washing-up liquid to clean plates.",
+            "exampleMeaning": "Bạn dùng nước rửa bát để rửa đĩa.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=washing-up+liquid"
+        },
+        {
+            "word": "tea towel",
+            "ipa": "/ˈtiː ˌtaʊ.əl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "khăn lau bát",
+            "explanationVi": "Loại khăn dùng để lau khô bát đĩa sau khi rửa.",
+            "explanationEn": "A small piece of cloth used for drying wet plates, cups, etc.",
+            "example": "Use the tea towel to dry the cups.",
+            "exampleMeaning": "Hãy dùng khăn lau bát đĩa để lau khô những cái tách.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=tea+towel"
+        },
+        {
+            "word": "saucepan",
+            "ipa": "/ˈsɔː.spən/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cái nồi (có tay cầm dài)",
+            "explanationVi": "Một cái nồi kim loại tròn và sâu có một cán dài và có nắp.",
+            "explanationEn": "A deep, round pan with straight sides, usually with a handle and a lid, used for cooking things over heat.",
+            "example": "I heated the soup in a saucepan.",
+            "exampleMeaning": "Tôi hâm nóng súp trong nồi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=saucepan"
+        },
+        {
+            "word": "frying pan",
+            "ipa": "/ˈfraɪ.ɪŋ pæn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "chảo rán",
+            "explanationVi": "Chảo nông, kim loại có cán dài chuyên dùng để rán thức ăn.",
+            "explanationEn": "A flat-bottomed pan used for frying, searing, and browning foods.",
+            "example": "I need a frying pan to cook some eggs.",
+            "exampleMeaning": "Tôi cần một cái chảo để làm món trứng rán.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=frying+pan"
+        },
+        {
+            "word": "teapot",
+            "ipa": "/ˈtiː.pɒt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "ấm trà",
+            "explanationVi": "Một bình đựng nước chuyên để pha trà và rót trà.",
+            "explanationEn": "A container for making and serving tea.",
+            "example": "He poured me a cup of tea from the teapot.",
+            "exampleMeaning": "Anh ấy rót cho tôi một tách trà từ trong ấm điện.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=teapot"
+        },
+        {
+            "word": "cloth",
+            "ipa": "/klɒθ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "giẻ lau mảnh",
+            "explanationVi": "Một mẩu vải dùng để lau dọn.",
+            "explanationEn": "A piece of fabric used for cleaning.",
+            "example": "Wipe the table with a damp cloth.",
+            "exampleMeaning": "Hãy lau dọn bàn hằng một chiếc giẻ lau ẩm.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=cloth"
+        },
+        {
+            "word": "coffee maker",
+            "ipa": "/ˈkɒf.i ˌmeɪ.kər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "máy pha cà phê",
+            "explanationVi": "Thiết bị dùng để pha chế cà phê.",
+            "explanationEn": "A machine used to brew coffee.",
+            "example": "To make coffee I need a coffee maker.",
+            "exampleMeaning": "Để pha trà tôi cần một chiếc máy pha cà phê.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=coffee+maker"
+        },
+        {
+            "word": "kitchen roll",
+            "ipa": "/ˈkɪtʃ.ən roʊl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "giấy khô nhà bếp",
+            "explanationVi": "Giấy cuộn hút nước dùng ở nhà bếp.",
+            "explanationEn": "Soft, thick paper off a roll used in the kitchen to dry wet spots.",
+            "example": "Where can I find some kitchen roll?",
+            "exampleMeaning": "Tôi có thể tìm giấy khô nhà bếp ở đâu?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=kitchen+roll"
+        },
+        {
+            "word": "cup",
+            "ipa": "/kʌp/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tách (có quai)",
+            "explanationVi": "Cốc nhỏ bằng sành sứ thường có quai cầm để uống đồ nóng.",
+            "explanationEn": "A small, round container typically with a handle, used for drinking hot drinks.",
+            "example": "Would you like a cup of tea?",
+            "exampleMeaning": "Bạn muốn một tách trà chứ?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=cup"
+        },
+        {
+            "word": "plate",
+            "ipa": "/pleɪt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cái đĩa",
+            "explanationVi": "Đồ vật nông, tròn dùng để dùng bữa.",
+            "explanationEn": "A flat, usually round dish from which food is eaten or served.",
+            "example": "Make sure the plate is clean.",
+            "exampleMeaning": "Hãy đảm bảo rằng đĩa này đã sạch sẽ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=plate"
+        },
+        {
+            "word": "bowl",
+            "ipa": "/bəʊl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cái bát (tô)",
+            "explanationVi": "Vật chứa dạng tròn và sâu, để đựng súp hoặc các thức ăn có nước.",
+            "explanationEn": "A round, deep dish used for holding soup or other food.",
+            "example": "Put the noodles into a bowl.",
+            "exampleMeaning": "Để mì vào bát đi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bowl"
+        },
+        {
+            "word": "fork",
+            "ipa": "/fɔːk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cái nĩa (dĩa)",
+            "explanationVi": "Công cụ có hai nhánh trở lên dùng để găm, giữ đồ ăn.",
+            "explanationEn": "An implement with multiple prongs used for lifting food to the mouth.",
+            "example": "She ate her dinner with a knife and fork.",
+            "exampleMeaning": "Cô ấy dùng bữa với dĩa và dao.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=fork"
+        },
+        {
+            "word": "knife",
+            "ipa": "/naɪf/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "con dao",
+            "explanationVi": "Vật dụng sắc bén có cán cầm dùng để cắt thái đồ vật.",
+            "explanationEn": "A tool or enclosed blade used for cutting or spreading.",
+            "example": "He used a sharp knife to cut the meat.",
+            "exampleMeaning": "Anh ấy đã dùng một con dao sắc để cắt thịt.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=knife"
+        },
+        {
+            "word": "chopsticks",
+            "ipa": "/ˈtʃɒp.stɪks/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "đôi đũa",
+            "explanationVi": "Cặp thanh nhỏ để gắp thức ăn (đặc biệt phổ biến ở châu Á).",
+            "explanationEn": "A pair of thin sticks used for eating.",
+            "example": "Do you know how to use chopsticks?",
+            "exampleMeaning": "Bạn có biết dùng đũa không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=chopsticks"
+        },
+        {
+            "word": "spoon",
+            "ipa": "/spuːn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cái thìa (muỗng)",
+            "explanationVi": "Một dụng cụ có hõm tròn, nhỏ như chiếc thìa ở phần đầu dùng để lấy, khuấy.",
+            "explanationEn": "An implement consisting of a small, shallow oval or round bowl on a long handle, used for eating.",
+            "example": "I need a spoon for my soup.",
+            "exampleMeaning": "Tôi cần một cái thìa để húp súp.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=spoon"
+        },
+        {
+            "word": "mug",
+            "ipa": "/mʌɡ/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cốc có quai (lớn)",
+            "explanationVi": "Tách lớn có tay cầm dùng chủ yếu để đựng đồ uống nóng.",
+            "explanationEn": "A large cup, typically cylindrical with a handle and used without a saucer.",
+            "example": "I drink a mug of milk every morning.",
+            "exampleMeaning": "Tôi uống một ly sữa lớn vào mỗi sáng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=mug"
+        },
+        {
+            "word": "glass",
+            "ipa": "/ɡlɑːs/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cái cốc (ly bằng thủy tinh)",
+            "explanationVi": "Tách dùng để đựng đồ uống không tay cầm.",
+            "explanationEn": "A cup made of glass, generally used for cold drinks.",
+            "example": "Could I have a glass of water, please?",
+            "exampleMeaning": "Tôi có thể xin một ly nước không?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=glass"
+        },
+        {
+            "word": "wash up",
+            "ipa": "/wɒʃ ʌp/",
+            "partOfSpeech": "cụm động từ",
+            "partOfSpeechEn": "phrasal verb",
+            "meaning": "rửa dọn bát đĩa",
+            "explanationVi": "Lau rửa bát đĩa và các vật dụng nhà bếp sau bữa ăn.",
+            "explanationEn": "To clean plates, pans, and other things that have been used for cooking and eating.",
+            "example": "I will help with the wash up.",
+            "exampleMeaning": "Tôi sẽ giúp dọn rửa chén đĩa.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=wash+up"
+        },
+        {
+            "word": "dry",
+            "ipa": "/draɪ/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "làm khô, dọn dẹp",
+            "explanationVi": "Quẹt lấy đi hoặc tránh khỏi nơi đã để nước hoặc chất lỏng.",
+            "explanationEn": "To make something free from moisture or liquid.",
+            "example": "You can wash these plates and I'll dry them.",
+            "exampleMeaning": "Bạn có thể rửa mấy cái đĩa này và tôi sẽ lau khô chúng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=dry"
+        },
+        {
+            "word": "cook",
+            "ipa": "/kʊk/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "nấu ăn",
+            "explanationVi": "Quá trình thức ăn được biến đổi để giúp con người tiêu thụ ngon và an toàn nhất.",
+            "explanationEn": "To prepare food for eating by using heat.",
+            "example": "He likes to cook some rice today.",
+            "exampleMeaning": "Anh ấy muốn nấu cơm hôm nay.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=cook"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "Could you put the milk in the ______?",
+            "options": [
+                "freezer",
+                "fridge",
+                "sink",
+                "tap"
+            ],
+            "answer": "fridge"
+        },
+        {
+            "id": 2,
+            "question": "We need a ______ to boil some water for the pasta.",
+            "options": [
+                "frying pan",
+                "plate",
+                "saucepan",
+                "glass"
+            ],
+            "answer": "saucepan"
+        },
+        {
+            "id": 3,
+            "question": "Please use a ______ to clean up that spilled milk on the worktop.",
+            "options": [
+                "cloth",
+                "knife",
+                "fork",
+                "microwave"
+            ],
+            "answer": "cloth"
+        },
+        {
+            "id": 4,
+            "question": "Where does this dirty plate go? - Put it in the ______.",
+            "options": [
+                "cupboard",
+                "washing machine",
+                "sink",
+                "bin"
+            ],
+            "answer": "cupboard"
+        },
+        {
+            "id": 5,
+            "question": "He used a ______ to cut the raw meat.",
+            "options": [
+                "fork",
+                "spoon",
+                "knife",
+                "chopsticks"
+            ],
+            "answer": "knife"
+        },
+        {
+            "id": 6,
+            "question": "You can heat up your dinner in the ______ if it's cold.",
+            "options": [
+                "cooker",
+                "microwave",
+                "freezer",
+                "fridge"
+            ],
+            "answer": "microwave"
+        },
+        {
+            "id": 7,
+            "question": "After washing the plates, you should use a ______ to dry them.",
+            "options": [
+                "kitchen roll",
+                "cloth",
+                "tea towel",
+                "washing-up liquid"
+            ],
+            "answer": "tea towel"
+        },
+        {
+            "id": 8,
+            "question": "Asian people often use ______ to eat noodles and rice.",
+            "options": [
+                "forks",
+                "knives",
+                "spoons",
+                "chopsticks"
+            ],
+            "answer": "chopsticks"
+        },
+        {
+            "id": 9,
+            "question": "I usually drink a big ______ of coffee every morning.",
+            "options": [
+                "mug",
+                "plate",
+                "bowl",
+                "sink"
+            ],
+            "answer": "mug"
+        },
+        {
+            "id": 10,
+            "question": "The ______ is broken, so we have to wash all these forks and spoons by hand.",
+            "options": [
+                "washing machine",
+                "dishwasher",
+                "cooker",
+                "coffee maker"
+            ],
+            "answer": "dishwasher"
+        },
+        {
+            "id": 11,
+            "question": "Turn off the ______ while you're brushing your teeth to save water.",
+            "options": [
+                "sink",
+                "tap",
+                "bin",
+                "worktop"
+            ],
+            "answer": "tap"
+        },
+        {
+            "id": 12,
+            "question": "Where can I find some ______? I need to wash these plates.",
+            "options": [
+                "kitchen roll",
+                "washing machine",
+                "washing-up liquid",
+                "cloth"
+            ],
+            "answer": "washing-up liquid"
+        },
+        {
+            "id": 13,
+            "question": "______ does this cup go? - In the cupboard over there.",
+            "options": [
+                "What",
+                "How",
+                "When",
+                "Where"
+            ],
+            "answer": "Where"
+        },
+        {
+            "id": 14,
+            "question": "Can I ______ with the cooking?",
+            "options": [
+                "help",
+                "help to",
+                "do",
+                "make"
+            ],
+            "answer": "help"
+        },
+        {
+            "id": 15,
+            "question": "He poured some tea from the ______ into my cup.",
+            "options": [
+                "teapot",
+                "coffee maker",
+                "pan",
+                "bowl"
+            ],
+            "answer": "teapot"
+        },
+        {
+            "id": 16,
+            "question": "I am frying eggs in the ______.",
+            "options": [
+                "saucepan",
+                "frying pan",
+                "cooker",
+                "sink"
+            ],
+            "answer": "frying pan"
+        },
+        {
+            "id": 17,
+            "question": "I like to keep ice cream in the ______.",
+            "options": [
+                "fridge",
+                "shelf",
+                "freezer",
+                "cupboard"
+            ],
+            "answer": "freezer"
+        },
+        {
+            "id": 18,
+            "question": "Don't throw the plastic bottle in the ______. Please recycle it.",
+            "options": [
+                "bin",
+                "sink",
+                "fridge",
+                "cupboard"
+            ],
+            "answer": "bin"
+        },
+        {
+            "id": 19,
+            "question": "Just put all your dirty clothes in the ______.",
+            "options": [
+                "dishwasher",
+                "washing machine",
+                "bin",
+                "freezer"
+            ],
+            "answer": "washing machine"
+        },
+        {
+            "id": 20,
+            "question": "Would you please put the books on the top ______?",
+            "options": [
+                "cupboard",
+                "fridge",
+                "shelf",
+                "worktop"
+            ],
+            "answer": "shelf"
+        },
+        {
+            "id": 21,
+            "question": "Could I have a ______ of red wine?",
+            "options": [
+                "cup",
+                "mug",
+                "glass",
+                "bowl"
+            ],
+            "answer": "glass"
+        },
+        {
+            "id": 22,
+            "question": "I need a ______ of soup.",
+            "options": [
+                "plate",
+                "glass",
+                "bowl",
+                "fork"
+            ],
+            "answer": "bowl"
+        },
+        {
+            "id": 23,
+            "question": "Chop vegetables on the wooden ______.",
+            "options": [
+                "shelf",
+                "worktop",
+                "cooker",
+                "sink"
+            ],
+            "answer": "worktop"
+        },
+        {
+            "id": 24,
+            "question": "You look tired, can I help you ______ the dishes?",
+            "options": [
+                "wash up",
+                "wash",
+                "doing",
+                "dry"
+            ],
+            "answer": "wash up"
+        },
+        {
+            "id": 25,
+            "question": "Can you ______ the plates while I wash them?",
+            "options": [
+                "clean",
+                "dry",
+                "tidy",
+                "wash"
+            ],
+            "answer": "dry"
+        },
+        {
+            "id": 26,
+            "question": "Wait! Let me start the ______ so we can have fresh coffee.",
+            "options": [
+                "cooker",
+                "coffee maker",
+                "teapot",
+                "tap"
+            ],
+            "answer": "coffee maker"
+        },
+        {
+            "id": 27,
+            "question": "Here's your dinner on a hot ______.",
+            "options": [
+                "plate",
+                "bowl",
+                "mug",
+                "glass"
+            ],
+            "answer": "plate"
+        },
+        {
+            "id": 28,
+            "question": "Use a ______ to eat your dessert.",
+            "options": [
+                "spoon",
+                "knife",
+                "tap",
+                "saucer"
+            ],
+            "answer": "spoon"
+        },
+        {
+            "id": 29,
+            "question": "I am learning how to ______ Vietnamese food.",
+            "options": [
+                "cooker",
+                "cook",
+                "cooking",
+                "cooked"
+            ],
+            "answer": "cook"
+        },
+        {
+            "id": 30,
+            "question": "______ can I find a clean towel?",
+            "options": [
+                "Where",
+                "When",
+                "What",
+                "How"
+            ],
+            "answer": "Where"
+        }
+    ]
+}

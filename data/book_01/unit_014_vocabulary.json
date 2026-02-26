@@ -1,0 +1,614 @@
+{
+    "unit": 14,
+    "title": "Jobs",
+    "vocabulary": [
+        {
+            "word": "doctor",
+            "ipa": "/ˈdɒk.tər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bác sĩ",
+            "explanationVi": "Người đã được đào tạo y khoa để điều trị bệnh nhân.",
+            "explanationEn": "A person with a medical degree whose job is to treat people who are ill or hurt.",
+            "example": "A doctor works in a hospital or clinic.",
+            "exampleMeaning": "Bác sĩ làm việc trong bệnh viện hoặc phòng khám.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=doctor"
+        },
+        {
+            "word": "teacher",
+            "ipa": "/ˈtiː.tʃər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "giáo viên",
+            "explanationVi": "Người giảng dạy, đặc biệt là trong trường học.",
+            "explanationEn": "Someone whose job is to teach in a school or college.",
+            "example": "A teacher works in a school.",
+            "exampleMeaning": "Một giáo viên làm việc trong trường học.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=teacher"
+        },
+        {
+            "word": "nurse",
+            "ipa": "/nɜːs/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "y tá",
+            "explanationVi": "Người được đào tạo để chăm sóc người bệnh, thường làm việc ở bệnh viện.",
+            "explanationEn": "A person whose job is to care for people who are ill or injured, especially in a hospital.",
+            "example": "She works as a nurse in a local hospital.",
+            "exampleMeaning": "Cô ấy làm y tá trong một bệnh viện địa phương.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=nurse"
+        },
+        {
+            "word": "mechanic",
+            "ipa": "/məˈkæn.ɪk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thợ cơ khí, thợ sửa xe",
+            "explanationVi": "Người có công việc sửa chữa máy móc hoặc động cơ xe máy, ô tô.",
+            "explanationEn": "Someone whose job is repairing the engines of vehicles and other machines.",
+            "example": "The mechanic fixed my car yesterday.",
+            "exampleMeaning": "Người thợ sửa xe đã sửa ô tô của tôi vào hôm qua.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=mechanic"
+        },
+        {
+            "word": "secretary",
+            "ipa": "/ˈsek.rə.tər.i/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thư ký",
+            "explanationVi": "Người làm việc trong văn phòng, phụ trách gõ văn bản, sắp xếp tài liệu, nghe điện thoại.",
+            "explanationEn": "Someone who works in an office, writing letters, making phone calls, and arranging meetings.",
+            "example": "A secretary answers the phone and types emails.",
+            "exampleMeaning": "Thư ký nghe điện thoại và gõ email.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=secretary"
+        },
+        {
+            "word": "shop assistant",
+            "ipa": "/ˈʃɒp əˌsɪs.tənt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nhân viên bán hàng",
+            "explanationVi": "Người làm việc phục vụ khách hàng trong cửa hàng.",
+            "explanationEn": "Someone whose job is selling things in a shop.",
+            "example": "The shop assistant helped me find the right size.",
+            "exampleMeaning": "Nhân viên bán hàng đã giúp tôi tìm đúng kích cỡ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=shop+assistant"
+        },
+        {
+            "word": "hairdresser",
+            "ipa": "/ˈheəˌdres.ər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thợ làm tóc",
+            "explanationVi": "Người cắt, tạo kiểu tóc cho khách hàng.",
+            "explanationEn": "A person who cuts people's hair and puts it into a style.",
+            "example": "I want to work in a beauty salon as a hairdresser.",
+            "exampleMeaning": "Tôi muốn làm thợ làm tóc tại một thẩm mỹ viện.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hairdresser"
+        },
+        {
+            "word": "engineer",
+            "ipa": "/ˌen.dʒɪˈnɪər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "kỹ sư",
+            "explanationVi": "Người chuyên thiết kế, chế tạo máy móc, đường sá hoặc cầu cống.",
+            "explanationEn": "A person whose job is to design or build machines, engines, or electrical equipment, or things such as roads, railways, or bridges.",
+            "example": "She's an engineer. She builds roads and bridges.",
+            "exampleMeaning": "Cô ấy là kỹ sư. Cô ấy xây dựng đường và những cây cầu.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=engineer"
+        },
+        {
+            "word": "farmer",
+            "ipa": "/ˈfɑː.mər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nông dân",
+            "explanationVi": "Người sở hữu hoặc quản lý một trang trại nông nghiệp.",
+            "explanationEn": "Someone who owns or takes care of a farm.",
+            "example": "A farmer drives a tractor and grows crops.",
+            "exampleMeaning": "Nông dân lái máy cày và trồng trọt.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=farmer"
+        },
+        {
+            "word": "police officer",
+            "ipa": "/pəˈliːs ˌɒf.ɪ.sər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cảnh sát",
+            "explanationVi": "Nam hoặc nữ cảnh sát, người bắt giữ tội phạm và giữ trật tự xã hội.",
+            "explanationEn": "A male or female member of the police force.",
+            "example": "A police officer told me the way to the station.",
+            "exampleMeaning": "Một viên cảnh sát đã chỉ tôi đường đến nhà ga.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=police+officer"
+        },
+        {
+            "word": "traffic warden",
+            "ipa": "/ˈtræf.ɪk ˌwɔː.dən/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nhân viên kiểm soát giao thông",
+            "explanationVi": "Người giữ nhiệm vụ kiểm tra các xe đỗ sai quy định và điều tiết giao thông.",
+            "explanationEn": "Someone whose job is to make certain that people do not leave their cars in illegal places.",
+            "example": "The traffic warden is checking all the parked cars.",
+            "exampleMeaning": "Nhân viên kiểm soát giao thông đang kiểm tra tất cả các xe đang đỗ.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=traffic+warden"
+        },
+        {
+            "word": "librarian",
+            "ipa": "/laɪˈbreə.ri.ən/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thủ thư",
+            "explanationVi": "Người làm việc tại thư viện.",
+            "explanationEn": "A person who works in a library.",
+            "example": "The librarian told me to return the book at the end of the month.",
+            "exampleMeaning": "Thủ thư bảo tôi trả lại sách vào cuối tháng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=librarian"
+        },
+        {
+            "word": "bank clerk",
+            "ipa": "/bæŋk klɑːk/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nhân viên giao dịch ngân hàng",
+            "explanationVi": "Nhân viên làm việc với khách hàng tại quầy trong ngân hàng.",
+            "explanationEn": "A person who works in a bank, usually at a desk or counter.",
+            "example": "The bank clerk changed some money for me.",
+            "exampleMeaning": "Nhân viên ngân hàng đã đổi tiền giúp tôi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=bank+clerk"
+        },
+        {
+            "word": "waiter",
+            "ipa": "/ˈweɪ.tər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nam bồi bàn",
+            "explanationVi": "Một người đàn ông có công việc là phục vụ đồ ăn thức uống tại nhà hàng.",
+            "explanationEn": "A man whose job is to bring the food to customers at their tables in a restaurant.",
+            "example": "I'm a waiter. I work in a restaurant.",
+            "exampleMeaning": "Tôi là bồi bàn. Tôi làm việc ở một nhà hàng.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=waiter"
+        },
+        {
+            "word": "taxi driver",
+            "ipa": "/ˈtæk.si ˌdraɪ.vər/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "tài xế taxi",
+            "explanationVi": "Người lái xe taxi để chở khách kiếm tiền.",
+            "explanationEn": "Someone whose job is driving a taxi.",
+            "example": "He is a taxi driver.",
+            "exampleMeaning": "Anh ấy là tài xế taxi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=taxi+driver"
+        },
+        {
+            "word": "restaurant",
+            "ipa": "/ˈres.trɒnt/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nhà hàng",
+            "explanationVi": "Nơi mọi người trả tiền để ăn uống món ăn được chuẩn bị phục vụ tại đó.",
+            "explanationEn": "A place where meals are prepared and served to customers.",
+            "example": "Ben works as a waiter in an Italian restaurant.",
+            "exampleMeaning": "Ben làm bồi bàn trong một nhà hàng nước Ý.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=restaurant"
+        },
+        {
+            "word": "factory",
+            "ipa": "/ˈfæk.tər.i/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nhà máy",
+            "explanationVi": "Tòa nhà hoặc tổ hợp tòa nhà ở đó sản phẩm được sản xuất hàng loạt bằng máy móc.",
+            "explanationEn": "A building or set of buildings where large amounts of goods are made using machines.",
+            "example": "My dad works in a factory which makes car parts.",
+            "exampleMeaning": "Bố tôi làm việc trong một nhà máy sản xuất phụ tùng ô tô.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=factory"
+        },
+        {
+            "word": "office",
+            "ipa": "/ˈɒf.ɪs/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "văn phòng",
+            "explanationVi": "Một phòng làm việc hoặc cao ốc nơi mọi người làm việc bàn giấy kinh doanh.",
+            "explanationEn": "A room or part of a building in which people work, especially sitting at tables with computers.",
+            "example": "I work in an office. Sometimes it's boring.",
+            "exampleMeaning": "Tôi làm ở văn phòng. Đôi khi nó khá nhàm chán.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=office"
+        },
+        {
+            "word": "shop",
+            "ipa": "/ʃɒp/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "cửa hàng",
+            "explanationVi": "Địa điểm kinh doanh mua bán hàng hóa nhỏ hoặc trung bình.",
+            "explanationEn": "A place where you can buy goods or services.",
+            "example": "I worked in a shop at the weekends when I was a student.",
+            "exampleMeaning": "Tôi đã làm việc tại tiệm vào cuối tuần thời còn đi học.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=shop"
+        },
+        {
+            "word": "beauty salon",
+            "ipa": "/ˈbjuː.ti ˌsæl.ɒn/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "thẩm mỹ viện, salon làm tóc",
+            "explanationVi": "Nơi chăm sóc sắc đẹp, làm tóc cho phụ nữ.",
+            "explanationEn": "An establishment in which hairdressing, make-up, and similar cosmetic treatments are carried out professionally.",
+            "example": "She goes to the beauty salon every week.",
+            "exampleMeaning": "Cô ấy đi thẩm mỹ viện mỗi tuần.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=beauty+salon"
+        },
+        {
+            "word": "hospital",
+            "ipa": "/ˈhɒs.pɪ.təl/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "bệnh viện",
+            "explanationVi": "Nơi người bệnh và người bị thương đến khám, chữa trị y tế.",
+            "explanationEn": "A place where people who are ill or injured are treated and taken care of by doctors and nurses.",
+            "example": "I'd like to work in a children's hospital.",
+            "exampleMeaning": "Tôi muốn làm việc trong một bệnh viện nhi.",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=hospital"
+        },
+        {
+            "word": "work",
+            "ipa": "/wɜːk/",
+            "partOfSpeech": "động từ",
+            "partOfSpeechEn": "verb",
+            "meaning": "làm việc",
+            "explanationVi": "Tham gia thực hiện công việc thể chất hoặc trí óc để kiếm tiền hoặc đạt mục đích.",
+            "explanationEn": "To do a job, especially the job you do to earn money.",
+            "example": "Where do you work?",
+            "exampleMeaning": "Bạn làm việc ở đâu vậy?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=work"
+        },
+        {
+            "word": "job",
+            "ipa": "/dʒɒb/",
+            "partOfSpeech": "danh từ",
+            "partOfSpeechEn": "noun",
+            "meaning": "nghề nghiệp, công việc",
+            "explanationVi": "Vị trí làm việc được trả lương định kỳ của một người.",
+            "explanationEn": "The regular work that a person does to earn money.",
+            "example": "What's your job?",
+            "exampleMeaning": "Nghề nghiệp của bạn là gì?",
+            "listenUrl": "https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=job"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "question": "What do you ______? - I'm a taxi driver.",
+            "options": [
+                "make",
+                "job",
+                "do",
+                "work"
+            ],
+            "answer": "do"
+        },
+        {
+            "id": 2,
+            "question": "She is a ______. She cares for people who are ill in a hospital.",
+            "options": [
+                "doctor",
+                "nurse",
+                "shop assistant",
+                "teacher"
+            ],
+            "answer": "nurse"
+        },
+        {
+            "id": 3,
+            "question": "He works in a ______. He brings food to customers.",
+            "options": [
+                "factory",
+                "office",
+                "restaurant",
+                "hospital"
+            ],
+            "answer": "restaurant"
+        },
+        {
+            "id": 4,
+            "question": "A ______ repairs the engines of vehicles like cars and motorbikes.",
+            "options": [
+                "traffic warden",
+                "mechanic",
+                "engineer",
+                "farmer"
+            ],
+            "answer": "mechanic"
+        },
+        {
+            "id": 5,
+            "question": "The ______ told me to return the book at the end of the month.",
+            "options": [
+                "librarian",
+                "bank clerk",
+                "teacher",
+                "secretary"
+            ],
+            "answer": "librarian"
+        },
+        {
+            "id": 6,
+            "question": "My dad works in a ______ which makes computer parts.",
+            "options": [
+                "beauty salon",
+                "office",
+                "factory",
+                "shop"
+            ],
+            "answer": "factory"
+        },
+        {
+            "id": 7,
+            "question": "The bank ______ changed some money for me.",
+            "options": [
+                "clerk",
+                "assistant",
+                "officer",
+                "worker"
+            ],
+            "answer": "clerk"
+        },
+        {
+            "id": 8,
+            "question": "I want to work in a beauty salon as a ______.",
+            "options": [
+                "mechanic",
+                "hairdresser",
+                "waiter",
+                "doctor"
+            ],
+            "answer": "hairdresser"
+        },
+        {
+            "id": 9,
+            "question": "The ______ is checking all the parked cars on the street to make sure they are parked legally.",
+            "options": [
+                "police officer",
+                "traffic warden",
+                "bank clerk",
+                "taxi driver"
+            ],
+            "answer": "traffic warden"
+        },
+        {
+            "id": 10,
+            "question": "A ______ asked me the way to the police station.",
+            "options": [
+                "traffic warden",
+                "police officer",
+                "mechanic",
+                "engineer"
+            ],
+            "answer": "police officer"
+        },
+        {
+            "id": 11,
+            "question": "She's an ______. She builds roads and bridges.",
+            "options": [
+                "engineer",
+                "librarian",
+                "secretary",
+                "mechanic"
+            ],
+            "answer": "engineer"
+        },
+        {
+            "id": 12,
+            "question": "I'm a writer. I work ______ home.",
+            "options": [
+                "in",
+                "on",
+                "at / from",
+                "with"
+            ],
+            "answer": "at / from"
+        },
+        {
+            "id": 13,
+            "question": "A ______ works on a farm, grows crops and raises animals.",
+            "options": [
+                "doctor",
+                "farmer",
+                "nurse",
+                "shop assistant"
+            ],
+            "answer": "farmer"
+        },
+        {
+            "id": 14,
+            "question": "My brother is a ______. He works in a big school in London.",
+            "options": [
+                "teacher",
+                "student",
+                "doctor",
+                "librarian"
+            ],
+            "answer": "teacher"
+        },
+        {
+            "id": 15,
+            "question": "Is it an ______ job? - Yes, I like it very much.",
+            "options": [
+                "boring",
+                "interest",
+                "interesting",
+                "interested"
+            ],
+            "answer": "interesting"
+        },
+        {
+            "id": 16,
+            "question": "I usually type emails and answer phone calls. I am a ______.",
+            "options": [
+                "secretary",
+                "waiter",
+                "hairdresser",
+                "farmer"
+            ],
+            "answer": "secretary"
+        },
+        {
+            "id": 17,
+            "question": "I didn't find the shoes I wanted, so the ______ helped me check the storeroom.",
+            "options": [
+                "traffic warden",
+                "shop assistant",
+                "librarian",
+                "bank clerk"
+            ],
+            "answer": "shop assistant"
+        },
+        {
+            "id": 18,
+            "question": "Where does she ______? - She works in a hospital.",
+            "options": [
+                "do",
+                "go",
+                "make",
+                "work"
+            ],
+            "answer": "work"
+        },
+        {
+            "id": 19,
+            "question": "What is his ______? - He is an engineer.",
+            "options": [
+                "job",
+                "work",
+                "doing",
+                "making"
+            ],
+            "answer": "job"
+        },
+        {
+            "id": 20,
+            "question": "I'd like to work ______ a children's hospital.",
+            "options": [
+                "on",
+                "in",
+                "at",
+                "from"
+            ],
+            "answer": "in"
+        },
+        {
+            "id": 21,
+            "question": "Sometimes my work is very ______, and I feel sleepy.",
+            "options": [
+                "boring",
+                "interesting",
+                "happy",
+                "tired"
+            ],
+            "answer": "boring"
+        },
+        {
+            "id": 22,
+            "question": "Tom works as a ______; he drives people to different places in the city all day.",
+            "options": [
+                "mechanic",
+                "taxi driver",
+                "police officer",
+                "traffic warden"
+            ],
+            "answer": "taxi driver"
+        },
+        {
+            "id": 23,
+            "question": "He's working ______ a software company now.",
+            "options": [
+                "in",
+                "on",
+                "from",
+                "under"
+            ],
+            "answer": "in"
+        },
+        {
+            "id": 24,
+            "question": "Please return these documents to the ______. He is waiting in his office.",
+            "options": [
+                "doctor",
+                "farmer",
+                "waiter",
+                "boss"
+            ],
+            "answer": "doctor"
+        },
+        {
+            "id": 25,
+            "question": "Can you call the ______? The pipe in the kitchen is leaking!",
+            "options": [
+                "mechanic",
+                "plumber",
+                "engineer",
+                "hairdresser"
+            ],
+            "answer": "plumber"
+        },
+        {
+            "id": 26,
+            "question": "When I was a student, I worked in a shop ______ the weekends.",
+            "options": [
+                "in",
+                "on",
+                "at",
+                "both B & C"
+            ],
+            "answer": "both B & C"
+        },
+        {
+            "id": 27,
+            "question": "A ______ treats patients and prescribes medicine.",
+            "options": [
+                "nurse",
+                "doctor",
+                "engineer",
+                "mechanic"
+            ],
+            "answer": "doctor"
+        },
+        {
+            "id": 28,
+            "question": "My mother is a ______. She cuts and styles hair beautifully.",
+            "options": [
+                "secretary",
+                "hairdresser",
+                "shop assistant",
+                "librarian"
+            ],
+            "answer": "hairdresser"
+        },
+        {
+            "id": 29,
+            "question": "She serves customers in a clothing store. She is a ______.",
+            "options": [
+                "shop assistant",
+                "bank clerk",
+                "secretary",
+                "teacher"
+            ],
+            "answer": "shop assistant"
+        },
+        {
+            "id": 30,
+            "question": "I'm looking for a ______. Can you recommend one? I want to change jobs.",
+            "options": [
+                "work",
+                "working",
+                "career",
+                "new job"
+            ],
+            "answer": "new job"
+        }
+    ]
+}

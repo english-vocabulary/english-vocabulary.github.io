@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "Conversations 1: Greetings and Wishes",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "In the morning, you say \"______\" to teachers and colleagues.",
+                "answer": "Good morning",
+                "hint": "Lời chào buổi sáng"
+            },
+            {
+                "id": 2,
+                "context": "Then you usually ask \"______?\" And the common response is \"Fine, thanks\".",
+                "answer": "How are you",
+                "hint": "Câu hỏi thăm sức khỏe phổ biến nhất"
+            },
+            {
+                "id": 3,
+                "context": "When someone sneezes, English people usually say \"______!\".",
+                "answer": "Bless you",
+                "hint": "Phong tục văn hóa Anh khi ai đó hắt xì"
+            },
+            {
+                "id": 4,
+                "context": "When you want to ask for directions, you say \"______, can you show me the way?\".",
+                "answer": "Excuse me",
+                "hint": "Xin lỗi (khi muốn gây chú ý, không phải khi có lỗi)"
+            },
+            {
+                "id": 5,
+                "context": "When someone passes their exam, you say \"______!\" and \"Well done!\".",
+                "answer": "Congratulations",
+                "hint": "Xin chúc mừng (luôn ở dạng số nhiều)"
+            },
+            {
+                "id": 6,
+                "context": "Before going to bed, you say \"Goodnight!\" and \"______!\".",
+                "answer": "Sleep well",
+                "hint": "Ngủ ngon nhé"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "The common response is \"Fine, thanks\" or \"**Not too bad**\".",
+                "targetWord": "Not too bad",
+                "options": [
+                    {
+                        "text": "Rất tốt",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Tàm tạm, cũng được",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Rất tệ",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Không biết",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "In British culture, you can also say \"**cheers**\" informally.",
+                "targetWord": "cheers",
+                "options": [
+                    {
+                        "text": "Xin lỗi",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Tạm biệt",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cảm ơn (thân mật) / Dzo",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Xin chào",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "At Christmas, we say \"**Merry Christmas**!\".",
+                "targetWord": "Merry Christmas",
+                "options": [
+                    {
+                        "text": "Chúc mừng năm mới",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Chúc mừng sinh nhật",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Chúc mừng Giáng sinh",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Chúc may mắn",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "When someone is about to take an exam, you say \"**Good luck**!\".",
+                "targetWord": "Good luck",
+                "options": [
+                    {
+                        "text": "Làm tốt lắm",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Chúc may mắn",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Xin chúc mừng",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Tạm biệt",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+}

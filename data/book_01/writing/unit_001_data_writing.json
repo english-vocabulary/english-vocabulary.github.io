@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "The Family",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "In my family, there are four people: my father, my mother, my ______, and me.",
+                "answer": "brother",
+                "hint": "Anh trai hoặc em trai"
+            },
+            {
+                "id": 2,
+                "context": "My ______ always teach us how to live well and love each other.",
+                "answer": "parents",
+                "hint": "Bố mẹ (danh từ số nhiều chỉ cả bố và mẹ)"
+            },
+            {
+                "id": 3,
+                "context": "Every weekend, we often visit our ______ and meet our relatives.",
+                "answer": "grandparents",
+                "hint": "Ông bà (nói chung cả ông và bà)"
+            },
+            {
+                "id": 4,
+                "context": "My ______'s wife, who is my aunt, also lives near our house.",
+                "answer": "uncle",
+                "hint": "Chú/bác (anh em trai của bố hoặc mẹ)"
+            },
+            {
+                "id": 5,
+                "context": "My grandmother often tells her grandsons and ______ wonderful stories.",
+                "answer": "granddaughters",
+                "hint": "Cháu gái (của ông bà)"
+            },
+            {
+                "id": 6,
+                "context": "We are a close-knit family, and all relatives love the ______.",
+                "answer": "children",
+                "hint": "Những đứa trẻ (số nhiều bất quy tắc của child)"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "My **cousins** and I always get along well with each other.",
+                "targetWord": "cousins",
+                "options": [
+                    {
+                        "text": "Anh chị em họ",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Anh chị em ruột",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bạn bè",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Hàng xóm",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "My **grandfather** is 80 years old but still very healthy.",
+                "targetWord": "grandfather",
+                "options": [
+                    {
+                        "text": "Bà nội/ngoại",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Ông nội/ngoại",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Chú/bác",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Bố",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "Everyone should cherish their family members and spend time with their **relations**.",
+                "targetWord": "relations",
+                "options": [
+                    {
+                        "text": "Bạn bè",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Đồng nghiệp",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Người bà con",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Hàng xóm",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "My aunt's **nephew** really loves sports.",
+                "targetWord": "nephew",
+                "options": [
+                    {
+                        "text": "Cháu gái (của cô chú)",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cháu trai (của ông bà)",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Cháu trai (của cô chú)",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Con trai",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+}

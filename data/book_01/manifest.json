@@ -90,6 +90,191 @@
         "color": "from-lime-500 to-green-400"
     },
     {
+        "file": "unit_011_vocabulary.json",
+        "unit": 11,
+        "title": "In the kitchen",
+        "titleVi": "Trong bếp",
+        "topic": "Home",
+        "icon": "🍳",
+        "color": "from-orange-500 to-amber-400"
+    },
+    {
+        "file": "unit_012_vocabulary.json",
+        "unit": 12,
+        "title": "In the bedroom and bathroom",
+        "titleVi": "Trong phòng ngủ và phòng tắm",
+        "topic": "Home",
+        "icon": "🛏️",
+        "color": "from-sky-500 to-blue-400"
+    },
+    {
+        "file": "unit_013_vocabulary.json",
+        "unit": 13,
+        "title": "In the living room",
+        "titleVi": "Trong phòng khách",
+        "topic": "Home",
+        "icon": "🛋️",
+        "color": "from-purple-500 to-violet-400"
+    },
+    {
+        "file": "unit_014_vocabulary.json",
+        "unit": 14,
+        "title": "Jobs",
+        "titleVi": "Các nghề nghiệp",
+        "topic": "Work",
+        "icon": "💼",
+        "color": "from-slate-500 to-gray-400"
+    },
+    {
+        "file": "unit_015_vocabulary.json",
+        "unit": 15,
+        "title": "At school and university",
+        "titleVi": "Ở trường học và đại học",
+        "topic": "Education",
+        "icon": "🎓",
+        "color": "from-teal-500 to-cyan-400"
+    },
+    {
+        "file": "writing/unit_001_data_writing.json",
+        "unit": 1,
+        "title": "The Family – Writing",
+        "titleVi": "Gia đình – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-blue-500 to-blue-400"
+    },
+    {
+        "file": "writing/unit_002_data_writing.json",
+        "unit": 2,
+        "title": "Birth, Marriage and Death – Writing",
+        "titleVi": "Sinh, Hôn nhân và Cái chết – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-pink-500 to-rose-400"
+    },
+    {
+        "file": "writing/unit_003_data_writing.json",
+        "unit": 3,
+        "title": "Parts of the Body – Writing",
+        "titleVi": "Các bộ phận cơ thể – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-emerald-500 to-teal-400"
+    },
+    {
+        "file": "writing/unit_004_data_writing.json",
+        "unit": 4,
+        "title": "Clothes – Writing",
+        "titleVi": "Quần áo – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-violet-500 to-purple-400"
+    },
+    {
+        "file": "writing/unit_005_data_writing.json",
+        "unit": 5,
+        "title": "Describing People – Writing",
+        "titleVi": "Mô tả con người – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-amber-500 to-orange-400"
+    },
+    {
+        "file": "writing/unit_006_data_writing.json",
+        "unit": 6,
+        "title": "Health and Illness – Writing",
+        "titleVi": "Sức khỏe và bệnh tật – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-red-500 to-rose-400"
+    },
+    {
+        "file": "writing/unit_007_data_writing.json",
+        "unit": 7,
+        "title": "Feelings – Writing",
+        "titleVi": "Cảm xúc – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-yellow-500 to-amber-400"
+    },
+    {
+        "file": "writing/unit_008_data_writing.json",
+        "unit": 8,
+        "title": "Conversations 1: Greetings and Wishes – Writing",
+        "titleVi": "Hội thoại 1: Lời chào và lời chúc – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-sky-500 to-cyan-400"
+    },
+    {
+        "file": "writing/unit_009_data_writing.json",
+        "unit": 9,
+        "title": "Conversations 2: Useful Expressions – Writing",
+        "titleVi": "Hội thoại 2: Từ và cụm từ hữu ích – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-indigo-500 to-blue-400"
+    },
+    {
+        "file": "writing/unit_010_data_writing.json",
+        "unit": 10,
+        "title": "Food and Drink – Writing",
+        "titleVi": "Thức ăn và đồ uống – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-lime-500 to-green-400"
+    },
+    {
+        "file": "writing/unit_011_data_writing.json",
+        "unit": 11,
+        "title": "In the Kitchen – Writing",
+        "titleVi": "Trong bếp – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-orange-500 to-amber-400"
+    },
+    {
+        "file": "writing/unit_012_data_writing.json",
+        "unit": 12,
+        "title": "In the Bedroom and Bathroom – Writing",
+        "titleVi": "Trong phòng ngủ và phòng tắm – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-sky-500 to-blue-400"
+    },
+    {
+        "file": "writing/unit_013_data_writing.json",
+        "unit": 13,
+        "title": "In the Living Room – Writing",
+        "titleVi": "Trong phòng khách – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-purple-500 to-violet-400"
+    },
+    {
+        "file": "writing/unit_014_data_writing.json",
+        "unit": 14,
+        "title": "Jobs – Writing",
+        "titleVi": "Các nghề nghiệp – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-slate-500 to-gray-400"
+    },
+    {
         "file": "writing/unit_015_data_writing.json",
         "unit": 15,
         "title": "School Life & Subjects – Writing",

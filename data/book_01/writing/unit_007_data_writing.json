@@ -1,0 +1,137 @@
+{
+    "lessonTitle": "Feelings",
+    "exercises": {
+        "fillInBlanks": [
+            {
+                "id": 1,
+                "context": "When everything goes well, we feel ______ and love life.",
+                "answer": "happy",
+                "hint": "Hạnh phúc (tính từ)"
+            },
+            {
+                "id": 2,
+                "context": "He is ______ about his exam results.",
+                "answer": "upset",
+                "hint": "Buồn bực, thất vọng (mạnh hơn 'sad')"
+            },
+            {
+                "id": 3,
+                "context": "She was angry ______ him because he arrived late.",
+                "answer": "with",
+                "hint": "Giới từ đi với 'angry' khi chỉ người"
+            },
+            {
+                "id": 4,
+                "context": "I'm ______ — let's eat something.",
+                "answer": "hungry",
+                "hint": "Đói"
+            },
+            {
+                "id": 5,
+                "context": "This morning I feel a bit ______ because I didn't get enough sleep.",
+                "answer": "tired",
+                "hint": "Mệt (tính từ chỉ trạng thái)"
+            },
+            {
+                "id": 6,
+                "context": "I ______ coffee to tea.",
+                "answer": "prefer",
+                "hint": "Thích hơn (prefer A to B)"
+            }
+        ],
+        "multipleChoice": [
+            {
+                "id": 1,
+                "sentence": "I **hate** spiders because they scare me.",
+                "targetWord": "hate",
+                "options": [
+                    {
+                        "text": "Yêu",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Thích",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Ghét",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Sợ",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "sentence": "Today it is very cold outside, but it is **hot** in the room.",
+                "targetWord": "hot",
+                "options": [
+                    {
+                        "text": "Lạnh",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Ấm",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Nóng",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Mát",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "sentence": "I was **surprised** to see her here.",
+                "targetWord": "surprised",
+                "options": [
+                    {
+                        "text": "Buồn",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Ngạc nhiên",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Tức giận",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Mệt mỏi",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "sentence": "Can I have some water? I'm **thirsty**.",
+                "targetWord": "thirsty",
+                "options": [
+                    {
+                        "text": "Đói",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Mệt",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Ốm",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Khát",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    }
+}
