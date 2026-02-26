@@ -1,0 +1,89 @@
+{
+  "lessonTitle": "School Life & Subjects",
+  "exercises": {
+    "fillInBlanks": [
+      {
+        "id": 1,
+        "context": "Education plays an extremely important role in life. I believe that the time spent ______ is a foundational period...",
+        "answer": "going to school",
+        "hint": "Cụm từ chỉ việc đến trường (không dùng 'the')"
+      },
+      {
+        "id": 2,
+        "context": "We paint pictures in ______ class and play football in PE.",
+        "answer": "art",
+        "hint": "Môn mỹ thuật"
+      },
+      {
+        "id": 3,
+        "context": "Water is H₂O — we learned that in ______.",
+        "answer": "chemistry",
+        "hint": "Môn hóa học"
+      },
+      {
+        "id": 4,
+        "context": "The teacher writes on the board with a ______.",
+        "answer": "board pen",
+        "hint": "Dụng cụ viết lên bảng"
+      },
+      {
+        "id": 5,
+        "context": "My pencil is blunt — I need a ______.",
+        "answer": "pencil sharpener",
+        "hint": "Dụng cụ gọt bút chì"
+      },
+      {
+        "id": 6,
+        "context": "She studied hard and ______ all her exams.",
+        "answer": "passed",
+        "hint": "Đậu kỳ thi (quá khứ)"
+      }
+    ],
+    "multipleChoice": [
+      {
+        "id": 1,
+        "sentence": "She is very good at **maths**.",
+        "targetWord": "maths",
+        "options": [
+          { "text": "Toán học", "isCorrect": true },
+          { "text": "Lịch sử", "isCorrect": false },
+          { "text": "Địa lý", "isCorrect": false },
+          { "text": "Vật lý", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "sentence": "In **geography**, we learned about the countries of the world.",
+        "targetWord": "geography",
+        "options": [
+          { "text": "Sinh học", "isCorrect": false },
+          { "text": "Địa lý", "isCorrect": true },
+          { "text": "Hóa học", "isCorrect": false },
+          { "text": "Ngoại ngữ", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "sentence": "Can I borrow your **rubber**?",
+        "targetWord": "rubber",
+        "options": [
+          { "text": "Cái thước kẻ", "isCorrect": false },
+          { "text": "Cái tẩy", "isCorrect": true },
+          { "text": "Cái bút mực", "isCorrect": false },
+          { "text": "Cái đinh ghim", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "sentence": "He didn't prepare well and **failed** the exam.",
+        "targetWord": "failed",
+        "options": [
+          { "text": "Đậu", "isCorrect": false },
+          { "text": "Trượt", "isCorrect": true },
+          { "text": "Tham gia", "isCorrect": false },
+          { "text": "Làm bài", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+}

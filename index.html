@@ -77,8 +77,18 @@
             </span>
         </div>
 
-        <!-- Unit Grid -->
+        <!-- Unit Grid (vocabulary) -->
         <div id="unitGrid" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3"></div>
+
+        <!-- Writing section -->
+        <div id="writingSection" class="hidden mt-10">
+            <div class="flex items-center gap-3 mb-5">
+                <span class="text-2xl">✍️</span>
+                <h2 class="text-lg font-bold text-gray-700">Bài tập viết</h2>
+                <div class="flex-1 h-px bg-gray-200"></div>
+            </div>
+            <div id="writingGrid" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3"></div>
+        </div>
 
         <!-- Empty state -->
         <div id="emptyState" class="hidden text-center py-20 text-gray-400">
@@ -98,13 +108,15 @@
 
         let items = []; // books or units depending on view
 
-        const grid          = document.getElementById('unitGrid');
-        const emptyState    = document.getElementById('emptyState');
-        const searchInput   = document.getElementById('searchInput');
-        const countLabel    = document.getElementById('countLabel');
-        const headerTitle   = document.getElementById('headerTitle');
+        const grid           = document.getElementById('unitGrid');
+        const writingSection = document.getElementById('writingSection');
+        const writingGrid    = document.getElementById('writingGrid');
+        const emptyState     = document.getElementById('emptyState');
+        const searchInput    = document.getElementById('searchInput');
+        const countLabel     = document.getElementById('countLabel');
+        const headerTitle    = document.getElementById('headerTitle');
         const headerSubtitle = document.getElementById('headerSubtitle');
-        const headerBackBtn = document.getElementById('headerBackBtn');
+        const headerBackBtn  = document.getElementById('headerBackBtn');
 
         // ── Book card ───────────────────────────────────────────────────────
         function renderBookCard(book, idx) {
@@ -137,7 +149,10 @@
         // ── Unit card ───────────────────────────────────────────────────────
         function renderUnitCard(unit, idx) {
             const card = document.createElement('a');
-            card.href = `exercise.html?file=${encodeURIComponent(bookId + '/' + unit.file)}&book=${encodeURIComponent(bookId)}`;
+            const isWriting = unit.type === 'writing';
+            card.href = isWriting
+                ? `writing-exam.html?file=${encodeURIComponent(bookId + '/' + unit.file)}&book=${encodeURIComponent(bookId)}`
+                : `exercise.html?file=${encodeURIComponent(bookId + '/' + unit.file)}&book=${encodeURIComponent(bookId)}`;
             card.className = 'card-hover fade-in block bg-white rounded-2xl shadow-md overflow-hidden cursor-pointer group';
             card.style.animationDelay = `${idx * 60}ms`;
             card.setAttribute('aria-label', `Unit ${unit.unit}: ${unit.title}`);
@@ -153,7 +168,7 @@
                     <h2 class="text-gray-800 font-bold text-base leading-snug group-hover:text-blue-600 transition-colors">${unit.title}</h2>
                     <p class="text-gray-400 text-sm mt-1">${unit.titleVi || ''}</p>
                     <div class="mt-4 flex items-center text-blue-500 text-xs font-semibold">
-                        Bắt đầu luyện tập
+                        ${isWriting ? 'Luyện tập viết' : 'Bắt đầu luyện tập'}
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                         </svg>
@@ -166,6 +181,9 @@
         // ── Render list ─────────────────────────────────────────────────────
         function render(list) {
             grid.innerHTML = '';
+            writingGrid.innerHTML = '';
+            writingSection.classList.add('hidden');
+
             const label = bookId ? 'unit' : 'sách';
             countLabel.textContent = `Hiển thị ${list.length} / ${items.length} ${label}`;
 
@@ -175,10 +193,20 @@
             }
             emptyState.classList.add('hidden');
 
-            list.forEach((item, idx) => {
-                const card = bookId ? renderUnitCard(item, idx) : renderBookCard(item, idx);
-                grid.appendChild(card);
-            });
+            if (bookId) {
+                // Split vocabulary vs writing
+                const vocabItems   = list.filter(u => u.type !== 'writing');
+                const writingItems = list.filter(u => u.type === 'writing');
+
+                vocabItems.forEach((item, idx) => grid.appendChild(renderUnitCard(item, idx)));
+
+                if (writingItems.length > 0) {
+                    writingSection.classList.remove('hidden');
+                    writingItems.forEach((item, idx) => writingGrid.appendChild(renderUnitCard(item, idx)));
+                }
+            } else {
+                list.forEach((item, idx) => grid.appendChild(renderBookCard(item, idx)));
+            }
         }
 
         // ── Filter ──────────────────────────────────────────────────────────

@@ -88,5 +88,15 @@
         "topic": "Lifestyle",
         "icon": "🍽️",
         "color": "from-lime-500 to-green-400"
+    },
+    {
+        "file": "writing/unit_015_data_writing.json",
+        "unit": 15,
+        "title": "School Life & Subjects – Writing",
+        "titleVi": "Cuộc sống học đường – Bài viết",
+        "topic": "Writing",
+        "type": "writing",
+        "icon": "✍️",
+        "color": "from-teal-500 to-cyan-400"
     }
 ]

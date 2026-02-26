@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập Viết - English Vocabulary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .fade-in { animation: fadeIn 0.5s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .correct-answer { background-color: #d1fae5; border-color: #10b981; color: #065f46; }
+        .wrong-answer { background-color: #fee2e2; border-color: #ef4444; color: #991b1b; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-6 shadow-md">
+        <div class="container mx-auto max-w-4xl">
+            <a id="backBtn" href="index.html" class="inline-flex items-center gap-1 text-blue-200 hover:text-white text-xs font-medium mb-3 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                </svg>
+                Quay lại
+            </a>
+            <h1 id="lessonTitle" class="text-3xl font-bold">Đang tải...</h1>
+            <p class="mt-2 opacity-90 text-sm">Vocabulary &amp; Translation Practice ✍️</p>
+        </div>
+    </header>
+
+    <!-- Loading state -->
+    <div id="loadingState" class="container mx-auto max-w-4xl p-8 text-center text-gray-500">
+        <div class="text-4xl mb-3">⏳</div>
+        <p>Đang tải dữ liệu bài tập...</p>
+    </div>
+
+    <!-- Error state -->
+    <div id="errorState" class="hidden container mx-auto max-w-4xl p-8 text-center text-red-500">
+        <div class="text-4xl mb-3">❌</div>
+        <p id="errorMsg">Không thể tải dữ liệu.</p>
+    </div>
+
+    <!-- Main Content -->
+    <main id="mainContent" class="hidden container mx-auto p-4 md:p-8 max-w-4xl">
+        
+        <!-- Tabs Navigation -->
+        <div class="flex space-x-4 mb-6 border-b border-gray-200">
+            <button onclick="switchTab('fill')" id="tab-fill" class="px-6 py-2 font-semibold text-blue-600 border-b-2 border-blue-600 focus:outline-none transition">
+                Điền từ (Fill in the blanks)
+            </button>
+            <button onclick="switchTab('mc')" id="tab-mc" class="px-6 py-2 font-semibold text-gray-500 hover:text-blue-500 focus:outline-none transition">
+                Trắc nghiệm (Multiple Choice)
+            </button>
+        </div>
+
+        <!-- Section: Fill in the blanks -->
+        <section id="section-fill" class="fade-in space-y-6">
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                <h2 class="text-xl font-bold mb-4 text-gray-700">Exercise 1: Complete the sentences</h2>
+                <p class="mb-4 text-sm text-gray-500">Nhập từ/cụm từ thích hợp vào chỗ trống.</p>
+                <div id="fill-container" class="space-y-6">
+                    <!-- Content will be injected here -->
+                </div>
+                <button onclick="checkFillAnswers()" class="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded transition">
+                    Kiểm tra đáp án
+                </button>
+                <div id="fill-result" class="mt-4 font-bold hidden"></div>
+            </div>
+        </section>
+
+        <!-- Section: Multiple Choice -->
+        <section id="section-mc" class="hidden fade-in space-y-6">
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                <h2 class="text-xl font-bold mb-4 text-gray-700">Exercise 2: Choose the correct meaning</h2>
+                <p class="mb-4 text-sm text-gray-500">Chọn ý nghĩa đúng của từ in đậm.</p>
+                <div id="mc-container" class="space-y-6">
+                    <!-- Content will be injected here -->
+                </div>
+                <button onclick="checkMCAnswers()" class="mt-6 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded transition">
+                    Kiểm tra đáp án
+                </button>
+                <div id="mc-result" class="mt-4 font-bold hidden"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-6 mt-12 text-center text-sm">
+        <p>&copy; 2026 English Vocabulary In Use &mdash; Luyện tập từ vựng tiếng Anh</p>
+    </footer>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // --- 1. URL PARAMS ---
+        const urlParams   = new URLSearchParams(location.search);
+        const fileParam   = urlParams.get('file');   // e.g. "book_01/writing/unit_005_data_writing.json"
+        const bookParam   = urlParams.get('book');   // e.g. "book_01"
+
+        // Update "back" button to return to the correct book view
+        if (bookParam) {
+            document.getElementById('backBtn').href = `index.html?book=${encodeURIComponent(bookParam)}`;
+        }
+
+        // Default data file if no param supplied
+        const DATA_FILE = fileParam
+            ? `data/${fileParam}`
+            : 'data/book_01/writing/unit_015_data_writing.json';
+
+        let data = null;
+
+        // --- 2. INITIALIZATION ---
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const res = await fetch(DATA_FILE);
+                if (!res.ok) throw new Error(`HTTP ${res.status} – ${DATA_FILE}`);
+                data = await res.json();
+
+                // Update page title & header
+                document.title = `${data.lessonTitle} – Writing Practice`;
+                document.getElementById('lessonTitle').textContent = data.lessonTitle;
+
+                // Render exercises
+                renderFillBlanks();
+                renderMultipleChoice();
+
+                // Show main content
+                document.getElementById('loadingState').classList.add('hidden');
+                document.getElementById('mainContent').classList.remove('hidden');
+            } catch (err) {
+                console.error('Lỗi tải dữ liệu:', err);
+                document.getElementById('loadingState').classList.add('hidden');
+                document.getElementById('errorState').classList.remove('hidden');
+                document.getElementById('errorMsg').textContent = `Không thể tải dữ liệu: ${err.message}`;
+            }
+        });
+
+        // --- 3. RENDER FUNCTIONS ---
+
+        function renderFillBlanks() {
+            const container = document.getElementById('fill-container');
+            data.exercises.fillInBlanks.forEach((item, index) => {
+                const inputHtml = `<input type="text" data-id="${item.id}" class="border-b-2 border-gray-300 focus:border-blue-500 outline-none px-1 text-blue-700 font-semibold w-48 transition" placeholder="...">`;
+                const html = `
+                    <div class="border-b border-gray-100 pb-4 last:border-0">
+                        <p class="text-lg mb-2">
+                            <span class="font-medium text-gray-600">Q${index + 1}:</span>
+                            ${item.context.replace('______', inputHtml)}
+                        </p>
+                        <p class="text-xs text-gray-400 italic mt-1">Hint: ${item.hint}</p>
+                        <div class="feedback text-sm mt-1 h-5"></div>
+                    </div>
+                `;
+                container.innerHTML += html;
+            });
+        }
+
+        function renderMultipleChoice() {
+            const container = document.getElementById('mc-container');
+            data.exercises.multipleChoice.forEach((item, index) => {
+                // Replace **word** with styled span
+                const formattedSentence = item.sentence.replace(
+                    `**${item.targetWord}**`,
+                    `<span class="font-bold text-blue-600">${item.targetWord}</span>`
+                );
+
+                let optionsHtml = '';
+                item.options.forEach(opt => {
+                    optionsHtml += `
+                        <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer transition">
+                            <input type="radio" name="mc-${item.id}" value="${opt.isCorrect}" class="w-4 h-4 text-blue-600 focus:ring-blue-500">
+                            <span>${opt.text}</span>
+                        </label>
+                    `;
+                });
+
+                const html = `
+                    <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                        <p class="text-lg mb-3 font-medium">${formattedSentence}</p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                            ${optionsHtml}
+                        </div>
+                        <div class="feedback text-sm mt-2 h-5"></div>
+                    </div>
+                `;
+                container.innerHTML += html;
+            });
+        }
+
+        // --- 4. LOGIC & INTERACTION ---
+
+        function switchTab(tab) {
+            const fillSec = document.getElementById('section-fill');
+            const mcSec   = document.getElementById('section-mc');
+            const tabFill = document.getElementById('tab-fill');
+            const tabMc   = document.getElementById('tab-mc');
+
+            if (tab === 'fill') {
+                fillSec.classList.remove('hidden');
+                mcSec.classList.add('hidden');
+                tabFill.classList.add('text-blue-600', 'border-b-2', 'border-blue-600');
+                tabFill.classList.remove('text-gray-500');
+                tabMc.classList.remove('text-blue-600', 'border-b-2', 'border-blue-600');
+                tabMc.classList.add('text-gray-500');
+            } else {
+                fillSec.classList.add('hidden');
+                mcSec.classList.remove('hidden');
+                tabMc.classList.add('text-blue-600', 'border-b-2', 'border-blue-600');
+                tabMc.classList.remove('text-gray-500');
+                tabFill.classList.remove('text-blue-600', 'border-b-2', 'border-blue-600');
+                tabFill.classList.add('text-gray-500');
+            }
+        }
+
+        function checkFillAnswers() {
+            let score = 0;
+            const inputs = document.querySelectorAll('#fill-container input');
+
+            inputs.forEach(input => {
+                const id          = input.getAttribute('data-id');
+                const userVal     = input.value.trim().toLowerCase();
+                const correctItem = data.exercises.fillInBlanks.find(i => String(i.id) === id);
+                const feedbackEl  = input.closest('.border-b').querySelector('.feedback');
+
+                if (userVal === correctItem.answer.toLowerCase()) {
+                    score++;
+                    input.classList.add('correct-answer');
+                    input.classList.remove('border-gray-300');
+                    feedbackEl.innerHTML = '<span class="text-green-600 font-bold">✓ Correct!</span>';
+                } else {
+                    input.classList.add('wrong-answer');
+                    input.classList.remove('border-gray-300');
+                    feedbackEl.innerHTML = `<span class="text-red-600">✗ Sai. Đáp án đúng: <b>${correctItem.answer}</b></span>`;
+                }
+            });
+
+            const resultDiv = document.getElementById('fill-result');
+            resultDiv.innerHTML = `🎯 Bạn đúng <strong>${score}/${inputs.length}</strong> câu.`;
+            resultDiv.classList.remove('hidden');
+        }
+
+        function checkMCAnswers() {
+            let score = 0;
+            const questions = data.exercises.multipleChoice;
+
+            questions.forEach(item => {
+                const selected   = document.querySelector(`input[name="mc-${item.id}"]:checked`);
+                const feedbackEl = document.querySelector(`input[name="mc-${item.id}"]`)
+                    .closest('.bg-gray-50').querySelector('.feedback');
+
+                if (selected) {
+                    if (selected.value === 'true') {
+                        score++;
+                        feedbackEl.innerHTML = '<span class="text-green-600 font-bold">✓ Correct!</span>';
+                    } else {
+                        const correctOpt = item.options.find(o => o.isCorrect);
+                        feedbackEl.innerHTML = `<span class="text-red-600">✗ Sai. Đáp án đúng: <b>${correctOpt ? correctOpt.text : '?'}</b></span>`;
+                    }
+                } else {
+                    feedbackEl.innerHTML = '<span class="text-orange-500">Vui lòng chọn một đáp án.</span>';
+                }
+            });
+
+            const resultDiv = document.getElementById('mc-result');
+            resultDiv.innerHTML = `🎯 Bạn đúng <strong>${score}/${questions.length}</strong> câu.`;
+            resultDiv.classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
