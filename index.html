@@ -30,40 +30,132 @@
             background-color: #fef08a;
             border-radius: 2px;
         }
+
+        /* ── Compact navbar ── */
+        #siteNavbar {
+            background: rgba(0,0,0,0.18);
+            backdrop-filter: blur(8px);
+            border-top: 1px solid rgba(255,255,255,0.12);
+        }
+
+        .nav-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.80);
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.15s, color 0.15s;
+            white-space: nowrap;
+            position: relative;
+        }
+        .nav-btn:hover, .nav-btn.active {
+            background: rgba(255,255,255,0.15);
+            color: #fff;
+        }
+        .nav-btn svg.chevron {
+            transition: transform 0.2s;
+        }
+        .nav-btn.open svg.chevron {
+            transform: rotate(180deg);
+        }
+
+        /* Dropdown */
+        .nav-dropdown {
+            position: absolute;
+            top: calc(100% + 6px);
+            left: 0;
+            min-width: 220px;
+            background: #1e293b;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            box-shadow: 0 16px 40px rgba(0,0,0,0.35);
+            padding: 6px;
+            z-index: 999;
+            display: none;
+            animation: dropIn 0.18s ease;
+        }
+        .nav-dropdown.open { display: block; }
+        @keyframes dropIn {
+            from { opacity: 0; transform: translateY(-6px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        .nav-dropdown a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 9px 12px;
+            border-radius: 8px;
+            font-size: 0.82rem;
+            font-weight: 500;
+            color: rgba(255,255,255,0.75);
+            text-decoration: none;
+            transition: background 0.13s, color 0.13s;
+        }
+        .nav-dropdown a:hover {
+            background: rgba(255,255,255,0.08);
+            color: #fff;
+        }
+        .nav-dropdown a.active {
+            background: rgba(99,102,241,0.35);
+            color: #fff;
+            font-weight: 600;
+        }
+        .nav-dropdown .divider {
+            height: 1px;
+            background: rgba(255,255,255,0.08);
+            margin: 4px 0;
+        }
+        .nav-dropdown .book-level-badge {
+            font-size: 0.68rem;
+            padding: 2px 7px;
+            border-radius: 99px;
+            font-weight: 600;
+            background: rgba(255,255,255,0.10);
+            color: rgba(255,255,255,0.55);
+            margin-left: auto;
+        }
     </style>
 </head>
 <body class="bg-gradient-to-br from-blue-50 via-white to-indigo-50 min-h-screen">
 
-    <!-- Hero Header -->
+    <!-- ── Compact navbar ── -->
     <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg">
-        <div class="max-w-4xl mx-auto px-6 py-10 text-center relative">
-            <a id="headerBackBtn" href="index.html"
-               class="hidden absolute left-0 top-0 flex items-center gap-1 text-blue-200 hover:text-white text-xs font-medium transition"
-               title="Quay lại danh sách sách">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
-                </svg>
-                Danh sách sách
-            </a>
-            <div class="text-5xl mb-4">📚</div>
-            <h1 id="headerTitle" class="text-3xl md:text-4xl font-bold mb-2 tracking-tight">English Vocabulary In Use</h1>
-            <p id="headerSubtitle" class="text-blue-200 text-base md:text-lg">Luyện tập từ vựng tiếng Anh theo từng chủ đề</p>
+        <nav id="siteNavbar" class="flex items-center gap-1 px-6 py-2" aria-label="Điều hướng chính">
 
-            <!-- Search box -->
-            <div class="mt-6 max-w-md mx-auto relative">
-                <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
-                    </svg>
-                </span>
-                <input
-                    id="searchInput"
-                    type="text"
-                    placeholder="Tìm kiếm unit..."
-                    class="w-full pl-11 pr-4 py-3 rounded-xl text-gray-800 bg-white shadow-md focus:outline-none focus:ring-2 focus:ring-blue-300 text-sm"
-                />
+            <!-- Books dropdown -->
+            <div class="relative" id="booksMenuWrapper">
+                <button id="booksMenuBtn" class="nav-btn" aria-haspopup="true" aria-expanded="false" aria-controls="booksDropdown">
+                    <span>📚</span>
+                    <span id="booksMenuLabel">Sách</span>
+                    <svg class="chevron h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+                </button>
+                <div id="booksDropdown" class="nav-dropdown" role="menu">
+                    <!-- Injected by JS -->
+                </div>
             </div>
-        </div>
+
+            <!-- Quiz Stories link -->
+            <a href="quiz-stories.html" class="nav-btn" id="nav-quiz-stories">
+                <span>🎯</span>
+                <span>Quiz Stories</span>
+            </a>
+
+            <!-- Typing Stories link -->
+            <a href="typing-stories.html" class="nav-btn" id="nav-typing-stories">
+                <span>✍️</span>
+                <span>Viết Stories</span>
+            </a>
+
+            <!-- Spacer for future menu items -->
+            <div class="flex-1"></div>
+        </nav>
     </header>
 
     <!-- Main Content -->
@@ -107,16 +199,72 @@
         const bookId = urlParams.get('book'); // e.g. "book_01" or null
 
         let items = []; // books or units depending on view
+        let allBooks = []; // global list of books loaded from manifest
 
         const grid           = document.getElementById('unitGrid');
         const writingSection = document.getElementById('writingSection');
         const writingGrid    = document.getElementById('writingGrid');
         const emptyState     = document.getElementById('emptyState');
-        const searchInput    = document.getElementById('searchInput');
         const countLabel     = document.getElementById('countLabel');
-        const headerTitle    = document.getElementById('headerTitle');
-        const headerSubtitle = document.getElementById('headerSubtitle');
-        const headerBackBtn  = document.getElementById('headerBackBtn');
+        // ── Books dropdown menu ─────────────────────────────────────────────
+        const booksMenuBtn    = document.getElementById('booksMenuBtn');
+        const booksDropdown   = document.getElementById('booksDropdown');
+        const booksMenuLabel  = document.getElementById('booksMenuLabel');
+
+        function buildBookMenu(books, activeBookId) {
+            booksDropdown.innerHTML = '';
+
+            // "Tất cả sách" row at top of dropdown
+            const allRow = document.createElement('a');
+            allRow.href = 'index.html';
+            allRow.className = !activeBookId ? 'active' : '';
+            allRow.setAttribute('role', 'menuitem');
+            allRow.innerHTML = `<span>🏠</span><span>Tất cả sách</span>`;
+            booksDropdown.appendChild(allRow);
+
+            // Divider
+            const divider = document.createElement('div');
+            divider.className = 'divider';
+            booksDropdown.appendChild(divider);
+
+            // One row per book
+            books.forEach(book => {
+                const shortLabel = book.title.replace(/^English Vocabulary In Use\s*[-–]\s*/i, '');
+                const row = document.createElement('a');
+                row.href = `index.html?book=${encodeURIComponent(book.id)}`;
+                row.className = activeBookId === book.id ? 'active' : '';
+                row.setAttribute('role', 'menuitem');
+                row.id = `drop-${book.id}`;
+                row.innerHTML = `<span>${book.icon}</span><span>${shortLabel}</span><span class="book-level-badge">${book.id.replace('book_0','B')}</span>`;
+                booksDropdown.appendChild(row);
+            });
+
+            // Update button label when inside a book
+            if (activeBookId) {
+                const activeMeta = books.find(b => b.id === activeBookId);
+                if (activeMeta) {
+                    const short = activeMeta.title.replace(/^English Vocabulary In Use\s*[-–]\s*/i, '');
+                    booksMenuLabel.textContent = short;
+                    booksMenuBtn.classList.add('active');
+                }
+            }
+
+        }
+
+        // Toggle dropdown
+        booksMenuBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isOpen = booksDropdown.classList.toggle('open');
+            booksMenuBtn.classList.toggle('open', isOpen);
+            booksMenuBtn.setAttribute('aria-expanded', isOpen);
+        });
+
+        // Close on outside click
+        document.addEventListener('click', () => {
+            booksDropdown.classList.remove('open');
+            booksMenuBtn.classList.remove('open');
+            booksMenuBtn.setAttribute('aria-expanded', 'false');
+        });
 
         // ── Book card ───────────────────────────────────────────────────────
         function renderBookCard(book, idx) {
@@ -228,25 +376,22 @@
             );
         }
 
-        searchInput.addEventListener('input', () => render(filter(searchInput.value)));
+
 
         // ── Init ────────────────────────────────────────────────────────────
         async function init() {
+            // Always load the global book list first (for the menu)
+            try {
+                const booksRes = await fetch('data/manifest.json');
+                allBooks = booksRes.ok ? await booksRes.json() : [];
+            } catch (_) { allBooks = []; }
+
+            // Build the dropdown menu
+            buildBookMenu(allBooks, bookId);
+
             if (bookId) {
                 // ── Unit view ──
-                searchInput.placeholder = 'Tìm kiếm unit...';
-                headerBackBtn.classList.remove('hidden');
-
                 try {
-                    // Load the book manifest to get title for header
-                    const booksRes = await fetch('data/manifest.json');
-                    const books = booksRes.ok ? await booksRes.json() : [];
-                    const bookMeta = books.find(b => b.id === bookId);
-                    if (bookMeta) {
-                        headerTitle.textContent = bookMeta.title;
-                        headerSubtitle.textContent = bookMeta.titleVi;
-                    }
-
                     const res = await fetch(`data/${bookId}/manifest.json`);
                     if (!res.ok) throw new Error(`HTTP ${res.status}`);
                     items = await res.json();
@@ -258,20 +403,8 @@
                 }
             } else {
                 // ── Book view ──
-                searchInput.placeholder = 'Tìm kiếm sách...';
-                headerSubtitle.textContent = 'Chọn sách để bắt đầu luyện tập';
-                headerBackBtn.classList.add('hidden');
-
-                try {
-                    const res = await fetch('data/manifest.json');
-                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                    items = await res.json();
-                    render(items);
-                } catch (err) {
-                    console.error('Không thể tải manifest:', err);
-                    countLabel.textContent = 'Lỗi tải danh sách sách.';
-                    emptyState.classList.remove('hidden');
-                }
+                items = allBooks;
+                render(items);
             }
         }
 
