@@ -781,16 +781,19 @@ function selectAnswer(clickedBtn, selected, correct) {
     scoreBadge.textContent = `✓ ${score}`;
 
     feedbackBar.style.display = 'flex';
+    const q = questions[qIndex]; // Get the current question details / Lấy thông tin chi tiết câu hỏi hiện tại
     if (isCorrect) {
         feedbackBar.className = 'correct-fb';
         fbIcon.textContent = '🎉';
         fbText.textContent = 'Chính xác!';
-        fbAnswer.textContent = '';
+        // Show correct answer details for correct response / Hiển thị chi tiết đáp án đúng cho câu trả lời chính xác
+        fbAnswer.innerHTML = `Đáp án: <strong>${q.word}</strong>${q.wordType ? ` (<em>${q.wordType}</em>)` : ''} &rarr; <strong>${correct}</strong>`;
     } else {
         feedbackBar.className = 'wrong-fb';
         fbIcon.textContent = '❌';
         fbText.textContent = 'Sai rồi!';
-        fbAnswer.textContent = `Đáp án đúng: ${correct}`;
+        // Show correct answer details for incorrect response / Hiển thị chi tiết đáp án đúng cho câu trả lời sai
+        fbAnswer.innerHTML = `Đáp án đúng: <strong>${q.word}</strong>${q.wordType ? ` (<em>${q.wordType}</em>)` : ''} &rarr; <strong>${correct}</strong>`;
     }
 
     nextBtn.style.display = 'block';

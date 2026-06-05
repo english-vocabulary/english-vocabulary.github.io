@@ -918,7 +918,8 @@ function checkAnswer() {
     if (isCorrect) {
         scoreCorrect++;
         answerInput.className = 'correct-input';
-        showFeedback('correct', '🎉', 'Chính xác!', '');
+        // Show correct word in feedback when correct / Hiển thị từ đúng trong phản hồi khi trả lời đúng
+        showFeedback('correct', '🎉', 'Chính xác!', correct);
     } else {
         scoreWrong++;
         answerInput.className = 'wrong-input';
@@ -995,7 +996,12 @@ function showFeedback(type, icon, text, correctWord, userTyped) {
         html += `<div style="font-size: 0.85rem; margin-bottom: 6px;">Đã nhập: <span style="text-decoration: line-through; opacity: 0.85; font-weight: 600;">${escapeHtml(userTyped)}</span></div>`;
     }
     if (correctWord) {
-        html += `Từ đúng: <span class="fb-correct-word">${escapeHtml(correctWord)}</span>`;
+        const q = questions[qIndex]; // Get the current question details / Lấy thông tin chi tiết câu hỏi hiện tại
+        const label = (type === 'correct') ? 'Đáp án:' : 'Từ đúng:';
+        html += `${label} <span class="fb-correct-word">${escapeHtml(correctWord)}</span>`;
+        if (q && q.wordType) {
+            html += ` <span style="font-size:0.8rem;color:var(--muted);font-style:italic">(${escapeHtml(q.wordType)})</span>`;
+        }
     }
     fbAnswer.innerHTML = html;
 }
