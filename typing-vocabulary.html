@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện Viết Từ – Vocabulary</title>
+    <meta name="description" content="Luyện viết từ tiếng Anh từ gợi ý nghĩa tiếng Việt – bộ Vocabulary">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg:       #0f1117;
+            --surface:  #1a1f2e;
+            --surface2: #222840;
+            --surface3: #273050;
+            --border:   rgba(255,255,255,0.07);
+            --border2:  rgba(255,255,255,0.12);
+            --accent:   #f59e0b;
+            --accent2:  #fbbf24;
+            --accent3:  #fde68a;
+            --green:    #22c55e;
+            --green2:   #4ade80;
+            --red:      #ef4444;
+            --red2:     #f87171;
+            --amber2:   #fbbf24;
+            --text:     #f1f5f9;
+            --text2:    #cbd5e1;
+            --muted:    #64748b;
+            --muted2:   #94a3b8;
+            --radius:   14px;
+            --radius-sm:10px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg); color: var(--text);
+            min-height: 100vh; display: flex; flex-direction: column;
+        }
+        body::before {
+            content: ''; position: fixed; top: -15%; left: -5%;
+            width: 50vw; height: 50vh;
+            background: radial-gradient(ellipse, rgba(245,158,11,0.06) 0%, transparent 70%);
+            pointer-events: none; z-index: 0;
+        }
+
+        /* ── Navbar ── */
+        header {
+            background: linear-gradient(90deg, #92400e, #b45309, #d97706);
+            padding: 0 24px; display: flex; align-items: center; gap: 10px;
+            height: 52px; box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+            position: sticky; top: 0; z-index: 100;
+        }
+        .nav-logo {
+            font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 0.95rem;
+            color: #fff; display: flex; align-items: center; gap: 8px; text-decoration: none;
+        }
+        .nav-logo .logo-icon {
+            width: 28px; height: 28px; background: rgba(255,255,255,0.15);
+            border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 0.9rem;
+        }
+        .nav-divider { width: 1px; height: 20px; background: rgba(255,255,255,0.2); }
+        .nav-title { font-size: 0.82rem; font-weight: 600; color: rgba(255,255,255,0.85); }
+        .nav-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 5px 12px; border-radius: 8px; font-size: 0.79rem; font-weight: 600;
+            color: rgba(255,255,255,0.75); background: transparent; border: none;
+            cursor: pointer; text-decoration: none;
+            transition: background 0.15s, color 0.15s; font-family: inherit;
+        }
+        .nav-btn:hover { background: rgba(255,255,255,0.15); color: #fff; }
+        .nav-spacer { flex: 1; }
+
+        /* ── Main ── */
+        main { flex: 1; max-width: 760px; width: 100%; margin: 0 auto; padding: 32px 16px 80px; position: relative; z-index: 1; }
+
+        /* ── Page header ── */
+        .page-header { text-align: center; margin-bottom: 32px; }
+        .page-header .badge {
+            display: inline-flex; align-items: center; gap: 6px;
+            background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.3);
+            color: var(--accent3); font-size: 0.72rem; font-weight: 700;
+            padding: 4px 12px; border-radius: 99px; letter-spacing: 0.06em;
+            text-transform: uppercase; margin-bottom: 12px;
+        }
+        .page-header h1 {
+            font-family: 'Outfit', sans-serif; font-size: 2rem; font-weight: 800;
+            background: linear-gradient(135deg, #fff 0%, var(--accent3) 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+            margin-bottom: 8px;
+        }
+        .page-header p { color: var(--muted2); font-size: 0.88rem; margin-bottom: 10px; }
+        .rule-pills { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
+        .rule-pill {
+            font-size: 0.71rem; font-weight: 600; padding: 3px 10px; border-radius: 99px;
+            background: rgba(255,255,255,0.04); border: 1px solid var(--border2); color: var(--muted2);
+        }
+
+        /* ── Source Panel ── */
+        #sourcePanel {
+            background: var(--surface); border: 1px solid var(--border2);
+            border-radius: var(--radius); padding: 28px; margin-bottom: 24px;
+            box-shadow: 0 4px 32px rgba(0,0,0,0.3);
+        }
+        #sourcePanel h2 { font-size: 1rem; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+
+        .source-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+        .source-item {
+            display: flex; align-items: center; gap: 12px;
+            padding: 13px 16px; border: 1.5px solid var(--border);
+            border-radius: var(--radius-sm); cursor: pointer;
+            transition: all 0.2s; background: var(--surface2);
+        }
+        .source-item:hover { border-color: var(--accent2); }
+        .source-item.selected { border-color: var(--accent); background: rgba(245,158,11,0.08); }
+        .source-item input[type="checkbox"] { accent-color: var(--accent); width: 16px; height: 16px; flex-shrink: 0; cursor: pointer; }
+        .source-label { font-size: 0.88rem; font-weight: 600; }
+        .source-count { margin-left: auto; font-size: 0.72rem; color: var(--muted2); background: rgba(255,255,255,0.05); padding: 3px 10px; border-radius: 99px; border: 1px solid var(--border); }
+        .source-idx { font-size: 0.68rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; background: rgba(245,158,11,0.2); color: var(--accent3); flex-shrink: 0; }
+
+        .settings-row {
+            display: flex; align-items: center; gap: 12px; margin-bottom: 18px;
+            flex-wrap: wrap; padding: 14px 16px; background: var(--surface2);
+            border: 1px solid var(--border); border-radius: var(--radius-sm);
+        }
+        .settings-row label { font-size: 0.83rem; color: var(--muted2); font-weight: 500; }
+        .settings-row input[type="number"] {
+            background: var(--bg); border: 1px solid var(--border2); color: var(--text);
+            padding: 6px 12px; border-radius: 8px; font-size: 0.9rem; font-family: inherit;
+        }
+        .settings-row input[type="number"]:focus { outline: none; border-color: var(--accent); }
+
+        /* Case toggle */
+        .toggle-wrap { display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
+        .toggle-track {
+            width: 36px; height: 20px; border-radius: 99px;
+            background: rgba(255,255,255,0.1); position: relative; transition: background 0.2s; flex-shrink: 0;
+        }
+        .toggle-track.on { background: var(--accent); }
+        .toggle-thumb {
+            position: absolute; top: 3px; left: 3px;
+            width: 14px; height: 14px; border-radius: 50%;
+            background: #fff; transition: transform 0.2s;
+        }
+        .toggle-track.on .toggle-thumb { transform: translateX(16px); }
+        .toggle-label { font-size: 0.82rem; color: var(--muted2); }
+
+        #startBtn {
+            display: inline-flex; align-items: center; gap: 8px;
+            background: linear-gradient(135deg, #b45309, #d97706);
+            color: #fff; border: none; border-radius: var(--radius-sm);
+            padding: 12px 28px; font-size: 0.95rem; font-weight: 700;
+            cursor: pointer; font-family: inherit;
+            transition: opacity 0.15s, transform 0.15s;
+            box-shadow: 0 4px 16px rgba(245,158,11,0.3);
+        }
+        #startBtn:hover:not(:disabled) { opacity: 0.9; transform: translateY(-1px); }
+        #startBtn:disabled { opacity: 0.35; cursor: not-allowed; transform: none; box-shadow: none; }
+
+        /* ── Loading / Error ── */
+        #loadingState { text-align: center; padding: 70px 20px; color: var(--muted2); }
+        .spinner {
+            width: 42px; height: 42px; border: 3px solid rgba(255,255,255,0.07);
+            border-top-color: var(--accent); border-radius: 50%;
+            animation: spin 0.75s linear infinite; margin: 0 auto 18px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        #errorState {
+            text-align: center; padding: 40px; color: var(--red2);
+            background: rgba(239,68,68,0.07); border: 1px solid rgba(239,68,68,0.18);
+            border-radius: var(--radius);
+        }
+
+        /* ── Practice Panel ── */
+        #quizPanel { display: none; }
+
+        .progress-bar-wrap { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+        .progress-track { flex: 1; height: 5px; background: rgba(255,255,255,0.06); border-radius: 99px; overflow: hidden; }
+        .progress-fill {
+            height: 100%; border-radius: 99px;
+            background: linear-gradient(90deg, var(--accent), var(--accent3));
+            transition: width 0.4s ease;
+        }
+        .progress-label { font-size: 0.75rem; color: var(--muted2); font-weight: 700; white-space: nowrap; }
+
+        .score-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+        .score-badges { display: flex; gap: 8px; }
+        .badge {
+            display: inline-flex; align-items: center; gap: 4px;
+            font-size: 0.78rem; font-weight: 700; padding: 4px 11px; border-radius: 99px;
+        }
+        .badge-correct { background: rgba(34,197,94,0.12); color: var(--green2); border: 1px solid rgba(34,197,94,0.2); }
+        .badge-wrong   { background: rgba(239,68,68,0.1);  color: var(--red2);   border: 1px solid rgba(239,68,68,0.2); }
+        .badge-skip    { background: rgba(245,158,11,0.12); color: var(--amber2); border: 1px solid rgba(245,158,11,0.2); }
+
+        /* ── Question card ── */
+        .question-card {
+            background: var(--surface); border: 1px solid var(--border2);
+            border-radius: var(--radius); padding: 28px 28px 24px; margin-bottom: 20px;
+            animation: fadeSlideUp 0.32s ease; position: relative; overflow: hidden;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+        }
+        .question-card::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+            background: linear-gradient(90deg, #b45309, #f59e0b, #fde68a);
+        }
+        @keyframes fadeSlideUp {
+            from { opacity: 0; transform: translateY(14px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+        .card-num {
+            font-size: 0.7rem; font-weight: 700; color: var(--accent2); letter-spacing: 0.1em;
+            text-transform: uppercase; background: rgba(245,158,11,0.1); padding: 3px 10px;
+            border-radius: 99px; border: 1px solid rgba(245,158,11,0.2);
+        }
+        .card-tag { font-size: 0.68rem; font-weight: 600; color: var(--muted); background: rgba(255,255,255,0.04); padding: 3px 10px; border-radius: 99px; border: 1px solid var(--border); }
+        .vn-label { font-size: 0.72rem; font-weight: 700; color: var(--muted2); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 8px; }
+        .vn-meaning { font-size: 1.55rem; font-weight: 700; color: var(--text); line-height: 1.4; margin-bottom: 6px; }
+        .word-type  { font-size: 0.82rem; color: var(--muted2); font-style: italic; }
+
+        /* Hint */
+        .hint-display { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); display: none; }
+        .hint-display.show { display: block; }
+        .hint-label { font-size: 0.68rem; font-weight: 700; color: var(--amber2); letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 8px; }
+        .hint-chars { display: flex; flex-wrap: wrap; gap: 3px; align-items: flex-end; }
+        .hint-char {
+            display: inline-flex; align-items: flex-end; justify-content: center;
+            min-width: 18px; height: 30px; border-bottom: 2px solid rgba(255,255,255,0.15);
+            font-family: 'JetBrains Mono', monospace; font-size: 1rem; font-weight: 600;
+            color: transparent; transition: all 0.2s; padding: 0 1px;
+        }
+        .hint-char.revealed { color: var(--amber2); border-bottom-color: var(--amber2); }
+        .hint-char.space { min-width: 10px; border: none; }
+
+        /* Input */
+        .input-area { display: flex; gap: 10px; align-items: stretch; margin-bottom: 12px; }
+        #answerInput {
+            flex: 1; background: var(--surface2); border: 2px solid var(--border2);
+            border-radius: var(--radius-sm); color: var(--text); font-size: 1rem; font-weight: 500;
+            padding: 13px 18px; font-family: inherit; outline: none; letter-spacing: 0.04em;
+            transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+        }
+        #answerInput::placeholder { color: var(--muted); font-weight: 400; }
+        #answerInput:focus { border-color: var(--accent); background: rgba(245,158,11,0.04); box-shadow: 0 0 0 3px rgba(245,158,11,0.1); }
+        #answerInput.correct-input { border-color: var(--green) !important; background: rgba(34,197,94,0.06) !important; box-shadow: 0 0 0 3px rgba(34,197,94,0.1) !important; }
+        #answerInput.wrong-input   { border-color: var(--red)   !important; background: rgba(239,68,68,0.06)  !important; box-shadow: 0 0 0 3px rgba(239,68,68,0.08) !important; animation: shake 0.35s ease; }
+        @keyframes shake { 0%,100%{transform:translateX(0)} 20%{transform:translateX(-6px)} 40%{transform:translateX(6px)} 60%{transform:translateX(-4px)} 80%{transform:translateX(4px)} }
+        #answerInput:disabled { opacity: 0.7; cursor: not-allowed; }
+
+        #checkBtn {
+            flex-shrink: 0; padding: 0 24px;
+            background: linear-gradient(135deg, #b45309, #d97706);
+            color: #fff; border: none; border-radius: var(--radius-sm);
+            font-size: 0.9rem; font-weight: 700; cursor: pointer; font-family: inherit;
+            transition: opacity 0.15s; white-space: nowrap;
+            box-shadow: 0 3px 12px rgba(245,158,11,0.25);
+        }
+        #checkBtn:hover:not(:disabled) { opacity: 0.9; }
+        #checkBtn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+        .action-row { display: flex; gap: 8px; margin-bottom: 16px; }
+        .btn-hint, .btn-skip {
+            flex: 1; padding: 9px; border-radius: 9px; border: 1.5px solid var(--border);
+            background: transparent; font-size: 0.82rem; font-weight: 600;
+            cursor: pointer; font-family: inherit; transition: all 0.15s;
+        }
+        .btn-hint { color: var(--amber2); border-color: rgba(245,158,11,0.25); }
+        .btn-hint:hover:not(:disabled) { background: rgba(245,158,11,0.08); border-color: var(--amber2); }
+        .btn-hint:disabled { opacity: 0.3; cursor: not-allowed; }
+        .btn-skip { color: var(--muted2); }
+        .btn-skip:hover:not(:disabled) { background: rgba(255,255,255,0.05); border-color: var(--border2); }
+        .btn-skip:disabled { opacity: 0.3; cursor: not-allowed; }
+
+        /* Feedback */
+        #feedbackBar {
+            display: none; align-items: flex-start; gap: 14px;
+            padding: 16px 18px; border-radius: var(--radius-sm);
+            margin-bottom: 16px; animation: fadeSlideUp 0.25s ease;
+        }
+        #feedbackBar.correct-fb { background: rgba(34,197,94,0.07); border: 1px solid rgba(34,197,94,0.2); }
+        #feedbackBar.wrong-fb   { background: rgba(239,68,68,0.07); border: 1px solid rgba(239,68,68,0.2); }
+        #feedbackBar.skip-fb    { background: rgba(245,158,11,0.07); border: 1px solid rgba(245,158,11,0.2); }
+        .fb-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 2px; }
+        .fb-title { font-size: 0.88rem; font-weight: 700; margin-bottom: 5px; }
+        .correct-fb .fb-title { color: var(--green2); }
+        .wrong-fb   .fb-title { color: var(--red2);   }
+        .skip-fb    .fb-title { color: var(--amber2);  }
+        .fb-answer-block { display: flex; flex-direction: column; gap: 3px; }
+        .fb-row { font-size: 0.83rem; line-height: 1.5; }
+        .fb-row .lbl { color: var(--muted); font-size: 0.74rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 6px; }
+        .fb-row .val { color: var(--text2); }
+        .fb-row .val.correct-val { color: var(--green2); font-weight: 700; font-family: 'JetBrains Mono', monospace; }
+        .fb-row .val.wrong-val   { color: var(--red2);   text-decoration: line-through; }
+
+        #nextBtn {
+            display: none; width: 100%; padding: 14px;
+            background: linear-gradient(135deg, #b45309, #d97706);
+            color: #fff; border: none; border-radius: var(--radius-sm);
+            font-size: 0.92rem; font-weight: 700; cursor: pointer; font-family: inherit;
+            transition: opacity 0.15s; align-items: center; justify-content: center; gap: 8px;
+            box-shadow: 0 4px 16px rgba(245,158,11,0.25);
+        }
+        #nextBtn:hover { opacity: 0.9; }
+
+        /* Result */
+        #resultPanel {
+            display: none; background: var(--surface); border: 1px solid var(--border2);
+            border-radius: var(--radius); padding: 48px 32px; text-align: center;
+            animation: fadeSlideUp 0.4s ease; box-shadow: 0 4px 40px rgba(0,0,0,0.3);
+            position: relative; overflow: hidden;
+        }
+        #resultPanel::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+            background: linear-gradient(90deg, #b45309, #f59e0b, #fde68a);
+        }
+        .result-emoji { font-size: 4rem; margin-bottom: 16px; display: block; }
+        .result-title {
+            font-family: 'Outfit', sans-serif; font-size: 2rem; font-weight: 800; margin-bottom: 8px;
+            background: linear-gradient(135deg, #fff 0%, var(--accent3) 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .result-sub { color: var(--muted2); font-size: 0.9rem; margin-bottom: 32px; }
+        .result-stats { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-bottom: 32px; }
+        .stat-box { padding: 18px 22px; border-radius: 14px; border: 1px solid var(--border); min-width: 88px; }
+        .stat-num { font-family: 'Outfit', sans-serif; font-size: 2.2rem; font-weight: 800; line-height: 1; }
+        .stat-lbl { font-size: 0.68rem; color: var(--muted2); margin-top: 5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+        .stat-box.green { background: rgba(34,197,94,0.07); border-color: rgba(34,197,94,0.2); }
+        .stat-box.green .stat-num { color: var(--green2); }
+        .stat-box.red   { background: rgba(239,68,68,0.07); border-color: rgba(239,68,68,0.2); }
+        .stat-box.red   .stat-num { color: var(--red2); }
+        .stat-box.amber { background: rgba(245,158,11,0.07); border-color: rgba(245,158,11,0.2); }
+        .stat-box.amber .stat-num { color: var(--amber2); }
+        .stat-box.gold  { background: rgba(245,158,11,0.12); border-color: rgba(245,158,11,0.3); }
+        .stat-box.gold  .stat-num { color: var(--accent3); }
+
+        .result-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 28px; }
+        .btn-outline {
+            padding: 11px 22px; border-radius: var(--radius-sm); border: 1.5px solid var(--border2);
+            background: transparent; color: var(--text2); font-size: 0.85rem; font-weight: 600;
+            cursor: pointer; font-family: inherit; transition: all 0.15s;
+            display: inline-flex; align-items: center; gap: 6px;
+        }
+        .btn-outline:hover { background: rgba(255,255,255,0.05); border-color: var(--accent); }
+        .btn-primary {
+            padding: 11px 22px; border-radius: var(--radius-sm); border: none;
+            background: linear-gradient(135deg, #b45309, #d97706);
+            color: #fff; font-size: 0.85rem; font-weight: 700;
+            cursor: pointer; font-family: inherit;
+            display: inline-flex; align-items: center; gap: 6px;
+            transition: opacity 0.15s; box-shadow: 0 4px 14px rgba(245,158,11,0.3);
+        }
+        .btn-primary:hover { opacity: 0.9; }
+
+        /* Review */
+        .review-section { margin-top: 28px; text-align: left; border-top: 1px solid var(--border); padding-top: 24px; }
+        .review-section-title { font-size: 0.9rem; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+        .review-section-title .count-badge { font-size: 0.72rem; padding: 2px 9px; border-radius: 99px; background: rgba(239,68,68,0.15); color: var(--red2); }
+        .review-list { max-height: 300px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+        .review-item { background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 13px 16px; font-size: 0.84rem; }
+        .review-item .rv-meaning { color: var(--muted2); margin-bottom: 5px; font-size: 0.8rem; }
+        .review-item .rv-correct  { color: var(--green2); font-weight: 700; font-family: 'JetBrains Mono', monospace; margin-bottom: 4px; }
+        .review-item .rv-typed    { color: var(--red2); font-style: italic; }
+        .review-item .rv-skip     { color: var(--amber2); font-weight: 600; }
+        .review-item .item-label  { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-right: 5px; }
+
+        /* Keyboard hint */
+        .kbd-hint { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
+        .kbd { display: inline-flex; align-items: center; gap: 5px; font-size: 0.7rem; color: var(--muted); }
+        .kbd kbd {
+            display: inline-flex; align-items: center; justify-content: center;
+            background: var(--surface2); border: 1px solid var(--border2);
+            border-radius: 5px; padding: 2px 7px; font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem; color: var(--text2); box-shadow: 0 1px 0 var(--border2);
+        }
+
+        .hidden { display: none !important; }
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 99px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="nav-logo">
+        <div class="logo-icon">📚</div>
+        <span>EV In Use</span>
+    </a>
+    <div class="nav-divider"></div>
+    <span class="nav-title">✍️ Luyện Viết Vocabulary</span>
+    <div class="nav-spacer"></div>
+    <a href="quiz-vocabulary.html" class="nav-btn">🎯 Quiz Vocabulary</a>
+    <a href="typing-stories.html" class="nav-btn">✍️ Luyện Viết Stories</a>
+</header>
+
+<main>
+
+    <div class="page-header">
+        <div class="badge"><span>✍️</span><span>LUYỆN VIẾT</span></div>
+        <h1>Luyện Viết Từ (Vocabulary)</h1>
+        <p>Nhìn nghĩa tiếng Việt → gõ lại từ tiếng Anh tương ứng</p>
+        <div class="rule-pills">
+            <span class="rule-pill">🔡 Không phân biệt Hoa/thường</span>
+            <span class="rule-pill">📋 Theo thứ tự gốc</span>
+            <span class="rule-pill">💡 Có gợi ý chữ cái</span>
+        </div>
+    </div>
+
+    <!-- Source Panel -->
+    <div id="sourcePanel">
+        <h2>📂 Chọn bộ từ vựng</h2>
+        <div id="sourceListEl" class="source-list">
+            <div style="color:var(--muted);font-size:0.85rem;padding:10px 0">Đang tải danh sách...</div>
+        </div>
+
+        <div class="settings-row">
+            <label for="startInput">Câu bắt đầu:</label>
+            <input type="number" id="startInput" value="1" min="1" max="9999" style="width:80px">
+            <label for="qtyInput" style="margin-left:8px">Số từ:</label>
+            <input type="number" id="qtyInput" value="20" min="1" max="500">
+            <span id="totalAvail" style="font-size:0.78rem;color:var(--muted2)"></span>
+        </div>
+
+        <div class="settings-row">
+            <label class="toggle-wrap" id="caseToggleWrap">
+                <div class="toggle-track" id="caseToggleTrack"><div class="toggle-thumb"></div></div>
+                <span class="toggle-label">Phân biệt HOA / thường</span>
+            </label>
+        </div>
+
+        <button id="startBtn" disabled>✍️ Bắt đầu luyện viết</button>
+    </div>
+
+    <!-- Loading -->
+    <div id="loadingState" class="hidden">
+        <div class="spinner"></div>
+        <p style="font-weight:600;font-size:0.95rem;margin-top:4px">Đang tải dữ liệu...</p>
+    </div>
+
+    <!-- Error -->
+    <div id="errorState" class="hidden">
+        <div style="font-size:2.2rem;margin-bottom:12px">⚠️</div>
+        <p id="errorMsg" style="font-weight:600;margin-bottom:14px">Không thể tải dữ liệu.</p>
+        <button class="btn-outline" onclick="location.reload()">🔄 Thử lại</button>
+    </div>
+
+    <!-- Practice Panel -->
+    <div id="quizPanel">
+
+        <div class="progress-bar-wrap">
+            <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+            <span class="progress-label" id="progressLabel">0 / 0</span>
+        </div>
+        <div class="score-row">
+            <div class="score-badges">
+                <span class="badge badge-correct" id="badgeCorrect">✓ 0</span>
+                <span class="badge badge-wrong"   id="badgeWrong">✗ 0</span>
+                <span class="badge badge-skip"    id="badgeSkip">— 0</span>
+            </div>
+            <button class="btn-outline" id="quitBtn" style="font-size:0.75rem;padding:5px 12px">✕ Dừng</button>
+        </div>
+
+        <!-- Word card -->
+        <div class="question-card" id="wordCard">
+            <div class="card-header">
+                <span class="card-num" id="cardNum">Từ 1</span>
+                <span class="card-tag">VN → EN</span>
+            </div>
+            <div class="vn-label">Nghĩa tiếng Việt</div>
+            <div class="vn-meaning" id="vnMeaningEl">Đang tải...</div>
+            <div class="word-type" id="wordTypeEl"></div>
+            <!-- Hint -->
+            <div class="hint-display" id="hintDisplay">
+                <div class="hint-label">💡 Gợi ý</div>
+                <div class="hint-chars" id="hintChars"></div>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="answerInput" placeholder="Nhập từ tiếng Anh..."
+                autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+            <button id="checkBtn">Kiểm tra</button>
+        </div>
+
+        <div class="action-row">
+            <button class="btn-hint" id="hintBtn">💡 Gợi ý thêm chữ</button>
+            <button class="btn-skip" id="skipBtn">⏭ Bỏ qua từ này</button>
+        </div>
+
+        <div id="feedbackBar">
+            <span class="fb-icon" id="fbIcon"></span>
+            <div class="fb-content">
+                <div class="fb-title" id="fbTitle"></div>
+                <div class="fb-answer-block" id="fbAnswerBlock"></div>
+            </div>
+        </div>
+
+        <button id="nextBtn" style="display:none">
+            Từ tiếp theo
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
+        </button>
+
+        <div class="kbd-hint">
+            <span class="kbd"><kbd>Enter</kbd> kiểm tra / tiếp</span>
+            <span class="kbd"><kbd>Tab</kbd> gợi ý</span>
+            <span class="kbd"><kbd>Esc</kbd> bỏ qua</span>
+        </div>
+    </div>
+
+    <!-- Result Panel -->
+    <div id="resultPanel">
+        <span class="result-emoji" id="resultEmoji">🎉</span>
+        <div class="result-title">Hoàn thành!</div>
+        <div class="result-sub" id="resultSub">Bạn đã luyện viết xong bộ từ vựng</div>
+        <div class="result-stats">
+            <div class="stat-box green"><div class="stat-num" id="rCorrect">0</div><div class="stat-lbl">Đúng</div></div>
+            <div class="stat-box red">  <div class="stat-num" id="rWrong">0</div>  <div class="stat-lbl">Sai</div></div>
+            <div class="stat-box amber"><div class="stat-num" id="rSkip">0</div>   <div class="stat-lbl">Bỏ qua</div></div>
+            <div class="stat-box gold"> <div class="stat-num" id="rPct">0%</div>   <div class="stat-lbl">Điểm</div></div>
+        </div>
+        <div class="result-actions">
+            <button class="btn-primary" id="retryBtn">🔄 Làm lại</button>
+            <button class="btn-outline" id="backToSetupBtn">⚙️ Đổi bộ từ</button>
+        </div>
+        <div id="reviewSection" class="review-section hidden">
+            <div class="review-section-title">
+                ⚠️ Từ cần ôn lại
+                <span class="count-badge" id="reviewCount">0</span>
+            </div>
+            <div class="review-list" id="reviewList"></div>
+        </div>
+    </div>
+
+</main>
+
+<script>
+// ═══════════════════════════════════════════════════════════════════════
+// CONFIG
+// ═══════════════════════════════════════════════════════════════════════
+const VOCAB_BASE = 'data/vocabulary';
+
+// ═══════════════════════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════════════════════
+let vocabManifest = [];
+let vocabBySource = {};
+let questions     = [];
+let qIndex        = 0;
+let scoreCorrect  = 0;
+let scoreWrong    = 0;
+let scoreSkip     = 0;
+let answered      = false;
+let hintsRevealed = 0;
+let caseSensitive = false;
+let mistakes      = [];
+
+// ═══════════════════════════════════════════════════════════════════════
+// DOM REFS
+// ═══════════════════════════════════════════════════════════════════════
+const sourcePanel    = document.getElementById('sourcePanel');
+const sourceListEl   = document.getElementById('sourceListEl');
+const startInput     = document.getElementById('startInput');
+const qtyInput       = document.getElementById('qtyInput');
+const totalAvail     = document.getElementById('totalAvail');
+const startBtn       = document.getElementById('startBtn');
+const loadingState   = document.getElementById('loadingState');
+const errorState     = document.getElementById('errorState');
+const errorMsg       = document.getElementById('errorMsg');
+const quizPanel      = document.getElementById('quizPanel');
+const resultPanel    = document.getElementById('resultPanel');
+const progressFill   = document.getElementById('progressFill');
+const progressLabel  = document.getElementById('progressLabel');
+const badgeCorrect   = document.getElementById('badgeCorrect');
+const badgeWrong     = document.getElementById('badgeWrong');
+const badgeSkip      = document.getElementById('badgeSkip');
+const quitBtn        = document.getElementById('quitBtn');
+const cardNum        = document.getElementById('cardNum');
+const vnMeaningEl    = document.getElementById('vnMeaningEl');
+const wordTypeEl     = document.getElementById('wordTypeEl');
+const hintDisplay    = document.getElementById('hintDisplay');
+const hintChars      = document.getElementById('hintChars');
+const answerInput    = document.getElementById('answerInput');
+const checkBtn       = document.getElementById('checkBtn');
+const hintBtn        = document.getElementById('hintBtn');
+const skipBtn        = document.getElementById('skipBtn');
+const feedbackBar    = document.getElementById('feedbackBar');
+const fbIcon         = document.getElementById('fbIcon');
+const fbTitle        = document.getElementById('fbTitle');
+const fbAnswerBlock  = document.getElementById('fbAnswerBlock');
+const nextBtn        = document.getElementById('nextBtn');
+const rCorrect       = document.getElementById('rCorrect');
+const rWrong         = document.getElementById('rWrong');
+const rSkip          = document.getElementById('rSkip');
+const rPct           = document.getElementById('rPct');
+const resultEmoji    = document.getElementById('resultEmoji');
+const resultSub      = document.getElementById('resultSub');
+const retryBtn       = document.getElementById('retryBtn');
+const backToSetupBtn = document.getElementById('backToSetupBtn');
+const reviewSection  = document.getElementById('reviewSection');
+const reviewCount    = document.getElementById('reviewCount');
+const reviewList     = document.getElementById('reviewList');
+const caseToggleTrack= document.getElementById('caseToggleTrack');
+const caseToggleWrap = document.getElementById('caseToggleWrap');
+
+// ═══════════════════════════════════════════════════════════════════════
+// CASE TOGGLE
+// ═══════════════════════════════════════════════════════════════════════
+caseToggleWrap.addEventListener('click', () => {
+    caseSensitive = !caseSensitive;
+    caseToggleTrack.classList.toggle('on', caseSensitive);
+});
+
+// ═══════════════════════════════════════════════════════════════════════
+// UTILS
+// ═══════════════════════════════════════════════════════════════════════
+function normalise(str) {
+    let s = str.trim();
+    if (!caseSensitive) s = s.toLowerCase();
+    return s;
+}
+
+function isCorrect(typed, answer) {
+    return normalise(typed) === normalise(answer);
+}
+
+function escapeHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// LOAD MANIFEST
+// ═══════════════════════════════════════════════════════════════════════
+async function loadManifest() {
+    const res = await fetch(`${VOCAB_BASE}/manifest.json`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    vocabManifest = await res.json();
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// LOAD VOCAB
+// ═══════════════════════════════════════════════════════════════════════
+function filterVocab(items) {
+    return items.filter(v =>
+        v.word      && v.word.trim()      !== '' &&
+        v.vnMeaning && v.vnMeaning.trim() !== ''
+    );
+}
+
+async function loadSource(id) {
+    if (vocabBySource[id]) return vocabBySource[id];
+    const url = `${VOCAB_BASE}/${id}/vocabulary.json`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const raw = await res.json();
+    vocabBySource[id] = filterVocab(Array.isArray(raw) ? raw : []);
+    return vocabBySource[id];
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// BUILD SOURCE LIST
+// ═══════════════════════════════════════════════════════════════════════
+function buildSourceList() {
+    sourceListEl.innerHTML = '';
+    if (vocabManifest.length === 0) {
+        sourceListEl.innerHTML = '<div style="color:var(--muted);font-size:0.85rem">Chưa có bộ từ vựng nào.</div>';
+        return;
+    }
+    vocabManifest.forEach((v, idx) => {
+        const wrapper = document.createElement('label');
+        wrapper.className = 'source-item';
+        wrapper.setAttribute('for', `chk-${v.id}`);
+
+        const chk = document.createElement('input');
+        chk.type = 'checkbox'; chk.id = `chk-${v.id}`; chk.value = v.id;
+        chk.addEventListener('change', updateTotalCount);
+
+        const badge = document.createElement('span');
+        badge.className = 'source-idx';
+        badge.textContent = `#${String(idx + 1).padStart(2, '0')}`;
+
+        const lbl = document.createElement('span');
+        lbl.className = 'source-label';
+        lbl.textContent = v.title || v.id;
+
+        const cnt = document.createElement('span');
+        cnt.className = 'source-count';
+        cnt.id = `count-${v.id}`;
+        cnt.textContent = v.wordCount ? `~${Number(v.wordCount).toLocaleString()} từ` : '—';
+
+        wrapper.appendChild(chk);
+        wrapper.appendChild(badge);
+        wrapper.appendChild(lbl);
+        wrapper.appendChild(cnt);
+        sourceListEl.appendChild(wrapper);
+
+        loadSource(v.id).then(items => {
+            cnt.textContent = `${items.length.toLocaleString()} từ`;
+            updateTotalCount();
+        }).catch(() => { cnt.textContent = 'Lỗi'; });
+    });
+}
+
+function getSelectedSources() {
+    return vocabManifest.map(v => v.id).filter(id => {
+        const c = document.getElementById(`chk-${id}`);
+        return c && c.checked;
+    });
+}
+
+function updateTotalCount() {
+    const sel = getSelectedSources();
+    let total = 0;
+    sel.forEach(id => { if (vocabBySource[id]) total += vocabBySource[id].length; });
+
+    vocabManifest.forEach(v => {
+        const c    = document.getElementById(`chk-${v.id}`);
+        const item = c && c.closest('.source-item');
+        if (item) item.classList.toggle('selected', c.checked);
+    });
+
+    if (total > 0) {
+        totalAvail.textContent = `(${total.toLocaleString()} từ có nghĩa VN)`;
+        startBtn.disabled = false;
+    } else {
+        totalAvail.textContent = sel.length > 0 ? '(Đang tải...)' : '';
+        startBtn.disabled = true;
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// START SESSION
+// ═══════════════════════════════════════════════════════════════════════
+async function startSession() {
+    const sel = getSelectedSources();
+    if (!sel.length) return;
+
+    sourcePanel.classList.add('hidden');
+    loadingState.classList.remove('hidden');
+
+    try {
+        await Promise.all(sel.map(loadSource));
+
+        let pool = [];
+        sel.forEach(id => { pool = pool.concat(vocabBySource[id] || []); });
+
+        if (pool.length === 0) throw new Error('Không có từ nào có vnMeaning. Hãy bổ sung vnMeaning vào file vocabulary.json trước.');
+
+        const qty      = Math.max(1, parseInt(qtyInput.value)  || 20);
+        const start    = Math.max(1, parseInt(startInput.value) || 1);
+        const startIdx = Math.min(start - 1, pool.length - 1);
+        questions = pool.slice(startIdx, startIdx + qty);
+
+        loadingState.classList.add('hidden');
+        quizPanel.style.display = 'block';
+
+        qIndex = 0; scoreCorrect = 0; scoreWrong = 0; scoreSkip = 0;
+        mistakes = [];
+        updateBadges();
+        showWord();
+
+    } catch (err) {
+        loadingState.classList.add('hidden');
+        errorState.classList.remove('hidden');
+        errorMsg.textContent = err.message;
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// SHOW WORD
+// ═══════════════════════════════════════════════════════════════════════
+function showWord() {
+    answered = false; hintsRevealed = 0;
+
+    answerInput.value = '';
+    answerInput.className = '';
+    answerInput.disabled = false;
+    checkBtn.disabled = false;
+    hintBtn.disabled = false;
+    skipBtn.disabled = false;
+    feedbackBar.style.display = 'none';
+    feedbackBar.className = '';
+    nextBtn.style.display = 'none';
+    hintDisplay.classList.remove('show');
+    hintChars.innerHTML = '';
+
+    const q = questions[qIndex];
+
+    const pct = (qIndex / questions.length) * 100;
+    progressFill.style.width = `${pct}%`;
+    progressLabel.textContent = `${qIndex + 1} / ${questions.length}`;
+
+    cardNum.textContent    = `Từ ${qIndex + 1}`;
+    vnMeaningEl.textContent = q.vnMeaning;
+    wordTypeEl.textContent  = q.wordType ? `(${q.wordType})` : '';
+
+    buildHintSlots(q.word);
+    setTimeout(() => answerInput.focus(), 50);
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// HINT SYSTEM
+// ═══════════════════════════════════════════════════════════════════════
+function buildHintSlots(word) {
+    hintChars.innerHTML = '';
+    for (const ch of word) {
+        const span = document.createElement('span');
+        span.className = (ch === ' ') ? 'hint-char space' : 'hint-char';
+        if (ch !== ' ') span.dataset.char = ch;
+        hintChars.appendChild(span);
+    }
+}
+
+function revealNextHint() {
+    if (answered) return;
+    const slots = hintChars.querySelectorAll('.hint-char:not(.space)');
+    const unrevealed = [...slots].filter(s => !s.classList.contains('revealed'));
+    if (unrevealed.length === 0) return;
+
+    const word = questions[qIndex].word;
+    const revealCount = Math.max(1, Math.ceil(unrevealed.length / Math.max(1, Math.ceil(word.length / 4))));
+    let revealed = 0;
+    for (const slot of unrevealed) {
+        if (revealed >= revealCount) break;
+        slot.classList.add('revealed');
+        slot.textContent = slot.dataset.char;
+        revealed++;
+    }
+    hintsRevealed += revealed;
+    hintDisplay.classList.add('show');
+    if (hintChars.querySelectorAll('.hint-char:not(.space):not(.revealed)').length === 0) hintBtn.disabled = true;
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// CHECK ANSWER
+// ═══════════════════════════════════════════════════════════════════════
+function checkAnswer() {
+    if (answered) { goNext(); return; }
+    const typed = answerInput.value.trim();
+    if (!typed) return;
+
+    answered = true;
+    answerInput.disabled = true;
+    checkBtn.disabled = true;
+    hintBtn.disabled = true;
+    skipBtn.disabled = true;
+
+    const q = questions[qIndex];
+    const correct = isCorrect(typed, q.word);
+
+    answerInput.classList.add(correct ? 'correct-input' : 'wrong-input');
+
+    hintChars.querySelectorAll('.hint-char:not(.space)').forEach(el => {
+        el.classList.add('revealed'); el.textContent = el.dataset.char;
+    });
+    hintDisplay.classList.add('show');
+
+    feedbackBar.style.display = 'flex';
+    if (correct) {
+        scoreCorrect++;
+        feedbackBar.className = 'correct-fb';
+        fbIcon.textContent  = '🎉';
+        fbTitle.textContent = 'Chính xác!';
+        fbAnswerBlock.innerHTML = `
+            <div class="fb-row"><span class="lbl">VN</span><span class="val">${escapeHtml(q.vnMeaning)}</span></div>
+            <div class="fb-row"><span class="lbl">EN</span><span class="val correct-val">${escapeHtml(q.word)}</span></div>`;
+    } else {
+        scoreWrong++;
+        mistakes.push({ vn: q.vnMeaning, en: q.word, typed, skipped: false });
+        feedbackBar.className = 'wrong-fb';
+        fbIcon.textContent  = '❌';
+        fbTitle.textContent = 'Chưa đúng!';
+        fbAnswerBlock.innerHTML = `
+            <div class="fb-row"><span class="lbl">Bạn gõ</span><span class="val wrong-val">${escapeHtml(typed)}</span></div>
+            <div class="fb-row"><span class="lbl">Đáp án</span><span class="val correct-val">${escapeHtml(q.word)}</span></div>`;
+    }
+
+    updateBadges();
+    showNextBtn();
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// SKIP
+// ═══════════════════════════════════════════════════════════════════════
+function skipWord() {
+    if (answered) return;
+    answered = true; scoreSkip++;
+
+    answerInput.disabled = true;
+    checkBtn.disabled = true;
+    hintBtn.disabled = true;
+    skipBtn.disabled = true;
+
+    const q = questions[qIndex];
+    mistakes.push({ vn: q.vnMeaning, en: q.word, typed: '', skipped: true });
+
+    hintChars.querySelectorAll('.hint-char:not(.space)').forEach(el => {
+        el.classList.add('revealed'); el.textContent = el.dataset.char;
+    });
+    hintDisplay.classList.add('show');
+
+    feedbackBar.style.display = 'flex';
+    feedbackBar.className = 'skip-fb';
+    fbIcon.textContent  = '⏭';
+    fbTitle.textContent = 'Bỏ qua!';
+    fbAnswerBlock.innerHTML = `<div class="fb-row"><span class="lbl">Đáp án</span><span class="val correct-val">${escapeHtml(q.word)}</span></div>`;
+
+    updateBadges();
+    showNextBtn();
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// NAVIGATION
+// ═══════════════════════════════════════════════════════════════════════
+function showNextBtn() {
+    const isLast = (qIndex + 1 >= questions.length);
+    nextBtn.style.display = 'flex';
+    nextBtn.innerHTML = isLast
+        ? `Xem kết quả <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>`
+        : `Từ tiếp theo <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>`;
+}
+
+function goNext() {
+    qIndex++;
+    if (qIndex >= questions.length) showResult();
+    else { showWord(); document.getElementById('wordCard').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+}
+
+function updateBadges() {
+    badgeCorrect.textContent = `✓ ${scoreCorrect}`;
+    badgeWrong.textContent   = `✗ ${scoreWrong}`;
+    badgeSkip.textContent    = `— ${scoreSkip}`;
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// RESULT
+// ═══════════════════════════════════════════════════════════════════════
+function showResult() {
+    quizPanel.style.display = 'none';
+    resultPanel.style.display = 'block';
+
+    const total = questions.length;
+    const pct   = total > 0 ? Math.round((scoreCorrect / total) * 100) : 0;
+
+    rCorrect.textContent = scoreCorrect;
+    rWrong.textContent   = scoreWrong;
+    rSkip.textContent    = scoreSkip;
+    rPct.textContent     = `${pct}%`;
+
+    if (pct >= 90)      { resultEmoji.textContent = '🏆'; resultSub.textContent = 'Xuất sắc! Vốn từ của bạn rất tốt!'; }
+    else if (pct >= 70) { resultEmoji.textContent = '🎉'; resultSub.textContent = 'Tốt lắm! Tiếp tục luyện tập nhé!'; }
+    else if (pct >= 50) { resultEmoji.textContent = '💪'; resultSub.textContent = 'Khá đấy! Luyện thêm để cải thiện!'; }
+    else                { resultEmoji.textContent = '📚'; resultSub.textContent = 'Hãy ôn lại và thử lại nhé!'; }
+
+    if (mistakes.length > 0) {
+        reviewSection.classList.remove('hidden');
+        reviewCount.textContent = mistakes.length;
+        reviewList.innerHTML = '';
+        mistakes.forEach(m => {
+            const item = document.createElement('div');
+            item.className = 'review-item';
+            item.innerHTML = `
+                <div class="rv-meaning">🇻🇳 ${escapeHtml(m.vn)}</div>
+                <div class="rv-correct">🇬🇧 ${escapeHtml(m.en)}</div>
+                ${m.skipped
+                    ? `<div class="rv-skip"><span class="item-label">Trạng thái</span>Bỏ qua</div>`
+                    : `<div class="rv-typed"><span class="item-label">Bạn gõ</span>${escapeHtml(m.typed)}</div>`
+                }`;
+            reviewList.appendChild(item);
+        });
+    } else {
+        reviewSection.classList.add('hidden');
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// EVENT LISTENERS
+// ═══════════════════════════════════════════════════════════════════════
+startBtn.addEventListener('click', startSession);
+checkBtn.addEventListener('click', checkAnswer);
+nextBtn.addEventListener('click', goNext);
+hintBtn.addEventListener('click', revealNextHint);
+skipBtn.addEventListener('click', skipWord);
+
+quitBtn.addEventListener('click', () => {
+    if (confirm('Bạn có muốn dừng và xem kết quả không?')) showResult();
+});
+
+retryBtn.addEventListener('click', () => {
+    resultPanel.style.display = 'none';
+    qIndex = 0; scoreCorrect = 0; scoreWrong = 0; scoreSkip = 0;
+    mistakes = [];
+    updateBadges();
+    progressFill.style.width = '0%';
+    quizPanel.style.display = 'block';
+    showWord();
+});
+
+backToSetupBtn.addEventListener('click', () => {
+    resultPanel.style.display = 'none';
+    quizPanel.style.display = 'none';
+    sourcePanel.classList.remove('hidden');
+    updateTotalCount();
+});
+
+// Document-level keyboard shortcuts
+document.addEventListener('keydown', e => {
+    const inPractice = quizPanel.style.display !== 'none';
+    if (!inPractice) return;
+
+    if (e.key === 'Enter') {
+        if (document.activeElement === answerInput && !answered) {
+            e.preventDefault(); checkAnswer();
+        } else if (answered) {
+            e.preventDefault(); goNext();
+        }
+    }
+    if (e.key === 'Tab' && document.activeElement === answerInput) {
+        e.preventDefault();
+        if (!answered) revealNextHint();
+    }
+    if (e.key === 'Escape' && !answered) {
+        e.preventDefault(); skipWord();
+    }
+});
+
+// ═══════════════════════════════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════════════════════════════
+document.addEventListener('DOMContentLoaded', async () => {
+    try {
+        await loadManifest();
+        buildSourceList();
+    } catch (err) {
+        sourceListEl.innerHTML = `<div style="color:var(--red2);font-size:0.85rem">⚠️ ${err.message}</div>`;
+    }
+});
+</script>
+</body>
+</html>

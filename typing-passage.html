@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện Viết Passage – Dịch Việt → Anh</title>
+    <meta name="description" content="Luyện viết câu tiếng Anh từ bản dịch tiếng Việt – bài tập typing passage">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg:        #080e1f;
+            --surface:   #111827;
+            --surface2:  #1a2540;
+            --surface3:  #1f2d4a;
+            --border:    rgba(255,255,255,0.07);
+            --border2:   rgba(255,255,255,0.12);
+            --accent:    #0d9488;
+            --accent2:   #14b8a6;
+            --accent3:   #5eead4;
+            --purple:    #6366f1;
+            --green:     #22c55e;
+            --green2:    #4ade80;
+            --red:       #ef4444;
+            --red2:      #f87171;
+            --amber:     #f59e0b;
+            --amber2:    #fbbf24;
+            --text:      #f1f5f9;
+            --text2:     #cbd5e1;
+            --muted:     #64748b;
+            --muted2:    #94a3b8;
+            --radius:    16px;
+            --radius-sm: 10px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ── Background orbs ── */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -15%;
+            left: -5%;
+            width: 55vw;
+            height: 55vh;
+            background: radial-gradient(ellipse, rgba(13,148,136,0.07) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+        body::after {
+            content: '';
+            position: fixed;
+            bottom: -10%;
+            right: -10%;
+            width: 45vw;
+            height: 45vh;
+            background: radial-gradient(ellipse, rgba(99,102,241,0.05) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* ── Navbar ── */
+        header {
+            background: linear-gradient(90deg, #134e4a, #0f766e, #0d9488);
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            height: 52px;
+            box-shadow: 0 1px 0 rgba(255,255,255,0.06), 0 4px 24px rgba(0,0,0,0.5);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-logo {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 0.95rem;
+            color: #fff;
+            letter-spacing: -0.02em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+        .nav-logo .logo-icon {
+            width: 28px; height: 28px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+        }
+        .nav-divider { width: 1px; height: 20px; background: rgba(255,255,255,0.2); }
+        .nav-title { font-size: 0.82rem; font-weight: 600; color: rgba(255,255,255,0.85); }
+        .nav-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 5px 12px;
+            border-radius: 8px;
+            font-size: 0.79rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.75);
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.15s, color 0.15s;
+            font-family: inherit;
+        }
+        .nav-btn:hover { background: rgba(255,255,255,0.15); color: #fff; }
+        .nav-spacer { flex: 1; }
+
+        /* ── Main ── */
+        main {
+            flex: 1;
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 32px 16px 80px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ── Page header ── */
+        .page-header {
+            text-align: center;
+            margin-bottom: 36px;
+        }
+        .page-header .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(13,148,136,0.15);
+            border: 1px solid rgba(13,148,136,0.3);
+            color: var(--accent3);
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 99px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+        .page-header h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            background: linear-gradient(135deg, #fff 0%, var(--accent3) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        .page-header p {
+            color: var(--muted2);
+            font-size: 0.88rem;
+            max-width: 500px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .page-header .rule-pills {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+        .rule-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.71rem;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 99px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid var(--border2);
+            color: var(--muted2);
+        }
+
+        /* ── Source Panel ── */
+        #sourcePanel {
+            background: var(--surface);
+            border: 1px solid var(--border2);
+            border-radius: var(--radius);
+            padding: 28px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 32px rgba(0,0,0,0.3);
+        }
+        #sourcePanel h2 {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .source-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+        .source-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 16px;
+            border: 1.5px solid var(--border);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: all 0.2s;
+            background: var(--surface2);
+            position: relative;
+            overflow: hidden;
+        }
+        .source-item::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(13,148,136,0.05), transparent);
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .source-item:hover { border-color: var(--accent2); }
+        .source-item:hover::before { opacity: 1; }
+        .source-item.selected {
+            border-color: var(--accent);
+            background: rgba(13,148,136,0.1);
+            box-shadow: 0 0 0 1px rgba(13,148,136,0.15);
+        }
+        .source-item.selected::before { opacity: 1; }
+        .source-item input[type="checkbox"] {
+            accent-color: var(--accent);
+            width: 17px; height: 17px;
+            flex-shrink: 0; cursor: pointer;
+        }
+        .source-item-content { flex: 1; min-width: 0; }
+        .source-item-title {
+            font-size: 0.88rem; font-weight: 600;
+            color: var(--text);
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        .source-item-sub { font-size: 0.75rem; color: var(--muted2); margin-top: 2px; }
+        .source-count {
+            flex-shrink: 0;
+            font-size: 0.72rem; color: var(--muted2);
+            background: rgba(255,255,255,0.05);
+            padding: 3px 10px; border-radius: 99px;
+            border: 1px solid var(--border);
+            white-space: nowrap;
+        }
+        .source-idx {
+            font-size: 0.68rem; font-weight: 700;
+            padding: 2px 8px; border-radius: 6px;
+            background: rgba(13,148,136,0.2);
+            color: var(--accent3); flex-shrink: 0;
+        }
+
+        /* ── Config row ── */
+        .config-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 16px;
+            padding: 16px;
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            margin-bottom: 20px;
+        }
+        .config-group { display: flex; align-items: center; gap: 10px; }
+        .config-label { font-size: 0.82rem; color: var(--muted2); font-weight: 500; white-space: nowrap; }
+        .config-input {
+            background: var(--surface3);
+            border: 1px solid var(--border2);
+            color: var(--text);
+            padding: 7px 12px;
+            border-radius: 8px;
+            font-size: 0.88rem;
+            width: 90px;
+            font-family: inherit;
+            transition: border-color 0.15s;
+        }
+        .config-input:focus { outline: none; border-color: var(--accent); }
+        .config-total { font-size: 0.78rem; color: var(--muted); }
+
+        /* ── Start button ── */
+        #startBtn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #0f766e, #0d9488);
+            color: #fff;
+            border: none;
+            border-radius: var(--radius-sm);
+            padding: 13px 32px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: opacity 0.15s, transform 0.15s, box-shadow 0.15s;
+            font-family: inherit;
+            box-shadow: 0 4px 20px rgba(13,148,136,0.35);
+        }
+        #startBtn:hover:not(:disabled) { opacity: 0.92; transform: translateY(-2px); box-shadow: 0 8px 28px rgba(13,148,136,0.45); }
+        #startBtn:disabled { opacity: 0.35; cursor: not-allowed; transform: none; box-shadow: none; }
+
+        /* ── Loading / Error ── */
+        #loadingState { text-align: center; padding: 80px 20px; color: var(--muted2); }
+        .spinner {
+            width: 44px; height: 44px;
+            border: 3px solid rgba(255,255,255,0.07);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.75s linear infinite;
+            margin: 0 auto 20px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        #errorState {
+            text-align: center; padding: 40px;
+            color: var(--red2);
+            background: rgba(239,68,68,0.07);
+            border: 1px solid rgba(239,68,68,0.18);
+            border-radius: var(--radius);
+        }
+
+        /* ── Practice Panel ── */
+        #practicePanel { display: none; }
+
+        /* Progress */
+        .progress-wrap {
+            display: flex; align-items: center; gap: 14px; margin-bottom: 8px;
+        }
+        .progress-track {
+            flex: 1; height: 5px;
+            background: rgba(255,255,255,0.06);
+            border-radius: 99px; overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), var(--accent3));
+            border-radius: 99px;
+            transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .progress-label { font-size: 0.75rem; color: var(--muted2); font-weight: 700; white-space: nowrap; }
+
+        /* Score row */
+        .score-row {
+            display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;
+        }
+        .score-badges { display: flex; gap: 8px; }
+        .badge {
+            display: inline-flex; align-items: center; gap: 4px;
+            font-size: 0.78rem; font-weight: 700;
+            padding: 4px 11px; border-radius: 99px;
+        }
+        .badge-correct { background: rgba(34,197,94,0.12); color: var(--green2); border: 1px solid rgba(34,197,94,0.2); }
+        .badge-wrong   { background: rgba(239,68,68,0.10);  color: var(--red2);   border: 1px solid rgba(239,68,68,0.2); }
+        .badge-skip    { background: rgba(245,158,11,0.12); color: var(--amber2); border: 1px solid rgba(245,158,11,0.2); }
+
+        /* ── Sentence card ── */
+        .sentence-card {
+            background: var(--surface);
+            border: 1px solid var(--border2);
+            border-radius: var(--radius);
+            padding: 28px 28px 24px;
+            margin-bottom: 20px;
+            animation: fadeSlideUp 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+            position: relative;
+            overflow: hidden;
+        }
+        .sentence-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 2px;
+            background: linear-gradient(90deg, #0d9488, #2dd4bf, #6366f1);
+        }
+        @keyframes fadeSlideUp {
+            from { opacity: 0; transform: translateY(16px) scale(0.98); }
+            to   { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        .card-header {
+            display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;
+        }
+        .card-num {
+            font-size: 0.7rem; font-weight: 700;
+            color: var(--accent2);
+            letter-spacing: 0.1em; text-transform: uppercase;
+            background: rgba(13,148,136,0.12);
+            padding: 3px 10px; border-radius: 99px;
+            border: 1px solid rgba(13,148,136,0.2);
+        }
+        .card-tag {
+            font-size: 0.68rem; font-weight: 600;
+            color: var(--muted);
+            background: rgba(255,255,255,0.04);
+            padding: 3px 10px; border-radius: 99px;
+            border: 1px solid var(--border);
+        }
+        .vi-label {
+            font-size: 0.72rem; font-weight: 700;
+            color: var(--muted2); letter-spacing: 0.05em;
+            text-transform: uppercase; margin-bottom: 8px;
+            display: flex; align-items: center; gap: 6px;
+        }
+        .vi-label::before {
+            content: '';
+            display: inline-block;
+            width: 10px; height: 2px;
+            background: var(--accent2); border-radius: 99px;
+        }
+        .vi-sentence {
+            font-size: 1.15rem; font-weight: 600;
+            color: var(--text); line-height: 1.65;
+            letter-spacing: -0.01em;
+        }
+
+        /* ── Hint display ── */
+        .hint-display {
+            margin-top: 18px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+            display: none;
+        }
+        .hint-display.show { display: block; }
+        .hint-label {
+            font-size: 0.68rem; font-weight: 700;
+            color: var(--amber2); letter-spacing: 0.06em;
+            text-transform: uppercase; margin-bottom: 8px;
+            display: flex; align-items: center; gap: 6px;
+        }
+        .hint-chars {
+            display: flex; flex-wrap: wrap; gap: 4px; align-items: flex-end;
+        }
+        .hint-char {
+            display: inline-flex;
+            align-items: flex-end; justify-content: center;
+            min-width: 18px; height: 30px;
+            border-bottom: 2px solid rgba(255,255,255,0.15);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1rem; font-weight: 600;
+            color: transparent;
+            transition: all 0.2s;
+            padding: 0 1px;
+        }
+        .hint-char.revealed {
+            color: var(--amber2);
+            border-bottom-color: var(--amber2);
+        }
+        .hint-char.space { min-width: 10px; border: none; }
+
+        /* ── Input area ── */
+        .input-area {
+            display: flex; gap: 10px; align-items: stretch; margin-bottom: 12px;
+        }
+        #answerInput {
+            flex: 1;
+            background: var(--surface2);
+            border: 2px solid var(--border2);
+            border-radius: var(--radius-sm);
+            color: var(--text);
+            font-size: 1rem;
+            font-weight: 500;
+            padding: 13px 18px;
+            font-family: inherit;
+            transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+            outline: none;
+            line-height: 1.5;
+        }
+        #answerInput::placeholder { color: var(--muted); font-weight: 400; }
+        #answerInput:focus {
+            border-color: var(--accent);
+            background: rgba(13,148,136,0.06);
+            box-shadow: 0 0 0 3px rgba(13,148,136,0.12);
+        }
+        #answerInput.correct-input {
+            border-color: var(--green) !important;
+            background: rgba(34,197,94,0.07) !important;
+            box-shadow: 0 0 0 3px rgba(34,197,94,0.12) !important;
+        }
+        #answerInput.wrong-input {
+            border-color: var(--red) !important;
+            background: rgba(239,68,68,0.07) !important;
+            box-shadow: 0 0 0 3px rgba(239,68,68,0.1) !important;
+            animation: shake 0.35s ease;
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            20%       { transform: translateX(-6px); }
+            40%       { transform: translateX(6px); }
+            60%       { transform: translateX(-4px); }
+            80%       { transform: translateX(4px); }
+        }
+        #answerInput:disabled { opacity: 0.7; cursor: not-allowed; }
+
+        #checkBtn {
+            flex-shrink: 0;
+            padding: 0 24px;
+            background: linear-gradient(135deg, #0f766e, #0d9488);
+            color: #fff;
+            border: none; border-radius: var(--radius-sm);
+            font-size: 0.9rem; font-weight: 700;
+            cursor: pointer; font-family: inherit;
+            transition: opacity 0.15s, transform 0.15s;
+            white-space: nowrap;
+            box-shadow: 0 3px 12px rgba(13,148,136,0.3);
+        }
+        #checkBtn:hover:not(:disabled) { opacity: 0.9; transform: translateY(-1px); }
+        #checkBtn:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
+
+        /* ── Action row (hint / skip) ── */
+        .action-row {
+            display: flex; gap: 8px; margin-bottom: 16px;
+        }
+        .btn-hint, .btn-skip {
+            flex: 1; padding: 9px;
+            border-radius: 9px;
+            border: 1.5px solid var(--border);
+            background: transparent;
+            font-size: 0.82rem; font-weight: 600;
+            cursor: pointer; font-family: inherit;
+            transition: all 0.15s;
+        }
+        .btn-hint { color: var(--amber2); border-color: rgba(245,158,11,0.25); }
+        .btn-hint:hover:not(:disabled) { background: rgba(245,158,11,0.08); border-color: var(--amber2); }
+        .btn-hint:disabled { opacity: 0.3; cursor: not-allowed; }
+        .btn-skip { color: var(--muted2); }
+        .btn-skip:hover:not(:disabled) { background: rgba(255,255,255,0.05); border-color: var(--border2); color: var(--text2); }
+        .btn-skip:disabled { opacity: 0.3; cursor: not-allowed; }
+
+        /* ── Feedback ── */
+        #feedbackBar {
+            display: none;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 16px 18px;
+            border-radius: var(--radius-sm);
+            margin-bottom: 16px;
+            animation: fadeSlideUp 0.25s ease;
+        }
+        #feedbackBar.correct-fb {
+            background: rgba(34,197,94,0.08);
+            border: 1px solid rgba(34,197,94,0.22);
+        }
+        #feedbackBar.wrong-fb {
+            background: rgba(239,68,68,0.08);
+            border: 1px solid rgba(239,68,68,0.22);
+        }
+        #feedbackBar.skip-fb {
+            background: rgba(245,158,11,0.07);
+            border: 1px solid rgba(245,158,11,0.22);
+        }
+        .fb-icon { font-size: 1.35rem; flex-shrink: 0; margin-top: 2px; }
+        .fb-content {}
+        .fb-title { font-size: 0.88rem; font-weight: 700; margin-bottom: 6px; }
+        .correct-fb .fb-title { color: var(--green2); }
+        .wrong-fb   .fb-title { color: var(--red2); }
+        .skip-fb    .fb-title { color: var(--amber2); }
+        .fb-answer-block {
+            display: flex; flex-direction: column; gap: 4px;
+        }
+        .fb-row { font-size: 0.82rem; line-height: 1.55; }
+        .fb-row .lbl { color: var(--muted); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 6px; }
+        .fb-row .val { color: var(--text2); font-weight: 500; }
+        .fb-row .val.correct-val { color: var(--green2); font-weight: 700; }
+        .fb-row .val.wrong-val   { color: var(--red2); font-weight: 500; text-decoration: line-through; }
+
+        /* Diff highlighting */
+        .diff-correct { background: rgba(34,197,94,0.18); color: var(--green2); border-radius: 3px; padding: 0 2px; }
+        .diff-wrong   { background: rgba(239,68,68,0.2);  color: var(--red2);   border-radius: 3px; padding: 0 2px; text-decoration: line-through; }
+
+        /* ── Next button ── */
+        #nextBtn {
+            display: none;
+            width: 100%; padding: 14px;
+            background: linear-gradient(135deg, #0f766e, #0d9488);
+            color: #fff; border: none;
+            border-radius: var(--radius-sm);
+            font-size: 0.92rem; font-weight: 700;
+            cursor: pointer; font-family: inherit;
+            transition: opacity 0.15s, transform 0.15s;
+            align-items: center; justify-content: center; gap: 8px;
+            box-shadow: 0 4px 16px rgba(13,148,136,0.3);
+        }
+        #nextBtn:hover { opacity: 0.9; transform: translateY(-1px); }
+
+        /* ── Quit btn ── */
+        #quitBtn {
+            font-size: 0.75rem; padding: 5px 12px;
+        }
+
+        /* ── Result panel ── */
+        #resultPanel {
+            display: none;
+            background: var(--surface);
+            border: 1px solid var(--border2);
+            border-radius: var(--radius);
+            padding: 48px 32px;
+            text-align: center;
+            animation: fadeSlideUp 0.4s ease;
+            box-shadow: 0 4px 40px rgba(0,0,0,0.3);
+            position: relative; overflow: hidden;
+        }
+        #resultPanel::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 2px;
+            background: linear-gradient(90deg, #0d9488, #2dd4bf, #6366f1);
+        }
+        .result-emoji { font-size: 4rem; margin-bottom: 16px; display: block; }
+        .result-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2rem; font-weight: 800; margin-bottom: 8px;
+            letter-spacing: -0.03em;
+            background: linear-gradient(135deg, #fff 0%, var(--accent3) 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .result-sub { color: var(--muted2); font-size: 0.9rem; margin-bottom: 32px; }
+
+        .result-stats {
+            display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-bottom: 32px;
+        }
+        .stat-box {
+            padding: 18px 22px; border-radius: 14px;
+            border: 1px solid var(--border); min-width: 88px;
+        }
+        .stat-num { font-family: 'Outfit', sans-serif; font-size: 2.2rem; font-weight: 800; line-height: 1; }
+        .stat-lbl { font-size: 0.68rem; color: var(--muted2); margin-top: 5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+        .stat-box.green { background: rgba(34,197,94,0.08); border-color: rgba(34,197,94,0.2); }
+        .stat-box.green .stat-num { color: var(--green2); }
+        .stat-box.red   { background: rgba(239,68,68,0.08); border-color: rgba(239,68,68,0.2); }
+        .stat-box.red   .stat-num { color: var(--red2); }
+        .stat-box.amber { background: rgba(245,158,11,0.08); border-color: rgba(245,158,11,0.2); }
+        .stat-box.amber .stat-num { color: var(--amber2); }
+        .stat-box.teal  { background: rgba(13,148,136,0.12); border-color: rgba(13,148,136,0.25); }
+        .stat-box.teal  .stat-num { color: var(--accent3); }
+
+        .result-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 28px; }
+        .btn-outline {
+            padding: 11px 22px; border-radius: var(--radius-sm);
+            border: 1.5px solid var(--border2);
+            background: transparent; color: var(--text2);
+            font-size: 0.85rem; font-weight: 600;
+            cursor: pointer; font-family: inherit;
+            transition: all 0.15s;
+            display: inline-flex; align-items: center; gap: 7px;
+        }
+        .btn-outline:hover { background: rgba(255,255,255,0.06); border-color: var(--accent2); color: var(--text); }
+        .btn-primary {
+            padding: 11px 22px; border-radius: var(--radius-sm); border: none;
+            background: linear-gradient(135deg, #0f766e, #0d9488);
+            color: #fff; font-size: 0.85rem; font-weight: 700;
+            cursor: pointer; font-family: inherit;
+            display: inline-flex; align-items: center; gap: 7px;
+            transition: opacity 0.15s, transform 0.15s;
+            box-shadow: 0 4px 16px rgba(13,148,136,0.3);
+        }
+        .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+
+        /* ── Review Section ── */
+        .review-section {
+            margin-top: 28px; text-align: left;
+            border-top: 1px solid var(--border);
+            padding-top: 24px;
+        }
+        .review-section-title {
+            font-size: 0.9rem; font-weight: 700;
+            margin-bottom: 14px;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .review-section-title .count-badge {
+            font-size: 0.72rem; padding: 2px 9px;
+            border-radius: 99px;
+            background: rgba(239,68,68,0.15); color: var(--red2);
+        }
+        .review-list {
+            max-height: 320px; overflow-y: auto;
+            display: flex; flex-direction: column; gap: 10px;
+            padding-right: 6px;
+        }
+        .review-list::-webkit-scrollbar { width: 5px; }
+        .review-list::-webkit-scrollbar-track { background: transparent; }
+        .review-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 99px; }
+        .review-item {
+            background: var(--surface2); border: 1px solid var(--border);
+            border-radius: var(--radius-sm); padding: 14px 16px; font-size: 0.84rem;
+        }
+        .review-item .vi-text { color: var(--muted2); margin-bottom: 6px; font-size: 0.8rem; }
+        .review-item .en-correct { color: var(--green2); font-weight: 700; margin-bottom: 4px; }
+        .review-item .en-typed   { color: var(--red2); font-weight: 500; font-style: italic; }
+        .review-item .skip-tag   { color: var(--amber2); font-weight: 600; }
+        .review-item .item-label {
+            font-size: 0.65rem; font-weight: 700;
+            letter-spacing: 0.06em; text-transform: uppercase;
+            color: var(--muted); margin-right: 5px;
+        }
+
+        /* ── Utility ── */
+        .hidden { display: none !important; }
+
+        /* ── Keyboard hint ── */
+        .kbd-hint {
+            display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;
+            margin-top: 12px;
+        }
+        .kbd {
+            display: inline-flex; align-items: center; gap: 5px;
+            font-size: 0.7rem; color: var(--muted);
+        }
+        .kbd kbd {
+            display: inline-flex; align-items: center; justify-content: center;
+            background: var(--surface3); border: 1px solid var(--border2);
+            border-radius: 5px; padding: 2px 7px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem; color: var(--text2);
+            box-shadow: 0 1px 0 var(--border2);
+        }
+
+        /* ── Scrollbar ── */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 99px; }
+
+        /* ── Responsive ── */
+        @media (max-width: 560px) {
+            .page-header h1 { font-size: 1.5rem; }
+            .sentence-card { padding: 20px 16px; }
+            .vi-sentence { font-size: 1rem; }
+            #answerInput { font-size: 0.92rem; padding: 11px 14px; }
+            #sourcePanel { padding: 20px 16px; }
+            .stat-num { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <a href="index.html" class="nav-logo" aria-label="Trang chủ">
+        <div class="logo-icon">📚</div>
+        <span>EV In Use</span>
+    </a>
+    <div class="nav-divider"></div>
+    <span class="nav-title">✍️ Luyện Viết Passage</span>
+    <div class="nav-spacer"></div>
+    <a href="quiz-passage.html" class="nav-btn">📖 Quiz Passage</a>
+    <a href="typing-stories.html" class="nav-btn">✍️ Luyện Viết Stories</a>
+</header>
+
+<main>
+
+    <!-- Page header -->
+    <div class="page-header">
+        <div class="badge"><span>✍️</span><span>LUYỆN VIẾT</span></div>
+        <h1>Luyện Viết Câu Văn (Passage)</h1>
+        <p>Đọc câu tiếng Việt và gõ lại câu tiếng Anh tương ứng</p>
+        <div class="rule-pills">
+            <span class="rule-pill">🔡 Không phân biệt Hoa/thường</span>
+            <span class="rule-pill">🔤 Bỏ qua dấu chấm, phẩy</span>
+            <span class="rule-pill">📋 Theo thứ tự gốc</span>
+            <span class="rule-pill">💡 Có gợi ý chữ cái</span>
+        </div>
+    </div>
+
+    <!-- Source Panel -->
+    <div id="sourcePanel">
+        <h2>🗂️ Chọn bài Passage</h2>
+
+        <div id="sourceListEl" class="source-list">
+            <div style="color:var(--muted);font-size:0.85rem;padding:12px 0">Đang tải danh sách bài...</div>
+        </div>
+
+        <div class="config-row">
+            <div class="config-group">
+                <label class="config-label" for="startInput">Câu bắt đầu:</label>
+                <input type="number" class="config-input" id="startInput" value="1" min="1" max="9999" style="width:80px">
+            </div>
+            <div class="config-group">
+                <label class="config-label" for="qtyInput">Số câu:</label>
+                <input type="number" class="config-input" id="qtyInput" value="20" min="1" max="500">
+                <span class="config-total" id="totalAvail"></span>
+            </div>
+        </div>
+
+        <button id="startBtn" disabled>
+            ✍️ Bắt đầu luyện viết
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Loading -->
+    <div id="loadingState" class="hidden">
+        <div class="spinner"></div>
+        <p style="font-weight:600;font-size:0.95rem">Đang tải dữ liệu...</p>
+        <p style="color:var(--muted);font-size:0.82rem;margin-top:6px">Vui lòng chờ trong giây lát</p>
+    </div>
+
+    <!-- Error -->
+    <div id="errorState" class="hidden">
+        <div style="font-size:2.5rem;margin-bottom:12px">⚠️</div>
+        <p id="errorMsg" style="font-weight:600;margin-bottom:12px">Không thể tải dữ liệu.</p>
+        <button class="btn-outline" onclick="location.reload()">🔄 Thử lại</button>
+    </div>
+
+    <!-- Practice Panel -->
+    <div id="practicePanel">
+
+        <!-- Progress -->
+        <div class="progress-wrap">
+            <div class="progress-track">
+                <div class="progress-fill" id="progressFill" style="width:0%"></div>
+            </div>
+            <span class="progress-label" id="progressLabel">0 / 0</span>
+        </div>
+
+        <!-- Score row -->
+        <div class="score-row">
+            <div class="score-badges">
+                <span class="badge badge-correct" id="badgeCorrect">✓ 0</span>
+                <span class="badge badge-wrong"   id="badgeWrong">✗ 0</span>
+                <span class="badge badge-skip"    id="badgeSkip">— 0</span>
+            </div>
+            <button class="btn-outline" id="quitBtn" style="font-size:0.75rem;padding:5px 12px">✕ Dừng</button>
+        </div>
+
+        <!-- Sentence card -->
+        <div class="sentence-card" id="sentenceCard">
+            <div class="card-header">
+                <span class="card-num" id="cardNum">Câu 1</span>
+                <span class="card-tag">Việt → Anh</span>
+            </div>
+            <div class="vi-label">Câu tiếng Việt</div>
+            <div class="vi-sentence" id="viSentence">Đang tải...</div>
+
+            <!-- Hint display -->
+            <div class="hint-display" id="hintDisplay">
+                <div class="hint-label">💡 Gợi ý</div>
+                <div class="hint-chars" id="hintChars"></div>
+            </div>
+        </div>
+
+        <!-- Input area -->
+        <div class="input-area">
+            <input
+                type="text"
+                id="answerInput"
+                placeholder="Nhập câu tiếng Anh..."
+                autocomplete="off"
+                autocorrect="off"
+                autocapitalize="off"
+                spellcheck="false"
+            />
+            <button id="checkBtn">Kiểm tra</button>
+        </div>
+
+        <!-- Action row -->
+        <div class="action-row">
+            <button class="btn-hint" id="hintBtn">💡 Gợi ý thêm chữ</button>
+            <button class="btn-skip" id="skipBtn">⏭ Bỏ qua câu này</button>
+        </div>
+
+        <!-- Feedback -->
+        <div id="feedbackBar">
+            <span class="fb-icon" id="fbIcon"></span>
+            <div class="fb-content">
+                <div class="fb-title" id="fbTitle"></div>
+                <div class="fb-answer-block" id="fbAnswerBlock"></div>
+            </div>
+        </div>
+
+        <!-- Next -->
+        <button id="nextBtn" style="display:none">
+            Câu tiếp theo
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/>
+            </svg>
+        </button>
+
+        <!-- Keyboard hints -->
+        <div class="kbd-hint" id="kbdHint">
+            <span class="kbd"><kbd>Enter</kbd> kiểm tra / câu tiếp</span>
+            <span class="kbd"><kbd>Tab</kbd> gợi ý thêm</span>
+            <span class="kbd"><kbd>Esc</kbd> bỏ qua</span>
+        </div>
+    </div>
+
+    <!-- Result Panel -->
+    <div id="resultPanel">
+        <span class="result-emoji" id="resultEmoji">🎉</span>
+        <div class="result-title">Hoàn thành!</div>
+        <div class="result-sub" id="resultSub">Bạn đã luyện viết xong bài passage</div>
+        <div class="result-stats">
+            <div class="stat-box green">
+                <div class="stat-num" id="rCorrect">0</div>
+                <div class="stat-lbl">Đúng</div>
+            </div>
+            <div class="stat-box red">
+                <div class="stat-num" id="rWrong">0</div>
+                <div class="stat-lbl">Sai</div>
+            </div>
+            <div class="stat-box amber">
+                <div class="stat-num" id="rSkip">0</div>
+                <div class="stat-lbl">Bỏ qua</div>
+            </div>
+            <div class="stat-box teal">
+                <div class="stat-num" id="rPct">0%</div>
+                <div class="stat-lbl">Điểm</div>
+            </div>
+        </div>
+        <div class="result-actions">
+            <button class="btn-primary" id="retryBtn">🔄 Làm lại</button>
+            <button class="btn-outline" id="backToSetupBtn">⚙️ Đổi bài</button>
+        </div>
+
+        <!-- Review errors -->
+        <div id="reviewSection" class="review-section hidden">
+            <div class="review-section-title">
+                ⚠️ Câu cần ôn lại
+                <span class="count-badge" id="reviewCount">0</span>
+            </div>
+            <div class="review-list" id="reviewList"></div>
+        </div>
+    </div>
+
+</main>
+
+<script>
+// ═══════════════════════════════════════════════════════════════════════
+// CONFIG
+// ═══════════════════════════════════════════════════════════════════════
+const PASSAGE_BASE = 'data/passage';
+
+// ═══════════════════════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════════════════════
+let passageManifest = [];
+let dataByPassage   = {};
+let sentences       = [];    // [{original, translation}] — current session
+let sIndex          = 0;
+let scoreCorrect    = 0;
+let scoreWrong      = 0;
+let scoreSkip       = 0;
+let answered        = false;
+let hintsRevealed   = 0;     // how many chars of answer revealed
+let mistakes        = [];    // [{vi, en, typed, skipped}]
+
+// ═══════════════════════════════════════════════════════════════════════
+// DOM REFS
+// ═══════════════════════════════════════════════════════════════════════
+const sourcePanel   = document.getElementById('sourcePanel');
+const sourceListEl  = document.getElementById('sourceListEl');
+const startInput    = document.getElementById('startInput');
+const qtyInput      = document.getElementById('qtyInput');
+const totalAvail    = document.getElementById('totalAvail');
+const startBtn      = document.getElementById('startBtn');
+const loadingState  = document.getElementById('loadingState');
+const errorState    = document.getElementById('errorState');
+const errorMsg      = document.getElementById('errorMsg');
+const practicePanel = document.getElementById('practicePanel');
+const resultPanel   = document.getElementById('resultPanel');
+const progressFill  = document.getElementById('progressFill');
+const progressLabel = document.getElementById('progressLabel');
+const badgeCorrect  = document.getElementById('badgeCorrect');
+const badgeWrong    = document.getElementById('badgeWrong');
+const badgeSkip     = document.getElementById('badgeSkip');
+const quitBtn       = document.getElementById('quitBtn');
+const cardNum       = document.getElementById('cardNum');
+const viSentence    = document.getElementById('viSentence');
+const hintDisplay   = document.getElementById('hintDisplay');
+const hintChars     = document.getElementById('hintChars');
+const answerInput   = document.getElementById('answerInput');
+const checkBtn      = document.getElementById('checkBtn');
+const hintBtn       = document.getElementById('hintBtn');
+const skipBtn       = document.getElementById('skipBtn');
+const feedbackBar   = document.getElementById('feedbackBar');
+const fbIcon        = document.getElementById('fbIcon');
+const fbTitle       = document.getElementById('fbTitle');
+const fbAnswerBlock = document.getElementById('fbAnswerBlock');
+const nextBtn       = document.getElementById('nextBtn');
+const rCorrect      = document.getElementById('rCorrect');
+const rWrong        = document.getElementById('rWrong');
+const rSkip         = document.getElementById('rSkip');
+const rPct          = document.getElementById('rPct');
+const resultEmoji   = document.getElementById('resultEmoji');
+const resultSub     = document.getElementById('resultSub');
+const retryBtn      = document.getElementById('retryBtn');
+const backToSetupBtn= document.getElementById('backToSetupBtn');
+const reviewSection = document.getElementById('reviewSection');
+const reviewCount   = document.getElementById('reviewCount');
+const reviewList    = document.getElementById('reviewList');
+
+// ═══════════════════════════════════════════════════════════════════════
+// NORMALISE — strip punctuation, collapse spaces, lowercase
+// ═══════════════════════════════════════════════════════════════════════
+function normalise(str) {
+    return str
+        .toLowerCase()
+        // Remove common punctuation but keep apostrophes within words
+        .replace(/[.,!?;:\-–—"'"""''()\[\]{}/\\@#$%^&*+=<>|~`]/g, ' ')
+        // Collapse multiple spaces
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+function isCorrect(typed, answer) {
+    return normalise(typed) === normalise(answer);
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// LOAD MANIFEST
+// ═══════════════════════════════════════════════════════════════════════
+async function loadManifest() {
+    const res = await fetch(`${PASSAGE_BASE}/manifest.json`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    passageManifest = await res.json();
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// LOAD PASSAGE DATA
+// ═══════════════════════════════════════════════════════════════════════
+function filterSentences(items) {
+    return items.filter(s =>
+        s.original    && s.original.trim()    !== '' &&
+        s.translation && s.translation.trim() !== ''
+    );
+}
+
+async function loadPassage(id) {
+    if (dataByPassage[id]) return dataByPassage[id];
+    const url = `${PASSAGE_BASE}/${id}/sentence_json_data.json`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status} – ${url}`);
+    const raw = await res.json();
+    dataByPassage[id] = filterSentences(Array.isArray(raw) ? raw : []);
+    return dataByPassage[id];
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// BUILD SOURCE LIST UI
+// ═══════════════════════════════════════════════════════════════════════
+function buildSourceList() {
+    sourceListEl.innerHTML = '';
+    if (passageManifest.length === 0) {
+        sourceListEl.innerHTML = '<div style="color:var(--muted);font-size:0.85rem;padding:12px 0">Chưa có bài passage nào.</div>';
+        return;
+    }
+    passageManifest.forEach((p, idx) => {
+        const wrapper = document.createElement('label');
+        wrapper.className = 'source-item';
+        wrapper.setAttribute('for', `chk-${p.id}`);
+
+        const chk = document.createElement('input');
+        chk.type = 'checkbox'; chk.id = `chk-${p.id}`; chk.value = p.id;
+        chk.addEventListener('change', updateTotal);
+
+        const badge = document.createElement('span');
+        badge.className = 'source-idx';
+        badge.textContent = `#${String(idx + 1).padStart(2, '0')}`;
+
+        const content = document.createElement('div');
+        content.className = 'source-item-content';
+
+        const title = document.createElement('div');
+        title.className = 'source-item-title';
+        title.textContent = p.title || p.id;
+
+        const sub = document.createElement('div');
+        sub.className = 'source-item-sub';
+        sub.textContent = 'Đang đếm câu...';
+
+        content.appendChild(title);
+        content.appendChild(sub);
+
+        const cnt = document.createElement('span');
+        cnt.className = 'source-count';
+        cnt.id = `cnt-${p.id}`;
+        cnt.textContent = '—';
+
+        wrapper.appendChild(chk);
+        wrapper.appendChild(badge);
+        wrapper.appendChild(content);
+        wrapper.appendChild(cnt);
+        sourceListEl.appendChild(wrapper);
+
+        loadPassage(p.id).then(items => {
+            cnt.textContent = `${items.length.toLocaleString()} câu`;
+            sub.textContent = `${items.length.toLocaleString()} câu hỏi khả dụng`;
+            updateTotal();
+        }).catch(() => {
+            cnt.textContent = 'Lỗi';
+            sub.textContent = 'Không thể tải';
+        });
+    });
+}
+
+function getSelected() {
+    return passageManifest.map(p => p.id).filter(id => {
+        const c = document.getElementById(`chk-${id}`);
+        return c && c.checked;
+    });
+}
+
+function updateTotal() {
+    const sel = getSelected();
+    let total = 0;
+    sel.forEach(id => { if (dataByPassage[id]) total += dataByPassage[id].length; });
+
+    passageManifest.forEach(p => {
+        const c    = document.getElementById(`chk-${p.id}`);
+        const item = c && c.closest('.source-item');
+        if (item) item.classList.toggle('selected', c.checked);
+    });
+
+    if (total > 0) {
+        totalAvail.textContent = `(${total.toLocaleString()} câu)`;
+        startBtn.disabled = false;
+    } else {
+        totalAvail.textContent = sel.length > 0 ? '(Đang tải...)' : '';
+        startBtn.disabled = true;
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// START SESSION
+// ═══════════════════════════════════════════════════════════════════════
+async function startSession() {
+    const sel = getSelected();
+    if (sel.length === 0) return;
+
+    sourcePanel.classList.add('hidden');
+    loadingState.classList.remove('hidden');
+    errorState.classList.add('hidden');
+
+    try {
+        await Promise.all(sel.map(loadPassage));
+
+        let pool = [];
+        sel.forEach(id => { pool = pool.concat(dataByPassage[id] || []); });
+
+        if (pool.length === 0) throw new Error('Không có câu nào hợp lệ trong bài đã chọn.');
+
+        const qty   = Math.max(1, parseInt(qtyInput.value)  || 20);
+        const start = Math.max(1, parseInt(startInput.value) || 1);
+        // startIdx là 0-based, clamp để không vượt quá pool
+        const startIdx = Math.min(start - 1, pool.length - 1);
+        // Lấy đúng qty câu bắt đầu từ startIdx
+        sentences = pool.slice(startIdx, startIdx + qty);
+
+        loadingState.classList.add('hidden');
+        practicePanel.style.display = 'block';
+
+        sIndex = 0; scoreCorrect = 0; scoreWrong = 0; scoreSkip = 0;
+        mistakes = [];
+        updateBadges();
+        showSentence();
+
+    } catch (err) {
+        loadingState.classList.add('hidden');
+        errorState.classList.remove('hidden');
+        errorMsg.textContent = err.message;
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// SHOW SENTENCE
+// ═══════════════════════════════════════════════════════════════════════
+function showSentence() {
+    answered = false;
+    hintsRevealed = 0;
+
+    // Reset UI
+    answerInput.value = '';
+    answerInput.className = '';
+    answerInput.disabled = false;
+    checkBtn.disabled = false;
+    hintBtn.disabled = false;
+    skipBtn.disabled = false;
+    feedbackBar.style.display = 'none';
+    feedbackBar.className = '';
+    nextBtn.style.display = 'none';
+    hintDisplay.classList.remove('show');
+    hintChars.innerHTML = '';
+
+    const s = sentences[sIndex];
+
+    // Progress
+    const pct = (sIndex / sentences.length) * 100;
+    progressFill.style.width = `${pct}%`;
+    progressLabel.textContent = `${sIndex + 1} / ${sentences.length}`;
+
+    cardNum.textContent = `Câu ${sIndex + 1}`;
+    viSentence.textContent = s.translation;
+
+    // Pre-build hint slots (hidden until revealed)
+    buildHintSlots(s.original);
+
+    // Focus input
+    setTimeout(() => answerInput.focus(), 50);
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// HINT SYSTEM
+// ═══════════════════════════════════════════════════════════════════════
+function buildHintSlots(answer) {
+    hintChars.innerHTML = '';
+    // Show slots for each character (spaces are visible separators)
+    for (const ch of answer) {
+        const span = document.createElement('span');
+        if (ch === ' ') {
+            span.className = 'hint-char space';
+        } else {
+            span.className = 'hint-char';
+            span.dataset.char = ch;
+        }
+        hintChars.appendChild(span);
+    }
+}
+
+function revealNextHint() {
+    if (answered) return;
+    const s = sentences[sIndex];
+    const answer = s.original;
+
+    // Find unrevealed non-space chars
+    const slots = hintChars.querySelectorAll('.hint-char:not(.space)');
+    let count = 0;
+    for (const slot of slots) {
+        if (!slot.classList.contains('revealed')) count++;
+    }
+    if (count === 0) return;
+
+    // Reveal chars one word at a time
+    let revealed = 0;
+    let revealTarget = Math.ceil(count / Math.max(1, Math.ceil(answer.split(' ').length / 3)));
+    revealTarget = Math.max(1, revealTarget);
+
+    for (const slot of slots) {
+        if (!slot.classList.contains('revealed') && revealed < revealTarget) {
+            slot.classList.add('revealed');
+            slot.textContent = slot.dataset.char;
+            revealed++;
+        }
+    }
+    hintsRevealed += revealed;
+
+    hintDisplay.classList.add('show');
+
+    // If all revealed → effectively showing the answer
+    const allRevealed = hintChars.querySelectorAll('.hint-char:not(.space):not(.revealed)').length === 0;
+    if (allRevealed) hintBtn.disabled = true;
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// CHECK ANSWER
+// ═══════════════════════════════════════════════════════════════════════
+function checkAnswer() {
+    if (answered) { goNext(); return; }
+
+    const typed = answerInput.value.trim();
+    if (!typed) return;
+
+    answered = true;
+    answerInput.disabled = true;
+    checkBtn.disabled = true;
+    hintBtn.disabled = true;
+    skipBtn.disabled = true;
+
+    const s = sentences[sIndex];
+    const correct = isCorrect(typed, s.original);
+
+    // Flash input
+    answerInput.classList.add(correct ? 'correct-input' : 'wrong-input');
+
+    // Reveal all hint chars
+    hintChars.querySelectorAll('.hint-char:not(.space)').forEach(el => {
+        el.classList.add('revealed');
+        el.textContent = el.dataset.char;
+    });
+    hintDisplay.classList.add('show');
+
+    if (correct) {
+        scoreCorrect++;
+        feedbackBar.style.display = 'flex';
+        feedbackBar.className = 'correct-fb';
+        fbIcon.textContent = '🎉';
+        fbTitle.textContent = 'Chính xác!';
+        fbAnswerBlock.innerHTML = `
+            <div class="fb-row">
+                <span class="lbl">VI</span>
+                <span class="val">${escapeHtml(s.translation)}</span>
+            </div>
+            <div class="fb-row">
+                <span class="lbl">EN</span>
+                <span class="val correct-val">${escapeHtml(s.original)}</span>
+            </div>`;
+    } else {
+        scoreWrong++;
+        mistakes.push({ vi: s.translation, en: s.original, typed, skipped: false });
+
+        feedbackBar.style.display = 'flex';
+        feedbackBar.className = 'wrong-fb';
+        fbIcon.textContent = '❌';
+        fbTitle.textContent = 'Chưa đúng!';
+        fbAnswerBlock.innerHTML = `
+            <div class="fb-row">
+                <span class="lbl">Bạn gõ</span>
+                <span class="val wrong-val">${escapeHtml(typed)}</span>
+            </div>
+            <div class="fb-row">
+                <span class="lbl">Đáp án</span>
+                <span class="val correct-val">${escapeHtml(s.original)}</span>
+            </div>`;
+    }
+
+    updateBadges();
+    showNextBtn();
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// SKIP
+// ═══════════════════════════════════════════════════════════════════════
+function skipSentence() {
+    if (answered) return;
+    answered = true;
+    scoreSkip++;
+
+    answerInput.disabled = true;
+    checkBtn.disabled = true;
+    hintBtn.disabled = true;
+    skipBtn.disabled = true;
+
+    const s = sentences[sIndex];
+    mistakes.push({ vi: s.translation, en: s.original, typed: '', skipped: true });
+
+    // Reveal hint
+    hintChars.querySelectorAll('.hint-char:not(.space)').forEach(el => {
+        el.classList.add('revealed');
+        el.textContent = el.dataset.char;
+    });
+    hintDisplay.classList.add('show');
+
+    feedbackBar.style.display = 'flex';
+    feedbackBar.className = 'skip-fb';
+    fbIcon.textContent = '⏭';
+    fbTitle.textContent = 'Bỏ qua!';
+    fbAnswerBlock.innerHTML = `
+        <div class="fb-row">
+            <span class="lbl">Đáp án</span>
+            <span class="val correct-val">${escapeHtml(s.original)}</span>
+        </div>`;
+
+    updateBadges();
+    showNextBtn();
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// NAVIGATION
+// ═══════════════════════════════════════════════════════════════════════
+function showNextBtn() {
+    const isLast = (sIndex + 1 >= sentences.length);
+    nextBtn.style.display = 'flex';
+    nextBtn.innerHTML = isLast
+        ? `Xem kết quả <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>`
+        : `Câu tiếp theo <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>`;
+}
+
+function goNext() {
+    sIndex++;
+    if (sIndex >= sentences.length) {
+        showResult();
+    } else {
+        showSentence();
+        document.getElementById('sentenceCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+
+function updateBadges() {
+    badgeCorrect.textContent = `✓ ${scoreCorrect}`;
+    badgeWrong.textContent   = `✗ ${scoreWrong}`;
+    badgeSkip.textContent    = `— ${scoreSkip}`;
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// RESULT
+// ═══════════════════════════════════════════════════════════════════════
+function showResult() {
+    practicePanel.style.display = 'none';
+    resultPanel.style.display = 'block';
+
+    const total = sentences.length;
+    const pct   = total > 0 ? Math.round((scoreCorrect / total) * 100) : 0;
+
+    rCorrect.textContent = scoreCorrect;
+    rWrong.textContent   = scoreWrong;
+    rSkip.textContent    = scoreSkip;
+    rPct.textContent     = `${pct}%`;
+
+    if (pct >= 90)      { resultEmoji.textContent = '🏆'; resultSub.textContent = 'Xuất sắc! Kỹ năng viết của bạn rất tốt!'; }
+    else if (pct >= 70) { resultEmoji.textContent = '🎉'; resultSub.textContent = 'Tốt lắm! Tiếp tục luyện tập nhé!'; }
+    else if (pct >= 50) { resultEmoji.textContent = '💪'; resultSub.textContent = 'Khá đấy! Luyện thêm để cải thiện!'; }
+    else                { resultEmoji.textContent = '📚'; resultSub.textContent = 'Hãy ôn lại và thử lại nhé!'; }
+
+    // Review mistakes
+    if (mistakes.length > 0) {
+        reviewSection.classList.remove('hidden');
+        reviewCount.textContent = mistakes.length;
+        reviewList.innerHTML = '';
+        mistakes.forEach(m => {
+            const item = document.createElement('div');
+            item.className = 'review-item';
+            item.innerHTML = `
+                <div class="vi-text">🇻🇳 ${escapeHtml(m.vi)}</div>
+                <div class="en-correct">🇬🇧 ${escapeHtml(m.en)}</div>
+                ${m.skipped
+                    ? `<div class="skip-tag"><span class="item-label">Trạng thái</span>Bỏ qua</div>`
+                    : `<div class="en-typed"><span class="item-label">Bạn gõ</span>${escapeHtml(m.typed)}</div>`
+                }`;
+            reviewList.appendChild(item);
+        });
+    } else {
+        reviewSection.classList.add('hidden');
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// UTILS
+// ═══════════════════════════════════════════════════════════════════════
+function escapeHtml(s) {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// EVENT LISTENERS
+// ═══════════════════════════════════════════════════════════════════════
+startBtn.addEventListener('click', startSession);
+checkBtn.addEventListener('click', checkAnswer);
+nextBtn.addEventListener('click', goNext);
+hintBtn.addEventListener('click', revealNextHint);
+skipBtn.addEventListener('click', skipSentence);
+
+quitBtn.addEventListener('click', () => {
+    if (confirm('Bạn có muốn dừng và xem kết quả không?')) showResult();
+});
+
+retryBtn.addEventListener('click', () => {
+    resultPanel.style.display = 'none';
+    sIndex = 0; scoreCorrect = 0; scoreWrong = 0; scoreSkip = 0;
+    mistakes = [];
+    updateBadges();
+    progressFill.style.width = '0%';
+    practicePanel.style.display = 'block';
+    showSentence();
+});
+
+backToSetupBtn.addEventListener('click', () => {
+    resultPanel.style.display = 'none';
+    practicePanel.style.display = 'none';
+    sourcePanel.classList.remove('hidden');
+    updateTotal();
+});
+
+// Keyboard shortcuts — document-level để bắt Enter ngay cả khi input bị disabled
+// Document-level so Enter fires even after input is disabled (post-answer state)
+document.addEventListener('keydown', e => {
+    // Bỏ qua khi focus đang ở các button (tránh nhấn nút ngoài ý muốn)
+    // Ignore if focus is on a button or link (avoid accidental triggers)
+    const tag = document.activeElement && document.activeElement.tagName;
+    const inPractice = practicePanel.style.display !== 'none';
+    if (!inPractice) return;
+
+    if (e.key === 'Enter') {
+        // Nếu đang focus vào input và chưa trả lời → kiểm tra
+        // If focused on input and not yet answered → check
+        if (document.activeElement === answerInput && !answered) {
+            e.preventDefault();
+            checkAnswer();
+        }
+        // Nếu đã có đáp án (answered = true) → chuyển câu tiếp
+        // If answer already submitted → go to next sentence
+        else if (answered) {
+            e.preventDefault();
+            goNext();
+        }
+    }
+
+    // Tab → gợi ý (chỉ khi chưa trả lời và focus trong input)
+    // Tab → hint (only when unanswered and input is focused)
+    if (e.key === 'Tab' && document.activeElement === answerInput) {
+        e.preventDefault();
+        if (!answered) revealNextHint();
+    }
+
+    // Escape → bỏ qua câu (chỉ khi chưa trả lời)
+    // Escape → skip sentence (only when unanswered)
+    if (e.key === 'Escape') {
+        if (!answered) {
+            e.preventDefault();
+            skipSentence();
+        }
+    }
+});
+
+// ═══════════════════════════════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════════════════════════════
+async function init() {
+    try {
+        await loadManifest();
+        buildSourceList();
+    } catch (err) {
+        errorState.classList.remove('hidden');
+        errorMsg.textContent = `Lỗi tải danh sách: ${err.message}`;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>

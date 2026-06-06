@@ -434,8 +434,10 @@
         </div>
 
         <div class="qty-row">
-            <label for="qtyInput">Số câu hỏi:</label>
-            <input type="number" id="qtyInput" value="20" min="5" max="200">
+            <label for="startInput">Câu bắt đầu:</label>
+            <input type="number" id="startInput" value="1" min="1" max="9999" style="width:80px">
+            <label for="qtyInput" style="margin-left:8px">Số câu hỏi:</label>
+            <input type="number" id="qtyInput" value="20" min="1" max="500">
             <span id="totalAvail" style="font-size:0.8rem;color:var(--muted)"></span>
         </div>
 
@@ -551,6 +553,7 @@ function filterVocab(items) {
 // ─────────────────────────────────────────────────────────────────────
 const sourcePanel  = document.getElementById('sourcePanel');
 const sourceListEl = document.getElementById('sourceListEl');
+const startInput   = document.getElementById('startInput');
 const qtyInput     = document.getElementById('qtyInput');
 const totalAvail   = document.getElementById('totalAvail');
 const startBtn     = document.getElementById('startBtn');
@@ -703,10 +706,10 @@ async function startQuiz() {
             throw new Error(`Cần ít nhất ${MIN_OPTIONS} từ vựng. Hiện có: ${pool.length}`);
         }
 
-        const qty = Math.min(Math.max(1, parseInt(qtyInput.value) || 20), pool.length);
-
-        // Câu hỏi theo thứ tự GỐC — không xáo trộn
-        questions = pool.slice(0, qty);
+        const qty      = Math.max(1, parseInt(qtyInput.value)  || 20);
+        const start    = Math.max(1, parseInt(startInput.value) || 1);
+        const startIdx = Math.min(start - 1, pool.length - 1);
+        questions = pool.slice(startIdx, startIdx + qty);
 
         loadingState.classList.add('hidden');
         quizPanel.style.display = 'block';

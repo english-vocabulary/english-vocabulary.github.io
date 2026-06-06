@@ -1,0 +1,610 @@
+[
+    {
+        "original": "Hi everyone,",
+        "translation": "Xin chào mọi người,"
+    },
+    {
+        "original": "and welcome to our podcast.",
+        "translation": "và chào mừng đến với podcast của chúng tôi."
+    },
+    {
+        "original": "My name is Anna.",
+        "translation": "Tên tôi là Anna."
+    },
+    {
+        "original": "Today, we are going to talk about time management.",
+        "translation": "Hôm nay, chúng ta sẽ nói về quản lý thời gian."
+    },
+    {
+        "original": "This is a very important topic.",
+        "translation": "Đây là một chủ đề rất quan trọng."
+    },
+    {
+        "original": "Many people feel they do not have enough time.",
+        "translation": "Nhiều người cảm thấy họ không có đủ thời gian."
+    },
+    {
+        "original": "They feel busy every day,",
+        "translation": "Họ cảm thấy bận rộn mỗi ngày,"
+    },
+    {
+        "original": "but maybe the problem is not the time.",
+        "translation": "nhưng có thể vấn đề không phải là thời gian."
+    },
+    {
+        "original": "Maybe the problem is how we use the time.",
+        "translation": "Có thể vấn đề là cách chúng ta sử dụng thời gian."
+    },
+    {
+        "original": "I think is possible to learn good habits.",
+        "translation": "Tôi nghĩ là có thể học được những thói quen tốt."
+    },
+    {
+        "original": "We can all get better at this.",
+        "translation": "Chúng ta đều có thể làm tốt hơn điều này."
+    },
+    {
+        "original": "I am happy to talk about it today with my friend Mark.",
+        "translation": "Tôi vui lòng được nói về điều này hôm nay với bạn tôi Mark."
+    },
+    {
+        "original": "Mark, Hello. How are you?.",
+        "translation": "Mark, Xin chào. Bạn khỏe không?."
+    },
+    {
+        "original": "Hello Anna.",
+        "translation": "Xin chào Anna."
+    },
+    {
+        "original": "I am very happy to be here.",
+        "translation": "Tôi rất vui được ở đây."
+    },
+    {
+        "original": "Thank you for that introduction.",
+        "translation": "Cảm ơn bạn đã giới thiệu."
+    },
+    {
+        "original": "yes, time management is a great topic.",
+        "translation": "vâng, quản lý thời gian là một chủ đề tuyệt vời."
+    },
+    {
+        "original": "I think about it a lot.",
+        "translation": "Tôi nghĩ về nó rất nhiều."
+    },
+    {
+        "original": "Every morning, I wake up",
+        "translation": "Mỗi sáng, tôi thức dậy"
+    },
+    {
+        "original": "and I think",
+        "translation": "và tôi nghĩ"
+    },
+    {
+        "original": "What do I need to do today.",
+        "translation": "Tôi cần làm gì hôm nay."
+    },
+    {
+        "original": "Sometimes, I have a long list",
+        "translation": "Đôi khi, tôi có một danh sách dài"
+    },
+    {
+        "original": "and sometimes, I do not do everything on the list.",
+        "translation": "và đôi khi, tôi không làm được tất cả những gì trong danh sách."
+    },
+    {
+        "original": "I feel bad about that.",
+        "translation": "Tôi cảm thấy xấu hổ về điều đó."
+    },
+    {
+        "original": "but I am learning.",
+        "translation": "nhưng tôi đang học."
+    },
+    {
+        "original": "I think small changes can help a lot.",
+        "translation": "Tôi nghĩ rằng những thay đổi nhỏ có thể giúp đỡ rất nhiều."
+    },
+    {
+        "original": "I want to share simple ideas today.",
+        "translation": "Tôi muốn chia sẻ một số ý tưởng đơn giản hôm nay."
+    },
+    {
+        "original": "I hope our listener find them useful.",
+        "translation": "Tôi hy vọng người nghe của chúng tôi tìm thấy chúng hữu ích."
+    },
+    {
+        "original": "Let us begin.",
+        "translation": "Hãy bắt đầu nào."
+    },
+    {
+        "original": "Great.",
+        "translation": "Tốt quá."
+    },
+    {
+        "original": "so Mark.",
+        "translation": "vậy Mark."
+    },
+    {
+        "original": "Let us start with a basic question.",
+        "translation": "Hãy bắt đầu với một câu hỏi cơ bản."
+    },
+    {
+        "original": "What is time management?.",
+        "translation": "Quản lý thời gian là gì?"
+    },
+    {
+        "original": "Can you explain it in simple words?.",
+        "translation": "Bạn có thể giải thích nó bằng những từ ngữ đơn giản không?"
+    },
+    {
+        "original": "I think some people hear this phrase",
+        "translation": "Tôi nghĩ một số người nghe cụm từ này"
+    },
+    {
+        "original": "and they feel confused it sounds very professional",
+        "translation": "và họ cảm thấy bối rối, nó nghe có vẻ rất chuyên nghiệp"
+    },
+    {
+        "original": "but I think it is not so difficult to understand.",
+        "translation": "nhưng tôi nghĩ nó không quá khó để hiểu."
+    },
+    {
+        "original": "Time management means,",
+        "translation": "Quản lý thời gian có nghĩa là,"
+    },
+    {
+        "original": "We plan how to use our time.",
+        "translation": "chúng ta lên kế hoạch cách sử dụng thời gian của mình."
+    },
+    {
+        "original": "We decide",
+        "translation": "chúng ta quyết định"
+    },
+    {
+        "original": "what to do first and what to do later.",
+        "translation": "điều gì cần làm trước và điều gì cần làm sau."
+    },
+    {
+        "original": "We try to use our time well.",
+        "translation": "chúng ta cố gắng sử dụng thời gian của mình một cách hiệu quả."
+    },
+    {
+        "original": "Does that sound right to you Mark?.",
+        "translation": "Điều đó có đúng với bạn không Mark?"
+    },
+    {
+        "original": "I think it is a simple idea.",
+        "translation": "Tôi nghĩ đó là một ý tưởng đơn giản."
+    },
+    {
+        "original": "but it is not always easy to do in real life.",
+        "translation": "nhưng nó không phải lúc nào cũng dễ để làm trong cuộc sống thực tế."
+    },
+    {
+        "original": "Yes Anna.",
+        "translation": "Đúng vậy Anna."
+    },
+    {
+        "original": "I agree completely.",
+        "translation": "Tôi đồng ý hoàn toàn."
+    },
+    {
+        "original": "Time management is a simple to understand.",
+        "translation": "Quản lý thời gian là một khái niệm dễ hiểu."
+    },
+    {
+        "original": "but not always simple to do.",
+        "translation": "nhưng không phải lúc nào cũng đơn giản để thực hiện."
+    },
+    {
+        "original": "It mean you are the boss of your time.",
+        "translation": "Điều đó có nghĩa là bạn là người quản lý thời gian của chính mình."
+    },
+    {
+        "original": "You decide what is important",
+        "translation": "Bạn quyết định điều gì là quan trọng"
+    },
+    {
+        "original": "You decide what to do now",
+        "translation": "Bạn quyết định điều gì cần làm ngay bây giờ"
+    },
+    {
+        "original": " and what to do tomorrow",
+        "translation": " và điều gì cần làm vào ngày mai"
+    },
+    {
+        "original": "For example, if I have a big project at work.",
+        "translation": "Ví dụ, nếu tôi có một dự án lớn trong công việc."
+    },
+    {
+        "original": "I plan my time for it.",
+        "translation": "Tôi lên kế hoạch thời gian cho nó."
+    },
+    {
+        "original": "I do not wait until the last minute.",
+        "translation": "Tôi không đợi đến phút cuối cùng."
+    },
+    {
+        "original": "I start early.",
+        "translation": "Tôi bắt đầu sớm."
+    },
+    {
+        "original": "This help me feel less stressed.",
+        "translation": "Điều đó giúp tôi cảm thấy ít căng thẳng hơn."
+    },
+    {
+        "original": "I think the keyword is plan.",
+        "translation": "Tôi nghĩ từ khóa là lên kế hoạch."
+    },
+    {
+        "original": "If you have a plan.",
+        "translation": "Nếu bạn có một kế hoạch."
+    },
+    {
+        "original": "You feel more in control of your day.",
+        "translation": "Bạn cảm thấy kiểm soát tốt hơn trong ngày của mình."
+    },
+    {
+        "original": "and that feels really good.",
+        "translation": "và điều đó khiến bạn cảm thấy thật tốt."
+    },
+    {
+        "original": "I love that.",
+        "translation": "Tôi thích điều đó."
+    },
+    {
+        "original": "Being the boss of your time,",
+        "translation": "Trở thành người quản lý thời gian của chính mình,"
+    },
+    {
+        "original": "that is a great way to say it.",
+        "translation": "đó là một cách tuyệt vời để diễn đạt điều đó."
+    },
+    {
+        "original": "so Mark,",
+        "translation": "nhưng Mark,"
+    },
+    {
+        "original": "Why do you think time management is important?.",
+        "translation": "Tại sao bạn nghĩ quản lý thời gian là quan trọng?"
+    },
+    {
+        "original": "I think many people know,",
+        "translation": "Tôi nghĩ nhiều người biết,"
+    },
+    {
+        "original": "they should manage their time better,",
+        "translation": "họ nên quản lý thời gian của mình tốt hơn,"
+    },
+    {
+        "original": "but they do not start.",
+        "translation": "nhưng họ không bắt đầu."
+    },
+    {
+        "original": "They say,",
+        "translation": "Họ nói,"
+    },
+    {
+        "original": "I will do it tomorrow,",
+        "translation": "Tôi sẽ làm nó vào ngày mai,"
+    },
+    {
+        "original": "and then tomorrow comes,",
+        "translation": "và rồi ngày mai đến,"
+    },
+    {
+        "original": "and they say the same thing again.",
+        "translation": "và họ lại nói điều tương tự."
+    },
+    {
+        "original": "It is a cycle.",
+        "translation": "Đó là một vòng lặp."
+    },
+    {
+        "original": "I think,",
+        "translation": "Tôi nghĩ,"
+    },
+    {
+        "original": "We need a reason to change.",
+        "translation": "Chúng ta cần một lý do để thay đổi."
+    },
+    {
+        "original": "For me, the reason is stress.",
+        "translation": "Đối với tôi, lý do là căng thẳng."
+    },
+    {
+        "original": "When I do not manage my time.",
+        "translation": "Khi tôi không quản lý thời gian của mình."
+    },
+    {
+        "original": "I feel very stressed",
+        "translation": "Tôi cảm thấy rất căng thẳng"
+    },
+    {
+        "original": "and stress is not good for health.",
+        "translation": "và căng thẳng không tốt cho sức khỏe."
+    },
+    {
+        "original": "What about you Mark?.",
+        "translation": "Còn bạn Mark thì sao?"
+    },
+    {
+        "original": "Why is it important to you?.",
+        "translation": "Tại sao nó quan trọng đối với bạn?"
+    },
+    {
+        "original": "That is a really good point Anna.",
+        "translation": "Đó là một điểm rất tốt, Anna."
+    },
+    {
+        "original": "Stress is a big reason for me too.",
+        "translation": "Căng thẳng cũng là một lý do quan trọng đối với tôi."
+    },
+    {
+        "original": "When I do not plan my time,",
+        "translation": "Khi tôi không lên kế hoạch cho thời gian của mình,"
+    },
+    {
+        "original": "everything feels urgent.",
+        "translation": "mọi thứ đều cảm thấy khẩn cấp."
+    },
+    {
+        "original": "I feel like,",
+        "translation": "Tôi cảm thấy,"
+    },
+    {
+        "original": "I am always running.",
+        "translation": "Tôi luôn cảm thấy như đang chạy."
+    },
+    {
+        "original": "I never have time to rest,",
+        "translation": "Tôi không có thời gian để nghỉ ngơi,"
+    },
+    {
+        "original": "and then I feel tired,",
+        "translation": "và sau đó tôi cảm thấy mệt mỏi,"
+    },
+    {
+        "original": "and unhappy.",
+        "translation": "và không hạnh phúc."
+    },
+    {
+        "original": "but when I plan my time well,",
+        "translation": "nhưng khi tôi lên kế hoạch cho thời gian của mình tốt,"
+    },
+    {
+        "original": "I finish my work,",
+        "translation": "Tôi hoàn thành công việc của mình,"
+    },
+    {
+        "original": "and I still have free time.",
+        "translation": "và tôi vẫn còn thời gian rảnh."
+    },
+    {
+        "original": "Free time is so important.",
+        "translation": "Thời gian rảnh rất quan trọng."
+    },
+    {
+        "original": "I can read a book,",
+        "translation": "Tôi có thể đọc một cuốn sách,"
+    },
+    {
+        "original": "go for a walk,",
+        "translation": "đi bộ,"
+    },
+    {
+        "original": "or spend time with my family.",
+        "translation": "hoặc dành thời gian với gia đình."
+    },
+    {
+        "original": "Good time management gives you more life outside of work.",
+        "translation": "Quản lý thời gian hiệu quả sẽ giúp bạn có nhiều thời gian hơn cho cuộc sống ngoài công việc."
+    },
+    {
+        "original": "It is not just about being productive.",
+        "translation": "Đó không chỉ là về việc trở nên hiệu quả."
+    },
+    {
+        "original": "It is about being happy too.",
+        "translation": "Đó cũng là về việc trở nên hạnh phúc."
+    },
+    {
+        "original": "Yes I totally agree happy and productive.",
+        "translation": "Vâng, tôi hoàn toàn đồng ý, hạnh phúc và hiệu quả."
+    },
+    {
+        "original": "Let's talk about some common problems now.",
+        "translation": "Hãy nói về một số vấn đề phổ biến bây giờ."
+    },
+    {
+        "original": "I think one big problem is that people do not know where their time goes.",
+        "translation": "Tôi nghĩ một vấn đề lớn là con người không biết thời gian của họ đi đâu."
+    },
+    {
+        "original": "Have you ever had a busy day and then thought,",
+        "translation": "Bạn có từng trải qua một ngày bận rộn và sau đó nghĩ,"
+    },
+    {
+        "original": "What did I actually do today?.",
+        "translation": "Tôi đã thực sự làm gì hôm nay?"
+    },
+    {
+        "original": "I have that feeling sometimes.",
+        "translation": "Đôi khi Tôi có cảm giác đó."
+    },
+    {
+        "original": "I busy all day,",
+        "translation": "Tôi bận rộn cả ngày,"
+    },
+    {
+        "original": "but I feel like didn't finish anything important.",
+        "translation": "nhưng tôi cảm thấy như không hoàn thành được điều gì quan trọng."
+    },
+    {
+        "original": "I think the first step is to look at how we spend our time.",
+        "translation": "Tôi nghĩ bước đầu tiên là phải nhìn vào cách chúng ta tiêu thụ thời gian."
+    },
+    {
+        "original": "We need to see our habits.",
+        "translation": "Chúng ta cần nhìn vào các thói quen của mình."
+    },
+    {
+        "original": "Sometimes we are surprised.",
+        "translation": "Đôi khi chúng ta cảm thấy ngạc nhiên."
+    },
+    {
+        "original": "We spend a lot of time on things that are not important.",
+        "translation": "Chúng ta dành rất nhiều thời gian cho những điều không quan trọng."
+    },
+    {
+        "original": "Do you agree Mark?.",
+        "translation": "Bạn có đồng ý Mark?."
+    },
+    {
+        "original": "Oh yes absolutely.",
+        "translation": "Oh vâng, hoàn toàn đúng."
+    },
+    {
+        "original": "I did an exercise once.",
+        "translation": "Tôi đã làm một lần."
+    },
+    {
+        "original": "I wrote down everything.",
+        "translation": "Tôi đã viết xuống tất cả những gì."
+    },
+    {
+        "original": "I did for one whole day.",
+        "translation": "Tôi đã làm vậy trong một ngày toàn bộ."
+    },
+    {
+        "original": "Every hour I wrote a short note.",
+        "translation": "Mỗi giờ tôi viết một ghi chú ngắn."
+    },
+    {
+        "original": "and at the and of the day,",
+        "translation": "và vào cuối ngày,"
+    },
+    {
+        "original": "I looked the list.",
+        "translation": "Tôi nhìn vào danh sách."
+    },
+    {
+        "original": "I was surprised.",
+        "translation": "Tôi đã cảm thấy ngạc nhiên."
+    },
+    {
+        "original": "I spend a lot of time checking my phone.",
+        "translation": "Tôi dành rất nhiều thời gian kiểm tra điện thoại."
+    },
+    {
+        "original": "Maybe two or three hours total.",
+        "translation": "Có thể tổng cộng là hai hoặc ba giờ."
+    },
+    {
+        "original": "That's a long time.",
+        "translation": "Đó là một khoảng thời gian dài."
+    },
+    {
+        "original": "and I didn't even feel like.",
+        "translation": "và tôi thậm chí còn không cảm thấy như."
+    },
+    {
+        "original": "I was wasting time.",
+        "translation": "Tôi đang lãng phí thời gian."
+    },
+    {
+        "original": "It just happened little by little.",
+        "translation": "Nó chỉ xảy ra từng chút một."
+    },
+    {
+        "original": "so I think awareness is the first step.",
+        "translation": "vì vậy tôi nghĩ rằng nhận thức là bước đầu tiên."
+    },
+    {
+        "original": "You need to know your habits before you can change them.",
+        "translation": "Bạn cần biết các thói quen của mình trước khi bạn có thể thay đổi chúng."
+    },
+    {
+        "original": "Try this exercise.",
+        "translation": "Hãy thử bài tập này."
+    },
+    {
+        "original": "It's very eye opening and helpful.",
+        "translation": "Điều này rất bổ ích và mở mang tầm mắt."
+    },
+    {
+        "original": "That is fantastic exercise.",
+        "translation": "Đó là bài tập tuyệt vời."
+    },
+    {
+        "original": "Mark writing down your activities.",
+        "translation": "Mark viết xuống các hoạt động của bạn."
+    },
+    {
+        "original": "I think many people will be surprised when they try it.",
+        "translation": "Tôi nghĩ nhiều người sẽ cảm thấy ngạc nhiên khi họ thử nó."
+    },
+    {
+        "original": "Okay so now we know the problem.",
+        "translation": "Okay, vậy bây giờ chúng ta biết được vấn đề."
+    },
+    {
+        "original": "We do not always use our time well.",
+        "translation": "Chúng ta không luôn sử dụng thời gian của mình một cách tốt."
+    },
+    {
+        "original": "What can we do about it?.",
+        "translation": "Chúng ta có thể làm gì về điều đó?."
+    },
+    {
+        "original": "Let's talk about some simple strategies.",
+        "translation": "Hãy nói về một số chiến lược đơn giản."
+    },
+    {
+        "original": "One thing I do is make a to do list every morning.",
+        "translation": "Một điều tôi làm là tạo một danh sách công việc cần làm mỗi sáng."
+    },
+    {
+        "original": "I write down three things.",
+        "translation": "Tôi viết xuống ba điều."
+    },
+    {
+        "original": "I want to do that day.",
+        "translation": "Tôi muốn làm điều trong ngày."
+    },
+    {
+        "original": "Only three not 20 things.",
+        "translation": "Chỉ ba điều, không phải 20 điều."
+    },
+    {
+        "original": "Just three important things.",
+        "translation": "Chỉ ba điều quan trọng."
+    },
+    {
+        "original": "This help me focus.",
+        "translation": "Điều này giúp tôi tập trung."
+    },
+    {
+        "original": "I don't feel overwhelmed,",
+        "translation": "Tôi không cảm thấy bị quá tải,"
+    },
+    {
+        "original": "and when I finish all three,",
+        "translation": "và khi tôi hoàn thành cả ba,"
+    },
+    {
+        "original": "I feel great.",
+        "translation": "Tôi cảm thấy tuyệt vời."
+    },
+    {
+        "original": "It's a small habits,",
+        "translation": "Đó là một thói quen nhỏ,"
+    },
+    {
+        "original": "but it makes a big difference.",
+        "translation": "nhưng nó tạo ra một sự khác biệt lớn."
+    },
+    {
+        "original": "",
+        "translation": ""
+    }
+]

@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Passage – Trắc Nghiệm Câu Văn</title>
+    <meta name="description" content="Bài tập trắc nghiệm câu văn tiếng Anh - chọn bản dịch tiếng Việt đúng trong 4 đáp án A, B, C, D">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg:        #080e1f;
+            --bg2:       #0d1529;
+            --surface:   #111827;
+            --surface2:  #1a2540;
+            --surface3:  #1f2d4a;
+            --border:    rgba(255,255,255,0.07);
+            --border2:   rgba(255,255,255,0.12);
+            --accent:    #6366f1;
+            --accent2:   #818cf8;
+            --accent3:   #a5b4fc;
+            --purple:    #7c3aed;
+            --green:     #22c55e;
+            --green2:    #4ade80;
+            --red:       #ef4444;
+            --red2:      #f87171;
+            --amber:     #f59e0b;
+            --text:      #f1f5f9;
+            --text2:     #cbd5e1;
+            --muted:     #64748b;
+            --muted2:    #94a3b8;
+            --radius:    16px;
+            --radius-sm: 10px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ── Gradient background orbs ── */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -20%;
+            left: -10%;
+            width: 60vw;
+            height: 60vh;
+            background: radial-gradient(ellipse, rgba(99,102,241,0.08) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+        body::after {
+            content: '';
+            position: fixed;
+            bottom: -10%;
+            right: -10%;
+            width: 50vw;
+            height: 50vh;
+            background: radial-gradient(ellipse, rgba(124,58,237,0.06) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* ── Navbar ── */
+        header {
+            background: linear-gradient(90deg, #3730a3, #4f46e5, #7c3aed);
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            height: 52px;
+            box-shadow: 0 1px 0 rgba(255,255,255,0.06), 0 4px 24px rgba(0,0,0,0.5);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+        }
+        .nav-logo {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 0.95rem;
+            color: #fff;
+            letter-spacing: -0.02em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+        .nav-logo .logo-icon {
+            width: 28px;
+            height: 28px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+        }
+        .nav-divider {
+            width: 1px;
+            height: 20px;
+            background: rgba(255,255,255,0.2);
+        }
+        .nav-title {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.85);
+        }
+        .nav-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 5px 12px;
+            border-radius: 8px;
+            font-size: 0.79rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.75);
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.15s, color 0.15s;
+            font-family: inherit;
+        }
+        .nav-btn:hover { background: rgba(255,255,255,0.15); color: #fff; }
+        .nav-spacer { flex: 1; }
+
+        /* ── Main layout ── */
+        main {
+            flex: 1;
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 32px 16px 80px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ── Page header ── */
+        .page-header {
+            text-align: center;
+            margin-bottom: 36px;
+        }
+        .page-header .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(99,102,241,0.15);
+            border: 1px solid rgba(99,102,241,0.3);
+            color: var(--accent3);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 99px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+        .page-header h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            background: linear-gradient(135deg, #fff 0%, var(--accent3) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        .page-header p {
+            color: var(--muted2);
+            font-size: 0.9rem;
+            max-width: 480px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* ── Source selector panel ── */
+        #sourcePanel {
+            background: var(--surface);
+            border: 1px solid var(--border2);
+            border-radius: var(--radius);
+            padding: 28px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 32px rgba(0,0,0,0.3);
+        }
+        #sourcePanel h2 {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .source-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+        .source-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 16px;
+            border: 1.5px solid var(--border);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            background: var(--surface2);
+            position: relative;
+            overflow: hidden;
+        }
+        .source-item::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(99,102,241,0.05), transparent);
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .source-item:hover { border-color: var(--accent2); }
+        .source-item:hover::before { opacity: 1; }
+        .source-item.selected {
+            border-color: var(--accent);
+            background: rgba(99,102,241,0.12);
+            box-shadow: 0 0 0 1px rgba(99,102,241,0.2), inset 0 1px 0 rgba(255,255,255,0.05);
+        }
+        .source-item.selected::before { opacity: 1; }
+        .source-item input[type="checkbox"] {
+            accent-color: var(--accent);
+            width: 17px;
+            height: 17px;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+        .source-item-content { flex: 1; min-width: 0; }
+        .source-item-title {
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: var(--text);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .source-item-sub {
+            font-size: 0.75rem;
+            color: var(--muted2);
+            margin-top: 2px;
+        }
+        .source-count {
+            flex-shrink: 0;
+            font-size: 0.72rem;
+            color: var(--muted2);
+            background: rgba(255,255,255,0.05);
+            padding: 3px 10px;
+            border-radius: 99px;
+            border: 1px solid var(--border);
+            white-space: nowrap;
+        }
+        .source-idx {
+            font-size: 0.68rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 6px;
+            background: rgba(99,102,241,0.2);
+            color: var(--accent3);
+            flex-shrink: 0;
+        }
+
+        /* ── Config row ── */
+        .config-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 16px;
+            padding: 16px;
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            margin-bottom: 20px;
+        }
+        .config-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .config-label {
+            font-size: 0.82rem;
+            color: var(--muted2);
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        .config-input {
+            background: var(--surface3);
+            border: 1px solid var(--border2);
+            color: var(--text);
+            padding: 7px 12px;
+            border-radius: 8px;
+            font-size: 0.88rem;
+            width: 90px;
+            font-family: inherit;
+            transition: border-color 0.15s;
+        }
+        .config-input:focus { outline: none; border-color: var(--accent); }
+        .config-total {
+            font-size: 0.78rem;
+            color: var(--muted);
+            margin-left: 4px;
+        }
+
+        /* ── Mode selector ── */
+        .mode-selector {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .mode-btn {
+            flex: 1;
+            padding: 10px 12px;
+            border-radius: var(--radius-sm);
+            border: 1.5px solid var(--border);
+            background: var(--surface2);
+            color: var(--muted2);
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all 0.2s;
+            text-align: center;
+        }
+        .mode-btn:hover { border-color: var(--accent2); color: var(--text2); }
+        .mode-btn.active {
+            border-color: var(--accent);
+            background: rgba(99,102,241,0.15);
+            color: var(--accent3);
+        }
+
+        /* ── Start button ── */
+        #startBtn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            color: #fff;
+            border: none;
+            border-radius: var(--radius-sm);
+            padding: 13px 32px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: opacity 0.15s, transform 0.15s, box-shadow 0.15s;
+            font-family: inherit;
+            box-shadow: 0 4px 20px rgba(99,102,241,0.35);
+        }
+        #startBtn:hover:not(:disabled) {
+            opacity: 0.92;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(99,102,241,0.45);
+        }
+        #startBtn:disabled { opacity: 0.35; cursor: not-allowed; transform: none; box-shadow: none; }
+        #startBtn svg { transition: transform 0.2s; }
+        #startBtn:hover:not(:disabled) svg { transform: translateX(3px); }
+
+        /* ── Loading / Error ── */
+        #loadingState {
+            text-align: center;
+            padding: 80px 20px;
+            color: var(--muted2);
+        }
+        .spinner {
+            width: 44px; height: 44px;
+            border: 3px solid rgba(255,255,255,0.07);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.75s linear infinite;
+            margin: 0 auto 20px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        #errorState {
+            text-align: center;
+            padding: 40px;
+            color: var(--red2);
+            background: rgba(239,68,68,0.07);
+            border: 1px solid rgba(239,68,68,0.18);
+            border-radius: var(--radius);
+        }
+        #errorState .error-icon { font-size: 2.5rem; margin-bottom: 12px; }
+
+        /* ── Quiz panel ── */
+        #quizPanel { display: none; }
+
+        /* Progress */
+        .progress-wrap {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 8px;
+        }
+        .progress-track {
+            flex: 1;
+            height: 5px;
+            background: rgba(255,255,255,0.06);
+            border-radius: 99px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), #a78bfa);
+            border-radius: 99px;
+            transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .progress-label {
+            font-size: 0.75rem;
+            color: var(--muted2);
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        /* Score row */
+        .score-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 28px;
+        }
+        .score-info {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .score-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 99px;
+            background: rgba(34,197,94,0.12);
+            color: var(--green2);
+            border: 1px solid rgba(34,197,94,0.2);
+        }
+        .wrong-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 99px;
+            background: rgba(239,68,68,0.1);
+            color: var(--red2);
+            border: 1px solid rgba(239,68,68,0.2);
+        }
+
+        /* Question card */
+        .question-card {
+            background: var(--surface);
+            border: 1px solid var(--border2);
+            border-radius: var(--radius);
+            padding: 28px 28px 24px;
+            margin-bottom: 20px;
+            animation: fadeSlideUp 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+            position: relative;
+            overflow: hidden;
+        }
+        .question-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent), #a78bfa, #ec4899);
+        }
+        @keyframes fadeSlideUp {
+            from { opacity: 0; transform: translateY(16px) scale(0.98); }
+            to   { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        .q-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+        .q-number {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--accent2);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            background: rgba(99,102,241,0.12);
+            padding: 3px 10px;
+            border-radius: 99px;
+            border: 1px solid rgba(99,102,241,0.2);
+        }
+        .q-mode-tag {
+            font-size: 0.68rem;
+            font-weight: 600;
+            color: var(--muted);
+            background: rgba(255,255,255,0.04);
+            padding: 3px 10px;
+            border-radius: 99px;
+            border: 1px solid var(--border);
+        }
+        .q-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--muted2);
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .q-sentence {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text);
+            line-height: 1.65;
+            letter-spacing: -0.01em;
+        }
+
+        /* Options */
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .option-btn {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 14px 18px;
+            background: var(--surface2);
+            border: 1.5px solid var(--border);
+            border-radius: var(--radius-sm);
+            color: var(--text2);
+            font-size: 0.88rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-align: left;
+            transition: all 0.18s ease;
+            font-family: inherit;
+            line-height: 1.55;
+            position: relative;
+            overflow: hidden;
+        }
+        .option-btn::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(99,102,241,0.06), transparent);
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .option-btn:hover:not(:disabled) {
+            border-color: var(--accent2);
+            color: var(--text);
+            background: var(--surface3);
+            transform: translateX(3px);
+        }
+        .option-btn:hover:not(:disabled)::after { opacity: 1; }
+        .option-btn:disabled { cursor: not-allowed; }
+
+        .option-key {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--border2);
+            font-weight: 800;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+            color: var(--muted2);
+            transition: all 0.18s;
+            font-family: 'Outfit', sans-serif;
+            margin-top: 1px;
+        }
+        .option-text { flex: 1; }
+
+        /* Correct / wrong states */
+        .option-btn.correct {
+            border-color: var(--green) !important;
+            background: rgba(34,197,94,0.1) !important;
+            color: var(--text) !important;
+        }
+        .option-btn.correct .option-key {
+            background: var(--green);
+            border-color: var(--green);
+            color: #fff;
+        }
+        .option-btn.wrong {
+            border-color: var(--red) !important;
+            background: rgba(239,68,68,0.08) !important;
+            color: var(--text) !important;
+        }
+        .option-btn.wrong .option-key {
+            background: var(--red);
+            border-color: var(--red);
+            color: #fff;
+        }
+
+        /* Feedback bar */
+        #feedbackBar {
+            display: none;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 16px 18px;
+            border-radius: var(--radius-sm);
+            margin-bottom: 16px;
+            animation: fadeSlideUp 0.25s ease;
+        }
+        #feedbackBar.correct-fb {
+            background: rgba(34,197,94,0.08);
+            border: 1px solid rgba(34,197,94,0.22);
+        }
+        #feedbackBar.wrong-fb {
+            background: rgba(239,68,68,0.08);
+            border: 1px solid rgba(239,68,68,0.22);
+        }
+        .fb-icon { font-size: 1.4rem; flex-shrink: 0; margin-top: 2px; }
+        .fb-content {}
+        .fb-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        .correct-fb .fb-title { color: var(--green2); }
+        .wrong-fb   .fb-title { color: var(--red2); }
+        .fb-detail {
+            font-size: 0.82rem;
+            color: var(--muted2);
+            line-height: 1.6;
+        }
+        .fb-detail strong { color: var(--text2); font-weight: 600; }
+
+        /* Next button */
+        #nextBtn {
+            display: none;
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            color: #fff;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-size: 0.92rem;
+            font-weight: 700;
+            cursor: pointer;
+            font-family: inherit;
+            transition: opacity 0.15s, transform 0.15s;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            box-shadow: 0 4px 16px rgba(99,102,241,0.3);
+        }
+        #nextBtn:hover { opacity: 0.9; transform: translateY(-1px); }
+
+        /* ── Result screen ── */
+        #resultPanel {
+            display: none;
+            background: var(--surface);
+            border: 1px solid var(--border2);
+            border-radius: var(--radius);
+            padding: 48px 32px;
+            text-align: center;
+            animation: fadeSlideUp 0.4s ease;
+            box-shadow: 0 4px 40px rgba(0,0,0,0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        #resultPanel::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 2px;
+            background: linear-gradient(90deg, var(--accent), #a78bfa, #ec4899);
+        }
+        .result-emoji { font-size: 4rem; margin-bottom: 16px; display: block; }
+        .result-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+            letter-spacing: -0.03em;
+            background: linear-gradient(135deg, #fff 0%, var(--accent3) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .result-sub { color: var(--muted2); font-size: 0.9rem; margin-bottom: 32px; }
+        .result-score-box {
+            display: inline-block;
+            background: linear-gradient(135deg, rgba(99,102,241,0.18), rgba(124,58,237,0.15));
+            border: 1px solid rgba(99,102,241,0.3);
+            border-radius: 20px;
+            padding: 24px 48px;
+            margin-bottom: 32px;
+        }
+        .result-score-big {
+            font-family: 'Outfit', sans-serif;
+            font-size: 4rem;
+            font-weight: 800;
+            color: var(--accent3);
+            line-height: 1;
+            letter-spacing: -0.04em;
+        }
+        .result-score-of { font-size: 0.88rem; color: var(--muted2); margin-top: 6px; }
+        .result-pct {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-top: 6px;
+        }
+        .result-breakdown {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+        }
+        .rb-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 99px;
+        }
+        .rb-correct { background: rgba(34,197,94,0.1); color: var(--green2); border: 1px solid rgba(34,197,94,0.2); }
+        .rb-wrong   { background: rgba(239,68,68,0.1);  color: var(--red2);   border: 1px solid rgba(239,68,68,0.2); }
+
+        .result-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+        .btn-outline {
+            padding: 11px 22px;
+            border-radius: var(--radius-sm);
+            border: 1.5px solid var(--border2);
+            background: transparent;
+            color: var(--text2);
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all 0.15s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+        }
+        .btn-outline:hover { background: rgba(255,255,255,0.06); border-color: var(--accent2); color: var(--text); }
+        .btn-primary {
+            padding: 11px 22px;
+            border-radius: var(--radius-sm);
+            border: none;
+            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            color: #fff;
+            font-size: 0.85rem;
+            font-weight: 700;
+            cursor: pointer;
+            font-family: inherit;
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            transition: opacity 0.15s, transform 0.15s;
+            box-shadow: 0 4px 16px rgba(99,102,241,0.3);
+        }
+        .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+
+        /* ── Utility ── */
+        .hidden { display: none !important; }
+
+        /* ── Scrollbar ── */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 99px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.18); }
+
+        /* ── Responsive ── */
+        @media (max-width: 560px) {
+            .page-header h1 { font-size: 1.5rem; }
+            .question-card { padding: 20px 16px; }
+            .q-sentence { font-size: 1rem; }
+            .option-btn { padding: 12px 14px; font-size: 0.84rem; }
+            #sourcePanel { padding: 20px 16px; }
+            .result-score-big { font-size: 3rem; }
+            .result-score-box { padding: 20px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <a href="index.html" class="nav-logo" aria-label="Trang chủ">
+        <div class="logo-icon">📚</div>
+        <span>EV In Use</span>
+    </a>
+    <div class="nav-divider"></div>
+    <span class="nav-title">📖 Quiz Passage</span>
+    <div class="nav-spacer"></div>
+    <a href="quiz-stories.html" class="nav-btn" id="nav-quiz-stories">
+        🎯 Quiz Stories
+    </a>
+    <a href="typing-passage.html" class="nav-btn" id="nav-typing-passage">
+        ✍️ Viết Passage
+    </a>
+    <a href="typing-stories.html" class="nav-btn" id="nav-typing">
+        ✍️ Luyện Viết
+    </a>
+</header>
+
+<main>
+
+    <!-- Page header -->
+    <div class="page-header">
+        <div class="badge">
+            <span>📝</span>
+            <span>TRẮC NGHIỆM</span>
+        </div>
+        <h1>Quiz Câu Văn (Passage)</h1>
+        <p>Đọc câu tiếng Anh và chọn bản dịch tiếng Việt đúng trong 4 đáp án A, B, C, D</p>
+    </div>
+
+    <!-- Source selector panel -->
+    <div id="sourcePanel">
+        <h2>🗂️ Chọn bài Passage</h2>
+
+        <div id="sourceListEl" class="source-list">
+            <div style="color:var(--muted);font-size:0.85rem;padding:12px 0">Đang tải danh sách bài...</div>
+        </div>
+
+        <!-- Config row -->
+        <div class="config-row">
+            <div class="config-group">
+                <label class="config-label" for="startInput">Câu bắt đầu:</label>
+                <input type="number" class="config-input" id="startInput" value="1" min="1" max="9999" style="width:80px">
+            </div>
+            <div class="config-group">
+                <label class="config-label" for="qtyInput">Số câu hỏi:</label>
+                <input type="number" class="config-input" id="qtyInput" value="20" min="1" max="500">
+                <span class="config-total" id="totalAvail"></span>
+            </div>
+        </div>
+
+        <button id="startBtn" disabled>
+            ▶ Bắt đầu Quiz
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Loading -->
+    <div id="loadingState" class="hidden">
+        <div class="spinner"></div>
+        <p style="font-weight:600;font-size:0.95rem">Đang tải dữ liệu...</p>
+        <p style="color:var(--muted);font-size:0.82rem;margin-top:6px">Vui lòng chờ trong giây lát</p>
+    </div>
+
+    <!-- Error -->
+    <div id="errorState" class="hidden">
+        <div class="error-icon">⚠️</div>
+        <p id="errorMsg" style="font-weight:600;margin-bottom:12px">Không thể tải dữ liệu.</p>
+        <button class="btn-outline" onclick="location.reload()">🔄 Thử lại</button>
+    </div>
+
+    <!-- Quiz panel -->
+    <div id="quizPanel">
+        <!-- Progress -->
+        <div class="progress-wrap">
+            <div class="progress-track">
+                <div class="progress-fill" id="progressFill" style="width:0%"></div>
+            </div>
+            <span class="progress-label" id="progressLabel">0 / 0</span>
+        </div>
+
+        <!-- Score row -->
+        <div class="score-row">
+            <div class="score-info">
+                <span class="score-badge" id="scoreBadge">✓ 0</span>
+                <span class="wrong-badge" id="wrongBadge">✗ 0</span>
+            </div>
+            <button class="btn-outline" id="quitBtn" style="font-size:0.75rem;padding:5px 12px">
+                ✕ Dừng
+            </button>
+        </div>
+
+        <!-- Question card -->
+        <div class="question-card" id="questionCard">
+            <div class="q-header">
+                <span class="q-number" id="qNumber">Câu 1</span>
+                <span class="q-mode-tag">Anh → Việt</span>
+            </div>
+            <div class="q-label">Chọn nghĩa tiếng Việt đúng:</div>
+            <div class="q-sentence" id="qSentence">Đang tải...</div>
+        </div>
+
+        <!-- Options -->
+        <div class="options-list" id="optionsList"></div>
+
+        <!-- Feedback -->
+        <div id="feedbackBar">
+            <span class="fb-icon" id="fbIcon"></span>
+            <div class="fb-content">
+                <div class="fb-title" id="fbTitle"></div>
+                <div class="fb-detail" id="fbDetail"></div>
+            </div>
+        </div>
+
+        <!-- Next button -->
+        <button id="nextBtn" style="display:none">
+            Câu tiếp theo
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Result panel -->
+    <div id="resultPanel">
+        <span class="result-emoji" id="resultEmoji">🎉</span>
+        <div class="result-title">Hoàn thành!</div>
+        <div class="result-sub" id="resultSub">Bạn đã hoàn thành bài quiz</div>
+        <div class="result-score-box">
+            <div class="result-score-big" id="resultScore">0</div>
+            <div class="result-score-of" id="resultOf">/ 0 câu</div>
+            <div class="result-pct" id="resultPct">0%</div>
+        </div>
+        <div class="result-breakdown">
+            <div class="rb-item rb-correct">
+                <span>✓</span>
+                <span id="rbCorrect">0 đúng</span>
+            </div>
+            <div class="rb-item rb-wrong">
+                <span>✗</span>
+                <span id="rbWrong">0 sai</span>
+            </div>
+        </div>
+        <div class="result-actions">
+            <button class="btn-primary" id="retryBtn">🔄 Làm lại</button>
+            <button class="btn-outline" id="backToSetupBtn">⚙️ Đổi bài</button>
+        </div>
+    </div>
+
+</main>
+
+<script>
+// ═══════════════════════════════════════════════════════════════════════
+// CONFIG
+// ═══════════════════════════════════════════════════════════════════════
+const PASSAGE_BASE = 'data/passage';
+const MIN_OPTIONS  = 4;   // need at least 4 sentences to make 4 choices
+const OPTION_KEYS  = ['A', 'B', 'C', 'D'];
+
+// ═══════════════════════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════════════════════
+let passageManifest = [];            // [{id, title, sentenceCount}]
+let dataByPassage   = {};            // { passageId: [{original, translation}] }
+let questions       = [];            // current quiz questions
+let qIndex          = 0;
+let score           = 0;
+let wrongCount      = 0;
+let answered        = false;
+
+// ═══════════════════════════════════════════════════════════════════════
+// DOM REFS
+// ═══════════════════════════════════════════════════════════════════════
+const sourcePanel   = document.getElementById('sourcePanel');
+const sourceListEl  = document.getElementById('sourceListEl');
+const startInput    = document.getElementById('startInput');
+const qtyInput      = document.getElementById('qtyInput');
+const totalAvail    = document.getElementById('totalAvail');
+const startBtn      = document.getElementById('startBtn');
+const loadingState  = document.getElementById('loadingState');
+const errorState    = document.getElementById('errorState');
+const errorMsg      = document.getElementById('errorMsg');
+const quizPanel     = document.getElementById('quizPanel');
+const resultPanel   = document.getElementById('resultPanel');
+const progressFill  = document.getElementById('progressFill');
+const progressLabel = document.getElementById('progressLabel');
+const scoreBadge    = document.getElementById('scoreBadge');
+const wrongBadge    = document.getElementById('wrongBadge');
+const quitBtn       = document.getElementById('quitBtn');
+const qNumber       = document.getElementById('qNumber');
+const qSentence     = document.getElementById('qSentence');
+const optionsList   = document.getElementById('optionsList');
+const feedbackBar   = document.getElementById('feedbackBar');
+const fbIcon        = document.getElementById('fbIcon');
+const fbTitle       = document.getElementById('fbTitle');
+const fbDetail      = document.getElementById('fbDetail');
+const nextBtn       = document.getElementById('nextBtn');
+const resultScore   = document.getElementById('resultScore');
+const resultOf      = document.getElementById('resultOf');
+const resultPct     = document.getElementById('resultPct');
+const resultEmoji   = document.getElementById('resultEmoji');
+const resultSub     = document.getElementById('resultSub');
+const rbCorrect     = document.getElementById('rbCorrect');
+const rbWrong       = document.getElementById('rbWrong');
+const retryBtn      = document.getElementById('retryBtn');
+const backToSetupBtn = document.getElementById('backToSetupBtn');
+
+// ═══════════════════════════════════════════════════════════════════════
+// UTILS
+// ═══════════════════════════════════════════════════════════════════════
+function shuffleArray(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
+// Filter out empty sentences
+function filterSentences(items) {
+    return items.filter(s =>
+        s.original && s.original.trim() !== '' &&
+        s.translation && s.translation.trim() !== ''
+    );
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// LOAD MANIFEST
+// ═══════════════════════════════════════════════════════════════════════
+async function loadManifest() {
+    const res = await fetch(`${PASSAGE_BASE}/manifest.json`);
+    if (!res.ok) throw new Error(`Không thể tải manifest: HTTP ${res.status}`);
+    passageManifest = await res.json();
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// LOAD PASSAGE DATA
+// ═══════════════════════════════════════════════════════════════════════
+async function loadPassage(passageId) {
+    if (dataByPassage[passageId]) return dataByPassage[passageId];
+    const url = `${PASSAGE_BASE}/${passageId}/sentence_json_data.json`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status} – ${url}`);
+    const raw = await res.json();
+    dataByPassage[passageId] = filterSentences(Array.isArray(raw) ? raw : []);
+    return dataByPassage[passageId];
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// BUILD SOURCE LIST
+// ═══════════════════════════════════════════════════════════════════════
+function buildSourceList() {
+    sourceListEl.innerHTML = '';
+
+    if (passageManifest.length === 0) {
+        sourceListEl.innerHTML = '<div style="color:var(--muted);font-size:0.85rem;padding:12px 0">Chưa có bài passage nào.</div>';
+        return;
+    }
+
+    passageManifest.forEach((passage, idx) => {
+        const { id, title } = passage;
+
+        const wrapper = document.createElement('label');
+        wrapper.className = 'source-item';
+        wrapper.setAttribute('for', `chk-${id}`);
+
+        const chk = document.createElement('input');
+        chk.type = 'checkbox';
+        chk.id = `chk-${id}`;
+        chk.value = id;
+        chk.addEventListener('change', updateTotalCount);
+
+        const idxBadge = document.createElement('span');
+        idxBadge.className = 'source-idx';
+        idxBadge.textContent = `#${String(idx + 1).padStart(2, '0')}`;
+
+        const content = document.createElement('div');
+        content.className = 'source-item-content';
+
+        const titleEl = document.createElement('div');
+        titleEl.className = 'source-item-title';
+        titleEl.textContent = title || id;
+
+        const subEl = document.createElement('div');
+        subEl.className = 'source-item-sub';
+        subEl.textContent = 'Đang đếm số câu...';
+
+        content.appendChild(titleEl);
+        content.appendChild(subEl);
+
+        const countSpan = document.createElement('span');
+        countSpan.className = 'source-count';
+        countSpan.id = `count-${id}`;
+        countSpan.textContent = '—';
+
+        wrapper.appendChild(chk);
+        wrapper.appendChild(idxBadge);
+        wrapper.appendChild(content);
+        wrapper.appendChild(countSpan);
+        sourceListEl.appendChild(wrapper);
+
+        // Load sentence count in background
+        loadPassage(id).then(items => {
+            countSpan.textContent = `${items.length.toLocaleString()} câu`;
+            subEl.textContent = `${items.length.toLocaleString()} câu hỏi khả dụng`;
+            updateTotalCount();
+        }).catch(() => {
+            countSpan.textContent = 'Lỗi';
+            subEl.textContent = 'Không thể tải dữ liệu';
+        });
+    });
+}
+
+function getSelectedPassages() {
+    return passageManifest
+        .map(p => p.id)
+        .filter(id => {
+            const chk = document.getElementById(`chk-${id}`);
+            return chk && chk.checked;
+        });
+}
+
+function updateTotalCount() {
+    const selected = getSelectedPassages();
+    let total = 0;
+    selected.forEach(id => { if (dataByPassage[id]) total += dataByPassage[id].length; });
+
+    // Update visual selected state
+    passageManifest.forEach(p => {
+        const chk  = document.getElementById(`chk-${p.id}`);
+        const item = chk && chk.closest('.source-item');
+        if (item) item.classList.toggle('selected', chk.checked);
+    });
+
+    if (total > 0) {
+        totalAvail.textContent = `(có ${total.toLocaleString()} câu)`;
+        startBtn.disabled = false;
+    } else {
+        totalAvail.textContent = selected.length > 0 ? '(Đang tải...)' : '';
+        startBtn.disabled = true;
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// START QUIZ
+// ═══════════════════════════════════════════════════════════════════════
+async function startQuiz() {
+    const selected = getSelectedPassages();
+    if (selected.length === 0) return;
+
+    sourcePanel.classList.add('hidden');
+    loadingState.classList.remove('hidden');
+    errorState.classList.add('hidden');
+
+    try {
+        // Load all selected passages
+        await Promise.all(selected.map(loadPassage));
+
+        // Collect all sentences into pool
+        let pool = [];
+        selected.forEach(id => { pool = pool.concat(dataByPassage[id] || []); });
+
+        if (pool.length < MIN_OPTIONS) {
+            throw new Error(`Cần ít nhất ${MIN_OPTIONS} câu. Hiện có: ${pool.length}`);
+        }
+
+        const qty   = Math.max(1, parseInt(qtyInput.value)  || 20);
+        const start = Math.max(1, parseInt(startInput.value) || 1);
+        // startIdx là 0-based, clamp để không vượt quá pool
+        const startIdx = Math.min(start - 1, pool.length - 1);
+        // Lấy đúng qty câu bắt đầu từ startIdx
+        questions = pool.slice(startIdx, startIdx + qty);
+
+        loadingState.classList.add('hidden');
+        quizPanel.style.display = 'block';
+
+        qIndex = 0; score = 0; wrongCount = 0;
+        scoreBadge.textContent = '✓ 0';
+        wrongBadge.textContent = '✗ 0';
+        showQuestion();
+
+    } catch (err) {
+        loadingState.classList.add('hidden');
+        errorState.classList.remove('hidden');
+        errorMsg.textContent = err.message;
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// QUESTION RENDERING
+// ═══════════════════════════════════════════════════════════════════════
+function showQuestion() {
+    answered = false;
+    feedbackBar.style.display = 'none';
+    feedbackBar.className = '';
+    nextBtn.style.display = 'none';
+    optionsList.innerHTML = '';
+
+    const q = questions[qIndex];
+
+    // Progress
+    const pct = (qIndex / questions.length) * 100;
+    progressFill.style.width = `${pct}%`;
+    progressLabel.textContent = `${qIndex + 1} / ${questions.length}`;
+
+    qNumber.textContent = `Câu ${qIndex + 1}`;
+    qSentence.textContent = q.original;
+
+    // Build distractors: pick 3 wrong translations from pool
+    const correctTranslation = q.translation.trim();
+    const otherTranslations  = questions
+        .map(s => s.translation.trim())
+        .filter(t => t !== correctTranslation);
+
+    const uniqueOthers = [...new Set(otherTranslations)];
+    const distractors  = shuffleArray(uniqueOthers).slice(0, 3);
+
+    // Pad if not enough unique distractors
+    while (distractors.length < 3) {
+        distractors.push('(không có bản dịch phù hợp)');
+    }
+
+    // Mix correct answer among options
+    const optionValues = shuffleArray([correctTranslation, ...distractors]);
+
+    optionValues.forEach((val, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.id = `option-${i}`;
+        btn.innerHTML = `<span class="option-key">${OPTION_KEYS[i]}</span><span class="option-text">${val}</span>`;
+        btn.addEventListener('click', () => selectAnswer(btn, val, correctTranslation, q));
+        optionsList.appendChild(btn);
+    });
+
+    // Keyboard shortcut: A/B/C/D
+    document.onkeydown = (e) => {
+        if (answered) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); goNext(); }
+            return;
+        }
+        const idx = ['a','b','c','d'].indexOf(e.key.toLowerCase());
+        if (idx !== -1) {
+            const btn = optionsList.querySelectorAll('.option-btn')[idx];
+            if (btn) btn.click();
+        }
+    };
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// ANSWER HANDLING
+// ═══════════════════════════════════════════════════════════════════════
+function selectAnswer(clickedBtn, selected, correct, q) {
+    if (answered) return;
+    answered = true;
+
+    // Disable all options
+    optionsList.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
+
+    const isCorrect = selected.trim() === correct.trim();
+
+    // Highlight correct/wrong
+    optionsList.querySelectorAll('.option-btn').forEach(b => {
+        const text = b.querySelector('.option-text').textContent.trim();
+        if (text === correct) b.classList.add('correct');
+    });
+    if (!isCorrect) clickedBtn.classList.add('wrong');
+
+    // Update score
+    if (isCorrect) { score++; } else { wrongCount++; }
+    scoreBadge.textContent = `✓ ${score}`;
+    wrongBadge.textContent = `✗ ${wrongCount}`;
+
+    // Show feedback
+    feedbackBar.style.display = 'flex';
+    if (isCorrect) {
+        feedbackBar.className = 'correct-fb';
+        fbIcon.textContent = '🎉';
+        fbTitle.textContent = 'Chính xác!';
+        fbDetail.innerHTML = `<strong>EN:</strong> ${q.original}<br><strong>VI:</strong> ${correct}`;
+    } else {
+        feedbackBar.className = 'wrong-fb';
+        fbIcon.textContent = '❌';
+        fbTitle.textContent = 'Sai rồi!';
+        fbDetail.innerHTML = `Đáp án đúng: <strong>${correct}</strong>`;
+    }
+
+    // Show next button
+    nextBtn.style.display = 'flex';
+    const isLast = (qIndex + 1 >= questions.length);
+    nextBtn.innerHTML = isLast
+        ? `Xem kết quả <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>`
+        : `Câu tiếp theo <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>`;
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// NAVIGATION
+// ═══════════════════════════════════════════════════════════════════════
+function goNext() {
+    qIndex++;
+    if (qIndex >= questions.length) {
+        showResult();
+    } else {
+        showQuestion();
+        // Scroll question card into view
+        document.getElementById('questionCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// RESULT
+// ═══════════════════════════════════════════════════════════════════════
+function showResult() {
+    quizPanel.style.display = 'none';
+    resultPanel.style.display = 'block';
+    document.onkeydown = null;
+
+    const total = questions.length;
+    const pct   = total > 0 ? Math.round((score / total) * 100) : 0;
+
+    resultScore.textContent = score;
+    resultOf.textContent    = `/ ${total} câu`;
+    resultPct.textContent   = `${pct}%`;
+    rbCorrect.textContent   = `${score} đúng`;
+    rbWrong.textContent     = `${wrongCount} sai`;
+
+    // Emoji based on score
+    if (pct >= 90)      { resultEmoji.textContent = '🏆'; resultSub.textContent = 'Xuất sắc! Bạn thật tuyệt vời!'; }
+    else if (pct >= 70) { resultEmoji.textContent = '🎉'; resultSub.textContent = 'Tốt lắm! Cố gắng thêm nhé!'; }
+    else if (pct >= 50) { resultEmoji.textContent = '💪'; resultSub.textContent = 'Ổn đấy! Luyện tập thêm để tốt hơn!'; }
+    else                { resultEmoji.textContent = '📚'; resultSub.textContent = 'Hãy ôn lại và thử lại nhé!'; }
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// EVENT LISTENERS
+// ═══════════════════════════════════════════════════════════════════════
+startBtn.addEventListener('click', startQuiz);
+nextBtn.addEventListener('click', goNext);
+quitBtn.addEventListener('click', () => {
+    if (confirm('Bạn có muốn dừng bài quiz này không?')) {
+        showResult();
+    }
+});
+
+retryBtn.addEventListener('click', () => {
+    resultPanel.style.display = 'none';
+    // Reset and restart with same settings
+    qIndex = 0; score = 0; wrongCount = 0;
+    scoreBadge.textContent = '✓ 0';
+    wrongBadge.textContent = '✗ 0';
+    progressFill.style.width = '0%';
+    // Keep original sequential order on retry
+    quizPanel.style.display = 'block';
+    showQuestion();
+});
+
+backToSetupBtn.addEventListener('click', () => {
+    resultPanel.style.display = 'none';
+    quizPanel.style.display = 'none';
+    sourcePanel.classList.remove('hidden');
+    document.onkeydown = null;
+    updateTotalCount();
+});
+
+// ═══════════════════════════════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════════════════════════════
+async function init() {
+    try {
+        await loadManifest();
+        buildSourceList();
+    } catch (err) {
+        errorState.classList.remove('hidden');
+        errorMsg.textContent = `Lỗi tải danh sách: ${err.message}`;
+        console.error(err);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
