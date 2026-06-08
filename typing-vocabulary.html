@@ -861,22 +861,35 @@ function checkAnswer() {
         feedbackBar.className = 'correct-fb';
         fbIcon.textContent  = '🎉';
         fbTitle.textContent = 'Chính xác!';
-        fbAnswerBlock.innerHTML = `
-            <div class="fb-row"><span class="lbl">VN</span><span class="val">${escapeHtml(q.vnMeaning)}</span></div>
-            <div class="fb-row"><span class="lbl">EN</span><span class="val correct-val">${escapeHtml(q.word)}</span></div>`;
+        fbAnswerBlock.innerHTML = buildAnswerDetail(q, null);
     } else {
         scoreWrong++;
-        mistakes.push({ vn: q.vnMeaning, en: q.word, typed, skipped: false });
+        mistakes.push({ q, typed, skipped: false });
         feedbackBar.className = 'wrong-fb';
         fbIcon.textContent  = '❌';
         fbTitle.textContent = 'Chưa đúng!';
-        fbAnswerBlock.innerHTML = `
-            <div class="fb-row"><span class="lbl">Bạn gõ</span><span class="val wrong-val">${escapeHtml(typed)}</span></div>
-            <div class="fb-row"><span class="lbl">Đáp án</span><span class="val correct-val">${escapeHtml(q.word)}</span></div>`;
+        fbAnswerBlock.innerHTML = buildAnswerDetail(q, typed);
     }
 
     updateBadges();
     showNextBtn();
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// HELPER: build full answer detail HTML
+// ═══════════════════════════════════════════════════════════════════════
+function buildAnswerDetail(q, typedWrong) {
+    let html = '';
+    if (typedWrong !== null) {
+        html += `<div class="fb-row"><span class="lbl">Bạn gõ</span><span class="val wrong-val">${escapeHtml(typedWrong)}</span></div>`;
+    }
+    html += `<div class="fb-row"><span class="lbl">EN</span><span class="val correct-val">${escapeHtml(q.word)}</span></div>`;
+    if (q.vnMeaning)       html += `<div class="fb-row"><span class="lbl">Nghĩa VN</span><span class="val">${escapeHtml(q.vnMeaning)}</span></div>`;
+    if (q.definition)      html += `<div class="fb-row"><span class="lbl">Definition</span><span class="val">${escapeHtml(q.definition)}</span></div>`;
+    if (q.vnDefinition)    html += `<div class="fb-row"><span class="lbl">Định nghĩa VN</span><span class="val">${escapeHtml(q.vnDefinition)}</span></div>`;
+    if (q.exampleSentence) html += `<div class="fb-row"><span class="lbl">Example</span><span class="val">${escapeHtml(q.exampleSentence)}</span></div>`;
+    if (q.vnExampleSentence) html += `<div class="fb-row"><span class="lbl">Ví dụ VN</span><span class="val">${escapeHtml(q.vnExampleSentence)}</span></div>`;
+    return html;
 }
 
 // ═══════════════════════════════════════════════════════════════════════
@@ -892,7 +905,7 @@ function skipWord() {
     skipBtn.disabled = true;
 
     const q = questions[qIndex];
-    mistakes.push({ vn: q.vnMeaning, en: q.word, typed: '', skipped: true });
+    mistakes.push({ q, typed: '', skipped: true });
 
     hintChars.querySelectorAll('.hint-char:not(.space)').forEach(el => {
         el.classList.add('revealed'); el.textContent = el.dataset.char;
@@ -903,7 +916,7 @@ function skipWord() {
     feedbackBar.className = 'skip-fb';
     fbIcon.textContent  = '⏭';
     fbTitle.textContent = 'Bỏ qua!';
-    fbAnswerBlock.innerHTML = `<div class="fb-row"><span class="lbl">Đáp án</span><span class="val correct-val">${escapeHtml(q.word)}</span></div>`;
+    fbAnswerBlock.innerHTML = buildAnswerDetail(q, null);
 
     updateBadges();
     showNextBtn();
@@ -957,15 +970,19 @@ function showResult() {
         reviewCount.textContent = mistakes.length;
         reviewList.innerHTML = '';
         mistakes.forEach(m => {
+            const q    = m.q;
             const item = document.createElement('div');
             item.className = 'review-item';
-            item.innerHTML = `
-                <div class="rv-meaning">🇻🇳 ${escapeHtml(m.vn)}</div>
-                <div class="rv-correct">🇬🇧 ${escapeHtml(m.en)}</div>
-                ${m.skipped
-                    ? `<div class="rv-skip"><span class="item-label">Trạng thái</span>Bỏ qua</div>`
-                    : `<div class="rv-typed"><span class="item-label">Bạn gõ</span>${escapeHtml(m.typed)}</div>`
-                }`;
+            let html = `<div class="rv-correct">🇬🇧 ${escapeHtml(q.word)}</div>`;
+            if (q.vnMeaning)         html += `<div class="rv-meaning"><span class="item-label">Nghĩa VN:</span> ${escapeHtml(q.vnMeaning)}</div>`;
+            if (q.definition)        html += `<div class="rv-meaning"><span class="item-label">Definition:</span> ${escapeHtml(q.definition)}</div>`;
+            if (q.vnDefinition)      html += `<div class="rv-meaning"><span class="item-label">Định nghĩa VN:</span> ${escapeHtml(q.vnDefinition)}</div>`;
+            if (q.exampleSentence)   html += `<div class="rv-meaning"><span class="item-label">Example:</span> ${escapeHtml(q.exampleSentence)}</div>`;
+            if (q.vnExampleSentence) html += `<div class="rv-meaning"><span class="item-label">Ví dụ VN:</span> ${escapeHtml(q.vnExampleSentence)}</div>`;
+            html += m.skipped
+                ? `<div class="rv-skip"><span class="item-label">Trạng thái</span>Bỏ qua</div>`
+                : `<div class="rv-typed"><span class="item-label">Bạn gõ</span>${escapeHtml(m.typed)}</div>`;
+            item.innerHTML = html;
             reviewList.appendChild(item);
         });
     } else {

@@ -241,7 +241,12 @@
         .fb-text { font-size: 0.88rem; font-weight: 700; margin-bottom: 3px; }
         .correct-fb .fb-text { color: var(--green2); }
         .wrong-fb   .fb-text { color: var(--red2); }
-        .fb-answer { font-size: 0.82rem; color: var(--muted2); line-height: 1.5; }
+        .fb-answer { font-size: 0.82rem; color: var(--muted2); line-height: 1.6; }
+        .fb-answer .fb-row { margin-bottom: 3px; }
+        .fb-answer .lbl { color: var(--muted); font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 6px; }
+        .fb-answer .val { color: var(--text2); }
+        .fb-answer .correct-val { color: var(--green2); font-weight: 700; }
+        .fb-answer .wrong-val   { color: var(--red2); text-decoration: line-through; }
 
         #nextBtn {
             display: none; width: 100%; padding: 13px;
@@ -683,16 +688,33 @@ function selectAnswer(clickedBtn, selected, correct) {
         feedbackBar.className = 'correct-fb';
         fbIcon.textContent = '🎉';
         fbText.textContent  = 'Chính xác!';
-        fbAnswer.innerHTML  = `<strong>${q.word}</strong>${q.wordType ? ` <em>(${q.wordType})</em>` : ''} → <strong>${correct}</strong>`;
+        fbAnswer.innerHTML  = buildAnswerDetail(q);
     } else {
         feedbackBar.className = 'wrong-fb';
         fbIcon.textContent = '❌';
         fbText.textContent  = 'Sai rồi!';
-        fbAnswer.innerHTML  = `Đáp án đúng: <strong>${q.word}</strong> → <strong>${correct}</strong>`;
+        fbAnswer.innerHTML  = buildAnswerDetail(q);
     }
 
     nextBtn.style.display = 'block';
     nextBtn.textContent = (qIndex + 1 >= questions.length) ? 'Xem kết quả 🏆' : 'Câu tiếp theo →';
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// HELPER: build full answer detail HTML
+// ═══════════════════════════════════════════════════════════════════════
+function escapeHtml(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function buildAnswerDetail(q) {
+    let html = '';
+    html += `<div class="fb-row"><span class="lbl">EN</span><span class="val correct-val">${escapeHtml(q.word)}</span></div>`;
+    if (q.vnMeaning)         html += `<div class="fb-row"><span class="lbl">Nghĩa VN</span><span class="val">${escapeHtml(q.vnMeaning)}</span></div>`;
+    if (q.definition)        html += `<div class="fb-row"><span class="lbl">Definition</span><span class="val">${escapeHtml(q.definition)}</span></div>`;
+    if (q.vnDefinition)      html += `<div class="fb-row"><span class="lbl">Định nghĩa VN</span><span class="val">${escapeHtml(q.vnDefinition)}</span></div>`;
+    if (q.exampleSentence)   html += `<div class="fb-row"><span class="lbl">Example</span><span class="val">${escapeHtml(q.exampleSentence)}</span></div>`;
+    if (q.vnExampleSentence) html += `<div class="fb-row"><span class="lbl">Ví dụ VN</span><span class="val">${escapeHtml(q.vnExampleSentence)}</span></div>`;
+    return html;
 }
 
 // ═══════════════════════════════════════════════════════════════════════
