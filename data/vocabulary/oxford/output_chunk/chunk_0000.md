@@ -1,5 +1,5 @@
-a indefinite article
-an indefinite article
+a indefinite article.
+an indefinite article.
 abandon v.
 ability n.
 able adj.
