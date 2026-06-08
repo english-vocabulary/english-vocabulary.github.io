@@ -1,4 +1,7 @@
 {
   "editor.formatOnSave": true,
-  "cSpell.language": "en,vi"
+  "cSpell.language": "en,vi",
+  "cSpell.words": [
+    "résumé"
+  ]
 }
