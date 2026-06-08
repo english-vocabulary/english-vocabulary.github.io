@@ -82,10 +82,10 @@ alcohol n.
 alcoholic adj.
 alive adj.
 all det., pron., adv.
-all right adj./adv.
+all right adj., adv.
 allow v.
 almost adv.
-alone adj./adv.
+alone adj., adv.
 along prep., adv.
 already adv.
 also adv.
@@ -114,7 +114,7 @@ annoy v.
 annoyed adj.
 annoying adj.
 annual adj.
-another det./pron.
+another det., pron.
 answer n., v.
 anxious adj.
 any det., pron., adv.
@@ -278,7 +278,7 @@ bicycle n.
 big adj.
 bike n.
 bill n., v.
-billion number
+billion number.
 biology n.
 bird n.
 birth n.
@@ -311,7 +311,7 @@ boring adj.
 born v.
 borrow v.
 boss n.
-both det./pron.
+both det., pron.
 bother v.
 bottle n.
 bottom n., adj.
@@ -821,7 +821,7 @@ during prep.
 dust n.
 duty n.
 DVD n.
-each det./pron./adv.
+each det., pron., adv.
 ear n.
 early adj., adv.
 earn v.
@@ -848,10 +848,10 @@ effectively adv.
 efficient adj.
 effort n.
 egg n.
-eight number
-eighteen number
-eighty number
-either det./pron., adv.
+eight number.
+eighteen number.
+eighty number.
+either det., pron., adv.
 elderly adj.
 elect v.
 election n.
@@ -862,7 +862,7 @@ electronic adj.
 element n.
 elephant n.
 elevator n.
-eleven number
+eleven number.
 else adv.
 elsewhere adv.
 email n., v.
@@ -1030,12 +1030,12 @@ female adj., n.
 fence n.
 festival n.
 fever n.
-few det./adj., pron.
+few det., adj., pron.
 fiction n.
 field n.
-fifteen number
-fifth number
-fifty number
+fifteen number.
+fifth number.
+fifty number.
 fight v., n.
 fighting n.
 figure n., v.
@@ -1053,12 +1053,12 @@ finger n.
 finish v., n.
 fire n., v.
 firm n.
-first det./number, adv., n.
+first det., number, adv., n.
 fish n., v.
 fishing n.
 fit v., adj.
 fitness n.
-five number
+five number.
 fix v., n.
 fixed adj.
 flag n.
@@ -1098,12 +1098,12 @@ formal adj.
 former adj.
 fortunately adv.
 fortune n.
-forty number
+forty number.
 forward adv., adj.
 found v.
-four number
-fourteen number
-fourth number
+four number.
+fourteen number.
+fourth number.
 frame n., v.
 free adj., adv., v.
 freedom n.
@@ -1175,7 +1175,7 @@ god n.
 gold n., adj.
 golf n.
 good adj., n.
-goodbye exclam./n.
+goodbye exclam., n.
 goods n.
 govern v.
 government n.
@@ -1213,7 +1213,7 @@ guy n.
 gym n.
 habit n.
 hair n.
-half n., det./pron., adv.
+half n., det., pron., adv.
 hall n.
 hand n., v.
 handle v., n.
@@ -1248,7 +1248,7 @@ heel n.
 height n.
 helicopter n.
 hell n.
-hello exclam./n.
+hello exclam., n.
 help v., n.
 helpful adj.
 her pron., det.
@@ -1302,7 +1302,7 @@ huge adj.
 human adj., n.
 humor n.
 humorous adj.
-hundred number
+hundred number.
 hungry adj.
 hunt v., n.
 hunting n.
@@ -1507,7 +1507,7 @@ league n.
 lean v.
 learn v.
 learning n.
-least det./pron., adv.
+least det., pron., adv.
 leather n.
 leave v., n.
 lecture n., v.
@@ -1518,7 +1518,7 @@ leisure n.
 lemon n.
 lend v.
 length n.
-less det./pron., adv.
+less det., pron., adv.
 lesson n.
 let v.
 letter n.
@@ -1530,12 +1530,10 @@ lie2 (tell a lie) v., n.
 life n.
 lifestyle n.
 lift v.
-light (from the sun/a lamp) n.,
-adj., v.
+light (from the sun/a lamp) n.,adj., v.
 light (not heavy) adj.
 like (similar) prep.
-like (find sb/sth pleasant) v.,
-n.
+like (find sb/sth pleasant) v., n.
 likely adj.
 limit n., v.
 limited adj.
@@ -1548,7 +1546,7 @@ list n., v.
 listen v.
 listener n.
 literature n.
-little adj., det./pron., adv.
+little adj., det., pron., adv.
 live1 v.
 live2 adj., adv.
 lively adj.
@@ -1599,7 +1597,7 @@ manage v.
 management n.
 manager n.
 manner n.
-many det./pron.
+many det., pron.
 map n., v.
 March n.
 mark v., n.
@@ -1611,8 +1609,7 @@ marry v.
 mass n., adj.
 massive adj.
 master n., v.
-match (contest/correspond) n.,
-v.
+match (contest/correspond) n., v.
 matching adj.
 material n., adj.
 math n.
@@ -1656,7 +1653,7 @@ mild adj.
 mile n.
 military adj., n.
 milk n.
-million number
+million number.
 mind n., v.
 mine (belongs to me) pron.
 mine (hole in the ground) n.
@@ -1687,9 +1684,9 @@ month n.
 mood n.
 moon n.
 moral adj., n.
-more det./pron., adv.
+more det., pron., adv.
 morning n.
-most det./pron., adv.
+most det., pron., adv.
 mostly adv.
 mother n.
 motor n., adj.
@@ -1701,7 +1698,7 @@ mouth n.
 move v., n.
 movement n.
 movie n.
-much det./pron., adv.
+much det., pron., adv.
 mud n.
 multiple adj.
 multiply v.
@@ -1737,7 +1734,7 @@ needle n.
 negative adj., n.
 neighbor n.
 neighborhood n.
-neither det./pron., adv.
+neither det., pron., adv.
 nerve n.
 nervous adj.
 net n.
@@ -1752,16 +1749,16 @@ next to prep.
 nice adj.
 night n.
 nightmare n.
-nine number
-nineteen number
-ninety number
+nine number.
+nineteen number.
+ninety number.
 no exclam., det.
 no one pron.
 nobody pron.
 noise n.
 noisy adj.
 none pron.
-nor conj./adv.
+nor conj., adv.
 normal adj., n.
 normally adv.
 north n., adj., adv.
@@ -1809,12 +1806,12 @@ official adj., n.
 often adv.
 oh exclam.
 oil n.
-OK exclam., adj./adv.
+OK exclam., adj., adv.
 old adj.
 old-fashioned adj.
 on prep., adv.
 once adv., conj.
-one number/det., pron.
+one number., det., pron.
 onion n.
 online adj., adv.
 only adj., adv.
@@ -1843,26 +1840,25 @@ organizer n.
 origin n.
 original adj., n.
 originally adv.
-other adj./pron.
+other adj., pron.
 otherwise adv.
 ought modal v.
 our det.
 ours pron.
 ourselves pron.
-out adv./prep.
+out adv., prep.
 outcome n.
 outdoor adj.
 outdoors adv.
 outer adj.
 outline n., v.
-outside adv., prep., noun.,
-adj.
+outside adv., prep., noun., adj.
 oven n.
 over prep., adv.
 overall adj., adv.
 overseas adv., adj.
 owe v.
-own adj./pron., v.
+own adj., pron., v.
 owner n.
 pace n., v.
 pack v., n.
@@ -1911,7 +1907,7 @@ penny n.
 people n.
 pepper n.
 per prep.
-percent noun., adj./adv.
+percent noun., adj., adv.
 percentage n.
 perfect adj.
 perfectly adv.
@@ -2321,8 +2317,7 @@ sea n.
 search n., v.
 season n.
 seat n., v.
-second1 (next after the first) det./
-number, adv.
+second1 (next after the first) det., number, adv.
 second1 (unit of time) n.
 secondary adj.
 secret adj., n.
@@ -2361,10 +2356,10 @@ set (put) v.
 set (group) n.
 setting n.
 settle v.
-seven number
-seventeen number
-seventy number
-several det./pron.
+seven number.
+seventeen number.
+seventy number.
+several det., pron.
 severe adj.
 sex n.
 sexual adj.
@@ -2433,9 +2428,9 @@ sister n.
 sit v.
 site n.
 situation n.
-six number
-sixteen number
-sixty number
+six number.
+sixteen number.
+sixty number.
 size n.
 ski v., n.
 skiing n.
@@ -2589,7 +2584,7 @@ succeed v.
 success n.
 successful adj.
 successfully adv.
-such det./pron.
+such det., pron.
 sudden adj.
 suddenly adv.
 suffer v.
@@ -2665,7 +2660,7 @@ television n.
 tell v.
 temperature n.
 temporary adj.
-ten number
+ten number.
 tend v.
 tennis n.
 tent n.
@@ -2677,7 +2672,7 @@ than conj.
 thank v.
 thanks exclam., n.
 that det., pron., conj., adv.
-the definite article
+the definite article.
 theater n.
 their det.
 theirs pron.
@@ -2698,32 +2693,32 @@ think v.
 thinking n.
 third number, n.
 thirsty adj.
-thirteen number
-thirty number
-this det./pron., adv.
+thirteen number.
+thirty number.
+this det., pron., adv.
 though conj., adv.
 thought n.
-thousand number
+thousand number.
 threat n.
 threaten v.
-three number
+three number.
 throat n.
 through prep., adv.
-throughout prep./adv.
+throughout prep., adv.
 throw v.
 Thursday n.
 thus adv.
 ticket n.
 tie v., n.
 tight adj.
-till conj./prep.
+till conj., prep.
 time n., v.
 tiny adj.
 tip n., v.
 tire n.
 tired adj.
 title n., v.
-to prep., infinitive marker
+to prep., infinitive marker.
 today adv., n.
 toe n.
 together adv.
@@ -2791,11 +2786,11 @@ tune n.
 tunnel n.
 turn v., n.
 TV n.
-twelve number
-twenty number
+twelve number.
+twenty number.
 twice adv.
 twin n., adj.
-two number
+two number.
 type n., v.
 typical adj.
 typically adv.
@@ -2830,7 +2825,7 @@ unlike prep.
 unlikely adj.
 unnecessary adj.
 unpleasant adj.
-until conj./prep.
+until conj., prep.
 unusual adj.
 up adv., prep.
 update v., n.
@@ -2924,8 +2919,8 @@ well adv., adj., exclam.
 west n., adj., adv.
 western adj.
 wet adj.
-what pron./det.
-whatever det./pron.
+what pron., det.
+whatever det., pron.
 wheel n.
 when adv., pron., conj.
 whenever conj.
@@ -2933,14 +2928,14 @@ where adv., conj.
 whereas conj.
 wherever conj.
 whether conj.
-which pron./det.
+which pron., det.
 while conj., n.
 whisper v., n.
 white adj., n.
 who pron.
 whole adj., n.
 whom pron.
-whose det./pron.
+whose det., pron.
 why adv.
 wide adj.
 widely adv.
@@ -3003,7 +2998,7 @@ your det.
 yours pron.
 yourself pron.
 youth n.
-zero number
+zero number.
 zone n.
 abolish v.
 abortion n.
@@ -3801,7 +3796,7 @@ frustrated adj.
 frustrating adj.
 frustration n.
 fulfill v.
-full-time adj./adv.
+full-time adj., adv.
 functional adj.
 fundamentally adv.
 fundraising n.
@@ -4169,8 +4164,7 @@ minimal adj.
 minimize v.
 mining n.
 ministry n.
-minute
-2 adj.
+minute2 adj.
 miracle n.
 miserable adj.
 misery n.
@@ -4306,7 +4300,7 @@ partial adj.
 partially adv.
 participation n.
 partnership n.
-part-time adj./adv.
+part-time adj., adv.
 passing n.
 passionate adj.
 passive adj.
@@ -4324,8 +4318,7 @@ peasant n.
 peculiar adj.
 peer n.
 penalty n.
-pension
-1 n.
+pension1 n.
 perceive v.
 perception n.
 permanently adv.
@@ -4486,8 +4479,7 @@ recipient n.
 reckon v.
 recognition n.
 reconstruction n.
-recount
-1 v.
+recount1 v.
 recovery n.
 recruit v., n.
 recruitment n.
@@ -4870,7 +4862,7 @@ trace v., n.
 trademark n.
 trading n.
 tragedy n.
-tragic adj.,
+tragic adj.
 trail n., v.
 trailer n.
 trait n.
@@ -4891,7 +4883,7 @@ tribal adj.
 tribe n.
 tribute n.
 trigger v., n.
-trillion number
+trillion number.
 trio n.
 triumph n.
 troop n.
@@ -4949,7 +4941,7 @@ versus conj.
 vertical adj.
 vessel n.
 veteran n.
-viable adj.,
+viable adj.
 vibrant adj.
 vice n.
 vicious adj.
