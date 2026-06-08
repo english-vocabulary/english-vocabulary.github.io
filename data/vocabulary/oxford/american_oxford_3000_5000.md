@@ -4609,16 +4609,18 @@ secular adj.
 seeker n.
 seemingly adv.
 segment n.
-seize
-v.
+seize v.
 seldom adv.
 selective adj.
 seminar n.
 sensation n.
 sensitivity n.
 sentiment n.
-separation n. serial adj. settlement n.
-settler n. setup n.
+separation n.
+serial adj.
+settlement n.
+settler n.
+setup n.
 severely adv.
 sexuality n.
 sexy adj.
@@ -4640,7 +4642,8 @@ sibling n.
 sidewalk n.
 sigh v., n.
 signature n.
-significance n. simulate v.
+significance n.
+simulate v.
 simulation n.
 simultaneously adv.
 sin n.
