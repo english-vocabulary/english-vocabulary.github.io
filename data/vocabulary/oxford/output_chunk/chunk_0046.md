@@ -1,10 +1,13 @@
-classical adj.
-classroom n.
-clause n.
-clean adj., v.
-clear adj., v.
-clearly adv.
-clerk n.
-clever adj.
-click v., n.
-client n.
+classical (adj.)
+classroom (n.)
+clause (n.)
+clean (adj.)
+clean (v.)
+clear (adj.)
+clear (v.)
+clearly (adv.)
+clerk (n.)
+clever (adj.)
+click (v.)
+click (n.)
+client (n.)

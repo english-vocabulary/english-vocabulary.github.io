@@ -1,10 +1,11 @@
-soak v.
-soar v.
-so-called adj.
-socialist adj.
-sole adj.
-solely adv.
-solidarity n.
-solo adj., n.
-somehow adv.
-sometime adv.
+soak (v.)
+soar (v.)
+so-called (adj.)
+socialist (adj.)
+sole (adj.)
+solely (adv.)
+solidarity (n.)
+solo (adj.)
+solo (n.)
+somehow (adv.)
+sometime (adv.)

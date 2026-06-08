@@ -1,10 +1,18 @@
-best adj., adv., n.
-bet v., n.
-better adj., adv., n.
-between prep., adv.
-beyond prep., adv.
-bicycle n.
-big adj.
-bike n.
-bill n., v.
+best (adj.)
+best (adv.)
+best (n.)
+bet (v.)
+bet (n.)
+better (adj.)
+better (adv.)
+better (n.)
+between (prep.)
+between (adv.)
+beyond (prep.)
+beyond (adv.)
+bicycle (n.)
+big (adj.)
+bike (n.)
+bill (n.)
+bill (v.)
 billion number

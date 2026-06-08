@@ -1,10 +1,16 @@
-leave v., n.
-lecture n., v.
-left adj., adv., n.
-leg n.
-legal adj.
-leisure n.
-lemon n.
-lend v.
-length n.
-less det./pron., adv.
+leave (v.)
+leave (n.)
+lecture (n.)
+lecture (v.)
+left (adj.)
+left (adv.)
+left (n.)
+leg (n.)
+legal (adj.)
+leisure (n.)
+lemon (n.)
+lend (v.)
+length (n.)
+less (det.)
+less (pron.)
+less (adv.)

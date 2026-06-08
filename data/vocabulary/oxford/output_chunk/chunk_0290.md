@@ -1,10 +1,14 @@
-watch v., n.
-water n., v.
-wave n., v.
-way n., adv.
-we pron.
-weak adj.
-weakness n.
-wealth n.
-wealthy adj.
-weapon n.
+watch (v.)
+watch (n.)
+water (n.)
+water (v.)
+wave (n.)
+wave (v.)
+way (n.)
+way (adv.)
+we (pron.)
+weak (adj.)
+weakness (n.)
+wealth (n.)
+wealthy (adj.)
+weapon (n.)

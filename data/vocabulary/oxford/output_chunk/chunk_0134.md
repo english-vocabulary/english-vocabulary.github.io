@@ -1,10 +1,11 @@
-impress v.
-impressed adj.
-impression n.
-impressive adj.
-improve v.
-improvement n.
-in prep., adv.
-inch n.
-incident n.
-include v.
+impress (v.)
+impressed (adj.)
+impression (n.)
+impressive (adj.)
+improve (v.)
+improvement (n.)
+in (prep.)
+in (adv.)
+inch (n.)
+incident (n.)
+include (v.)

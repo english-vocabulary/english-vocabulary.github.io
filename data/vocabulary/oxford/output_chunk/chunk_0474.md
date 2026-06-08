@@ -1,10 +1,11 @@
-stunning adj.
-submission n.
-subscriber n.
-subscription n.
-subsequent adj.
-subsequently adv.
-subsidy n.
-substantial adj.
-substantially adv.
-substitute n., v.
+stunning (adj.)
+submission (n.)
+subscriber (n.)
+subscription (n.)
+subsequent (adj.)
+subsequently (adv.)
+subsidy (n.)
+substantial (adj.)
+substantially (adv.)
+substitute (n.)
+substitute (v.)

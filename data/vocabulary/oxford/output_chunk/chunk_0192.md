@@ -1,10 +1,11 @@
-permanent adj.
-permission n.
-permit v., n.
-person n.
-personal adj.
-personality n.
-personally adv.
-perspective n.
-persuade v.
-pet n.
+permanent (adj.)
+permission (n.)
+permit (v.)
+permit (n.)
+person (n.)
+personal (adj.)
+personality (n.)
+personally (adv.)
+perspective (n.)
+persuade (v.)
+pet (n.)

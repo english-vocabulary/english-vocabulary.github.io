@@ -1,10 +1,16 @@
-curve n., v.
-curved adj.
-custom n.
-customer n.
-cut v., n.
-cycle n., v.
-dad n.
-daily adj., adv.
-damage n., v.
-dance n., v.
+curve (n.)
+curve (v.)
+curved (adj.)
+custom (n.)
+customer (n.)
+cut (v.)
+cut (n.)
+cycle (n.)
+cycle (v.)
+dad (n.)
+daily (adj.)
+daily (adv.)
+damage (n.)
+damage (v.)
+dance (n.)
+dance (v.)

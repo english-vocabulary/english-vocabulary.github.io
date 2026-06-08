@@ -1,10 +1,13 @@
-major adj., n.
-majority n.
-make v., n.
-male adj., n.
-mall n.
-man n.
-manage v.
-management n.
-manager n.
-manner n.
+major (adj.)
+major (n.)
+majority (n.)
+make (v.)
+make (n.)
+male (adj.)
+male (n.)
+mall (n.)
+man (n.)
+manage (v.)
+management (n.)
+manager (n.)
+manner (n.)

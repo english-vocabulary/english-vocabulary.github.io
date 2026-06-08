@@ -1,10 +1,13 @@
-raid n., v.
-rail n.
-rally n., v.
-random adj.
-ranking n.
-rape n., v.
-rat n.
-rating n.
-ratio n.
-rational adj.
+raid (n.)
+raid (v.)
+rail (n.)
+rally (n.)
+rally (v.)
+random (adj.)
+ranking (n.)
+rape (n.)
+rape (v.)
+rat (n.)
+rating (n.)
+ratio (n.)
+rational (adj.)

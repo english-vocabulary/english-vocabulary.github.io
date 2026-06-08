@@ -1,10 +1,14 @@
-holy adj.
-home n., adv., adj.
-homework n.
-honest adj.
-honor n., v.
-hope v., n.
-horrible adj.
-horror n.
-horse n.
-hospital n.
+holy (adj.)
+home (n.)
+home (adv.)
+home (adj.)
+homework (n.)
+honest (adj.)
+honor (n.)
+honor (v.)
+hope (v.)
+hope (n.)
+horrible (adj.)
+horror (n.)
+horse (n.)
+hospital (n.)

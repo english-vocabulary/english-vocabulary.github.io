@@ -1,10 +1,11 @@
-instruct v.
-instrumental adj.
-insufficient adj.
-insult n., v.
-intact adj.
-intake n.
-integral adj.
-integrate v.
-integrated adj.
-integration n.
+instruct (v.)
+instrumental (adj.)
+insufficient (adj.)
+insult (n.)
+insult (v.)
+intact (adj.)
+intake (n.)
+integral (adj.)
+integrate (v.)
+integrated (adj.)
+integration (n.)

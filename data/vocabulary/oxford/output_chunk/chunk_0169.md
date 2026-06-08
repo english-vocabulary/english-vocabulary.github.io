@@ -1,10 +1,14 @@
-most det./pron., adv.
-mostly adv.
-mother n.
-motor n., adj.
-motorcycle n.
-mount v.
-mountain n.
-mouse n.
-mouth n.
-move v., n.
+most (det.)
+most (pron.)
+most (adv.)
+mostly (adv.)
+mother (n.)
+motor (n.)
+motor (adj.)
+motorcycle (n.)
+mount (v.)
+mountain (n.)
+mouse (n.)
+mouth (n.)
+move (v.)
+move (n.)

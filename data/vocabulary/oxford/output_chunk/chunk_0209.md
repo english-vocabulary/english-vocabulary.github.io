@@ -1,10 +1,13 @@
-publication n.
-publish v.
-pull v., n.
-punish v.
-punishment n.
-purchase n., v.
-pure adj.
-purple adj., n.
-purpose n.
-pursue v.
+publication (n.)
+publish (v.)
+pull (v.)
+pull (n.)
+punish (v.)
+punishment (n.)
+purchase (n.)
+purchase (v.)
+pure (adj.)
+purple (adj.)
+purple (n.)
+purpose (n.)
+pursue (v.)

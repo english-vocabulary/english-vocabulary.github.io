@@ -1,10 +1,12 @@
-know v.
-knowledge n.
-lab n.
-label n., v.
-labor n.
-laboratory n.
-lack n., v.
-lady n.
-lake n.
-lamp n.
+know (v.)
+knowledge (n.)
+lab (n.)
+label (n.)
+label (v.)
+labor (n.)
+laboratory (n.)
+lack (n.)
+lack (v.)
+lady (n.)
+lake (n.)
+lamp (n.)

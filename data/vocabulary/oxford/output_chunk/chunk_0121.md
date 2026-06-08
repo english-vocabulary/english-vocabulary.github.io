@@ -1,10 +1,15 @@
-guy n.
-gym n.
-habit n.
-hair n.
-half n., det./pron., adv.
-hall n.
-hand n., v.
-handle v., n.
-hang v.
-happen v.
+guy (n.)
+gym (n.)
+habit (n.)
+hair (n.)
+half (n.)
+half (det.)
+half (pron.)
+half (adv.)
+hall (n.)
+hand (n.)
+hand (v.)
+handle (v.)
+handle (n.)
+hang (v.)
+happen (v.)

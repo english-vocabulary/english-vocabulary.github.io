@@ -1,10 +1,13 @@
-course n.
-court n.
-cousin n.
-cover v., n.
-covered adj.
-cow n.
-crash n., v.
-crazy adj.
-cream n., adj.
-create v.
+course (n.)
+court (n.)
+cousin (n.)
+cover (v.)
+cover (n.)
+covered (adj.)
+cow (n.)
+crash (n.)
+crash (v.)
+crazy (adj.)
+cream (n.)
+cream (adj.)
+create (v.)

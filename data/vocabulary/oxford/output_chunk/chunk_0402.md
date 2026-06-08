@@ -1,10 +1,12 @@
-ironic adj.
-ironically adv.
-irony n.
-irrelevant adj.
-isolate v.
-isolated adj.
-isolation n.
-jail n., v.
-jet n.
-joint adj., n.
+ironic (adj.)
+ironically (adv.)
+irony (n.)
+irrelevant (adj.)
+isolate (v.)
+isolated (adj.)
+isolation (n.)
+jail (n.)
+jail (v.)
+jet (n.)
+joint (adj.)
+joint (n.)

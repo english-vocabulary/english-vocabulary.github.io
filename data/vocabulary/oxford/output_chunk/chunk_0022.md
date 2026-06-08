@@ -1,10 +1,13 @@
-ban v., n.
-banana n.
-band n.
-bank (money) n.
-bank (river) n.
-bar n., v.
-barrier n.
-base n., v.
-baseball n.
-based adj.
+ban (v.)
+ban (n.)
+banana (n.)
+band (n.)
+bank (money) (n.)
+bank (river) (n.)
+bar (n.)
+bar (v.)
+barrier (n.)
+base (n.)
+base (v.)
+baseball (n.)
+based (adj.)

@@ -1,10 +1,14 @@
-challenge n., v.
-champion n.
-chance n.
-change v., n.
-channel n.
-chapter n.
-character n.
-characteristic n., adj.
-charge n., v.
-charity n.
+challenge (n.)
+challenge (v.)
+champion (n.)
+chance (n.)
+change (v.)
+change (n.)
+channel (n.)
+chapter (n.)
+character (n.)
+characteristic (n.)
+characteristic (adj.)
+charge (n.)
+charge (v.)
+charity (n.)

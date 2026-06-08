@@ -1,10 +1,11 @@
-receive v.
-recent adj.
-recently adv.
-reception n.
-recipe n.
-recognize v.
-recommend v.
-recommendation n.
-record n., v.
-recording n.
+receive (v.)
+recent (adj.)
+recently (adv.)
+reception (n.)
+recipe (n.)
+recognize (v.)
+recommend (v.)
+recommendation (n.)
+record (n.)
+record (v.)
+recording (n.)

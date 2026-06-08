@@ -1,10 +1,12 @@
-vacuum n.
-vague adj.
-valid adj.
-validity n.
-vanish v.
-variable n., adj.
-variation n.
-varied adj.
-vein n.
-venture n., v.
+vacuum (n.)
+vague (adj.)
+valid (adj.)
+validity (n.)
+vanish (v.)
+variable (n.)
+variable (adj.)
+variation (n.)
+varied (adj.)
+vein (n.)
+venture (n.)
+venture (v.)

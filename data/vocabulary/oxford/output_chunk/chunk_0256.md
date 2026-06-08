@@ -1,10 +1,13 @@
-straight adv., adj.
-strange adj.
-stranger n.
-strategy n.
-stream n.
-street n.
-strength n.
-stress n., v.
-stretch v., n.
-strict adj.
+straight (adv.)
+straight (adj.)
+strange (adj.)
+stranger (n.)
+strategy (n.)
+stream (n.)
+street (n.)
+strength (n.)
+stress (n.)
+stress (v.)
+stretch (v.)
+stretch (n.)
+strict (adj.)

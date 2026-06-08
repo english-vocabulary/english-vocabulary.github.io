@@ -1,10 +1,14 @@
 thirty number
-this det./pron., adv.
-though conj., adv.
-thought n.
+this (det.)
+this (pron.)
+this (adv.)
+though (conj.)
+though (adv.)
+thought (n.)
 thousand number
-threat n.
-threaten v.
+threat (n.)
+threaten (v.)
 three number
-throat n.
-through prep., adv.
+throat (n.)
+through (prep.)
+through (adv.)

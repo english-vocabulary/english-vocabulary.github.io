@@ -1,10 +1,12 @@
-brain n.
-branch n.
-brand n., v.
-brave adj.
-bread n.
-break v., n.
-breakfast n.
-breast n.
-breath n.
-breathe v.
+brain (n.)
+branch (n.)
+brand (n.)
+brand (v.)
+brave (adj.)
+bread (n.)
+break (v.)
+break (n.)
+breakfast (n.)
+breast (n.)
+breath (n.)
+breathe (v.)

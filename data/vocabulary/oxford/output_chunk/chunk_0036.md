@@ -1,10 +1,15 @@
-by prep., adv.
+by (prep.)
+by (adv.)
 bye exclam.
-cable n.
-cafe n.
-cake n.
-calculate v.
-call v., n.
-calm adj., v., n.
-camera n.
-camp n., v.
+cable (n.)
+cafe (n.)
+cake (n.)
+calculate (v.)
+call (v.)
+call (n.)
+calm (adj.)
+calm (v.)
+calm (n.)
+camera (n.)
+camp (n.)
+camp (v.)

@@ -1,10 +1,15 @@
-floor n.
-flour n.
-flow v., n.
-flower n.
-flu n.
-fly v., n.
-flying n., adj.
-focus v., n.
-fold v., n.
-folding adj.
+floor (n.)
+flour (n.)
+flow (v.)
+flow (n.)
+flower (n.)
+flu (n.)
+fly (v.)
+fly (n.)
+flying (n.)
+flying (adj.)
+focus (v.)
+focus (n.)
+fold (v.)
+fold (n.)
+folding (adj.)

@@ -1,10 +1,12 @@
-difference n.
-different adj.
-differently adv.
-difficult adj.
-difficulty n.
-dig v.
-digital adj.
-dinner n.
-direct adj., v., adv.
-direction n.
+difference (n.)
+different (adj.)
+differently (adv.)
+difficult (adj.)
+difficulty (n.)
+dig (v.)
+digital (adj.)
+dinner (n.)
+direct (adj.)
+direct (v.)
+direct (adv.)
+direction (n.)

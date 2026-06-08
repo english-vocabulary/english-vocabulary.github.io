@@ -1,10 +1,11 @@
-conscience n.
-consciousness n.
-consecutive adj.
-consensus n.
-consent n., v.
-consequently adv.
-conservation n.
-conserve v.
-considerable adj.
-considerably adv.
+conscience (n.)
+consciousness (n.)
+consecutive (adj.)
+consensus (n.)
+consent (n.)
+consent (v.)
+consequently (adv.)
+conservation (n.)
+conserve (v.)
+considerable (adj.)
+considerably (adv.)

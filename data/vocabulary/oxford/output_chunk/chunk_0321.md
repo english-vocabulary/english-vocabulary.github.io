@@ -1,10 +1,13 @@
-bonus n.
-booking n.
-boom n.
-boost v., n.
-bounce v.
-bound adj.
-boundary n.
-bow1 v., n.
-breach n., v.
-breakdown n.
+bonus (n.)
+booking (n.)
+boom (n.)
+boost (v.)
+boost (n.)
+bounce (v.)
+bound (adj.)
+boundary (n.)
+bow1 (v.)
+bow1 (n.)
+breach (n.)
+breach (v.)
+breakdown (n.)

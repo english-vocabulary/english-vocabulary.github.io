@@ -1,10 +1,13 @@
-dislike v., n.
-dismiss v.
-display v., n.
-distance n.
-distribute v.
-distribution n.
-district n.
-divide v., n.
-division n.
-divorced adj.
+dislike (v.)
+dislike (n.)
+dismiss (v.)
+display (v.)
+display (n.)
+distance (n.)
+distribute (v.)
+distribution (n.)
+district (n.)
+divide (v.)
+divide (n.)
+division (n.)
+divorced (adj.)

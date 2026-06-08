@@ -1,10 +1,11 @@
-loyal adj.
-loyalty n.
-lyric n.
-machinery n.
-magical adj.
-magnetic adj.
-magnificent adj.
-magnitude n.
-mainland n.
-mainstream n., adj.
+loyal (adj.)
+loyalty (n.)
+lyric (n.)
+machinery (n.)
+magical (adj.)
+magnetic (adj.)
+magnificent (adj.)
+magnitude (n.)
+mainland (n.)
+mainstream (n.)
+mainstream (adj.)

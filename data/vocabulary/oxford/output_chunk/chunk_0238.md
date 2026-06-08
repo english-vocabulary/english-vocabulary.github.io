@@ -1,10 +1,14 @@
-sheet n.
-shelf n.
-shell n.
-shelter n., v.
-shift n., v.
-shine v.
-shiny adj.
-ship n., v.
-shirt n.
-shock n., v.
+sheet (n.)
+shelf (n.)
+shell (n.)
+shelter (n.)
+shelter (v.)
+shift (n.)
+shift (v.)
+shine (v.)
+shiny (adj.)
+ship (n.)
+ship (v.)
+shirt (n.)
+shock (n.)
+shock (v.)

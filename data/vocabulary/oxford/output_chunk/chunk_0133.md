@@ -1,10 +1,12 @@
-immediately adv.
-immigrant n.
-impact n., v.
-impatient adj.
-imply v.
-import n., v.
-importance n.
-important adj.
-impose v.
-impossible adj.
+immediately (adv.)
+immigrant (n.)
+impact (n.)
+impact (v.)
+impatient (adj.)
+imply (v.)
+import (n.)
+import (v.)
+importance (n.)
+important (adj.)
+impose (v.)
+impossible (adj.)

@@ -1,10 +1,12 @@
-engineer n.
-engineering n.
-enhance v.
-enjoy v.
-enormous adj.
-enough det., pron., adv.
-ensure v.
-enter v.
-entertain v.
-entertainment n.
+engineer (n.)
+engineering (n.)
+enhance (v.)
+enjoy (v.)
+enormous (adj.)
+enough (det.)
+enough (pron.)
+enough (adv.)
+ensure (v.)
+enter (v.)
+entertain (v.)
+entertainment (n.)

@@ -1,10 +1,14 @@
-tip n., v.
-tire n.
-tired adj.
-title n., v.
-to prep., infinitive marker
-today adv., n.
-toe n.
-together adv.
-toilet n.
-tomato n.
+tip (n.)
+tip (v.)
+tire (n.)
+tired (adj.)
+title (n.)
+title (v.)
+to (prep.)
+to (infinitivemarker.)
+today (adv.)
+today (n.)
+toe (n.)
+together (adv.)
+toilet (n.)
+tomato (n.)

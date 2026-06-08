@@ -1,10 +1,15 @@
-OK exclam., adj./adv.
-old adj.
-old-fashioned adj.
-on prep., adv.
-once adv., conj.
-one number/det., pron.
-onion n.
-online adj., adv.
-only adj., adv.
-onto prep.
+OK exclam., (adj.)
+OK exclam., (adv.)
+old (adj.)
+old-fashioned (adj.)
+on (prep.)
+on (adv.)
+once (adv.)
+once (conj.)
+one number/det., (pron.)
+onion (n.)
+online (adj.)
+online (adv.)
+only (adj.)
+only (adv.)
+onto (prep.)

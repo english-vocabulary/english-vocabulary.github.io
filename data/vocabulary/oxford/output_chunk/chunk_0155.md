@@ -1,10 +1,14 @@
-live1 v.
-live2 adj., adv.
-lively adj.
-living adj., n.
-load n., v.
-loan n.
-local adj., n.
-locate v.
-located adj.
-location n.
+live1 (v.)
+live2 (adj.)
+live2 (adv.)
+lively (adj.)
+living (adj.)
+living (n.)
+load (n.)
+load (v.)
+loan (n.)
+local (adj.)
+local (n.)
+locate (v.)
+located (adj.)
+location (n.)

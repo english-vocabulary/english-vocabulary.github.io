@@ -1,10 +1,12 @@
-do1 v., auxiliary v.
-doctor n.
-document n., v.
-documentary n.
-dog n.
-dollar n.
-domestic adj.
-dominate v.
-donate v.
-door n.
+do1 (v.)
+do1 (auxiliaryv.)
+doctor (n.)
+document (n.)
+document (v.)
+documentary (n.)
+dog (n.)
+dollar (n.)
+domestic (adj.)
+dominate (v.)
+donate (v.)
+door (n.)

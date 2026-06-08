@@ -1,10 +1,14 @@
-announcement n.
-annoy v.
-annoyed adj.
-annoying adj.
-annual adj.
-another det./pron.
-answer n., v.
-anxious adj.
-any det., pron., adv.
-anybody pron.
+announcement (n.)
+annoy (v.)
+annoyed (adj.)
+annoying (adj.)
+annual (adj.)
+another (det.)
+another (pron.)
+answer (n.)
+answer (v.)
+anxious (adj.)
+any (det.)
+any (pron.)
+any (adv.)
+anybody (pron.)

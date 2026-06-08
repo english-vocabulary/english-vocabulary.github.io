@@ -1,10 +1,16 @@
-chart n., v.
-chat v., n.
-cheap adj., adv.
-cheat v., n.
-check v., n.
-cheerful adj.
-cheese n.
-chef n.
-chemical adj., n.
-chemistry n.
+chart (n.)
+chart (v.)
+chat (v.)
+chat (n.)
+cheap (adj.)
+cheap (adv.)
+cheat (v.)
+cheat (n.)
+check (v.)
+check (n.)
+cheerful (adj.)
+cheese (n.)
+chef (n.)
+chemical (adj.)
+chemical (n.)
+chemistry (n.)

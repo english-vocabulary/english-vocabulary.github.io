@@ -1,10 +1,17 @@
-overall adj., adv.
-overseas adv., adj.
-owe v.
-own adj./pron., v.
-owner n.
-pace n., v.
-pack v., n.
-package n., v.
-page n.
-pain n.
+overall (adj.)
+overall (adv.)
+overseas (adv.)
+overseas (adj.)
+owe (v.)
+own (adj.)
+own (pron.)
+own (v.)
+owner (n.)
+pace (n.)
+pace (v.)
+pack (v.)
+pack (n.)
+package (n.)
+package (v.)
+page (n.)
+pain (n.)

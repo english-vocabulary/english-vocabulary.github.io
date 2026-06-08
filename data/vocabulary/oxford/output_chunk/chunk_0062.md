@@ -1,10 +1,12 @@
-creation n.
-creative adj.
-creature n.
-credit n., v.
-crew n.
-crime n.
-criminal n., adj.
-crisis n.
-criterion n.
-critic n.
+creation (n.)
+creative (adj.)
+creature (n.)
+credit (n.)
+credit (v.)
+crew (n.)
+crime (n.)
+criminal (n.)
+criminal (adj.)
+crisis (n.)
+criterion (n.)
+critic (n.)

@@ -1,10 +1,13 @@
-inquiry n.
-insect n.
-inside prep., adv., n., adj.
-insight n.
-insist v.
-inspire v.
-install v.
-instance n.
-instead adv.
-institute n.
+inquiry (n.)
+insect (n.)
+inside (prep.)
+inside (adv.)
+inside (n.)
+inside (adj.)
+insight (n.)
+insist (v.)
+inspire (v.)
+install (v.)
+instance (n.)
+instead (adv.)
+institute (n.)

@@ -1,13 +1,13 @@
-a indefinite article.
-an indefinite article.
-abandon v.
-ability n.
-able adj.
-about prep.
-about adv.
-above prep.
-above adv.
-abroad adv.
-absolute adj.
-absolutely adv.
-academic adj.
+a (indefinite article.)
+an (indefinite article.)
+abandon (v.)
+ability (n.)
+able (adj.)
+about (prep.)
+about (adv.)
+above (prep.)
+above (adv.)
+abroad (adv.)
+absolute (adj.)
+absolutely (adv.)
+academic (adj.)

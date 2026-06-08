@@ -1,10 +1,13 @@
-poverty n.
-powder n.
-power n., v.
-powerful adj.
-practical adj.
-practice n., v.
-praise n., v.
-pray v.
-prayer n.
-predict v.
+poverty (n.)
+powder (n.)
+power (n.)
+power (v.)
+powerful (adj.)
+practical (adj.)
+practice (n.)
+practice (v.)
+praise (n.)
+praise (v.)
+pray (v.)
+prayer (n.)
+predict (v.)

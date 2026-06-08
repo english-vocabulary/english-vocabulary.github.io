@@ -1,10 +1,13 @@
-expense n.
-expensive adj.
-experience n., v.
-experienced adj.
-experiment n., v.
-expert n., adj.
-explain v.
-explanation n.
-explode v.
-exploration n.
+expense (n.)
+expensive (adj.)
+experience (n.)
+experience (v.)
+experienced (adj.)
+experiment (n.)
+experiment (v.)
+expert (n.)
+expert (adj.)
+explain (v.)
+explanation (n.)
+explode (v.)
+exploration (n.)

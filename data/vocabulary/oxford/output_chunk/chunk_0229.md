@@ -1,10 +1,13 @@
-salt n.
-same adj., pron., adv.
-sample n., v.
-sand n.
-sandwich n.
-satellite n.
-satisfied adj.
-satisfy v.
-Saturday n.
-sauce n.
+salt (n.)
+same (adj.)
+same (pron.)
+same (adv.)
+sample (n.)
+sample (v.)
+sand (n.)
+sandwich (n.)
+satellite (n.)
+satisfied (adj.)
+satisfy (v.)
+Saturday (n.)
+sauce (n.)

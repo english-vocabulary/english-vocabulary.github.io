@@ -1,10 +1,11 @@
-chest n.
-chicken n.
-chief adj., n.
-child n.
-childhood n.
-chip n.
-chocolate n.
-choice n.
-choose v.
-church n.
+chest (n.)
+chicken (n.)
+chief (adj.)
+chief (n.)
+child (n.)
+childhood (n.)
+chip (n.)
+chocolate (n.)
+choice (n.)
+choose (v.)
+church (n.)

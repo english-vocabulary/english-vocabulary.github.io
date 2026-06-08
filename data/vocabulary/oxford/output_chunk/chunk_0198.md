@@ -1,10 +1,11 @@
-policeman n.
-policy n.
-polite adj.
-political adj.
-politician n.
-politics n.
-pollution n.
-pool n.
-poor adj.
-pop n., adj.
+policeman (n.)
+policy (n.)
+polite (adj.)
+political (adj.)
+politician (n.)
+politics (n.)
+pollution (n.)
+pool (n.)
+poor (adj.)
+pop (n.)
+pop (adj.)

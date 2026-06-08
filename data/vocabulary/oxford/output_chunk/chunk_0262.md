@@ -1,10 +1,13 @@
-survive v.
-suspect v., n.
-swear v.
-sweater n.
-sweep v.
-sweet adj.
-swim v., n.
-swimming n.
-switch v., n.
-symbol n.
+survive (v.)
+suspect (v.)
+suspect (n.)
+swear (v.)
+sweater (n.)
+sweep (v.)
+sweet (adj.)
+swim (v.)
+swim (n.)
+swimming (n.)
+switch (v.)
+switch (n.)
+symbol (n.)

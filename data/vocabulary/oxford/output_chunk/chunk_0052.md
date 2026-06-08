@@ -1,10 +1,12 @@
-comparison n.
-compete v.
-competition n.
-competitive adj.
-competitor n.
-complain v.
-complaint n.
-complete adj., v.
-completely adv.
-complex adj., n.B2
+comparison (n.)
+compete (v.)
+competition (n.)
+competitive (adj.)
+competitor (n.)
+complain (v.)
+complaint (n.)
+complete (adj.)
+complete (v.)
+completely (adv.)
+complex (adj.)
+complex (n.B2.)

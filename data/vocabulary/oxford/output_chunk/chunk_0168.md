@@ -1,10 +1,14 @@
-Monday n.
-money n.
-monitor n., v.
-monkey n.
-month n.
-mood n.
-moon n.
-moral adj., n.
-more det./pron., adv.
-morning n.
+Monday (n.)
+money (n.)
+monitor (n.)
+monitor (v.)
+monkey (n.)
+month (n.)
+mood (n.)
+moon (n.)
+moral (adj.)
+moral (n.)
+more (det.)
+more (pron.)
+more (adv.)
+morning (n.)

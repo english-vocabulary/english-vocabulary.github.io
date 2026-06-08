@@ -1,10 +1,14 @@
-science n.
-scientific adj.
-scientist n.
-score v., n.
-scream v., n.
-screen n., v.
-script n.
-sculpture n.
-sea n.
-search n., v.
+science (n.)
+scientific (adj.)
+scientist (n.)
+score (v.)
+score (n.)
+scream (v.)
+scream (n.)
+screen (n.)
+screen (v.)
+script (n.)
+sculpture (n.)
+sea (n.)
+search (n.)
+search (v.)

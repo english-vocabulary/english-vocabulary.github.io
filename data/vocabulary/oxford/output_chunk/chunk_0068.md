@@ -1,10 +1,14 @@
-declare v.
-decline v., n.
-decorate v.
-decoration n.
-decrease v., n.
-deep adj., adv.
-deeply adv.
-defeat v., n.
-defend v.
-defense n.
+declare (v.)
+decline (v.)
+decline (n.)
+decorate (v.)
+decoration (n.)
+decrease (v.)
+decrease (n.)
+deep (adj.)
+deep (adv.)
+deeply (adv.)
+defeat (v.)
+defeat (n.)
+defend (v.)
+defense (n.)

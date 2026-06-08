@@ -1,10 +1,13 @@
-being n.
-belief n.
-believe v.
-bell n.
-belong v.
-below adv., prep.
-belt n.
-bend v., n.
-benefit n., v.
-bent adj.
+being (n.)
+belief (n.)
+believe (v.)
+bell (n.)
+belong (v.)
+below (adv.)
+below (prep.)
+belt (n.)
+bend (v.)
+bend (n.)
+benefit (n.)
+benefit (v.)
+bent (adj.)

@@ -1,10 +1,13 @@
-simple adj.
-simply adv.
-since prep., conj., adv.
-sincere adj.
-sing v.
-singer n.
-singing n.
-single adj., n.
-sink v.
-sir n.
+simple (adj.)
+simply (adv.)
+since (prep.)
+since (conj.)
+since (adv.)
+sincere (adj.)
+sing (v.)
+singer (n.)
+singing (n.)
+single (adj.)
+single (n.)
+sink (v.)
+sir (n.)

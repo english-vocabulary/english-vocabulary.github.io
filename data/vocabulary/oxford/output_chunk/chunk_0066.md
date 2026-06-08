@@ -1,10 +1,12 @@
-dancer n.
-dancing n.
-danger n.
-dangerous adj.
-dark adj., n.
-data n.
-date n., v.
-daughter n.
-day n.
-dead adj.
+dancer (n.)
+dancing (n.)
+danger (n.)
+dangerous (adj.)
+dark (adj.)
+dark (n.)
+data (n.)
+date (n.)
+date (v.)
+daughter (n.)
+day (n.)
+dead (adj.)

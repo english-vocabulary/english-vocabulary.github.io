@@ -1,10 +1,13 @@
-brother n.
-brown adj., n.
-brush v., n.
-bubble n.
-budget n.
-build v.
-building n.
-bullet n.
-bunch n.
-burn v., n.
+brother (n.)
+brown (adj.)
+brown (n.)
+brush (v.)
+brush (n.)
+bubble (n.)
+budget (n.)
+build (v.)
+building (n.)
+bullet (n.)
+bunch (n.)
+burn (v.)
+burn (n.)

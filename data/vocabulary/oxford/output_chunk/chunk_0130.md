@@ -1,10 +1,15 @@
-human adj., n.
-humor n.
-humorous adj.
+human (adj.)
+human (n.)
+humor (n.)
+humorous (adj.)
 hundred number
-hungry adj.
-hunt v., n.
-hunting n.
-hurricane n.
-hurry n., v.
-hurt v., adj., n.
+hungry (adj.)
+hunt (v.)
+hunt (n.)
+hunting (n.)
+hurricane (n.)
+hurry (n.)
+hurry (v.)
+hurt (v.)
+hurt (adj.)
+hurt (n.)

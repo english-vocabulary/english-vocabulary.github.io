@@ -1,10 +1,12 @@
-smoking n.
-smooth adj.
-snake n.
-sneaker n.
-snow n., v.
-so adv., conj.
-soap n.
-soccer n.
-social adj.
-society n.
+smoking (n.)
+smooth (adj.)
+snake (n.)
+sneaker (n.)
+snow (n.)
+snow (v.)
+so (adv.)
+so (conj.)
+soap (n.)
+soccer (n.)
+social (adj.)
+society (n.)

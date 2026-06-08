@@ -1,10 +1,11 @@
-element n.
-elephant n.
-elevator n.
+element (n.)
+elephant (n.)
+elevator (n.)
 eleven number
-else adv.
-elsewhere adv.
-email n., v.
-embarrassed adj.
-embarrassing adj.
-emerge v.
+else (adv.)
+elsewhere (adv.)
+email (n.)
+email (v.)
+embarrassed (adj.)
+embarrassing (adj.)
+emerge (v.)

@@ -1,10 +1,12 @@
-indirect adj.
-individual n., adj.
-indoor adj.
-indoors adv.
-industrial adj.
-industry n.
-infection n.
-influence n., v.
-inform v.
-informal adj.
+indirect (adj.)
+individual (n.)
+individual (adj.)
+indoor (adj.)
+indoors (adv.)
+industrial (adj.)
+industry (n.)
+infection (n.)
+influence (n.)
+influence (v.)
+inform (v.)
+informal (adj.)

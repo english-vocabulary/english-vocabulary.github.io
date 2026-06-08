@@ -1,10 +1,11 @@
-ally n.
-alongside prep.
-altogether adv.
-aluminum n.
-amateur adj., n.
-ambassador n.
-ambitious adj.
-ambulance n.
-amend v.
-amendment n.
+ally (n.)
+alongside (prep.)
+altogether (adv.)
+aluminum (n.)
+amateur (adj.)
+amateur (n.)
+ambassador (n.)
+ambitious (adj.)
+ambulance (n.)
+amend (v.)
+amendment (n.)

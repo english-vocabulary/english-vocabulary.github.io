@@ -1,10 +1,14 @@
-file n., v.
-fill v.
-film n., v.
-final adj., n.
-finally adv.
-finance n., v.
-financial adj.
-find v.
-finding n.
-fine adj.
+file (n.)
+file (v.)
+fill (v.)
+film (n.)
+film (v.)
+final (adj.)
+final (n.)
+finally (adv.)
+finance (n.)
+finance (v.)
+financial (adj.)
+find (v.)
+finding (n.)
+fine (adj.)

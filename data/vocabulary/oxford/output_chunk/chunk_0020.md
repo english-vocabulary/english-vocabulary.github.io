@@ -1,10 +1,13 @@
-automatically adv.
-available adj.
-average adj., n., v.
-avoid v.
-award n., v.
-aware adj.
-away adv.
-awesome adj.
-awful adj.
-baby n.
+automatically (adv.)
+available (adj.)
+average (adj.)
+average (n.)
+average (v.)
+avoid (v.)
+award (n.)
+award (v.)
+aware (adj.)
+away (adv.)
+awesome (adj.)
+awful (adj.)
+baby (n.)

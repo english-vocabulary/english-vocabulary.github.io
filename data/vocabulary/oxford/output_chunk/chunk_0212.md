@@ -1,10 +1,14 @@
-racing n.
-radio n.
-railroad n.
-rain n., v.
-raise v., n.B1
-range n., v.
-rank n., v.
-rapid adj.
-rapidly adv.
-rare adj.
+racing (n.)
+radio (n.)
+railroad (n.)
+rain (n.)
+rain (v.)
+raise (v.)
+raise (n.B1.)
+range (n.)
+range (v.)
+rank (n.)
+rank (v.)
+rapid (adj.)
+rapidly (adv.)
+rare (adj.)

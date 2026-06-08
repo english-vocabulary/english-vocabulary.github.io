@@ -1,10 +1,13 @@
-scope n.
-scratch v., n.
-screening n.
-screw v., n.
-scrutiny n.
-seal v., n.
-secondly adv.
-secular adj.
-seeker n.
-seemingly adv.
+scope (n.)
+scratch (v.)
+scratch (n.)
+screening (n.)
+screw (v.)
+screw (n.)
+scrutiny (n.)
+seal (v.)
+seal (n.)
+secondly (adv.)
+secular (adj.)
+seeker (n.)
+seemingly (adv.)

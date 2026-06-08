@@ -1,10 +1,15 @@
-remove v.
-rent n., v.
-repair v., n.
-repeat v., n.
-repeated adj.
-replace v.
-reply v., n.
-report n., v.
-reporter n.
-represent v.
+remove (v.)
+rent (n.)
+rent (v.)
+repair (v.)
+repair (n.)
+repeat (v.)
+repeat (n.)
+repeated (adj.)
+replace (v.)
+reply (v.)
+reply (n.)
+report (n.)
+report (v.)
+reporter (n.)
+represent (v.)

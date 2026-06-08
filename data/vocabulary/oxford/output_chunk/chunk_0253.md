@@ -1,10 +1,16 @@
-stand v., n.
-standard n., adj.
-star n., v.
-stare v.
-start v., n.
-state n., adj., v.
-statement n.
-station n.
-statistic n.
-statue n.
+stand (v.)
+stand (n.)
+standard (n.)
+standard (adj.)
+star (n.)
+star (v.)
+stare (v.)
+start (v.)
+start (n.)
+state (n.)
+state (adj.)
+state (v.)
+statement (n.)
+station (n.)
+statistic (n.)
+statue (n.)

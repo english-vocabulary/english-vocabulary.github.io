@@ -1,10 +1,13 @@
-junior adj.
-just adv.
-justice n.
-justify v.
-keep v.
-key n., adj., v.
-keyboard n.
-kick v., n.
-kid n.
-kill v.
+junior (adj.)
+just (adv.)
+justice (n.)
+justify (v.)
+keep (v.)
+key (n.)
+key (adj.)
+key (v.)
+keyboard (n.)
+kick (v.)
+kick (n.)
+kid (n.)
+kill (v.)

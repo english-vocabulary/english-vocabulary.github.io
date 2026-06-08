@@ -1,10 +1,14 @@
-worst adj., adv., n.
-worth adj., n.
-would modal v.
-wound n., v.
+worst (adj.)
+worst (adv.)
+worst (n.)
+worth (adj.)
+worth (n.)
+would modal (v.)
+wound (n.)
+wound (v.)
 wow exclam.
-wrap v.
-write v.
-writer n.
-writing n.
-written adj.
+wrap (v.)
+write (v.)
+writer (n.)
+writing (n.)
+written (adj.)

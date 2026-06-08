@@ -1,10 +1,13 @@
-producer n.
-product n.
-production n.
-profession n.
-professional adj., n.
-professor n.
-profile n.
-profit n.
-program n., v.
-progress n., v.
+producer (n.)
+product (n.)
+production (n.)
+profession (n.)
+professional (adj.)
+professional (n.)
+professor (n.)
+profile (n.)
+profit (n.)
+program (n.)
+program (v.)
+progress (n.)
+progress (v.)

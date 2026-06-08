@@ -1,10 +1,12 @@
-conclusion n.
-condition n.
-conduct v., n.
-conference n.
-confidence n.
-confident adj.
-confirm v.
-conflict n., v.
-confuse v.
-confused adj.
+conclusion (n.)
+condition (n.)
+conduct (v.)
+conduct (n.)
+conference (n.)
+confidence (n.)
+confident (adj.)
+confirm (v.)
+conflict (n.)
+conflict (v.)
+confuse (v.)
+confused (adj.)

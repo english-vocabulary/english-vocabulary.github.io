@@ -1,10 +1,14 @@
-massive adj.
-master n., v.
-match (contest/correspond) n.,
+massive (adj.)
+master (n.)
+master (v.)
+match (contest/correspond) (n.)
 v.
-matching adj.
-material n., adj.
-math n.
-mathematics n.
-matter n., v.
-maximum adj., n.
+matching (adj.)
+material (n.)
+material (adj.)
+math (n.)
+mathematics (n.)
+matter (n.)
+matter (v.)
+maximum (adj.)
+maximum (n.)

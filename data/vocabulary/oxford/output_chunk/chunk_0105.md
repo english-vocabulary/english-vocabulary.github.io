@@ -1,10 +1,17 @@
-finger n.
-finish v., n.
-fire n., v.
-firm n.
-first det./number, adv., n.
-fish n., v.A2
-fishing n.
-fit v., adj.
-fitness n.
+finger (n.)
+finish (v.)
+finish (n.)
+fire (n.)
+fire (v.)
+firm (n.)
+first (det.)
+first (number.)
+first (adv.)
+first (n.)
+fish (n.)
+fish (v.A2.)
+fishing (n.)
+fit (v.)
+fit (adj.)
+fitness (n.)
 five number

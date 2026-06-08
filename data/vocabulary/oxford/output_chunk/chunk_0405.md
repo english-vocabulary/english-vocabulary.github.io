@@ -1,10 +1,13 @@
-lately adv.
-latter adj., n.
-lawmaker n.
-lawn n.
-lawsuit n.
-layout n.
-leak v., n.
-leap v., n.
-legacy n.
-legend n.
+lately (adv.)
+latter (adj.)
+latter (n.)
+lawmaker (n.)
+lawn (n.)
+lawsuit (n.)
+layout (n.)
+leak (v.)
+leak (n.)
+leap (v.)
+leap (n.)
+legacy (n.)
+legend (n.)

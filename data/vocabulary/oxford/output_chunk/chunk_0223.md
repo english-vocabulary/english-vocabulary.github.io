@@ -1,10 +1,14 @@
-rest (remaining part) n.
-rest (sleep/relax) n., v.
-restaurant n.
-result n., v.
-retain v.
-retire v.
-retired adj.
-return v., n.
-reveal v.
-review n., v.
+rest (remaining part) (n.)
+rest (sleep/relax) (n.)
+rest (sleep/relax) (v.)
+restaurant (n.)
+result (n.)
+result (v.)
+retain (v.)
+retire (v.)
+retired (adj.)
+return (v.)
+return (n.)
+reveal (v.)
+review (n.)
+review (v.)

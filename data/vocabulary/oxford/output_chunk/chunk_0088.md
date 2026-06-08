@@ -1,10 +1,12 @@
-enable v.
-encounter v., n.
-encourage v.
-end n., v.
-ending n.
-enemy n.
-energy n.
-engage v.
-engaged adj.
-engine n.
+enable (v.)
+encounter (v.)
+encounter (n.)
+encourage (v.)
+end (n.)
+end (v.)
+ending (n.)
+enemy (n.)
+energy (n.)
+engage (v.)
+engaged (adj.)
+engine (n.)

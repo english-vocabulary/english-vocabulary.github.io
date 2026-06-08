@@ -1,10 +1,14 @@
-examine v.
-example n.
-excellent adj.
-except prep., conj.
-exchange n., v.
-excited adj.
-excitement n.
-exciting adj.
-excuse n., v.
-executive n., adj.
+examine (v.)
+example (n.)
+excellent (adj.)
+except (prep.)
+except (conj.)
+exchange (n.)
+exchange (v.)
+excited (adj.)
+excitement (n.)
+exciting (adj.)
+excuse (n.)
+excuse (v.)
+executive (n.)
+executive (adj.)

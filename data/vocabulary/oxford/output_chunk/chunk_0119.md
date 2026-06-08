@@ -1,10 +1,13 @@
-grant v., n.
-grass n.
-grateful adj.
-gray adj., n.
-great adj.
-green adj., n.
-greet v.
-grocery n.
-ground n.
-group n.
+grant (v.)
+grant (n.)
+grass (n.)
+grateful (adj.)
+gray (adj.)
+gray (n.)
+great (adj.)
+green (adj.)
+green (n.)
+greet (v.)
+grocery (n.)
+ground (n.)
+group (n.)

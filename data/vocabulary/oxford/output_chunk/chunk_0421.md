@@ -1,10 +1,12 @@
-navigation n.
-nearby adj., adv.
-necessity n.
-neglect v., n.
-negotiate v.
-negotiation n.
-neighboring adj.
-nest n.
-net adj.
-neutral adj.
+navigation (n.)
+nearby (adj.)
+nearby (adv.)
+necessity (n.)
+neglect (v.)
+neglect (n.)
+negotiate (v.)
+negotiation (n.)
+neighboring (adj.)
+nest (n.)
+net (adj.)
+neutral (adj.)

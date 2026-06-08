@@ -1,10 +1,12 @@
-related adj.
-relation n.
-relationship n.
-relative adj., n.
-relatively adv.
-relax v.
-relaxed adj.
-relaxing adj.
-release v., n.
-relevant adj.
+related (adj.)
+relation (n.)
+relationship (n.)
+relative (adj.)
+relative (n.)
+relatively (adv.)
+relax (v.)
+relaxed (adj.)
+relaxing (adj.)
+release (v.)
+release (n.)
+relevant (adj.)

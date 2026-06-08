@@ -1,10 +1,13 @@
-admit v.
-adopt v.
-adult n., adj.
-advance n., v., adj.
-advanced adj.
-advantage n.
-adventure n.
-advertise v.
-advertisement n.
-advertising n.
+admit (v.)
+adopt (v.)
+adult (n.)
+adult (adj.)
+advance (n.)
+advance (v.)
+advance (adj.)
+advanced (adj.)
+advantage (n.)
+adventure (n.)
+advertise (v.)
+advertisement (n.)
+advertising (n.)

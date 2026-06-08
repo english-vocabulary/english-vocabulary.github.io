@@ -1,10 +1,11 @@
-usually adv.
-vacation n.
-valley n.
-valuable adj.
-value n., v.
-van n.
-variety n.
-various adj.
-vary v.
-vast adj.
+usually (adv.)
+vacation (n.)
+valley (n.)
+valuable (adj.)
+value (n.)
+value (v.)
+van (n.)
+variety (n.)
+various (adj.)
+vary (v.)
+vast (adj.)

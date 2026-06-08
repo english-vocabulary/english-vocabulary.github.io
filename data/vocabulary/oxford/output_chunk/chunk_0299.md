@@ -1,10 +1,16 @@
-wrong adj., adv., n.
-yard n.
+wrong (adj.)
+wrong (adv.)
+wrong (n.)
+yard (n.)
 yeah exclam.
-year n.
-yellow adj., n.
+year (n.)
+yellow (adj.)
+yellow (n.)
 yes exclam.
-yesterday adv., n.
-yet adv., conj.
-you pron.
-young adj., n.
+yesterday (adv.)
+yesterday (n.)
+yet (adv.)
+yet (conj.)
+you (pron.)
+young (adj.)
+young (n.)

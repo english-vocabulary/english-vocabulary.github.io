@@ -1,10 +1,20 @@
-welcome exclam., v., adj., n.
-well adv., adj., exclam.
-west n., adj., adv.
-western adj.
-wet adj.
-what pron./det.
-whatever det./pron.
-wheel n.
-when adv., pron., conj.
-whenever conj.
+welcome exclam., (v.)
+welcome exclam., (adj.)
+welcome exclam., (n.)
+well (adv.)
+well (adj.)
+well (exclam.)
+west (n.)
+west (adj.)
+west (adv.)
+western (adj.)
+wet (adj.)
+what (pron.)
+what (det.)
+whatever (det.)
+whatever (pron.)
+wheel (n.)
+when (adv.)
+when (pron.)
+when (conj.)
+whenever (conj.)

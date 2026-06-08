@@ -1,10 +1,14 @@
-town n.
-toy n., adj.
-track n., v.
-trade n., v.
-tradition n.
-traditional adj.
-traffic n.
-train n., v.
-trainer n.
-training n.
+town (n.)
+toy (n.)
+toy (adj.)
+track (n.)
+track (v.)
+trade (n.)
+trade (v.)
+tradition (n.)
+traditional (adj.)
+traffic (n.)
+train (n.)
+train (v.)
+trainer (n.)
+training (n.)

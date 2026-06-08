@@ -1,10 +1,14 @@
-partly adv.
-partner n.
-party n.
-pass v., n.
-passage n.
-passenger n.
-passion n.
-passport n.
-past adj., n., prep., adv.
-path n.
+partly (adv.)
+partner (n.)
+party (n.)
+pass (v.)
+pass (n.)
+passage (n.)
+passenger (n.)
+passion (n.)
+passport (n.)
+past (adj.)
+past (n.)
+past (prep.)
+past (adv.)
+path (n.)

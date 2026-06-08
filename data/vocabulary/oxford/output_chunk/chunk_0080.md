@@ -1,10 +1,14 @@
-drag v.
-drama n.
-dramatic adj.
-draw v.
-drawing n.
-dream n., v.
-dress n., v.
-dressed adj.
-drink n., v.
-drive v., n.
+drag (v.)
+drama (n.)
+dramatic (adj.)
+draw (v.)
+drawing (n.)
+dream (n.)
+dream (v.)
+dress (n.)
+dress (v.)
+dressed (adj.)
+drink (n.)
+drink (v.)
+drive (v.)
+drive (n.)

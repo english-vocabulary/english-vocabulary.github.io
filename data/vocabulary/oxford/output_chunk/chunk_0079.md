@@ -1,10 +1,23 @@
-double adj., det., pron., v., adv.
+double (adj.)
+double (det.)
+double (pron.)
+double (v.)
+double (adv.)
 B1
-doubt n., v.
-down adv., prep.
-download v., n.
-downstairs adv., adj.
-downtown adv., n., adj.
-downward adj., adv.
-dozen n., det.
-draft n., v.
+doubt (n.)
+doubt (v.)
+down (adv.)
+down (prep.)
+download (v.)
+download (n.)
+downstairs (adv.)
+downstairs (adj.)
+downtown (adv.)
+downtown (n.)
+downtown (adj.)
+downward (adj.)
+downward (adv.)
+dozen (n.)
+dozen (det.)
+draft (n.)
+draft (v.)

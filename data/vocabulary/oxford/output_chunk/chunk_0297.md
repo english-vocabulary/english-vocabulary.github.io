@@ -1,10 +1,15 @@
-wool n.
-word n.
-work v., n.
-worker n.
-working adj.
-world n.
-worldwide adj., adv.
-worried adj.
-worry v., n.
-worse adj., adv., n.
+wool (n.)
+word (n.)
+work (v.)
+work (n.)
+worker (n.)
+working (adj.)
+world (n.)
+worldwide (adj.)
+worldwide (adv.)
+worried (adj.)
+worry (v.)
+worry (n.)
+worse (adj.)
+worse (adv.)
+worse (n.)

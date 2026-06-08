@@ -1,10 +1,12 @@
-supervision n.
-supervisor n.
-supplement n., v.
-supportive adj.
-supposedly adv.
-suppress v.
-supreme adj.
-surge n., v.
-surgeon n.
-surgical adj.
+supervision (n.)
+supervisor (n.)
+supplement (n.)
+supplement (v.)
+supportive (adj.)
+supposedly (adv.)
+suppress (v.)
+supreme (adj.)
+surge (n.)
+surge (v.)
+surgeon (n.)
+surgical (adj.)

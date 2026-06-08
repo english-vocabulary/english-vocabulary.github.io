@@ -1,10 +1,11 @@
-guerrilla n.
-guidance n.
-guideline n.
-guilt n.
-gut n.
-habitat n.
-hail v.
-halfway adv.
-halt v., n.
-handful n.
+guerrilla (n.)
+guidance (n.)
+guideline (n.)
+guilt (n.)
+gut (n.)
+habitat (n.)
+hail (v.)
+halfway (adv.)
+halt (v.)
+halt (n.)
+handful (n.)

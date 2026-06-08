@@ -1,10 +1,11 @@
-regardless adv.
-regime n.
-registration n.
-regulate v.
-regulator n.
-regulatory adj.
-rehabilitation n.
-reign n., v.
-reinforce v.
-rejection n.
+regardless (adv.)
+regime (n.)
+registration (n.)
+regulate (v.)
+regulator (n.)
+regulatory (adj.)
+rehabilitation (n.)
+reign (n.)
+reign (v.)
+reinforce (v.)
+rejection (n.)

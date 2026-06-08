@@ -1,10 +1,17 @@
-line n., v.
-link n., v.
-lion n.
-lip n.
-liquid n., adj.
-list n., v.
-listen v.
-listener n.
-literature n.
-little adj., det./pron., adv.
+line (n.)
+line (v.)
+link (n.)
+link (v.)
+lion (n.)
+lip (n.)
+liquid (n.)
+liquid (adj.)
+list (n.)
+list (v.)
+listen (v.)
+listener (n.)
+literature (n.)
+little (adj.)
+little (det.)
+little (pron.)
+little (adv.)

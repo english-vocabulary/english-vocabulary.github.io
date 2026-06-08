@@ -1,10 +1,12 @@
-deal v., n.
-dear adj.
-death n.
-debate n., v.
-debt n.
-decade n.
-December n.
-decent adj.
-decide v.
-decision n.
+deal (v.)
+deal (n.)
+dear (adj.)
+death (n.)
+debate (n.)
+debate (v.)
+debt (n.)
+decade (n.)
+December (n.)
+decent (adj.)
+decide (v.)
+decision (n.)

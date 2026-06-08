@@ -1,10 +1,16 @@
-lost adj.
-lot pron., det., adv.
-loud adj., adv.
-loudly adv.
-love n., v.
-low adj., adv., n.
-lower v.
-luck n.
-lucky adj.
-lunch n.
+lost (adj.)
+lot (pron.)
+lot (det.)
+lot (adv.)
+loud (adj.)
+loud (adv.)
+loudly (adv.)
+love (n.)
+love (v.)
+low (adj.)
+low (adv.)
+low (n.)
+lower (v.)
+luck (n.)
+lucky (adj.)
+lunch (n.)

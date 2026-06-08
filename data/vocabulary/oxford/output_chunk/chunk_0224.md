@@ -1,10 +1,14 @@
-revise v.
-revolution n.
-reward n., v.
-rhythm n.
-rice n.
-rich adj.
-rid v.
-ride v., n.
-right adj., adv., n.
-ring1 n.
+revise (v.)
+revolution (n.)
+reward (n.)
+reward (v.)
+rhythm (n.)
+rice (n.)
+rich (adj.)
+rid (v.)
+ride (v.)
+ride (n.)
+right (adj.)
+right (adv.)
+right (n.)
+ring1 (n.)

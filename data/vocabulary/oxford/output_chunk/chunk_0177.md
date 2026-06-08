@@ -1,10 +1,13 @@
-nothing pron.
-notice v., n.
-notion n.
-novel n.
-November n.
-now adv., conj.
-nowhere adv.
-nuclear adj.
-number n., v.
-numerous adj.
+nothing (pron.)
+notice (v.)
+notice (n.)
+notion (n.)
+novel (n.)
+November (n.)
+now (adv.)
+now (conj.)
+nowhere (adv.)
+nuclear (adj.)
+number (n.)
+number (v.)
+numerous (adj.)

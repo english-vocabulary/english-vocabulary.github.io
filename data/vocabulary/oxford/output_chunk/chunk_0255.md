@@ -1,10 +1,13 @@
-stiff adj.
-still adv., adj.
-stock n.
-stomach n.
-stone n.
-stop v., n.
-store n., v.
-storm n.
-story n.
-stove n.
+stiff (adj.)
+still (adv.)
+still (adj.)
+stock (n.)
+stomach (n.)
+stone (n.)
+stop (v.)
+stop (n.)
+store (n.)
+store (v.)
+storm (n.)
+story (n.)
+stove (n.)

@@ -1,10 +1,13 @@
-vital adj.
-vitamin n.
-voice n.
-volume n.
-volunteer n., v.
-vote n., v.
-wage n.
-wait v., n.
-waiter n.
-wake v.
+vital (adj.)
+vitamin (n.)
+voice (n.)
+volume (n.)
+volunteer (n.)
+volunteer (v.)
+vote (n.)
+vote (v.)
+wage (n.)
+wait (v.)
+wait (n.)
+waiter (n.)
+wake (v.)

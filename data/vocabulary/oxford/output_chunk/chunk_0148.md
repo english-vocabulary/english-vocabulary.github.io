@@ -1,10 +1,15 @@
-land n., v.
-landscape n.
-language n.
-laptop n.
-large adj.
-largely adv.
-last1 (final) det., adv., n.
-last1 (taking time) v.
-late adj., adv.
-later adv., adj.
+land (n.)
+land (v.)
+landscape (n.)
+language (n.)
+laptop (n.)
+large (adj.)
+largely (adv.)
+last1 (final) (det.)
+last1 (final) (adv.)
+last1 (final) (n.)
+last1 (taking time) (v.)
+late (adj.)
+late (adv.)
+later (adv.)
+later (adj.)

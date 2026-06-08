@@ -1,10 +1,12 @@
-quick adj.
-quickly adv.
-quiet adj.
-quietly adv.
-quit v.
-quite adv.
-quotation n.
-quote v., n.
-race (competition) n., v.
-race (of people) n.
+quick (adj.)
+quickly (adv.)
+quiet (adj.)
+quietly (adv.)
+quit (v.)
+quite (adv.)
+quotation (n.)
+quote (v.)
+quote (n.)
+race (competition) (n.)
+race (competition) (v.)
+race (of people) (n.)

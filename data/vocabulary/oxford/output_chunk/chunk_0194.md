@@ -1,10 +1,15 @@
-physics n.
-piano n.
-pick v., n.
-picture n., v.
-piece n.
-pig n.
-pile n., v.
-pilot n.
-pin n., v.
-pink adj., n.
+physics (n.)
+piano (n.)
+pick (v.)
+pick (n.)
+picture (n.)
+picture (v.)
+piece (n.)
+pig (n.)
+pile (n.)
+pile (v.)
+pilot (n.)
+pin (n.)
+pin (v.)
+pink (adj.)
+pink (n.)

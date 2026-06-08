@@ -1,10 +1,12 @@
-journal n.
-journalist n.
-journey n.
-joy n.
-judge n., v.
-judgment n.
-juice n.
-July n.
-jump v., n.
-June n.
+journal (n.)
+journalist (n.)
+journey (n.)
+joy (n.)
+judge (n.)
+judge (v.)
+judgment (n.)
+juice (n.)
+July (n.)
+jump (v.)
+jump (n.)
+June (n.)

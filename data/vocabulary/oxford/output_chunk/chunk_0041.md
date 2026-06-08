@@ -1,10 +1,13 @@
-cent n.
-center n., v.
-central adj.
-century n.
-ceremony n.
-certain adj.
-certainly adv.
-chain n., v.
-chair n., v.
-chairman n.
+cent (n.)
+center (n.)
+center (v.)
+central (adj.)
+century (n.)
+ceremony (n.)
+certain (adj.)
+certainly (adv.)
+chain (n.)
+chain (v.)
+chair (n.)
+chair (v.)
+chairman (n.)

@@ -1,10 +1,11 @@
-clothing n.
-cloud n.
-club n.
-clue n.
-coach n., v.
-coal n.
-coast n.
-coat n.
-code n.
-coffee n.
+clothing (n.)
+cloud (n.)
+club (n.)
+clue (n.)
+coach (n.)
+coach (v.)
+coal (n.)
+coast (n.)
+coat (n.)
+code (n.)
+coffee (n.)

@@ -1,10 +1,15 @@
-noisy adj.
-none pron.
-nor conj./adv.
-normal adj., n.
-normally adv.
-north n., adj., adv.
-northern adj.
-nose n.
-not adv.
-note n., v.
+noisy (adj.)
+none (pron.)
+nor (conj.)
+nor (adv.)
+normal (adj.)
+normal (n.)
+normally (adv.)
+north (n.)
+north (adj.)
+north (adv.)
+northern (adj.)
+nose (n.)
+not (adv.)
+note (n.)
+note (v.)

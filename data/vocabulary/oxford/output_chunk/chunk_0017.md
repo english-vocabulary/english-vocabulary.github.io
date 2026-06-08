@@ -1,10 +1,11 @@
-asleep adj.
-aspect n.
-assess v.
-assessment n.
-assignment n.
-assist v.
-assistant n., adj.
-associate v.
-associated adj.
-association n.
+asleep (adj.)
+aspect (n.)
+assess (v.)
+assessment (n.)
+assignment (n.)
+assist (v.)
+assistant (n.)
+assistant (adj.)
+associate (v.)
+associated (adj.)
+association (n.)

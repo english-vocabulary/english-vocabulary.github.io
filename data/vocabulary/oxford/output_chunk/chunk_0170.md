@@ -1,10 +1,13 @@
-movement n.
-movie n.
-much det./pron., adv.
-mud n.
-multiple adj.
-multiply v.
-murder n., v.
-muscle n.
-museum n.
-music n.
+movement (n.)
+movie (n.)
+much (det.)
+much (pron.)
+much (adv.)
+mud (n.)
+multiple (adj.)
+multiply (v.)
+murder (n.)
+murder (v.)
+muscle (n.)
+museum (n.)
+music (n.)

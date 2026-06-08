@@ -1,10 +1,15 @@
-hide v.
-high adj., adv., n.
-highlight v., n.
-highly adv.
-highway n.
-hill n.
-him pron.
-himself pron.
-hire v., n.
-his det., pron.
+hide (v.)
+high (adj.)
+high (adv.)
+high (n.)
+highlight (v.)
+highlight (n.)
+highly (adv.)
+highway (n.)
+hill (n.)
+him (pron.)
+himself (pron.)
+hire (v.)
+hire (n.)
+his (det.)
+his (pron.)

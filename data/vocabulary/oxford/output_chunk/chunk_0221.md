@@ -1,10 +1,15 @@
-representative n., adj.
-reputation n.
-request n., v.
-require v.
-requirement n.
-rescue v., n.
-research n., v.
-researcher n.
-reservation n.
-reserve n., v.
+representative (n.)
+representative (adj.)
+reputation (n.)
+request (n.)
+request (v.)
+require (v.)
+requirement (n.)
+rescue (v.)
+rescue (n.)
+research (n.)
+research (v.)
+researcher (n.)
+reservation (n.)
+reserve (n.)
+reserve (v.)

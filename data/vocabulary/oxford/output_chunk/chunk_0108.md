@@ -1,10 +1,14 @@
-folk n., adj.
-follow v.
-following adj., n., prep.
-food n.
-foot n.
-football n.
-for prep.
-force n., v.
-foreign adj.
-forest n.
+folk (n.)
+folk (adj.)
+follow (v.)
+following (adj.)
+following (n.)
+following (prep.)
+food (n.)
+foot (n.)
+football (n.)
+for (prep.)
+force (n.)
+force (v.)
+foreign (adj.)
+forest (n.)

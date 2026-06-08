@@ -1,10 +1,12 @@
-spending n.
-spicy adj.
-spider n.
-spirit n.
-spiritual adj.
-split v., n.
-spoken adj.
-sponsor v., n.
-spoon n.
-sport n.
+spending (n.)
+spicy (adj.)
+spider (n.)
+spirit (n.)
+spiritual (adj.)
+split (v.)
+split (n.)
+spoken (adj.)
+sponsor (v.)
+sponsor (n.)
+spoon (n.)
+sport (n.)

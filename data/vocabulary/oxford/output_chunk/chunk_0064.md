@@ -1,10 +1,12 @@
-cultural adj.
-culture n.
-cup n.
-cupboard n.
-cure v., n.
-curly adj.
-currency n.
-current adj., n.
-currently adv.
-curtain n.
+cultural (adj.)
+culture (n.)
+cup (n.)
+cupboard (n.)
+cure (v.)
+cure (n.)
+curly (adj.)
+currency (n.)
+current (adj.)
+current (n.)
+currently (adv.)
+curtain (n.)

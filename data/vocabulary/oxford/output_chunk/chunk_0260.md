@@ -1,10 +1,12 @@
-summarize v.
-summary n.
-summer n.
-sun n.
-Sunday n.
-supermarket n.
-supply n., v.
-support v., n.
-supporter n.
-suppose v.
+summarize (v.)
+summary (n.)
+summer (n.)
+sun (n.)
+Sunday (n.)
+supermarket (n.)
+supply (n.)
+supply (v.)
+support (v.)
+support (n.)
+supporter (n.)
+suppose (v.)

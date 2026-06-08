@@ -1,10 +1,14 @@
-ring2 v., n.B1
-rise v., n.
-risk n., v.
-river n.
-road n.
-robot n.
-rock (stone) n.
-rock (music) n.
-role n.
-roll v., n.
+ring2 (v.)
+ring2 (n.B1.)
+rise (v.)
+rise (n.)
+risk (n.)
+risk (v.)
+river (n.)
+road (n.)
+robot (n.)
+rock (stone) (n.)
+rock (music) (n.)
+role (n.)
+roll (v.)
+roll (n.)

@@ -1,10 +1,13 @@
-turn v., n.
-TV n.
+turn (v.)
+turn (n.)
+TV (n.)
 twelve number
 twenty number
-twice adv.
-twin n., adj.
+twice (adv.)
+twin (n.)
+twin (adj.)
 two number
-type n., v.
-typical adj.
-typically adv.
+type (n.)
+type (v.)
+typical (adj.)
+typically (adv.)

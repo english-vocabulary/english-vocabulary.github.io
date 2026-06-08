@@ -1,10 +1,11 @@
-costume n.
-cotton n.
-could modal v.
-council n.
-count v., n.
-country n.
-countryside n.
-county n.
-couple n.
-courage n.
+costume (n.)
+cotton (n.)
+could modal (v.)
+council (n.)
+count (v.)
+count (n.)
+country (n.)
+countryside (n.)
+county (n.)
+couple (n.)
+courage (n.)

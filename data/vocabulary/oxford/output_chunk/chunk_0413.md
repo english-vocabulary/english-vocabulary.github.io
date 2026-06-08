@@ -1,10 +1,12 @@
-massacre n.
-mate n., v.
-mathematical adj.
-mature adj., v.
-maximize v.
-meaningful adj.
-meantime n.
-mechanic n.
-mechanical adj.
-mechanism n.
+massacre (n.)
+mate (n.)
+mate (v.)
+mathematical (adj.)
+mature (adj.)
+mature (v.)
+maximize (v.)
+meaningful (adj.)
+meantime (n.)
+mechanic (n.)
+mechanical (adj.)
+mechanism (n.)

@@ -1,0 +1,11 @@
+teenager (n.)
+telephone (n.)
+telephone (v.)
+television (n.)
+tell (v.)
+temperature (n.)
+temporary (adj.)
+ten number
+tend (v.)
+tennis (n.)
+tent (n.)

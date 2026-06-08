@@ -1,10 +1,10 @@
-they pron.
-thick adj.
-thief n.
-thin adj.
-thing n.
-think v.
-thinking n.
-third number, n.
-thirsty adj.
+they (pron.)
+thick (adj.)
+thief (n.)
+thin (adj.)
+thing (n.)
+think (v.)
+thinking (n.)
+third number, (n.)
+thirsty (adj.)
 thirteen number

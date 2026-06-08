@@ -1,10 +1,12 @@
-opposition n.
-option n.
-or conj.
-orange n., adj.
-order n., v.
-ordinary adj.
-organ n.
-organization n.
-organize v.
-organized adj.
+opposition (n.)
+option (n.)
+or (conj.)
+orange (n.)
+orange (adj.)
+order (n.)
+order (v.)
+ordinary (adj.)
+organ (n.)
+organization (n.)
+organize (v.)
+organized (adj.)

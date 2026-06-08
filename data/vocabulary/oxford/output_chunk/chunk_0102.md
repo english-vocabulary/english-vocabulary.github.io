@@ -1,10 +1,13 @@
-federal adj.
-fee n.
-feed v., n.
-feedback n.
-feel v., n.
-feeling n.
-fellow adj.
-female adj., n.
-fence n.
-festival n.
+federal (adj.)
+fee (n.)
+feed (v.)
+feed (n.)
+feedback (n.)
+feel (v.)
+feel (n.)
+feeling (n.)
+fellow (adj.)
+female (adj.)
+female (n.)
+fence (n.)
+festival (n.)

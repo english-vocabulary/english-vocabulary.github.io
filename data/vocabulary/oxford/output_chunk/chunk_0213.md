@@ -1,10 +1,12 @@
-rarely adv.
-rate n., v.B2
-rather adv.
-raw adj.
-reach v., n.
-react v.
-reaction n.
-read v.
-reader n.
-reading n.
+rarely (adv.)
+rate (n.)
+rate (v.B2.)
+rather (adv.)
+raw (adj.)
+reach (v.)
+reach (n.)
+react (v.)
+reaction (n.)
+read (v.)
+reader (n.)
+reading (n.)

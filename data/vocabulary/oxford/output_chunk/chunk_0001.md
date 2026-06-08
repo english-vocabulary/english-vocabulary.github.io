@@ -1,12 +1,12 @@
-accept v.
-acceptable adj.
-access n.
-access v.
-accident n.
-accompany v.
-according to prep.
-account n.
-account v.
-accurate adj.
-accuse v.
-achieve v.
+accept (v.)
+acceptable (adj.)
+access (n.)
+access (v.)
+accident (n.)
+accompany (v.)
+according to (prep.)
+account (n.)
+account (v.)
+accurate (adj.)
+accuse (v.)
+achieve (v.)

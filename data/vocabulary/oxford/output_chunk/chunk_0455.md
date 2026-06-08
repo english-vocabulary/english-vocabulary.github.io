@@ -1,10 +1,13 @@
-résumé n.
-retail n.
-retirement n.
-retreat n., v.
-retrieve v.
-revelation n.
-revenge n.
-revenue n.
-reverse v., n., adj.
-revision n.
+résumé (n.)
+retail (n.)
+retirement (n.)
+retreat (n.)
+retreat (v.)
+retrieve (v.)
+revelation (n.)
+revenge (n.)
+revenue (n.)
+reverse (v.)
+reverse (n.)
+reverse (adj.)
+revision (n.)

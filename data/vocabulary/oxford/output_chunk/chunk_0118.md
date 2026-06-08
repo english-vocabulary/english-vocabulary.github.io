@@ -1,10 +1,12 @@
-governor n.
-grab v.
-grade n., v.
-gradually adv.
-graduate n., v.
-grain n.
-grand adj.
-grandfather n.
-grandmother n.
-grandparent n.
+governor (n.)
+grab (v.)
+grade (n.)
+grade (v.)
+gradually (adv.)
+graduate (n.)
+graduate (v.)
+grain (n.)
+grand (adj.)
+grandfather (n.)
+grandmother (n.)
+grandparent (n.)

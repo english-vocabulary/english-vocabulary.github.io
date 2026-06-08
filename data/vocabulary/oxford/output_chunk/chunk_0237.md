@@ -1,10 +1,13 @@
-shadow n.
-shake v., n.
-shall modal v.
-shallow adj.
-shame n.
-shape n., v.
-share v., n.
-sharp adj.
-she pron.
-sheep n.
+shadow (n.)
+shake (v.)
+shake (n.)
+shall modal (v.)
+shallow (adj.)
+shame (n.)
+shape (n.)
+shape (v.)
+share (v.)
+share (n.)
+sharp (adj.)
+she (pron.)
+sheep (n.)

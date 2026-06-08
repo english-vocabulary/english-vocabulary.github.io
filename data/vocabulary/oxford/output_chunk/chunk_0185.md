@@ -1,10 +1,15 @@
-out adv./prep.
-outcome n.
-outdoor adj.
-outdoors adv.
-outer adj.
-outline n., v.
-outside adv., prep., noun.,
+out (adv.)
+out (prep.)
+outcome (n.)
+outdoor (adj.)
+outdoors (adv.)
+outer (adj.)
+outline (n.)
+outline (v.)
+outside (adv.)
+outside (prep.)
+outside (noun.)
 adj.
-oven n.
-over prep., adv.
+oven (n.)
+over (prep.)
+over (adv.)

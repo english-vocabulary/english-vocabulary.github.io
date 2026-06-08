@@ -1,10 +1,13 @@
-blind adj.
-block n., v.
-blog n.
-blond adj.
-blood n.
-blow v.
-blue adj., n.
-board n., v.
-boat n.
-body n.
+blind (adj.)
+block (n.)
+block (v.)
+blog (n.)
+blond (adj.)
+blood (n.)
+blow (v.)
+blue (adj.)
+blue (n.)
+board (n.)
+board (v.)
+boat (n.)
+body (n.)

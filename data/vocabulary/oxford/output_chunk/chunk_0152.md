@@ -1,10 +1,13 @@
-lesson n.
-let v.
-letter n.
-level n., adj., v.
-library n.
-license n.
-lie1 v.
-lie2 (tell a lie) v., n.
-life n.
-lifestyle n.
+lesson (n.)
+let (v.)
+letter (n.)
+level (n.)
+level (adj.)
+level (v.)
+library (n.)
+license (n.)
+lie1 (v.)
+lie2 (tell a lie) (v.)
+lie2 (tell a lie) (n.)
+life (n.)
+lifestyle (n.)

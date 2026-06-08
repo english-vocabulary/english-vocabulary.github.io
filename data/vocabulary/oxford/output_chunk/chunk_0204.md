@@ -1,10 +1,12 @@
-primary adj.
-prime adj.
-prince n.
-princess n.
-principal n., adj.
-principle n.
-print v., n.
-printer n.
-printing n.
-priority n.
+primary (adj.)
+prime (adj.)
+prince (n.)
+princess (n.)
+principal (n.)
+principal (adj.)
+principle (n.)
+print (v.)
+print (n.)
+printer (n.)
+printing (n.)
+priority (n.)

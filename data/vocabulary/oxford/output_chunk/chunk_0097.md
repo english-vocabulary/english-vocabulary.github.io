@@ -1,10 +1,13 @@
-explore v.
-explosion n.
-export n., v.
-expose v.
-express v.
-expression n.
-extend v.
-extent n.
-external adj.
-extra adj., n., adv.
+explore (v.)
+explosion (n.)
+export (n.)
+export (v.)
+expose (v.)
+express (v.)
+expression (n.)
+extend (v.)
+extent (n.)
+external (adj.)
+extra (adj.)
+extra (n.)
+extra (adv.)

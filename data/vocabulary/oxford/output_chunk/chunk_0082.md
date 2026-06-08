@@ -1,10 +1,15 @@
-duty n.
-DVD n.
-each det./pron./adv.
-ear n.
-early adj., adv.
-earn v.
-earth n.
-earthquake n.
-easily adv.
-east n., adj., adv.
+duty (n.)
+DVD (n.)
+each (det.)
+each (pron.)
+each (adv.)
+ear (n.)
+early (adj.)
+early (adv.)
+earn (v.)
+earth (n.)
+earthquake (n.)
+easily (adv.)
+east (n.)
+east (adj.)
+east (adv.)

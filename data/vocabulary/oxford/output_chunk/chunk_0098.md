@@ -1,10 +1,12 @@
-extraordinary adj.
-extreme adj., n.
-extremely adv.
-eye n.
-face n., v.
-facility n.
-fact n.
-factor n.
-factory n.
-fail v.
+extraordinary (adj.)
+extreme (adj.)
+extreme (n.)
+extremely (adv.)
+eye (n.)
+face (n.)
+face (v.)
+facility (n.)
+fact (n.)
+factor (n.)
+factory (n.)
+fail (v.)

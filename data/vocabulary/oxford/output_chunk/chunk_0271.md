@@ -1,10 +1,14 @@
-throughout prep./adv.
-throw v.
-Thursday n.
-thus adv.
-ticket n.
-tie v., n.
-tight adj.
-till conj./prep.
-time n., v.
-tiny adj.
+throughout (prep.)
+throughout (adv.)
+throw (v.)
+Thursday (n.)
+thus (adv.)
+ticket (n.)
+tie (v.)
+tie (n.)
+tight (adj.)
+till (conj.)
+till (prep.)
+time (n.)
+time (v.)
+tiny (adj.)

@@ -1,10 +1,13 @@
-president n.
-press v., n.
-pressure n.
-pretend v.
-pretty adj., adv.
-prevent v.
-previous adj.
-previously adv.
-price n., v.
-priest n.
+president (n.)
+press (v.)
+press (n.)
+pressure (n.)
+pretend (v.)
+pretty (adj.)
+pretty (adv.)
+prevent (v.)
+previous (adj.)
+previously (adv.)
+price (n.)
+price (v.)
+priest (n.)

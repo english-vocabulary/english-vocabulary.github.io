@@ -1,10 +1,16 @@
-where adv., conj.
-whereas conj.
-wherever conj.
-whether conj.
-which pron./det.
-while conj., n.
-whisper v., n.
-white adj., n.
-who pron.
-whole adj., n.
+where (adv.)
+where (conj.)
+whereas (conj.)
+wherever (conj.)
+whether (conj.)
+which (pron.)
+which (det.)
+while (conj.)
+while (n.)
+whisper (v.)
+whisper (n.)
+white (adj.)
+white (n.)
+who (pron.)
+whole (adj.)
+whole (n.)

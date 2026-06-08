@@ -1,10 +1,15 @@
-many det./pron.
-map n., v.
-March n.
-mark v., n.
-market n., v.
-marketing n.
-marriage n.
-married adj.
-marry v.
-mass n., adj.
+many (det.)
+many (pron.)
+map (n.)
+map (v.)
+March (n.)
+mark (v.)
+mark (n.)
+market (n.)
+market (v.)
+marketing (n.)
+marriage (n.)
+married (adj.)
+marry (v.)
+mass (n.)
+mass (adj.)

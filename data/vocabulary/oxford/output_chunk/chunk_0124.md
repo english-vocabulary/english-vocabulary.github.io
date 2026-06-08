@@ -1,10 +1,11 @@
-heat n., v.
-heating n.
-heaven n.
-heavily adv.
-heavy adj.
-heel n.
-height n.
-helicopter n.
-hell n.
+heat (n.)
+heat (v.)
+heating (n.)
+heaven (n.)
+heavily (adv.)
+heavy (adj.)
+heel (n.)
+height (n.)
+helicopter (n.)
+hell (n.)
 hello exclam./n.

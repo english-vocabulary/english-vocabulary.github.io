@@ -1,10 +1,13 @@
-tactic n.
-tactical adj.
-tag n., v.
-tap v., n.
-taxpayer n.
-technological adj.
-teen n., adj.
-temple n.
-temporarily adv.
-tempt v.
+tactic (n.)
+tactical (adj.)
+tag (n.)
+tag (v.)
+tap (v.)
+tap (n.)
+taxpayer (n.)
+technological (adj.)
+teen (n.)
+teen (adj.)
+temple (n.)
+temporarily (adv.)
+tempt (v.)

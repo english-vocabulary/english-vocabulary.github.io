@@ -1,10 +1,12 @@
 eighteen number
 eighty number
-either det./pron., adv.
-elderly adj.
-elect v.
-election n.
-electric adj.
-electrical adj.
-electricity n.
-electronic adj.
+either (det.)
+either (pron.)
+either (adv.)
+elderly (adj.)
+elect (v.)
+election (n.)
+electric (adj.)
+electrical (adj.)
+electricity (n.)
+electronic (adj.)

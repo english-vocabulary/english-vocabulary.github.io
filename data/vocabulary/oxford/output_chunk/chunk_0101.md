@@ -1,10 +1,15 @@
-fasten v.
-fat adj., n.A2
-father n.
-fault n.
-favor n., v.
-favorite adj., n.
-fear n., v.
-feather n.
-feature n., v.
-February n.
+fasten (v.)
+fat (adj.)
+fat (n.A2.)
+father (n.)
+fault (n.)
+favor (n.)
+favor (v.)
+favorite (adj.)
+favorite (n.)
+fear (n.)
+fear (v.)
+feather (n.)
+feature (n.)
+feature (v.)
+February (n.)

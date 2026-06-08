@@ -1,10 +1,13 @@
-middle n., adj.
-midnight n.
-might modal v.
-mild adj.
-mile n.
-military adj., n.
-milk n.
+middle (n.)
+middle (adj.)
+midnight (n.)
+might modal (v.)
+mild (adj.)
+mile (n.)
+military (adj.)
+military (n.)
+milk (n.)
 million number
-mind n., v.
-mine (belongs to me) pron.
+mind (n.)
+mind (v.)
+mine (belongs to me) (pron.)

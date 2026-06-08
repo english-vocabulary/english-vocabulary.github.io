@@ -1,10 +1,12 @@
-blanket n.
-blast n., v.
-bleed v.
-blend v., n.
-bless v.
-blessing n.
-blow n.
-boast v.
-bold adj.
-bombing n.
+blanket (n.)
+blast (n.)
+blast (v.)
+bleed (v.)
+blend (v.)
+blend (n.)
+bless (v.)
+blessing (n.)
+blow (n.)
+boast (v.)
+bold (adj.)
+bombing (n.)

@@ -1,10 +1,15 @@
-shout v., n.
-show v., n.
-shower n.
-shut v., adj.
-shy adj.
-sick adj.
-side n.
-sight n.
-sign n., v.
-signal n., v.
+shout (v.)
+shout (n.)
+show (v.)
+show (n.)
+shower (n.)
+shut (v.)
+shut (adj.)
+shy (adj.)
+sick (adj.)
+side (n.)
+sight (n.)
+sign (n.)
+sign (v.)
+signal (n.)
+signal (v.)

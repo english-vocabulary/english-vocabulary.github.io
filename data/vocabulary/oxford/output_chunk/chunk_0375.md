@@ -1,10 +1,12 @@
-filter n., v.
-fine n., v.
-firearm n.
-firefighter n.
-firework n.
-firm adj.
-firmly adv.
-fiscal adj.
-fit n.
-flavor n.
+filter (n.)
+filter (v.)
+fine (n.)
+fine (v.)
+firearm (n.)
+firefighter (n.)
+firework (n.)
+firm (adj.)
+firmly (adv.)
+fiscal (adj.)
+fit (n.)
+flavor (n.)

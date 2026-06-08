@@ -1,10 +1,11 @@
-itself pron.
-jacket n.
-jam n.
-January n.
-jazz n.
-jeans n.
-jewelry n.
-job n.
-join v.
-joke n., v.
+itself (pron.)
+jacket (n.)
+jam (n.)
+January (n.)
+jazz (n.)
+jeans (n.)
+jewelry (n.)
+job (n.)
+join (v.)
+joke (n.)
+joke (v.)

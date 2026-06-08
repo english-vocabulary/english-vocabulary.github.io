@@ -1,10 +1,12 @@
-transfer v., n.
-transform v.
-transition n.
-translate v.
-translation n.
-transport v.
-transportation n.
-trash n.
-travel v., n.
-traveler n.
+transfer (v.)
+transfer (n.)
+transform (v.)
+transition (n.)
+translate (v.)
+translation (n.)
+transport (v.)
+transportation (n.)
+trash (n.)
+travel (v.)
+travel (n.)
+traveler (n.)

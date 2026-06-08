@@ -1,10 +1,11 @@
-reliable adj.
-relief n.
-religion n.
-religious adj.
-rely v.
-remain v.
-remark n., v.
-remember v.
-remind v.
-remote adj.
+reliable (adj.)
+relief (n.)
+religion (n.)
+religious (adj.)
+rely (v.)
+remain (v.)
+remark (n.)
+remark (v.)
+remember (v.)
+remind (v.)
+remote (adj.)

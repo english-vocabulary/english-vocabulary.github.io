@@ -1,10 +1,15 @@
-strike v., n.
-string n.
-strong adj.
-strongly adv.
-structure n., v.
-struggle v., n.
-student n.
-studio n.
-study n., v.
-stuff n., v.
+strike (v.)
+strike (n.)
+string (n.)
+strong (adj.)
+strongly (adv.)
+structure (n.)
+structure (v.)
+struggle (v.)
+struggle (n.)
+student (n.)
+studio (n.)
+study (n.)
+study (v.)
+stuff (n.)
+stuff (v.)

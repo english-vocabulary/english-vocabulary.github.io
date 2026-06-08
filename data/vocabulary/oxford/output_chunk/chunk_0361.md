@@ -1,10 +1,13 @@
-dumb adj.
-dump v.
-duo n.
-duration n.
-dynamic adj., n.
-eager adj.
-earnings n.
-ease n., v.
-echo v., n.
-ecological adj.
+dumb (adj.)
+dump (v.)
+duo (n.)
+duration (n.)
+dynamic (adj.)
+dynamic (n.)
+eager (adj.)
+earnings (n.)
+ease (n.)
+ease (v.)
+echo (v.)
+echo (n.)
+ecological (adj.)

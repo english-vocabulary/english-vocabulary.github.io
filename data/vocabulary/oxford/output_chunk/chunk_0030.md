@@ -1,10 +1,13 @@
-boil v.
-bomb n., v.
-bond n.
-bone n.
-book n., v.
-boot n.
-border n., v.
-bored adj.
-boring adj.
-born v.
+boil (v.)
+bomb (n.)
+bomb (v.)
+bond (n.)
+bone (n.)
+book (n.)
+book (v.)
+boot (n.)
+border (n.)
+border (v.)
+bored (adj.)
+boring (adj.)
+born (v.)

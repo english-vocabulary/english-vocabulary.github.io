@@ -1,10 +1,14 @@
-grow v.
-growth n.
-guarantee v., n.
-guard n., v.
-guess v., n.
-guest n.
-guide n., v.
-guilty adj.
-guitar n.
-gun n.
+grow (v.)
+growth (n.)
+guarantee (v.)
+guarantee (n.)
+guard (n.)
+guard (v.)
+guess (v.)
+guess (n.)
+guest (n.)
+guide (n.)
+guide (v.)
+guilty (adj.)
+guitar (n.)
+gun (n.)

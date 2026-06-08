@@ -1,10 +1,14 @@
-talk v., n.
-tall adj.
-tank n.
-tape n.
-target n., v.
-task n.
-taste n., v.
-tax n., v.
-taxi n.
-tea n.
+talk (v.)
+talk (n.)
+tall (adj.)
+tank (n.)
+tape (n.)
+target (n.)
+target (v.)
+task (n.)
+taste (n.)
+taste (v.)
+tax (n.)
+tax (v.)
+taxi (n.)
+tea (n.)

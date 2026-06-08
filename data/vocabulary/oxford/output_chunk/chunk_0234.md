@@ -1,10 +1,13 @@
-senate n.
-senator n.
-send v.
-senior adj.
-sense n., v.
-sensible adj.
-sensitive adj.
-sentence n., v.
-separate adj., v.
-September n.
+senate (n.)
+senator (n.)
+send (v.)
+senior (adj.)
+sense (n.)
+sense (v.)
+sensible (adj.)
+sensitive (adj.)
+sentence (n.)
+sentence (v.)
+separate (adj.)
+separate (v.)
+September (n.)

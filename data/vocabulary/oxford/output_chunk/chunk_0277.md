@@ -1,10 +1,13 @@
-treat v.
-treatment n.
-tree n.
-trend n.
-trial n.
-trick n., v.
-trip n., v.
-tropical adj.
-trouble n., v.
-truck n.
+treat (v.)
+treatment (n.)
+tree (n.)
+trend (n.)
+trial (n.)
+trick (n.)
+trick (v.)
+trip (n.)
+trip (v.)
+tropical (adj.)
+trouble (n.)
+trouble (v.)
+truck (n.)

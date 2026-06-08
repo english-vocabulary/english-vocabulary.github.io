@@ -1,10 +1,11 @@
-conceal v.
-concede v.
-conceive v.
-conception n.
-concession n.
-concrete adj., n.
-condemn v.
-confer v.
-confess v.
-confession n.
+conceal (v.)
+concede (v.)
+conceive (v.)
+conception (n.)
+concession (n.)
+concrete (adj.)
+concrete (n.)
+condemn (v.)
+confer (v.)
+confess (v.)
+confession (n.)

@@ -1,10 +1,14 @@
-royal adj.
-rub v.
-rubber n., adj.
-rude adj.
-rule n., v.
-run v., n.
-runner n.
-running n.
-rural adj.
-rush v., n.
+royal (adj.)
+rub (v.)
+rubber (n.)
+rubber (adj.)
+rude (adj.)
+rule (n.)
+rule (v.)
+run (v.)
+run (n.)
+runner (n.)
+running (n.)
+rural (adj.)
+rush (v.)
+rush (n.)
