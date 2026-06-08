@@ -1,7 +1,7 @@
 texture (n.)
 thankfully (adv.)
 theatrical (adj.)
-theft (n.B2.)
+theft (n.)
 theology (n.)
 theoretical (adj.)
 therapist (n.)

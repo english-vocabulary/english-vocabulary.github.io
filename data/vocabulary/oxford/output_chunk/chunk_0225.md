@@ -1,5 +1,5 @@
 ring2 (v.)
-ring2 (n.B1.)
+ring2 (n.)
 rise (v.)
 rise (n.)
 risk (n.)

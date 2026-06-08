@@ -1,6 +1,6 @@
 rarely (adv.)
 rate (n.)
-rate (v.B2.)
+rate (v.)
 rather (adv.)
 raw (adj.)
 reach (v.)

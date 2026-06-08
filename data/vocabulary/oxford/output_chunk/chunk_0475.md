@@ -1,6 +1,6 @@
 substitution (n.)
 subtle (adj.)
-suburb (n.B2.)
+suburb (n.)
 suburban (adj.)
 succession (n.)
 successive (adj.)

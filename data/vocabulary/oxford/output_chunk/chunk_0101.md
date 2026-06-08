@@ -1,6 +1,6 @@
 fasten (v.)
 fat (adj.)
-fat (n.A2.)
+fat (n.)
 father (n.)
 fault (n.)
 favor (n.)

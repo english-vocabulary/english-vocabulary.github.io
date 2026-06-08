@@ -1,7 +1,7 @@
 organizer (n.)
 origin (n.)
 original (adj.)
-original (n.B1.)
+original (n.)
 originally (adv.)
 other (adj.)
 other (pron.)
