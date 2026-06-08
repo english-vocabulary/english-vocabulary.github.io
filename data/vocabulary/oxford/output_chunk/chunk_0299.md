@@ -2,11 +2,11 @@ wrong (adj.)
 wrong (adv.)
 wrong (n.)
 yard (n.)
-yeah exclam.
+yeah (exclam.)
 year (n.)
 yellow (adj.)
 yellow (n.)
-yes exclam.
+yes (exclam.)
 yesterday (adv.)
 yesterday (n.)
 yet (adv.)

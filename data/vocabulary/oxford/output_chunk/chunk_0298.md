@@ -6,7 +6,7 @@ worth (n.)
 would modal (v.)
 wound (n.)
 wound (v.)
-wow exclam.
+wow (exclam.)
 wrap (v.)
 write (v.)
 writer (n.)

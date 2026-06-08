@@ -8,5 +8,5 @@ hero (n.)
 hers (pron.)
 herself (pron.)
 hesitate (v.)
-hey exclam.
-hi exclam.
+hey (exclam.)
+hi (exclam.)

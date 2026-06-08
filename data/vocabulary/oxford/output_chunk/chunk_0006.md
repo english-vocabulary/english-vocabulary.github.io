@@ -8,4 +8,4 @@ aggressive (adj.)
 ago (adv.)
 agree (v.)
 agreement (n.)
-ah exclam.
+ah (exclam.)

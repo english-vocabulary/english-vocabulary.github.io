@@ -1,6 +1,6 @@
 by (prep.)
 by (adv.)
-bye exclam.
+bye (exclam.)
 cable (n.)
 cafe (n.)
 cake (n.)

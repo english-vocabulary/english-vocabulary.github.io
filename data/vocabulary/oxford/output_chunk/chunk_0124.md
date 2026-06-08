@@ -8,4 +8,5 @@ heel (n.)
 height (n.)
 helicopter (n.)
 hell (n.)
-hello exclam./n.
+hello (exclam.)
+hello (n.)

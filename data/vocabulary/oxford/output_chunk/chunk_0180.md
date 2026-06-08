@@ -8,5 +8,5 @@ officer (n.)
 official (adj.)
 official (n.)
 often (adv.)
-oh exclam.
+oh (exclam.)
 oil (n.)
