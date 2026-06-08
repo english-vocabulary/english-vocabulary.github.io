@@ -1,4 +1,5 @@
-a, an indefinite article
+a indefinite article.
+an indefinite article.
 abandon v.
 ability n.
 able adj.
@@ -7,7 +8,7 @@ above prep., adv.
 abroad adv.
 absolute adj.
 absolutely adv.
-academic adj.B1
+academic adj.
 accept v.
 acceptable adj.
 access n., v.
@@ -251,7 +252,7 @@ bedroom n.
 bee n.
 beef n.
 beer n.
-before prep., conj., adv.A2
+before prep., conj., adv.
 beg v.
 begin v.
 beginning n.
@@ -469,10 +470,10 @@ clever adj.
 click v., n.
 client n.
 climate n.
-climb v., n.B1
+climb v., n.
 clock n.
 close1 v., n.
-close2 adj., adv.B1
+close2 adj., adv.
 closed adj.
 closely adv.
 closet n.
@@ -527,7 +528,7 @@ complain v.
 complaint n.
 complete adj., v.
 completely adv.
-complex adj., n.B2
+complex adj., n.
 complicated adj.
 component n.
 computer n.
@@ -789,7 +790,7 @@ dominate v.
 donate v.
 door n.
 double adj., det., pron., v., adv.
-B1
+
 doubt n., v.
 down adv., prep.
 download v., n.
@@ -1001,7 +1002,7 @@ fan n.
 fancy adj.
 fantastic adj.
 far adv., adj.
-farm n., v.A2
+farm n., v.
 farmer n.
 farming n.
 fascinating adj.
@@ -1009,7 +1010,7 @@ fashion n.
 fashionable adj.
 fast adj., adv.
 fasten v.
-fat adj., n.A2
+fat adj., n.
 father n.
 fault n.
 favor n., v.
@@ -1053,7 +1054,7 @@ finish v., n.
 fire n., v.
 firm n.
 first det./number, adv., n.
-fish n., v.A2
+fish n., v.
 fishing n.
 fit v., adj.
 fitness n.
@@ -1840,7 +1841,7 @@ organize v.
 organized adj.
 organizer n.
 origin n.
-original adj., n.B1
+original adj., n.
 originally adv.
 other adj./pron.
 otherwise adv.
@@ -2122,14 +2123,14 @@ racing n.
 radio n.
 railroad n.
 rain n., v.
-raise v., n.B1
+raise v., n.
 range n., v.
 rank n., v.
 rapid adj.
 rapidly adv.
 rare adj.
 rarely adv.
-rate n., v.B2
+rate n., v.
 rather adv.
 raw adj.
 reach v., n.
@@ -2248,7 +2249,7 @@ rid v.
 ride v., n.
 right adj., adv., n.
 ring1 n.
-ring2 v., n.B1
+ring2 v., n.
 rise v., n.
 risk n., v.
 river n.
@@ -4332,7 +4333,7 @@ persist v.
 persistent adj.
 personnel n.
 petition n.
-pharmacy n.B2
+pharmacy n.
 philosopher n.
 philosophical adj.
 physician n.
@@ -4734,13 +4735,12 @@ strengthen v.
 strictly adv.
 striking adj.
 strip (long narrow piece) n.
-strip (remove clothes/a layer)
-v.
+strip (remove clothes/a layer) v.
 strive v.
 stroke n.
 structural adj.
 stumble v.
-stun v.C1
+stun v.
 stunning adj.
 submission n.
 subscriber n.
@@ -4753,7 +4753,7 @@ substantially adv.
 substitute n., v.
 substitution n.
 subtle adj.
-suburb n.B2
+suburb n.
 suburban adj.
 succession n.
 successive adj.
@@ -4834,7 +4834,7 @@ textbook n.
 texture n.
 thankfully adv.
 theatrical adj.
-theft n.B2
+theft n.
 theology n.
 theoretical adj.
 therapist n.
@@ -4866,7 +4866,7 @@ toss v.
 total v.
 tournament n.
 toxic adj.
-trace v.B2, n.
+trace v., n.
 trademark n.
 trading n.
 tragedy n.
@@ -5005,6 +5005,6 @@ worm n.
 worship n., v.
 worthwhile adj.
 worthy adj.
-wrist n.B2
+wrist n.
 yell v.
 yield n., v.
