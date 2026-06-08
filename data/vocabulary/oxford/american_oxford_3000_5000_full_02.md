@@ -975,7 +975,6 @@ double (determiner.)
 double (pronoun.)
 double (verb.)
 double (adverb.)
-
 doubt (noun.)
 doubt (verb.)
 down (adverb.)

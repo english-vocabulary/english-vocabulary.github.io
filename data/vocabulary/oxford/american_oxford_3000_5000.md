@@ -790,7 +790,6 @@ dominate v.
 donate v.
 door n.
 double adj., det., pron., v., adv.
-
 doubt n., v.
 down adv., prep.
 download v., n.

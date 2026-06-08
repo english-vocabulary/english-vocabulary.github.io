@@ -975,7 +975,6 @@ double (det.)
 double (pron.)
 double (v.)
 double (adv.)
-
 doubt (n.)
 doubt (v.)
 down (adv.)
