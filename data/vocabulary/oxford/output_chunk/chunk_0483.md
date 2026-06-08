@@ -1,0 +1,10 @@
+texture n.
+thankfully adv.
+theatrical adj.
+theft n.B2
+theology n.
+theoretical adj.
+therapist n.
+thereafter adv.
+thereby adv.
+thesis n.

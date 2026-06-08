@@ -1,0 +1,10 @@
+obsession n.
+obstacle n.
+occasional adj.
+occupation n.
+occupy v.
+occurrence n.
+odds n.
+offender n.
+offering n.
+offspring n.

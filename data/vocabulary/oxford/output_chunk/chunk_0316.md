@@ -1,0 +1,10 @@
+badge n.
+bail n.
+balanced adj.
+ballet n.
+balloon n.
+ballot n.
+bankruptcy n.
+banner n.
+bare adj.
+barely adv.

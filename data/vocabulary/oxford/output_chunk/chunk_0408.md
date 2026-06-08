@@ -1,0 +1,10 @@
+limitation n.
+linear adj.
+lineup n.
+linger v.
+listing n.
+liter n.
+literacy n.
+literally adv.
+literary adj.
+litter n.

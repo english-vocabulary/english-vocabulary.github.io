@@ -1,0 +1,10 @@
+general adj.
+generally adv.
+generate v.
+generation n.
+generous adj.
+genre n.
+gentle adj.
+gentleman n.
+geography n.
+get v.

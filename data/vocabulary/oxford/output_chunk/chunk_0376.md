@@ -1,0 +1,10 @@
+flaw n.
+flawed adj.
+flee v.
+fleet n.
+flesh n.
+flexibility n.
+flourish v.
+fluid n.
+fond adj.
+fool n.

@@ -1,0 +1,10 @@
+compensate v.
+compensation n.
+competence n.
+competent adj.
+compile v.
+complement v.
+completion n.
+complexity n.
+compliance n.
+complication n.

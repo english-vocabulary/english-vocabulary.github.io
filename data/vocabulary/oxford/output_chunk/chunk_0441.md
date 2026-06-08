@@ -1,0 +1,10 @@
+productivity n.
+profitable adj.
+profound adj.
+programming n.
+progressive adj.
+prohibit v.
+projection n.
+prominent adj.
+promising adj.
+promotion n.

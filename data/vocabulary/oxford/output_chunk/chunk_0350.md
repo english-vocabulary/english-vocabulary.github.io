@@ -1,0 +1,10 @@
+delicate adj.
+delighted adj.
+democracy n.
+democratic adj.
+demon n.
+demonstration n.
+denial n.
+denounce v.
+dense adj.
+density n.

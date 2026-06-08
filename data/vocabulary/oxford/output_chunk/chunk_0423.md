@@ -1,0 +1,10 @@
+nonprofit adj.
+nonsense n.
+noon n.
+norm n.
+notable adj.
+notably adv.
+notebook n.
+notify v.
+notorious adj.
+novel adj.

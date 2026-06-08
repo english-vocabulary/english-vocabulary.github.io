@@ -1,0 +1,10 @@
+discharge v.
+disclose v.
+disclosure n.
+discourage v.
+discourse n.
+discretion n.
+discrimination n.
+dismissal n.
+disorder n.
+displace v.

@@ -1,0 +1,10 @@
+undermine v.
+undertake v.
+undoubtedly adv.
+unfold v.
+unfortunate adj.
+unify v.
+unite v.
+unity n.
+universal adj.
+unprecedented adj.

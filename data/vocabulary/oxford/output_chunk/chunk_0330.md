@@ -1,0 +1,10 @@
+coastal adj.
+cocktail n.
+cognitive adj.
+coincide v.
+coincidence n.
+collaborate v.
+collaboration n.
+collective adj.
+collector n.
+collision n.

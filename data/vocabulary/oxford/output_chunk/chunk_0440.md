@@ -1,0 +1,10 @@
+probable adj.
+probe n., v.
+problematic adj.
+proceed v.
+proceeding n.
+proceeds n.
+processing n.
+processor n.
+proclaim v.
+productive adj.

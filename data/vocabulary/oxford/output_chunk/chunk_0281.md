@@ -1,0 +1,10 @@
+understanding n.
+underwear n.
+unemployed adj.
+unemployment n.
+unexpected adj.
+unfair adj.
+unfortunately adv.
+unhappy adj.
+uniform n.
+union n.

@@ -1,0 +1,10 @@
+fragment n.
+framework n.
+franchise n.
+frankly adv.
+fraud n.
+freely adv.
+frequent adj.
+freshman n.
+frustrated adj.
+frustrating adj.

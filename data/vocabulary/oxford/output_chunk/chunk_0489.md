@@ -1,0 +1,10 @@
+trillion number
+trio n.
+triumph n.
+troop n.
+trophy n.
+troubled adj.
+trustee n.
+tsunami n.
+tuition n.
+tumor n.

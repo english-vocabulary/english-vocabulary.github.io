@@ -1,0 +1,10 @@
+directly adv.
+director n.
+dirt n.
+dirty adj.
+disadvantage n.
+disagree v.
+disappear v.
+disappointed adj.
+disappointing adj.
+disaster n.

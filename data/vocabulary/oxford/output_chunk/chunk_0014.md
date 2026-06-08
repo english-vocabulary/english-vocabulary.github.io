@@ -1,0 +1,10 @@
+appropriate adj.
+approval n.
+approve v.
+approximately adv.
+April n.
+architect n.
+architecture n.
+area n.
+argue v.
+argument n.

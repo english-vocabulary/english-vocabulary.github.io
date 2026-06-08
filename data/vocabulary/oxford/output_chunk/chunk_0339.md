@@ -1,0 +1,10 @@
+consultation n.
+consumption n.
+contemplate v.
+contempt n.
+contend v.
+contender n.
+content2 adj.
+contention n.
+continually adv.
+contractor n.

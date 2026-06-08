@@ -1,0 +1,10 @@
+ready adj.
+real adj.
+realistic adj.
+reality n.
+realize v.
+really adv.
+reason n.
+reasonable adj.
+recall v.
+receipt n.

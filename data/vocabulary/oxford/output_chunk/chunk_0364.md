@@ -1,0 +1,10 @@
+embassy n.
+embed v.
+embody v.
+embrace v.
+emergence n.
+emission n.
+emotionally adv.
+empire n.
+empirical adj.
+empower v.

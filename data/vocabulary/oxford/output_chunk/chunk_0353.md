@@ -1,0 +1,10 @@
+detection n.
+detention n.
+deteriorate v.
+determination n.
+devastate v.
+devil n.
+devise v.
+devote v.
+diagnose v.
+diagnosis n.

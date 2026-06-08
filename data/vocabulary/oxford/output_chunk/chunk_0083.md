@@ -1,0 +1,10 @@
+eastern adj.
+easy adj.
+eat v.
+economic adj.
+economy n.
+edge n.
+edit v.
+edition n.
+editor n.
+educate v.

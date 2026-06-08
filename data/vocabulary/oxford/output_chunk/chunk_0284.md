@@ -1,0 +1,10 @@
+urban adj.
+urge v.
+us pron.
+use v., n.
+used1 adj.
+used2 adj.
+used to modal v.
+useful adj.
+user n.
+usual adj.

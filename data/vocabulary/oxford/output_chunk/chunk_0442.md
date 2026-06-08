@@ -1,0 +1,10 @@
+prompt v.
+pronounced adj.
+propaganda n.
+proportion n.
+proposition n.
+prosecute v.
+prosecution n.
+prosecutor n.
+prospective adj.
+prosperity n.

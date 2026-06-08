@@ -1,0 +1,10 @@
+electoral adj.
+electronics n.
+elegant adj.
+elementary adj.
+elevate v.
+eligible adj.
+eliminate v.
+elite n.
+embark v.
+embarrassment n.

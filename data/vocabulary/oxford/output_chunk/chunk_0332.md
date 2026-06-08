@@ -1,0 +1,10 @@
+commerce n.
+commissioner n.
+commodity n.
+communist adj.
+companion n.
+comparable adj.
+comparative adj.
+compassion n.
+compel v.
+compelling adj.

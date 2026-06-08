@@ -1,0 +1,10 @@
+orchestra n.
+organic adj.
+organizational adj.
+orientation n.
+originate v.
+outbreak n.
+outfit n.
+outing n.
+outlet n.
+outlook n.

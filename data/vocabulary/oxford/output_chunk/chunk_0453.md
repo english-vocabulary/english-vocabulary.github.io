@@ -1,0 +1,10 @@
+reproduce v.
+reproduction n.
+republic n.
+resemble v.
+reside v.
+residence n.
+residential adj.
+residue n.
+resign v.
+resignation n.

@@ -1,0 +1,10 @@
+careful adj.
+carefully adv.
+careless adj.
+carpet n.
+carrot n.
+carry v.
+cartoon n.
+case n.
+cash n.
+cast n., v.

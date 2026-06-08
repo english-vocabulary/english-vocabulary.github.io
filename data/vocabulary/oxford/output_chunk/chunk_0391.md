@@ -1,0 +1,10 @@
+idiot n.
+ignorance n.
+illusion n.
+imagery n.
+immense adj.
+immigration n.
+imminent adj.
+immune adj.
+implement v.
+implementation n.

@@ -1,0 +1,10 @@
+verbal adj.
+verdict n.
+verify v.
+verse n.
+versus conj.
+vertical adj.
+vessel n.
+veteran n.
+viable adj.,
+vibrant adj.

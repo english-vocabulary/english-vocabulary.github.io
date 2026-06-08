@@ -1,0 +1,10 @@
+evaluation n.
+evident adj.
+evoke v.
+evolution n.
+evolutionary adj.
+evolve v.
+exaggerate v.
+exceed v.
+excellence n.
+exception n.

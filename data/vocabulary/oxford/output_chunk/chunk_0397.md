@@ -1,0 +1,10 @@
+insider n.
+inspect v.
+inspection n.
+inspector n.
+inspiration n.
+installation n.
+instant adj.
+instantly adv.
+instinct n.
+institutional adj.

@@ -1,0 +1,10 @@
+enforcement n.
+engagement n.
+engaging adj.
+enjoyable adj.
+enrich v.
+enroll v.
+ensue v.
+enterprise n.
+entertaining adj.
+enthusiast n.

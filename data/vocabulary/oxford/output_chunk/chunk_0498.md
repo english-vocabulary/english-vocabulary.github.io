@@ -1,0 +1,10 @@
+wheat n.
+whereby adv.
+whip v.
+whoever pron.
+wholly adv.
+widen v.
+widespread adj.
+widow n.
+width n.
+willingness n.

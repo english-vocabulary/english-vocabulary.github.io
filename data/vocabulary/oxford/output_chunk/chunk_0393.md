@@ -1,0 +1,10 @@
+inclusion n.
+incorporate v.
+incorrect adj.
+incur v.
+independence n.
+index n.
+indication n.
+indicator n.
+indictment n.
+indigenous adj.

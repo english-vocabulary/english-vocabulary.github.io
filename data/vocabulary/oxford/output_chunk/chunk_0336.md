@@ -1,0 +1,10 @@
+configuration n.
+confine v.
+confirmation n.
+confront v.
+confrontation n.
+confusion n.
+congratulate v.
+congregation n.
+congressional adj.
+conquer v.

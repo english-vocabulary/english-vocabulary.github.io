@@ -1,0 +1,10 @@
+shocking adj.
+shoot n.
+shore n.
+shortage n.
+shortly adv.
+short-term adj.
+shrink v.
+shrug v.
+sibling n.
+sidewalk n.

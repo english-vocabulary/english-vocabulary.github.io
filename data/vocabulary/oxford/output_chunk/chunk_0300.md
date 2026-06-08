@@ -1,0 +1,10 @@
+your det.
+yours pron.
+yourself pron.
+youth n.
+zero number
+zone n.
+abolish v.
+abortion n.
+absence n.
+absent adj.

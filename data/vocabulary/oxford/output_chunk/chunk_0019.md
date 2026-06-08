@@ -1,0 +1,10 @@
+attorney n.
+attract v.
+attraction n.
+attractive adj.
+audience n.
+August n.
+aunt n.
+author n.
+authority n.
+automatic adj.

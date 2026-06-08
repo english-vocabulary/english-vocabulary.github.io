@@ -1,0 +1,10 @@
+resistance n.
+resolution n.
+respective adj.
+respectively adv.
+restoration n.
+restore v.
+restraint n.
+restrict v.
+restriction n.
+resume v.

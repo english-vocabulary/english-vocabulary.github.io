@@ -1,0 +1,10 @@
+dairy n., adj.
+dam n.
+damaging adj.
+dare v.
+darkness n.
+database n.
+dawn n.
+deadline n.
+deadly adj.
+dealer n.

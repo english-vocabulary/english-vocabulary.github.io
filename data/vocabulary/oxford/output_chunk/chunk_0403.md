@@ -1,0 +1,10 @@
+journalism n.
+judicial adj.
+jurisdiction n.
+jury n.
+just adj.
+justification n.
+keen adj.
+kidnap v.
+kidney n.
+kindergarten n.

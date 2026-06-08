@@ -1,0 +1,10 @@
+calculation n.
+canal n.
+candle n.
+canvas n.
+capability n.
+capitalism n.
+capitalist adj.
+carbon n.
+cargo n.
+carriage n.

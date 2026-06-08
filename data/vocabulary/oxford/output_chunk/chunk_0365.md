@@ -1,0 +1,10 @@
+enact v.
+encompass v.
+encouragement n.
+encouraging adj.
+endeavor n.
+endless adj.
+endorse v.
+endorsement n.
+endure v.
+enforce v.

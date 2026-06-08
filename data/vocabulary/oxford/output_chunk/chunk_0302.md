@@ -1,0 +1,10 @@
+accommodate v.
+accommodation n.
+accomplish v.
+accomplishment n.
+accordingly adv.
+accountability n.
+accountable adj.
+accountant n.
+accumulate v.
+accumulation n.

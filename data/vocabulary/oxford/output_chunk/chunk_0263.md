@@ -1,0 +1,10 @@
+sympathy n.
+symptom n.
+system n.
+table n.
+tablet n.
+tail n.
+take v.
+tale n.
+talent n.
+talented adj.

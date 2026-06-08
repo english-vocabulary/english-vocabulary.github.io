@@ -1,0 +1,10 @@
+buddy n.
+buffer n.
+bug n.
+bulk n.
+burden n.
+bureaucracy n.
+burial n.
+burst v.
+cabin n.
+cabinet n.

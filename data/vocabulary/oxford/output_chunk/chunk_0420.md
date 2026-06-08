@@ -1,0 +1,10 @@
+motive n.
+moving adj.
+municipal adj.
+mutual adj.
+myth n.
+naked adj.
+namely adv.
+nasty adj.
+nationwide adj.
+naval adj.

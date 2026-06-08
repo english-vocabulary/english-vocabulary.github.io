@@ -1,0 +1,10 @@
+auto n.
+autonomy n.
+autumn n.
+availability n.
+await v.
+awareness n.
+awkward adj.
+backdrop n.
+backing n.
+backup n.

@@ -1,0 +1,10 @@
+specification n.
+specify v.
+specimen n.
+spectacle n.
+spectacular adj.
+spectator n.
+spectrum n.
+speculate v.
+speculation n.
+spell n.

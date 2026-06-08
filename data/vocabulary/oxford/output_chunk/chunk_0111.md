@@ -1,0 +1,10 @@
+frequently adv.
+fresh adj.
+Friday n.
+friend n.
+friendly adj.
+friendship n.
+frighten v.
+frightened adj.
+frightening adj.
+frog n.

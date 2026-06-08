@@ -1,0 +1,10 @@
+reminder n.
+removal n.
+render v.
+renew v.
+renowned adj.
+rental n.
+replacement n.
+reportedly adv.
+reporting n.
+representation n.

@@ -1,0 +1,10 @@
+wipe v.
+wisdom n.
+wit n.
+withdraw v.
+withdrawal n.
+wolf n.
+workforce n.
+workout n.
+workplace n.
+workshop n.

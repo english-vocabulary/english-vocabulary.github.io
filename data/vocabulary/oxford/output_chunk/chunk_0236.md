@@ -1,0 +1,10 @@
+setting n.
+settle v.
+seven number
+seventeen number
+seventy number
+several det./pron.
+severe adj.
+sex n.
+sexual adj.
+shade n.

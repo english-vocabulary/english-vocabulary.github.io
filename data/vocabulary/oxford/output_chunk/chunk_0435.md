@@ -1,0 +1,10 @@
+pole n.
+poll n.
+pond n.
+pop v.
+portfolio n.
+portion n.
+portray v.
+postpone v.
+postwar adj.
+potentially adv.

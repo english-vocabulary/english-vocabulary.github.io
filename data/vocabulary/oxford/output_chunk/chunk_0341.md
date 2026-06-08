@@ -1,0 +1,10 @@
+convict v.
+conviction n.
+convincing adj.
+cooperate v.
+cooperative adj.
+coordinate v.
+coordination n.
+coordinator n.
+cop n.
+cope v.

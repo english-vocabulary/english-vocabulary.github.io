@@ -1,0 +1,10 @@
+derive v.
+descend v.
+descent n.
+designate v.
+desirable adj.
+desktop n.
+desperately adv.
+destruction n.
+destructive adj.
+detain v.

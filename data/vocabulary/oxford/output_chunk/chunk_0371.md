@@ -1,0 +1,10 @@
+exile n.
+exotic adj.
+expansion n.
+expedition n.
+expenditure n.
+experimental adj.
+expertise n.
+expire v.
+explicit adj.
+explicitly adv.

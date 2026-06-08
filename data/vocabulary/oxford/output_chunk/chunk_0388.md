@@ -1,0 +1,10 @@
+hierarchy n.
+high-profile adj.
+hilarious adj.
+hint n., v.
+hip n.
+historian n.
+homeland n.
+homeless adj.
+honesty n.
+honey n.

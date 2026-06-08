@@ -1,0 +1,10 @@
+default n.
+defect n.
+defender n.
+defensive adj.
+deficiency n.
+deficit n.
+defy v.
+delegate n.
+delegation n.
+delete v.

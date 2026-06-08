@@ -1,0 +1,10 @@
+monthly adj.
+monument n.
+morality n.
+moreover adv.
+mortgage n.
+mosque n.
+mosquito n.
+motion n.
+motivate v.
+motivation n.

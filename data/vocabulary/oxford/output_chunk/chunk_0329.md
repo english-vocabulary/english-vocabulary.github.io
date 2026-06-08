@@ -1,0 +1,10 @@
+classification n.
+classify v.
+cliff n.
+cling v.
+clinic n.
+clinical adj.
+clip n.
+closure n.
+cluster n.
+coalition n.

@@ -1,0 +1,10 @@
+predictable adj.
+predominantly adv.
+preference n.
+pregnancy n.
+prejudice n.
+preliminary adj.
+premier n.
+premise n.
+premium n.
+prescribe v.

@@ -1,0 +1,10 @@
+debris n.
+debut n.
+decision-making n.
+decisive adj.
+deck n.
+declaration n.
+dedicated adj.
+dedication n.
+deed n.
+deem v.

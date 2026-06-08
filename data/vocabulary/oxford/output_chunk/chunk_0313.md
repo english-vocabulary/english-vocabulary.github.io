@@ -1,0 +1,10 @@
+assertion n.
+asset n.
+assign v.
+assistance n.
+assumption n.
+assurance n.
+assure v.
+astonishing adj.
+asylum n.
+athletic adj.

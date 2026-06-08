@@ -1,0 +1,10 @@
+practitioner n.
+preach v.
+precede v.
+precedent n.
+precious adj.
+precise adj.
+precisely adv.
+precision n.
+predator n.
+predecessor n.

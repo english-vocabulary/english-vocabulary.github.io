@@ -1,0 +1,10 @@
+tighten v.
+timber n.
+timely adj.
+timing n.
+tissue n.
+tobacco n.
+tolerance n.
+tolerate v.
+toll n.
+top v.

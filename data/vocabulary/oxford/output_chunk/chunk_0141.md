@@ -1,0 +1,10 @@
+into prep.
+introduce v.
+introduction n.
+invent v.
+invention n.
+invest v.
+investigate v.
+investigation n.
+investment n.
+invitation n.

@@ -1,0 +1,10 @@
+cave n.
+cease v.
+cemetery n.
+certainty n.
+certificate n.
+challenging adj.
+chamber n.
+championship n.
+chaos n.
+characterize v.

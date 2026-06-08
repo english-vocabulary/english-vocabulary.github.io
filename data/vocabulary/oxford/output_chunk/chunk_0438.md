@@ -1,0 +1,10 @@
+prescription n.
+presently adv.
+preservation n.
+preside v.
+presidency n.
+presidential adj.
+prestigious adj.
+presumably adv.
+presume v.
+prevail v.

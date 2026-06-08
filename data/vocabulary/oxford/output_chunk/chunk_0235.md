@@ -1,0 +1,10 @@
+sequence n.
+series n.
+serious adj.
+seriously adv.
+servant n.
+serve v.
+service n.
+session n.
+set (put) v.
+set (group) n.

@@ -1,0 +1,10 @@
+skip v.
+skull n.
+slam v.
+slap v.
+slash v.
+slavery n.
+slogan n.
+slot n.
+smash v.
+snap v.

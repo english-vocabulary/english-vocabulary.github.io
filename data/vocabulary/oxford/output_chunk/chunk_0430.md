@@ -1,0 +1,10 @@
+parameter n.
+parental adj.
+parliament n.
+partial adj.
+partially adv.
+participation n.
+partnership n.
+part-time adj./adv.
+passing n.
+passionate adj.

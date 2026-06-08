@@ -1,0 +1,10 @@
+acute adj.
+adaptation n.
+addiction n.
+additionally adv.
+adequate adj.
+adequately adv.
+adhere v.
+adjacent adj.
+adjust v.
+adjustment n.

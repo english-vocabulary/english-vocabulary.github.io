@@ -1,0 +1,10 @@
+ill adj.
+illegal adj.
+illness n.
+illustrate v.
+illustration n.
+image n.
+imaginary adj.
+imagination n.
+imagine v.
+immediate adj.

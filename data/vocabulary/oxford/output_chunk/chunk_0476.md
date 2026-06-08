@@ -1,0 +1,10 @@
+sufficient adj.
+sufficiently adv.
+suicide n.
+suite n.
+summit n.
+super adj.
+superb adj.
+superintendent n.
+superior adj.
+supervise v.

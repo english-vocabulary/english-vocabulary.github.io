@@ -1,0 +1,10 @@
+consistency n.
+consistently adv.
+consolidate v.
+conspiracy n.
+constitute v.
+constitution n.
+constitutional adj.
+constraint n.
+consult v.
+consultant n.

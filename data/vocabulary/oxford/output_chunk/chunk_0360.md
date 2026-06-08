@@ -1,0 +1,10 @@
+dot n.
+drain v.
+dramatically adv.
+drift v.
+driving adj.
+drought n.
+drown v.
+dual adj.
+dub v.
+dull adj.

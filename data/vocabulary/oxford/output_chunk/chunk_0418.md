@@ -1,0 +1,10 @@
+mobilize v.
+mode n.
+moderate adj.
+modest adj.
+modification n.
+module n.
+momentum n.
+monk n.
+monopoly n.
+monster n.

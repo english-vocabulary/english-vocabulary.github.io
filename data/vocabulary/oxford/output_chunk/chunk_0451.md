@@ -1,0 +1,10 @@
+relevance n.
+reliability n.
+relieve v.
+relieved adj.
+reluctant adj.
+remainder n.
+remains n.
+remarkable adj.
+remarkably adv.
+remedy n.

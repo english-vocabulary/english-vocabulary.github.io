@@ -1,0 +1,10 @@
+prison n.
+prisoner n.
+privacy n.
+private adj.
+prize n.
+probably adv.
+problem n.
+procedure n.
+process n., v.
+produce v., v.

@@ -1,0 +1,10 @@
+develop v.
+development n.
+device n.
+diagram n.
+dialogue n.
+diamond n.
+diary n.
+dictionary n.
+die v.
+diet n.

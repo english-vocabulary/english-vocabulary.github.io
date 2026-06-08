@@ -1,0 +1,10 @@
+their det.
+theirs pron.
+them pron.
+theme n.
+themselves pron.
+then adv.
+theory n.
+therapy n.
+there adv.
+therefore adv.

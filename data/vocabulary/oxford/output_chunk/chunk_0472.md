@@ -1,0 +1,10 @@
+stereotype n.
+stimulate v.
+stimulus n.
+stir v.
+storage n.
+straightforward adj.
+strain n.
+strand n.
+strategic adj.
+strengthen v.

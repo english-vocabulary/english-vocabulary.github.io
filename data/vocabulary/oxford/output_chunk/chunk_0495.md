@@ -1,0 +1,10 @@
+vice n.
+vicious adj.
+viewpoint n.
+violate v.
+violation n.
+virtue n.
+visa n.
+visible adj.
+vocal adj.
+voluntary adj.

@@ -1,0 +1,10 @@
+fabulous adj.
+facilitate v.
+faction n.
+faculty n.
+fade v.
+failed adj.
+fairness n.
+fake adj.
+fame n.
+fantasy n.

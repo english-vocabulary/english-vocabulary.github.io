@@ -1,0 +1,10 @@
+institution n.
+instruction n.
+instructor n.
+instrument n.
+insurance n.
+intelligence n.
+intelligent adj.
+intend v.
+intended adj.
+intense adj.

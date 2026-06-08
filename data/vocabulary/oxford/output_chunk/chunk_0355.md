@@ -1,0 +1,10 @@
+diplomat n.
+diplomatic n.
+directory n.
+disability n.
+disabled adj.
+disagreement n.
+disappoint v.
+disappointment n.
+disastrous adj.
+discard v.

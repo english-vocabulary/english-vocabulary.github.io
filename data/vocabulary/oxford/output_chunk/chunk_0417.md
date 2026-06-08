@@ -1,0 +1,10 @@
+minute
+2 adj.
+miracle n.
+miserable adj.
+misery n.
+misleading adj.
+missile n.
+mob n.
+mobile adj.
+mobility n.

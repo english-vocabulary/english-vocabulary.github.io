@@ -1,0 +1,10 @@
+gallery n.
+game n.
+gang n.
+gap n.
+garage n.
+garbage n.
+garden n.
+gas n.
+gate n.
+gather v.

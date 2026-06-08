@@ -1,0 +1,10 @@
+wear v.
+weather n.
+web n.
+website n.
+wedding n.
+Wednesday n.
+week n.
+weekend n.
+weigh v.
+weight n.

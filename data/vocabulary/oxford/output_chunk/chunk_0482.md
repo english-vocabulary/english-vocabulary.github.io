@@ -1,0 +1,10 @@
+terrific adj.
+terrify v.
+territory n.
+terror n.
+terrorism n.
+terrorist n.
+testify v.
+testimony n.
+testing n.
+textbook n.

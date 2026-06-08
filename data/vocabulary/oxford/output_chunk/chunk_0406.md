@@ -1,0 +1,10 @@
+legendary adj.
+legislation n.
+legislative adj.
+legislature n.
+legitimate adj.
+lengthy adj.
+lens n.
+lesbian adj.
+lesser adj.
+lethal adj.

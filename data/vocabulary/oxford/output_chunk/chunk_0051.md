@@ -1,0 +1,10 @@
+commit v.
+commitment n.
+committee n.
+common adj.
+commonly adv.
+communicate v.
+communication n.
+community n.
+company n.
+compare v.

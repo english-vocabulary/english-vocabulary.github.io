@@ -1,0 +1,10 @@
+frustration n.
+fulfill v.
+full-time adj./adv.
+functional adj.
+fundamentally adv.
+fundraising n.
+funeral n.
+furious adj.
+gallon n.
+gambling n.

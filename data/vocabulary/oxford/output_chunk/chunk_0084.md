@@ -1,0 +1,10 @@
+educated adj.
+education n.
+educational adj.
+effect n.
+effective adj.
+effectively adv.
+efficient adj.
+effort n.
+egg n.
+eight number

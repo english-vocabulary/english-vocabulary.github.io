@@ -1,0 +1,10 @@
+substitution n.
+subtle adj.
+suburb n.B2
+suburban adj.
+succession n.
+successive adj.
+successor n.
+suck v.
+sue v.
+suffering n.

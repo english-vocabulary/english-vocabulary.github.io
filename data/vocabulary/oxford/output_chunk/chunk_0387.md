@@ -1,0 +1,10 @@
+hazard n.
+headquarters n.
+heal v.
+healthcare n.
+heighten v.
+helmet n.
+hence adv.
+herb n.
+heritage n.
+hidden adj.
